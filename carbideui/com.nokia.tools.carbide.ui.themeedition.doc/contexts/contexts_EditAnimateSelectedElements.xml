@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="editAnimateSelectedElements_context" title="Edit/Animate selected elements">
+		<description>The Edit/Animate function allows you to open the selected element in the Entity graphics editor view, and edit and animate the element. Click Working with animations to read more about editing and animating elements.</description>
+ 		<topic label="Working with Animations" href="doc/working_with_animations.html"/> 		
+	</context>
+	</contexts>
+	
+

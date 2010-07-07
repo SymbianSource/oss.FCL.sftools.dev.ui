@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="44" viewBox="0 0 44 44">
+<rect fill="#496DA2" height="3.298" width="3.278" x="12.565" y="29.095"/>
+<rect fill="#496DA2" height="3.298" width="3.282" x="19.493" y="29.095"/>
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="-0.33" y1="-11.88" x2="41.37" y2="30.75">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<polygon fill="url(#_4)" points="32.051,25.727 34.266,23.865 34.266,28.023 36.735,30.496 36.735,21.396 33.583,21.396 30.971,23.566 29.813,23.566 31.974,25.727 "/>
+<path d="M26.549,35.092H9.48V22.07h6.34l-3.53-3.534c-0.823-0.469-1.502-1.147-1.973-1.975L7.48,13.72 c-0.002,0.05-0.016,0.097-0.016,0.147c0,2.661,1.37,4.984,3.43,6.331h-3.63v17.491h21.503v-2.656l-2.219-2.222V35.092z" fill="url(#_4)"/>
+<path d="M20.104,13.769c0.674-1.521,2.184-2.587,3.941-2.587c2.396,0,4.323,1.951,4.323,4.348 c0,1.788-1.067,3.318-2.599,3.986l2.998,3.003v-2.32h-0.076c1.29-1.174,2.117-2.858,2.117-4.752c0-3.552-2.875-6.436-6.407-6.436 c-1.13,0-2.165,0.315-3.079,0.827c-1.335-2.113-3.67-3.526-6.342-3.526c-0.723,0-1.409,0.136-2.074,0.329l2.033,2.034 C17.748,8.715,20.005,10.959,20.104,13.769z" fill="url(#_4)"/>
+<polygon fill="#496DA2" points="5.697,8.479 8.494,5.679 38.303,35.521 35.505,38.322 "/>
+</svg>

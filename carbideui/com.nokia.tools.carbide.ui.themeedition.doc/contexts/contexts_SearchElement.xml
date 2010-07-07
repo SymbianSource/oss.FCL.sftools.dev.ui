@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="search_context" title="Search Element View">
+		<description>Search View allows you to search the theme elements by name, id, resource path and other parameters.</description>
+ 		<topic label="Search Element" href="doc/search_view.html"/> 		
+	</context>
+</contexts>
+	
+

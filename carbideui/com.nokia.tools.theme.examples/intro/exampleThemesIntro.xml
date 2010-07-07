@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+	<extensionContent
+		id="com.nokia.tools.theme.exampletheme.welcome-introExtension" style="css/exampleThemesIntro.css"
+		name="S60 Example Themes"
+		path="root/links-background/above-page-links/big-tile-link/page-side-links/exampleThemesAnchor">
+		<group id="group-of-links0">
+			<img id="heading_img" width="100%" height="100%" style-id="examples-heading"
+				src="css/graphics/icons/examples.gif">
+			</img>
+			<text style-id="examples-heading-text">Sample Themes</text>
+		</group>
+		<text style-id="examples-group-text">S60 5th Edition Sample Themes</text>
+		<group id="group-of-links1" style-id="group-of-links">
+			<link label="Haze" id="haze"
+				url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.theme.examples&amp;class=com.nokia.tools.theme.examples.actions.CopyExampleIntroAction&amp;name=Haze&amp;release=BaseGraphics&amp;resolution=360x640&amp;tdfPath=${install.folder}\\ExampleThemes\\Haze\\Haze.tdf"
+				style-id="examples">
+				<img id="saku_img" style-id="examples-imgs" src="css/graphics/icons/tdf-haze.jpg">
+				</img>
+			</link>
+		</group>
+		<group id="group-of-links2" style-id="group-of-links">
+			<link label="Jingmask" id="jingmask"
+				url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.theme.examples&amp;class=com.nokia.tools.theme.examples.actions.CopyExampleIntroAction&amp;name=Jingmask&amp;release=BaseGraphics&amp;resolution=360x640&amp;tdfPath=${install.folder}\\ExampleThemes\\Jingmask\\Jingmask.tdf"
+				style-id="examples">
+				<img id="saku_img" style-id="examples-imgs"
+					src="css/graphics/icons/tdf-jingmask.jpg">
+				</img>
+			</link>
+		</group>
+	</extensionContent>
+	<extensionContent
+		id="com.nokia.tools.theme.exampletheme.welcome-introExtension" style="css/exampleThemesIntroStandby.css"
+		name="S60 Example Themes" path="standby/links-background/page-links/endAnchor">
+		<link label="Sample Themes" id="heading" style-id="left">
+			<text>Create new themes using following sample themes.</text>
+		</link>
+		<link label="Haze"
+			url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.theme.examples&amp;class=com.nokia.tools.theme.examples.actions.CopyExampleIntroAction&amp;name=Haze&amp;release=BaseGraphics&amp;resolution=360x640&amp;tdfPath=${install.folder}\\ExampleThemes\\Haze\\Haze.tdf"
+			id="haze" style-id="left">
+			<text>Create new theme using Haze theme.</text>
+		</link>
+		<link label="Jingmask"
+			url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.theme.examples&amp;class=com.nokia.tools.theme.examples.actions.CopyExampleIntroAction&amp;name=Jingmask&amp;release=BaseGraphics&amp;resolution=360x640&amp;tdfPath=${install.folder}\\ExampleThemes\\Jingmask\\Jingmask.tdf"
+			id="jingmask" style-id="left">
+			<text>Create new theme using Jingmask theme.</text>
+		</link>
+	</extensionContent>
+</introContent>

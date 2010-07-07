@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+<preview_image display="portrait,square"
+                 name="BaseScreen23"
+                 preview="false">
+    <Element compName="application_window"
+             display="360x640"
+             skinId="qsn_bg_screen"
+             varietyId="0" />
+    <Element compName="signal_pane_g1"
+             loc_id="&lt;LC&gt;area_top_pane@v:8&lt;/LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;signal_pane@v:0&lt;/LC&gt;"
+             skinId="qgn_indi_signal_strength"
+             varietyId="0" />
+    <!--<Element colourId="icon5"
+             compName="signal_pane_g2"
+             image="qgn_prop_signal_icon.svg"
+             loc_id="&lt;LC&gt;area_top_pane@v:8&lt;/LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;signal_pane@v:1&lt;/LC&gt;"
+             varietyId="0" />
+    --><Element compName="battery_pane_g1"
+             loc_id="&lt;LC&gt;area_top_pane@v:8&lt;/LC&gt;&lt;LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;battery_pane@v:1&lt;/LC&gt;"
+             skinId="qgn_indi_battery_strength"
+             varietyId="0" />
+    <!--<Element colourId="icon6"
+             compName="battery_pane_g2"
+             image="qgn_prop_battery_icon.svg"
+             loc_id="&lt;LC&gt;area_top_pane@v:8&lt;/LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;battery_pane@v:1&lt;/LC&gt;"
+             varietyId="0" />
+  --></preview_image>
+
+	<preview_image display="360x640" name="Dialer" preview="true">
+		<reference screenName="BaseScreen23" />
+		<Element compName="status_pane"
+             loc_id="&lt;LC&gt;area_top_pane@v:7&lt;/LC&gt;"
+             skinId="qsn_fr_status_flat"
+             varietyId="1" />
+        <Element colourId="icon5"
+             compName="signal_pane_g2"
+             image="qgn_prop_signal_icon.svg"
+             varietyId="0" />
+		<Element colourId="icon6"
+             compName="battery_pane_g2"
+             image="qgn_prop_battery_icon.svg"
+             varietyId="0" />
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;dia3_keypad_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "1"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="0" />
+					
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;dia3_keypad_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "2"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:2&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "abc"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:2&lt;/LC&gt;"
+			varietyId="0" />	
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;dia3_keypad_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "3"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "def"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			varietyId="0" />	
+		<Element compName="cell_dia3_key0_fun_pane" display="360x640"
+			skinId="qsn_fr_button_normal" varietyId="0" />			
+		<Element compName="cell_dia3_key0_fun_pane_g1" display="360x640"
+			skinId="qgn_indi_dialer_clear" varietyId="0" />
+
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "4"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "ghi"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:1&lt;/LC&gt;"
+			varietyId="0" />				
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<!--<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:1#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		-->
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "5"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:2&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "jkl"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:2&lt;/LC&gt;"
+			varietyId="0" />	
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "6"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:3&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "mno"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:2#c:3&lt;/LC&gt;"
+			varietyId="0" />	
+		
+		<Element compName="cell_dia3_key1_fun_pane" display="360x640"
+			skinId="qsn_fr_button_normal_answer" varietyId="0" />			
+		<Element compName="cell_dia3_key1_fun_pane_g1" display="360x640"
+			skinId="qgn_indi_button_answer_white" varietyId="0" />	
+		
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "7"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "pqrs"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:1&lt;/LC&gt;"
+			varietyId="0" />	
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "8"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:2&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "tuv"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:2&lt;/LC&gt;"
+			varietyId="0" />
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "9"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:3&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text = "wxyz"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:3#c:3&lt;/LC&gt;"
+			varietyId="0" />
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key0_fun_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:1&lt;/LC&gt;"
+			image="qgn_indi_dialer_prefix.svg" varietyId="0" />	
+		
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t1"
+			display="360x640" text = "0"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:2&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key_num_pane_t4"
+			display="360x640" text ="└┘"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:2&lt;/LC&gt;"
+			varietyId="0" />
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text65" compName="cell_dia3_key0_fun_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:3&lt;/LC&gt;"
+			image="qgn_indi_dialer_hash.svg" varietyId="0" />	
+		
+		<Element compName="bg_button_pane_cp21" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />			
+		<Element compName="cell_dia3_key0_fun_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;new_cell_dia3_key_num_pane@v:0#r:4#c:4&lt;/LC&gt;"
+			skinId="qgn_indi_dialer_add_contacts" varietyId="0" />		
+			
+		<!--<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_two.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:1#c:2&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_three.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:1#c:3&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_four.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:2#c:1&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_five.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:2#c:2&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_six.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:2#c:3&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_seven.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:3#c:1&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="1" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_eight.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:3#c:2&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="1" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_nine.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:3#c:3&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="1" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_prefix.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:4#c:1&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="1" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_zero.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:4#c:2&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="1" />
+		<Element colourId="icon30" compName="bg_button_pane_cp21"
+			display="360x640" image="qgn_indi_dialer_hash.svg"
+			loc_id="&lt;LC&gt;cell_dia3_key_num_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane@v:0#r:4#c:3&lt;/LC&gt;&lt;LC&gt;cell_dialer2_keypad_pane_g1@v:0#r:1#c:1&lt;/LC&gt;"
+			varietyId="1" />	
+		--><!--<reference screenName="TouchPaneButtons" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			skinId="qgn_indi_dialer_call_send" varietyId="1" />
+		
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			skinId="qgn_indi_dialer_add_contacts" varietyId="1" />
+		
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			skinId="qgn_indi_dialer_clear" varietyId="1" />				
+		--><Element skinId="S60_2_6%qsn_fr_input" compName="dia3_numentry_pane" display="360x640"
+			varietyId="0" />		
+		<Element colourId="text8" compName="dia3_numentry_pane_t1"
+			loc_id="&lt;LC&gt;dia3_numentry_pane@v:0&lt;/LC&gt;" text="+39541|"
+			varietyId="0" />
+		<reference screenName="BaseSoftkeys" />	
+		<Element colourId="text13" compName="control_pane_t1"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options"
+			varietyId="4" />
+		<Element colourId="text14" compName="control_pane_t2"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Back"
+			varietyId="4" />
+		
+	</preview_image>
+</Preview>

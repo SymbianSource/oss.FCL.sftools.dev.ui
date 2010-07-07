@@ -1,0 +1,25 @@
+<effects>
+<effect name="AlphaBlending" uiname="Alpha blend" uid="0x10204ADD" type="1" className="com.nokia.tools.theme.s60.effects.effect.AlphaBlending" input="true">
+<param name="ar" type="INT" value=""/>
+<param name="ag" type="INT" value=""/>
+<param name="ab" type="INT" value=""/>
+<param name="br" type="INT" value=""/>
+<param name="bg" type="INT" value=""/>
+<param name="bb" type="INT" value=""/>
+<param name="am" type="INT" value=""/>
+<param name="bm" type="INT" value=""/>
+<param name="m" type="INT" value=""/>
+
+<!--
+<uiparam uiname="r" caption="Red" pos="1" uiType="JSlider" minVal="0" maxVal="255" value="" defaultVal="0"/>
+<uiparam uiname="g" caption="Green" pos="2" uiType="JSlider" minVal="0" maxVal="255" value="" defaultVal="0"/>
+<uiparam uiname="b" caption="Blue" pos="3" uiType="JSlider" value="" minVal="0" maxVal="255" defaultVal="0"/>
+<uiparam uiname="m" caption="Mask" pos="2" uiType="JSlider" minVal="0" maxVal="255" value="" defaultVal="0"/>
+-->
+<uiparam uiname="m" caption="BlendMode" pos="1" uiType="JComboBox" options="AOverB,BOverA,AInB,BInA,AOutB,BOutA,AtopB,BtopA,AXorB" value="" defaultVal="1" mandatory="true"/>
+
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+ 

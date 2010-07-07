@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="44" viewBox="0 0 44 44">
+<radialGradient id="_2" gradientUnits="userSpaceOnUse" cx="7.86" cy="8.83" r="31.12">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#DDC0C5" offset="0.16"/>
+<stop stop-color="#CD6F73" offset="0.47"/>
+<stop stop-color="#C23437" offset="0.72"/>
+<stop stop-color="#BB0F12" offset="0.9"/>
+<stop stop-color="#B80104" offset="1"/>
+</radialGradient>
+<circle cx="22" cy="22" fill="url(#_2)" r="13.551"/>
+</svg>

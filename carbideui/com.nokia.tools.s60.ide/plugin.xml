@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension point="com.nokia.tools.screen.ui.resourceViewerSections">
+   	<section class="com.nokia.tools.s60.views.contributions.ThemeResourceViewerSection"/>    
+   </extension>
+   
+    <extension point="com.nokia.tools.screen.ui.resourceSections">
+   	<section class="com.nokia.tools.s60.views.contributions.ThemeResourceViewerSection2"/>    
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.nokia.tools"
+            name="Carbide.ui"/>         	     
+      <view
+            category="com.nokia.tools"
+            class="com.nokia.tools.s60.views.GalleryViewPart"
+            icon="icons/gallery_view16x16.png"
+            id="com.nokia.tools.s60.views.Gallery"
+            name="%GalleryView"/>
+      <view
+            category="com.nokia.tools"
+            class="com.nokia.tools.s60.editor.ui.views.LayersView"
+            icon="icons/layer_view16x16.png"
+            id="com.nokia.tools.s60.editor.ui.views.LayersView"
+            name="%LayersTree"/>
+      <view
+            category="com.nokia.tools"
+            class="com.nokia.tools.s60.views.IconView"
+            icon="icons/component_view16x16.png"
+            id="com.nokia.tools.s60.views.IconView"
+            name="%Components"/>
+      <view
+            category="com.nokia.tools"
+            class="com.nokia.tools.s60.views.CustomizedPropertySheet"
+            icon="icons/properties_view16x16.png"
+            id="org.eclipse.ui.views.PropertySheet"
+            name="%PropertiesView.name"/>
+      <view
+      		category="com.nokia.tools"
+            class="com.nokia.tools.screen.ui.views.ContentOutlineViewPart"
+            icon="icons/outline_co.gif"
+            id="org.eclipse.ui.views.ContentOutline"
+            name="%ContentOutlineView.name"/>
+      <view category="com.nokia.tools"
+      		class="com.nokia.tools.s60.views.SearchView"
+      		icon="icons/etool16/search_src.gif"
+      		id="com.nokia.tools.s60.views.SearchView"
+      		name="Search"/>       
+	<view
+           category="com.nokia.tools"
+           class="com.nokia.tools.s60.editor.ui.views.ComponentStoreView"
+           icon="icons/Cascade.png"
+           id="com.nokia.tools.theme.s60.ui.views.ComponentStore"
+           name="Component Store"/>
+   <!-- <view this view is not stable, just prototype...
+           category="com.nokia.tools"
+           class="com.nokia.tools.s60.views.ColorView"
+           icon="icons/gallery_view16x16.png"
+           id="com.nokia.tools.s60.views.Color"
+           name="Colors"/>  -->
+           
+    <view
+           category="com.nokia.tools"
+           class="com.nokia.tools.s60.views.ColorsView"
+           icon="icons/colors.gif"
+           id="com.nokia.tools.s60.views.ColorsView"
+           name="Referenced Colors"/>  
+   	<view
+           category="com.nokia.tools"
+           class="com.nokia.tools.s60.views.ResourceView2"
+           icon="icons/resource_view16x16.png"
+           id="com.nokia.tools.s60.views.ResourceView2"	
+           name="Resources"/>  
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+        <actionSet
+                  description="%UndoRedoActionSet.description"
+                  id="com.nokia.tools.s60.ide.C_UndoRedoActionSet"
+                  label="%UndoRedoActionSet.label"
+                  visible="true">
+               <action
+                     allowLabelUpdate="true"
+                     definitionId="org.eclipse.ui.edit.redo"
+                     disabledIcon="icons/dtool16/redo_edit.gif"
+                     icon="icons/etool16/redo_edit.gif"
+                     id="redo"
+                     label="%RedoAction.label"
+                     retarget="true"
+                     style="push"
+                     toolbarPath="Normal\Edit"/>
+               <action
+                     allowLabelUpdate="true"
+                     definitionId="org.eclipse.ui.edit.undo"
+                     disabledIcon="icons/dtool16/undo_edit.gif"
+                     icon="icons/etool16/undo_edit.gif"
+                     id="undo"
+                     label="%UndoAction.label"
+                     retarget="true"
+                     style="push"
+                     toolbarPath="Normal\Edit"/>
+            </actionSet>
+            <actionSet
+                  description="%GraphicsActionSet.description"
+                  id="com.nokia.tools.s60.ide.D_GraphicsEditActionSet"
+                  label="%GraphicsActionSet.label"
+                  visible="true">
+               <action
+                     disabledIcon="icons/dtool16/edit_animate16x16.png"
+                     icon="icons/etool16/edit_animate16x16.png"
+                     id="com.nokia.tools.s60.ide.actions.OpenGraphicsEditorAction"
+                     label="%OpenGraphEditAction.label"
+                     menubarPath="Edit/GraphicsGroup"
+                     retarget="true"
+                     style="push"
+                     toolbarPath="Normal\Mobile design"
+                     tooltip="%EditGraph.tooltip"/>
+               <menu
+                     id="Edit"
+                     label="&amp;Edit">
+                  <separator name="GraphicsGroup"/>
+               </menu>
+            </actionSet>
+        <actionSet
+            description="%PackageActionSet.description"
+            id="com.nokia.tools.s60.ide.E_PackageActionSet"
+            label="%PackageActionSet.label"
+            visible="true">
+         <menu
+               id="Tools"
+               label="&amp;Tools">
+            <separator name="KeyPairGroup"/>
+            <separator name="PackagingGroup"/>
+         </menu>
+         <action
+               class="com.nokia.tools.screen.ui.actions.NewPackageAction"
+               disabledIcon="icons/dtool16/create_package16x16.png"
+               icon="icons/etool16/create_package16x16.png"
+               id="com.nokia.tools.screen.ui.actions.NewPackageAction"
+               label="%NewPackageAction.label"
+               menubarPath="Tools/PackagingGroup"
+               style="push"
+               toolbarPath="Normal\Mobile design"
+               tooltip="%NewPackageAction.tooltip"/>
+      </actionSet>
+            <actionSet
+                  description="%SearchActionSet.description"
+                  id="com.nokia.tools.s60.ide.F_SearchActionSet"
+                  label="%SearchActionSet.label"
+                  visible="true">
+               <action
+                     class="com.nokia.tools.s60.ide.actions.SearchAction"
+                     definitionId="com.nokia.tools.s60.ide.actions.SearchAction"
+                     disabledIcon="icons/dtool16/search_src.gif"
+                     icon="icons/etool16/search_src.gif"
+                     id="com.nokia.tools.s60.ide.actions.SearchAction"
+                     label="%SearchAction.label"
+                     menubarPath="Tools/SearchGroup"
+                     style="push"
+                     toolbarPath="Normal\Mobile design"
+                     tooltip="%SearchAction.tooltip"/>
+               <action
+                     class="com.nokia.tools.s60.ide.actions.LaunchThirdPartyIconDefinitionAction"
+                     icon="icons/etool16/tpi.png"
+                     id="com.nokia.tools.s60.ide.actions.LaunchThirdPartyIconDefinitionAction"
+                     label="%LaunchThirdPartyIconDefinitionAction.label"
+                     menubarPath="Tools/ThirdPartyIconDefinitionGroup"
+                     style="push"
+                     toolbarPath="Normal\Mobile design"
+                     tooltip="%LaunchThirdPartyIconDefinitionAction.tooltip"/>
+
+               <menu
+                     id="Tools"
+                     label="&amp;Tools">
+                  <separator name="SearchGroup"/>
+                  <separator name="ThirdPartyIconDefinitionGroup"/>
+               </menu>
+            </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.nokia.tools.s60.ide.internal.MobileCustomizationPerspective"
+            icon="icons/carbide_ui_icon_16x16.png"
+            id="com.nokia.tools.s60.ide.perspective"
+            name="%MobilePerspective.title"/>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="com.nokia.tools.s60.ide.internal.S60IDEPreferenceInitializer"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.nokia.tools.s60.editor.Series60EditorPart"
+            contributorClass="com.nokia.tools.s60.editor.menus.EditorActionBarContributor"
+            default="true"
+            extensions="dat, tdf"
+            filenames="theme_descriptor.xml, theme.xml"
+            icon="icons/editor.gif"
+            id="com.nokia.tools.s60.editor"
+            matchingStrategy="com.nokia.tools.s60.editor.Series60EditorMatchingStrategy"
+            name="%S60Editor">
+      </editor>
+      <editor
+            class="com.nokia.tools.s60.editor.GraphicsEditorPart"
+            contributorClass="com.nokia.tools.s60.editor.GEPActionContributor"
+            default="false"
+            icon="icons/etool16/edit_animate16x16.png"
+            id="com.nokia.tools.s60.graphicseditor"
+            name="%GraphicsEditor"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            category="com.nokia.tools.s60.mobile"
+            class="com.nokia.tools.screen.ui.wizards.NewProjectWizard"
+            finalPerspective="com.nokia.tools.s60.ide.perspective"
+            icon="icons/create_theme16x16.png"
+            id="com.nokia.tools.s60.ide.mobileUIProject"
+            name="%MobileUIProject"
+            preferredPerspectives="com.nokia.tools.s60.ide.perspective"
+            project="true"/>
+      <category
+            id="com.nokia.tools.s60.mobile"
+            name="Carbide"/>
+   </extension>
+   <extension
+        point = "org.eclipse.ui.preferencePages">
+       <page id="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+	    class="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+            name="Carbide.ui">
+       </page>
+       <page
+             category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+             class="com.nokia.tools.s60.preferences.ExternalToolsPreferencePage"
+             id="com.nokia.tools.s60.preferences.ExternalToolsPreferencePage"
+             name="External Tools"/>
+       <page
+             category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+             class="com.nokia.tools.theme.s60.ui.preferences.ThirdPartyIconsPrefPage"
+             id="com.nokia.tools.theme.s60.ui.preferences.ThirdPartyIconsPrefPage"
+             name="Third Party Icons"
+             />
+       <page
+             category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+             class="com.nokia.tools.s60.preferences.PluginHandlingPreferencePage"
+             id="com.nokia.tools.s60.preferences.PluginHandlingPreferencePage"
+             name="Plug-in Management"/>
+       <page
+             category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+             class="com.nokia.tools.screen.ui.preferences.PathHandlingPreferencePage"
+             id="com.nokia.tools.screen.ui.preferences.PathHandlingPreferencePage"
+             name="Image Folders"/>
+       <page
+             category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+             class="com.nokia.tools.s60.preferences.ExampleThemesPreferencePage"
+             id="com.nokia.tools.s60.preferences.ExampleThemesPreferencePage"
+             name="Example Themes">
+       </page>       
+   </extension>
+   <extension
+         point="com.nokia.tools.screen.ui.showInSubmenu">      
+      <contributionItem pos="2"
+      	workbenchPartAction="com.nokia.tools.s60.editor.actions.ShowInLayersViewAction"/>
+      <contributionItem pos="3"
+      	workbenchPartAction="com.nokia.tools.s60.editor.actions.ShowPropertiesAction"/>
+      <contributionItem pos="4"
+      	workbenchPartAction="com.nokia.tools.s60.editor.actions.ShowOutlineAction"/>
+      <contributionItem pos="1"
+      	workbenchPartAction="com.nokia.tools.s60.editor.actions.ShowInResourceViewAction"/>
+      <contributionItem pos="5"
+      	workbenchPartAction="com.nokia.tools.s60.editor.actions.ShowInComponentStoreAction"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="com.nokia.tools.s60.ide.actions.SearchAction"
+            name="SearchElement"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.nokia.tools.s60.ide.actions.SearchAction"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+S"/>
+   </extension>
+   <extension
+         point="com.nokia.tools.media.utils.dynamicTooltip">
+      <tooltip-section uiClass="com.nokia.tools.s60.views.ZoomFloatingToolbarUIContributor">
+         <enablement
+               context="s60_screen_toolbar"
+               focused="true"
+               unfocused="true"/>
+      </tooltip-section>
+      <tooltip-section uiClass="com.nokia.tools.s60.views.AnimationFloatingToolbarUIContributor">
+      <enablement
+               context="s60_screen_toolbar"
+               focused="true"
+               unfocused="true"/>
+      </tooltip-section>
+      <tooltip-section uiClass="com.nokia.tools.s60.views.IconTooltipUIContributor">
+         <enablement context="component" filter="com.nokia.tools.s60.views.IconTooltipFilter"/>
+      </tooltip-section>
+      <tooltip-item
+            icon="icons/sample.gif"
+            label="Quick-Colorize SVG"
+            tooltip="component/convertSVG"
+            tooltipStyle="MENU">
+          <enablement context="DISABLED" filter="com.nokia.tools.s60.views.SVGColorizeTooltipFilter"/>
+       </tooltip-item>
+       <tooltip-item
+             icon="icons/sample.gif"
+             label="Similar Elements"
+             tooltip="component/similarElements"
+             tooltipStyle="MENU">
+          <enablement
+                context="DISABLED"
+                filter="com.nokia.tools.s60.views.SimilarTooltipFilter"
+                />
+       </tooltip-item>
+	  <tooltip-section uiClass="com.nokia.tools.s60.views.ColorPickerTooltipUIContributor">
+      <enablement filter="com.nokia.tools.s60.views.ColorPickerTooltipFilter" context="component"/>
+      </tooltip-section>
+      <tooltip-section uiClass="com.nokia.tools.s60.views.SVGColorizeTooltipUIContributor">
+      <enablement filter="com.nokia.tools.s60.views.SVGColorizeTooltipFilter" context="DISABLED"/>
+      </tooltip-section>
+      <tooltip-section uiClass="com.nokia.tools.s60.views.SimilarTooltipUIContributor">
+      <enablement filter="com.nokia.tools.s60.views.SimilarTooltipFilter" context="DISABLED"/>
+      </tooltip-section>
+   </extension>
+   
+   <extension-point id="contributedAction" name="Contributed actions for IContentData instances in variouds places in ui" schema="schema/contributedAction.exsd"/>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension targetID="com.nokia.tools.s60.ide.perspective">
+         <view
+               closeable="true"
+               id="com.nokia.tools.s60.views.ColorsView"
+               moveable="true"
+               ratio="0.73"
+               relationship="bottom"
+               relative="com.nokia.tools.s60.views.Gallery"
+               showTitle="true"
+               standalone="true"
+               visible="false"/>
+      </perspectiveExtension>
+   </extension>
+  <extension
+         point="com.nokia.tools.s60.ide.contributedAction">
+      <contributedAction
+            pos="25"
+            targetGroup="%ReferenceToColor"
+            validFor="editor components resource"
+            workbenchPartAction="com.nokia.tools.s60.editor.actions.ColorGroupAction">
+         <editor
+               class="com.nokia.tools.s60.editor.Series60EditorPart">
+         </editor>
+      </contributedAction>
+      <contributedAction
+            pos="2"
+            targetGroup="%ReferenceToColor"
+            validFor="editor resource components"
+            workbenchPartAction="com.nokia.tools.s60.editor.actions.ShowInReferencedColors">
+         <editor
+               class="com.nokia.tools.s60.editor.Series60EditorPart">
+         </editor>
+      </contributedAction>
+       <contributedAction
+       pos="6"
+       targetGroup="%SetColor"
+       validFor="resource"
+       workbenchPartAction="com.nokia.tools.s60.editor.actions.SetColorAction">
+    <editor
+          class="com.nokia.tools.s60.editor.Series60EditorPart">
+    </editor>
+ 		</contributedAction>
+      
+      
+   
+ 
+ <contributedAction
+       pos="2"
+       targetGroup="%TakeContentFromGroup"
+       validFor="resource"
+       workbenchPartAction="com.nokia.tools.s60.editor.actions.AdjustListAction">
+    <editor
+          class="com.nokia.tools.s60.editor.Series60EditorPart">
+    </editor>
+ </contributedAction>
+ 
+ <contributedAction
+       pos="1"
+       targetGroup="%TakeContentFromGroup"
+       validFor="resource"
+       workbenchPartAction="com.nokia.tools.s60.editor.actions.CreateAdjustList">
+    <editor
+          class="com.nokia.tools.s60.editor.Series60EditorPart">
+    </editor>
+ </contributedAction>
+ 
+ <contributedAction
+       pos="3"
+       targetGroup="%CopyElements"
+       validFor="resource"
+       workbenchPartAction="com.nokia.tools.s60.editor.actions.CopyAllContentDataAction">
+    <editor
+          class="com.nokia.tools.s60.editor.Series60EditorPart">
+    </editor>
+ </contributedAction>
+ <contributedAction
+       pos="2"
+       validFor="resource"
+       workbenchPartAction="com.nokia.tools.s60.editor.actions.PasteContentDataAction">
+    <editor
+          class="com.nokia.tools.s60.editor.Series60EditorPart">
+    </editor>
+ </contributedAction>
+  <contributedAction
+       pos="1"
+       targetGroup="%CopyElements"
+       validFor="resource"
+       workbenchPartAction="com.nokia.tools.s60.editor.actions.CopyContentDataAction">
+    <editor
+          class="com.nokia.tools.s60.editor.Series60EditorPart">
+    </editor>
+ </contributedAction>
+  <contributedAction
+        pos="1"
+        targetGroup="%ReferenceToColor"
+        validFor="editor components resource"
+        workbenchPartAction="com.nokia.tools.s60.editor.actions.CreateNewAction">
+     <editor
+           class="com.nokia.tools.s60.editor.Series60EditorPart">
+     </editor>
+  </contributedAction>
+   </extension>
+   
+</plugin>

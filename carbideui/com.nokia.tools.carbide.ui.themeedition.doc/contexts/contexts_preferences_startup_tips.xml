@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="startup_tip_preferences_context" title="Configuring the Startup Tips settings">
+		<description>Startup Tip preferences allow you to configure Startup Tips settings.</description>
+ 		<topic label="Configuring Carbide.ui - Startup Tips" href="doc/preferences_startup_tips.html"/> 		
+	</context>
+	</contexts>

@@ -1,0 +1,24 @@
+<effects>
+<effect name="ApplyColor" uiname="Apply colour" uid="0x101F873A" type="0" className="com.nokia.tools.theme.s60.effects.effect.ApplyColor" input="false">
+<param name="r" type="INT" value=""/>
+<param name="g"  type="INT" value=""/>
+<param name="b"  type="INT" value=""/>
+<param name="i"  type="INT" value=""/>
+<param name="a"  type="INT" value=""/>
+
+<uiparam uiname="r" caption="Red" pos="1" uiType="JSlider" mandatory="true" minVal="0" maxVal="255" defaultVal="0" value=""/>
+<uiparam uiname="g" caption="Green" pos="2" uiType="JSlider" mandatory="true" minVal="0" maxVal="255" defaultVal="0" value=""/>
+<uiparam uiname="b" caption="Blue" pos="3" uiType="JSlider" mandatory="true" minVal="0" maxVal="255" defaultVal="0" value=""/>
+<!--<uiparam uiname="i" caption="Index" pos="4" uiType="JSlider" minVal="0" maxVal="255" defaultVal="127" value=""/>-->
+<!--3054 uiparam uiname="a" caption="Alpha Value" pos="4"  uiType="JSlider" minVal="0" maxVal="255" defaultVal="255" value=""/-->
+
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+
+
+
+
+
+ 

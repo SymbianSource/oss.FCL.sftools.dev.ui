@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="com.nokia.tools.theme.s60" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="com.nokia.tools.theme.s60" id="platformExecutables" name="Platform Executables"/>
+      </appInfo>
+      <documentation>
+         This extension point allows to define which all executables to be used for a particular model for the various platforms that are provided for packaging in the packaging option. 
+
+As an example, if it is required to specify that instead of using the predefined executable for packaging the current theme for S60 3rd Edition platform, use the specific executables when the current model is for Ivalo plugin or Tube plugin, then the extensions to this extension point would need to be specified.
+
+To see an example, an extension to this extension point is provided in this plugin but for the default values [indicated by the model ID of &quot;default&quot; (which is a pre-determined constant value used to define the executables that needs to be used as default if no other executables are provided specific to the specific model ID).
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="platformExecutables" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="platformExecutables">
+      <complexType>
+         <attribute name="modelID" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="executablePath" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="resource"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="executableName" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <enumeration value="BITMAP_CONVERTER">
+                  </enumeration>
+                  <enumeration value="SKIN_COMPILER">
+                  </enumeration>
+                  <enumeration value="SIS_CREATOR">
+                  </enumeration>
+                  <enumeration value="SIS_SIGNER">
+                  </enumeration>
+                  <enumeration value="MIF_CONVERTER">
+                  </enumeration>
+                  <enumeration value="SVGT_BIN_ENCODE">
+                  </enumeration>
+               </restriction>
+            </simpleType>
+         </attribute>
+         <attribute name="parameterProvider" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="java" basedOn=":com.nokia.tools.theme.s60.packaging.IPackagingExecutableParameterProvider"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         [Enter the first release in which this extension point appears.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         [Enter extension point usage example here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="apiinfo"/>
+      </appInfo>
+      <documentation>
+         [Enter API information here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="implementation"/>
+      </appInfo>
+      <documentation>
+         [Enter information about supplied implementation of this extension point.]
+      </documentation>
+   </annotation>
+
+
+</schema>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--  TOOL Colour for lines XML  -->
+
+<!DOCTYPE dimensions SYSTEM "dimension.dtd">
+<dimensions>
+	<dimension id="qsn_cp_clock_digital_new_zero" />
+	<dimension id="qsn_cp_clock_digital_new_zero_shape" />
+	<dimension id="qsn_cp_clock_digital_new_one" />
+	<dimension id="qsn_cp_clock_digital_new_one_shape" />
+	<dimension id="qsn_cp_clock_digital_new_two" />
+	<dimension id="qsn_cp_clock_digital_new_two_shape" />
+	<dimension id="qsn_cp_clock_digital_new_three" />
+	<dimension id="qsn_cp_clock_digital_new_three_shape" />
+	<dimension id="qsn_cp_clock_digital_new_four" />
+	<dimension id="qsn_cp_clock_digital_new_four_shape" />
+	<dimension id="qsn_cp_clock_digital_new_five" />
+	<dimension id="qsn_cp_clock_digital_new_five_shape" />
+	<dimension id="qsn_cp_clock_digital_new_six" />
+	<dimension id="qsn_cp_clock_digital_new_six_shape" />
+	<dimension id="qsn_cp_clock_digital_new_seven" />
+	<dimension id="qsn_cp_clock_digital_new_seven_shape" />
+	<dimension id="qsn_cp_clock_digital_new_eight" />
+	<dimension id="qsn_cp_clock_digital_new_eight_shape" />
+	<dimension id="qsn_cp_clock_digital_new_nine" />
+	<dimension id="qsn_cp_clock_digital_new_nine_shape" />
+	<dimension id="qsn_cp_clock_analogue_face_1" />
+	<dimension id="qsn_cp_clock_analogue_border_num" />
+	<dimension id="qsn_cp_clock_analogue_face_2" />
+	<dimension id="qsn_cp_clock_analogue_pointer_hour" />
+	<dimension id="qsn_cp_clock_analogue_pointer_minute" />
+	<dimension id="qsn_cp_clock_digital_new_colon" />
+	<dimension id="qsn_cp_clock_digital_new_colon_shape" />
+	<dimension id="qsn_cp_clock_digital_new_stop" />
+	<dimension id="qsn_cp_clock_digital_new_stop_shape" />
+</dimensions>

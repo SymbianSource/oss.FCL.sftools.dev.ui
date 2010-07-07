@@ -1,0 +1,1 @@
+The Layers view represents all layers of a screen element in a table tree form. It divides an element (usually an image) to a base layer and an optional mask. Click Layers view to read more about the Layers view.

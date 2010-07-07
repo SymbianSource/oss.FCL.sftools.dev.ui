@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" version="1.1" viewBox="0 0 44 44" width="44px" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<rect fill="none" height="44" width="44"/>
+<g>
+<rect fill="none" height="44" width="44"/>
+</g>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="21.9995" x2="21.9995" y1="7.1455" y2="36.8916">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M27.414,9.27V7.07H16.582V9.27H8.285v2.227h2.02l1.813,25.434H31.73l2.016-25.43l1.969-0.002    L35.711,9.27H27.414z M29.762,34.82H13.961l-1.625-23.35h19.223L29.762,34.82z" fill="url(#SVGID_1_)"/>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="23.9746" x2="23.9746" y1="7.1445" y2="36.8921">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M22.307,18.627c1.369,0,2.393,1.598,2.393,1.598s0,0,0.002,0c0.057,0,2.076-0.072,2.076-0.072     l0.352,0.352l-5.162,5.092l-0.381-0.379l-0.059-2.086c0,0-2.873-1.658-0.766-3.768C21.299,18.826,21.824,18.627,22.307,18.627      M22.307,16.627c-0.746,0-1.865,0.229-2.959,1.32c-1.303,1.307-1.441,2.609-1.328,3.473c0.164,1.229,0.895,2.143,1.535,2.725     l0.057,1.926l2.348,2.342l8.002-7.893l-2.381-2.398c0,0-1.436,0.051-1.971,0.07C24.91,17.477,23.773,16.627,22.307,16.627     L22.307,16.627z" fill="url(#SVGID_2_)"/>
+</g>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_3_" x1="27.1211" x2="27.1211" y1="7.1592" y2="36.8846">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<circle cx="27.121" cy="25.871" fill="url(#SVGID_3_)" r="1.102"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_4_" x1="16.875" x2="16.875" y1="7.145" y2="36.8913">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M18.393,26.266l-0.469,0.455l-0.381-0.377l-0.059-2.086c0,0-2.873-1.66-0.766-3.77    c0.109-0.109,0.219-0.195,0.328-0.279c0.117-0.75,0.438-1.596,1.135-2.453c-0.744,0.018-1.822,0.264-2.877,1.318    c-1.303,1.305-1.441,2.607-1.328,3.473c0.164,1.229,0.895,2.141,1.535,2.723l0.057,1.928l2.348,2.34l1.889-1.861L18.393,26.266z" fill="url(#SVGID_4_)"/>
+</g>
+</g>
+</svg>

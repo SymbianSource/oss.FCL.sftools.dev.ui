@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+<rect fill="none" height="40" width="40"/>
+<polygon fill="#BEC7D3" points="40,40 0,40 0,0 40,0 40,40 "/>
+<polygon fill="#BEC7D3" points="40,40 1,40 1,1.001 40,1.001 40,40 "/>
+</svg>

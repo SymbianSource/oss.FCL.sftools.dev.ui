@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="60" height="80" viewBox="0 0 60 80">
+<linearGradient id="_68" gradientUnits="userSpaceOnUse" x1="26.33" y1="63.61" x2="32.25" y2="75.26">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<circle fill="url(#_68)" cx="29.29" cy="69.434" r="6.529"/>
+<linearGradient id="_69" gradientUnits="userSpaceOnUse" x1="30.57" y1="33.21" x2="40.81" y2="53.39">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path fill="url(#_69)" d="M19.666,13.492c-0.396,0.462-0.428,0.882-0.385,1.153l4.14,39.044 c0.198,1.199,0.643,2.05,1.402,2.69c1.008,1.083,2.547,1.694,4.421,1.739c1.117,0,2.189-0.212,3.107-0.613 c1.604-0.646,2.549-1.824,2.775-3.511l3.584-39.309c0.061-0.329,0.016-0.752-0.396-1.216c-1.232-1.409-5.063-2.393-9.311-2.393 C24.722,11.083,20.878,12.073,19.666,13.492z"/>
+<linearGradient id="_70" gradientUnits="userSpaceOnUse" x1="14.81" y1="13.94" x2="33.61" y2="38.12">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<path fill="url(#_70)" d="M37.949,14.62l-3.178,39.271c-0.277,2.805-3.086,3.885-5.521,3.885 c-2.58-0.063-4.746-1.237-5.355-3.849l-4.029-38.819C23.36,17.514,33.879,18.064,37.949,14.62z"/>
+<linearGradient id="_71" gradientUnits="userSpaceOnUse" x1="37.53" y1="33.26" x2="-11.1" y2="42.31">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<path fill="url(#_71)" d="M25.46,17.253l1.585,40.042c-1.518-0.785-2.883-1.27-3.276-3.645L19.64,14.501 C20.06,14.847,24.262,16.785,25.46,17.253z"/>
+<linearGradient id="_72" gradientUnits="userSpaceOnUse" x1="25.65" y1="36.13" x2="53.5" y2="35.42">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<path fill="url(#_72)" d="M32.047,57.261c1.309-0.479,2.479-1.429,2.738-3.308l3.597-39.45c0,0-3.825,1.754-4.456,2.15 L32.047,57.261z"/>
+<linearGradient id="_73" gradientUnits="userSpaceOnUse" x1="19.95" y1="10.07" x2="42.99" y2="21.24">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<path fill="url(#_73)" d="M38.389,14.591c-0.209,1.578-4.394,2.859-9.345,2.859c-4.952,0-9.167-1.281-9.417-2.859 c-0.248-1.579,3.976-3.158,9.385-3.158C34.42,11.433,38.596,13.012,38.389,14.591z"/>
+<radialGradient id="_74" gradientUnits="userSpaceOnUse" cx="26.72" cy="65.17" r="6.31">
+<stop stop-color="#E3DFE4" offset="0"/>
+<stop stop-color="#C03A3A" offset="1"/>
+</radialGradient>
+<circle fill="url(#_74)" cx="29.271" cy="69.457" r="6.171"/>
+</svg>

@@ -1,0 +1,12 @@
+<flavourModel>
+<general/>
+<valueModel name="LinearRangeValueModel" uiName="Linear" uid="0x10207626">
+<param name="s" defaultValue="0" />
+<param name="e" defaultValue="255" />
+
+</valueModel>
+<timingModel name="Relative"/>
+</flavourModel>
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="43.945" viewBox="0 0 44 43.945">
+<polygon fill="#496DA2" points="26.828,25.286 21.531,25.286 21.531,21.069 18.883,21.069 18.883,30.581 26.6,30.581 32.125,25.286 29.473,25.286 25.262,21.069 22.613,21.069 "/>
+<rect height="1.565" width="0.02" x="18.201" y="19.688"/>
+<polygon fill="#496DA2" points="14.416,21.254 18.221,17.451 18.221,19.688 20.121,19.688 20.121,17.451 22.357,19.688 24.26,19.688 20.121,15.551 20.121,13.645 18.221,13.645 18.221,15.551 12.527,21.254 10.449,21.254 14.309,25.075 14.309,25.06 18.201,25.06 18.201,21.254 "/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="10.74" y1="-0.23" x2="24.37" y2="32.27">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<polygon fill="url(#_2)" points="9.209,27.036 9.209,12.328 28.914,12.328 28.914,19.645 31,19.645 31,10.172 7.178,10.172 7.178,29.194 18.201,29.194 18.201,27.036 "/>
+<path d="M31,19.645h-2.086H18.201v7.392v2.158v5.603h18.373V19.645H31z M34.494,32.63h-14.08V21.85h14.08V32.63z" fill="#496DA2"/>
+</svg>

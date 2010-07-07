@@ -1,0 +1,3 @@
+Use the Set animate time window to define the duration for one frame in an animation. Click Timing animations to read more about timing animations.
+
+###Opens when: 1) In Animation editor view, right-click a drame and select Set animate time OR right-click a control point and select Frame -> Set Animate Time; Title: Set animate time; Link to; Timing animations###

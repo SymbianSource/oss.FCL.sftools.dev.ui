@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="distributetime_context" title="Distribute Animate Time">
+		<description>Use the Distribute Animate Time window to define how time is distributed between frames. Click Timing animations to read more about setting animation time.</description>
+ 		<topic label="Timing animations" href="doc/timing_animations.html"/> 		
+	</context>
+	</contexts>
+	
+

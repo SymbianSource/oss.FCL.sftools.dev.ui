@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--DTD for "tool colour for lines".-->
+
+
+<!ENTITY %	reset  "(none)">
+
+<!ELEMENT drawlines (entity*)>
+
+
+<!ELEMENT entity EMPTY>
+<!ATTLIST entity
+    name 	CDATA  			#REQUIRED
+    id 		CDATA			#IMPLIED
+    values	CDATA			#IMPLIED
+    default	CDATA			#IMPLIED
+    mandatory	(false | true)   	#IMPLIED
+>

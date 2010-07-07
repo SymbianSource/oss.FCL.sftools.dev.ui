@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="11" height="11" viewBox="0 0 11 11">
+<rect fill="#A2C2DD" height="6.488" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 14.7811 4.7408)" width="6.487" x="3.165" y="2.188"/>
+<rect fill="#496DA2" height="6.311" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 11.4798 6.1707)" width="6.31" x="1.307" y="2.307"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="4.15" y1="5.18" x2="6.1" y2="7.13">
+<stop stop-color="#CEE1EF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.5"/>
+<stop stop-color="#496DA2" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_2)" points="7.48,5.493 4.462,8.514 1.442,5.493 4.462,2.474 "/>
+</svg>

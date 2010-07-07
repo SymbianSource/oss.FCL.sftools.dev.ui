@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="44" viewBox="0 0 44 44">
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="26.57" y1="21.96" x2="31.2" y2="21.96">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M26.595,17.077c4.502,4.498,0.156,9.707-0.029,9.928l1.959,1.67 c2.121-2.484,4.826-8.488-0.108-13.42L26.595,17.077z" fill="url(#_4)"/>
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="31.68" y1="21.97" x2="38.5" y2="21.97">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M33.505,9.851l-1.822,1.822c9.404,9.404,0.394,20.283,0.008,20.74l1.961,1.67 C33.763,33.954,44.601,20.948,33.505,9.851z" fill="url(#_5)"/>
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="4.77" y1="10.89" x2="24.93" y2="28.28">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M14.729,9.669L10.6,16.306H5.5v11.191h5.213l4.108,6.834h7.122V9.724L14.729,9.669z M19.722,32.371 h-3.282l-4.367-7.269H7.722v-6.415h4.207l4.378-7.045l3.415,0.027V32.371z" fill="url(#_6)"/>
+</svg>

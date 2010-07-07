@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="component_store_preferences_context" title="Configuring the Component Store settings">
+		<description>Component Store preferences allow you to configure settings for Component Store.</description>
+ 		<topic label="Configuring Carbide.ui - Component Store" href="doc/preferences_component_store.html"/> 		
+	</context>
+	</contexts>

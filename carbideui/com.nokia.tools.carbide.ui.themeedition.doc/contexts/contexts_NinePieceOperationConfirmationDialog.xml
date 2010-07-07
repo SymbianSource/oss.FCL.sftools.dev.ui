@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="NinePieceOperationConfirm_context" title="9 piece bitmap operation">
+		<description>This option allows you to convert a nine-piece element into a single piece bitmap. Click Nine piece conversion to know more.</description>
+ 		<topic label="Nine piece conversion" href="doc/swtiching_9_piece_to_single_piece_element.html"/> 		
+	</context>
+	</contexts>
+	
+

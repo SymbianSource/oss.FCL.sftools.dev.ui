@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+<switch>
+<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1" content="structured text"/>
+<g>
+<g>
+<g>
+<polygon fill="#3366CC" points="14.675,5.51 13.249,6.283 10.693,3.393 12.185,2.613 "/>
+<polygon fill="#003088" points="13.255,14.564 14.473,13.7 14.667,5.496 13.112,6.299 "/>
+<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="5.0674" y1="2.6152" x2="12.1826" y2="2.6152">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#B3DDFF"/>
+</linearGradient>
+<polygon fill="url(#XMLID_3_)" points="12.183,2.613 6.479,1.83 5.067,2.385 10.672,3.4 "/>
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="5.0645" y1="8.4756" x2="13.2607" y2="8.4756">
+<stop offset="0" style="stop-color:#B3DDFF"/>
+<stop offset="1" style="stop-color:#5AA7E0"/>
+</linearGradient>
+<polygon fill="url(#XMLID_4_)" points="13.261,6.203 13.255,14.564 5.331,12.394 5.064,2.387 10.763,3.351 "/>
+<g>
+<rect x="6.406" y="7.149" transform="matrix(0.9765 0.2156 -0.2156 0.9765 1.8363 -1.8289)" fill="#003088" width="5.788" height="0.704"/>
+</g>
+<g>
+<polygon fill="#003088" points="6.561,9.671 12.149,11.053 12.136,10.314 6.588,8.996 "/>
+</g>
+<polygon fill="#003088" points="13.288,6.203 10.775,3.358 10.76,5.688 "/>
+<g>
+<polygon fill="#BA0000" stroke="#F5E119" points="3.396,7.154 3.584,1.436 1.396,1.436 1.583,7.154 "/>
+<path fill="#BA0000" stroke="#F5E119" d="M3.313,8.798c-0.229-0.205-0.499-0.31-0.815-0.31         c-0.322,0-0.598,0.104-0.829,0.31C1.443,9.004,1.326,9.25,1.326,9.541c0,0.285,0.117,0.529,0.343,0.732         c0.231,0.203,0.507,0.305,0.829,0.305c0.319,0,0.592-0.102,0.818-0.305c0.223-0.203,0.337-0.447,0.337-0.732         C3.653,9.25,3.539,9.004,3.313,8.798z"/>
+</g>
+<g>
+<polygon fill="#BA0000" points="3.396,7.154 3.584,1.436 1.396,1.436 1.583,7.154 "/>
+<path fill="#BA0000" d="M3.313,8.798c-0.229-0.205-0.499-0.31-0.815-0.31c-0.322,0-0.598,0.104-0.829,0.31         C1.443,9.004,1.326,9.25,1.326,9.541c0,0.285,0.117,0.529,0.343,0.732c0.231,0.203,0.507,0.305,0.829,0.305         c0.319,0,0.592-0.102,0.818-0.305c0.223-0.203,0.337-0.447,0.337-0.732C3.653,9.25,3.539,9.004,3.313,8.798z"/>
+</g>
+<rect fill="none" width="16" height="16"/>
+</g>
+</g>
+</g>
+</switch>
+</svg>

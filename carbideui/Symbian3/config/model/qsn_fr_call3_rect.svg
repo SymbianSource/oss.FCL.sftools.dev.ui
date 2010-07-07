@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="352" height="126" viewBox="0 0 352 126">
+<g>
+<g>
+<path fill-opacity="0.01" stroke-opacity="0.01" d="M14,10C7.383,10,2,15.383,2,22v86c0,6.617,5.383,12,12,12h324c6.617,0,12-5.383,12-12V22      c0-6.617-5.383-12-12-12H14z"/>
+<path fill-opacity="0.03" stroke-opacity="0.03" d="M14,11C7.935,11,3,15.935,3,22v86c0,6.066,4.935,11,11,11h324c6.065,0,11-4.934,11-11V22      c0-6.065-4.935-11-11-11H14z"/>
+<path fill-opacity="0.04" stroke-opacity="0.04" d="M14,12C8.486,12,4,16.486,4,22v86c0,5.514,4.486,10,10,10h324c5.514,0,10-4.486,10-10V22      c0-5.514-4.486-10-10-10H14z"/>
+<path fill-opacity="0.09" stroke-opacity="0.09" d="M14,13c-4.963,0-9,4.037-9,9v86c0,4.963,4.037,9,9,9h324c4.963,0,9-4.037,9-9V22c0-4.963-4.037-9-9-9H14      z"/>
+<path fill-opacity="0.08" stroke-opacity="0.08" d="M14,14c-4.411,0-8,3.589-8,8v86c0,4.412,3.589,8,8,8h324c4.411,0,8-3.588,8-8V22c0-4.411-3.589-8-8-8H14      z"/>
+<path fill-opacity="0.1" stroke-opacity="0.1" d="M14,15c-3.859,0-7,3.141-7,7v86c0,3.859,3.141,7,7,7h324c3.859,0,7-3.141,7-7V22c0-3.859-3.141-7-7-7H14z      "/>
+<path fill-opacity="0.11" stroke-opacity="0.11" d="M14,16c-3.309,0-6,2.691-6,6v86c0,3.309,2.691,6,6,6h324c3.309,0,6-2.691,6-6V22c0-3.309-2.691-6-6-6H14      z"/>
+<path fill-opacity="0.1" stroke-opacity="0.1" d="M343,108c0,2.762-2.238,5-5,5H14c-2.762,0-5-2.238-5-5V22c0-2.762,2.238-5,5-5h324c2.762,0,5,2.238,5,5      V108z"/>
+<polygon fill-opacity="0.03" stroke-opacity="0.03" points="342,13 5,13 5,113 343,113 343,13 "/>
+<rect x="6" y="6" fill="#FFFFFF" width="336" height="114"/>
+<rect fill="none" width="352" height="126"/>
+</g>
+</g>
+</svg>

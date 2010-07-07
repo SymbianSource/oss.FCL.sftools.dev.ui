@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="44" viewBox="0 0 44 44">
+<linearGradient id="_3" gradientUnits="userSpaceOnUse" x1="9.65" y1="3.18" x2="24.46" y2="38.5">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M28.642,19.66l0.002,12.912c0,1.104-0.52,1.738-1.428,1.738h-0.475 c-0.908,0-1.43-0.635-1.43-1.738v-2.897H13.409V15.188c0-1.104,0.52-1.736,1.428-1.736l7.48,0.035l0.979-2.354h-8.863 c-1.962,0-3.332,1.666-3.332,4.055v14.487H7.695v2.897c0,2.388,1.372,4.055,3.333,4.055h16.506c1.963,0,3.332-1.667,3.332-4.055 V18.609L28.642,19.66z M11.616,34.311c-0.906,0-1.426-0.635-1.426-1.738c0,0,0-0.322,0-0.58h12.74c0,0.258,0,0.58,0,0.58 c0,0.643,0.113,1.219,0.297,1.738C18.991,34.311,11.616,34.311,11.616,34.311z" fill="url(#_3)"/>
+<path d="M34.929,11.455l-5.409,2.389l1.378,3.113l5.406-2.391L34.929,11.455z M27.047,5.941l-2.248,5.482 l3.149,1.295l2.25-5.484L27.047,5.941z" fill="#496DA2"/>
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="17.6" y1="14.15" x2="22.93" y2="26.85">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M21.151,16.146v7.797c-0.064-0.018-0.12-0.035-0.188-0.043c-1.276-0.176-2.862,0.627-3.543,1.799 c-0.679,1.17-0.19,2.261,1.087,2.432c1.275,0.181,2.857-0.625,3.539-1.792c0.191-0.333,0.281-0.661,0.295-0.958 c0.006-0.014,0.01-0.021,0.016-0.031c0-0.316,0-5.775,0-5.775l3.035,1.623v-2.504L21.151,16.146z" fill="url(#_4)"/>
+</svg>

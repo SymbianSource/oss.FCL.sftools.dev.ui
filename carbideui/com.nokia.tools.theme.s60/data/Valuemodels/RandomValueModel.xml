@@ -1,0 +1,11 @@
+<flavourModel>
+<general/>
+<valueModel name="RandomValueModel" uiName="Random" uid="0x10207628">
+<param name="min" defaultValue="0" />
+<param name="max" defaultValue="255" />
+
+</valueModel>
+<timingmodel name="RealTime"/>
+</flavourModel>
+
+

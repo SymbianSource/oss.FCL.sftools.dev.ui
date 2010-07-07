@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="100%" height="100%" viewBox="27.264 -14 88 88">
+<linearGradient id="_15" gradientUnits="userSpaceOnUse" x1="71.26" y1="54.74" x2="71.26" y2="65.49">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#A3740A" offset="0.44"/>
+<stop stop-color="#474105" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#_15)" points="36.766,61.307 105.766,61.295 105.766,55.215 36.761,55.221 "/>
+<linearGradient id="_16" gradientUnits="userSpaceOnUse" x1="69.94" y1="54.99" x2="69.94" y2="62.99">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#A3740A" offset="0.44"/>
+<stop stop-color="#474105" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#_16)" points="64.945,62.211 74.943,62.197 74.943,54.211 64.941,54.219 "/>
+<linearGradient id="_17" gradientUnits="userSpaceOnUse" x1="73.66" y1="25.99" x2="88.26" y2="54.76">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path fill="url(#_17)" d="M46.505,3.396l1.275,51.24l26.476,7.015l25.727-13.984l0.662-48.145l-25.529-2.44L46.505,3.396z"/>
+<linearGradient id="_18" gradientUnits="userSpaceOnUse" x1="91.07" y1="50.39" x2="-21.18" y2="-22.86">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_18)" points="48.438,53.45 47.219,3.956 74.721,8.835 74.249,60.058 "/>
+<linearGradient id="_19" gradientUnits="userSpaceOnUse" x1="37.97" y1="-4.58" x2="96.39" y2="6.31">
+<stop stop-color="#FFFFFF" offset="0.15"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_19)" points="99.936,0.158 75.158,-2.211 47.219,3.956 74.721,8.835 "/>
+<linearGradient id="_20" gradientUnits="userSpaceOnUse" x1="86.69" y1="-9.07" x2="87.54" y2="74.4">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_20)" points="74.242,60.041 99.279,46.988 99.936,0.158 74.531,8.804 "/>
+<linearGradient id="_21" gradientUnits="userSpaceOnUse" x1="43.08" y1="36.75" x2="78.58" y2="66.25">
+<stop stop-color="#D6E6EC" offset="0"/>
+<stop stop-color="#298595" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_21)" points="74.436,49.939 74.176,60.917 48.467,54.095 48.072,44.435 "/>
+<linearGradient id="_22" gradientUnits="userSpaceOnUse" x1="114.84" y1="2.85" x2="62.34" y2="88.6">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#2F8E9A" offset="0.44"/>
+<stop stop-color="#003D6D" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#_22)" points="99.564,37.645 99.288,47.248 74.166,60.903 74.378,49.939 "/>
+<linearGradient id="_23" gradientUnits="userSpaceOnUse" x1="79.53" y1="-32.27" x2="54.28" y2="76.73">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<polyline fill="url(#_23)" points="66.518,10.961 64.398,10.567 64.725,44.548 66.845,44.941 66.518,10.961 "/>
+<polyline fill="url(#_23)" points="61.826,10.09 59.715,9.697 60.042,43.678 62.154,44.069 61.826,10.09 "/>
+<polyline fill="url(#_23)" points="57.145,9.22 55.025,8.826 55.351,42.807 57.471,43.2 57.145,9.22 "/>
+<polyline fill="url(#_23)" points="52.461,8.35 50.34,7.956 50.666,41.937 52.787,42.33 52.461,8.35 "/>
+<linearGradient id="_27" gradientUnits="userSpaceOnUse" x1="71.34" y1="18.99" x2="70.13" y2="9.74">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<circle fill="url(#_27)" cx="70.725" cy="14.27" r="2.177"/>
+<radialGradient id="_28" gradientUnits="userSpaceOnUse" cx="70.52" cy="13.35" r="2.7">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</radialGradient>
+<circle fill="url(#_28)" cx="70.779" cy="14.27" r="1.473"/>
+</svg>

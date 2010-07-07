@@ -1,0 +1,1 @@
+You can convert an SVG image into a bitmap image, and edit it in a 3rd party bitmap editor. Click Editing images to read more about converting and editing SVG images.

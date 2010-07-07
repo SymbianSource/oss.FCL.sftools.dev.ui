@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+	<!-- BaseScreen similar to 9 except scrollbars -->
+	<preview_image display="portrait,square" name="Calendar Month View"
+		preview="true">
+		<reference screenName="BaseScreen10" />
+		<reference screenName="TouchPaneHorizontal0" />
+		<reference screenName="NaviArrowPortrait" />
+		<Element colourId="text2" compName="navi_navi_text_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;navi_pane@v:7&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;"
+			text="01/08/2007" varietyId="0" />
+		<Element colourId="text2" compName="navi_text_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:16&lt;/LC&gt;&lt;LC&gt;navi_pane@v:6&lt;/LC&gt;"
+			text="01/08/2007" varietyId="0" />
+		<Element colourId="text1" compName="title_pane_t1" text="August"
+			varietyId="5" />
+		<!--CONTENTS OF CALENDAR-->
+		<Element compName="bg_cale_pane_cp02" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_cale" varietyId="0" />
+		<!-- calendar heading pane-->
+		<Element compName="bg_cale_heading_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_cale_heading" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Mo" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t2"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Tu" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t3"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="We" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t4"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Th" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t5"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Fr" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t6"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Sa" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t7"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Su" varietyId="0" />
+		<!-- calendar side pane-->
+		<Element compName="bg_cale_side_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_cale_side" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="31" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t2"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="32" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t3"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="33" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t4"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="34" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t5"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="35" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t6"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="36" varietyId="0" />
+		<!-- grids lines -->
+		<Element colourId="line1" compName="cale_month_pane_g1"
+			display="!360x640" image="qgn_graf_line_solid.svg"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			scale_mode="stretch" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g9"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g10"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g11"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g12"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g13"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line1" compName="cale_month_pane_g2"
+			display="!360x640" image="qgn_graf_line_solid.svg"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			scale_mode="stretch" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g3"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g4"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g5"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g6"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g7"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g8"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<!-- calendar numbers -->
+		<Element compName="grid_highlight_pane" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			skinId="S60_2_6%qsn_fr_grid" varietyId="0" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:1&lt;/LC&gt;"
+			text="30" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:2&lt;/LC&gt;"
+			text="31" varietyId="1" />
+		<Element colourId="text11" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			text="1" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:4&lt;/LC&gt;"
+			text="2" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:5&lt;/LC&gt;"
+			text="3" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:6&lt;/LC&gt;"
+			text="4" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:7&lt;/LC&gt;"
+			text="5" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:1&lt;/LC&gt;"
+			text="6" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:2&lt;/LC&gt;"
+			text="7" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:3&lt;/LC&gt;"
+			text="8" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:4&lt;/LC&gt;"
+			text="9" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:5&lt;/LC&gt;"
+			text="10" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:6&lt;/LC&gt;"
+			text="11" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:7&lt;/LC&gt;"
+			text="12" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:1&lt;/LC&gt;"
+			text="13" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:2&lt;/LC&gt;"
+			text="14" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:3&lt;/LC&gt;"
+			text="15" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:4&lt;/LC&gt;"
+			text="16" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:5&lt;/LC&gt;"
+			text="17" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:6&lt;/LC&gt;"
+			text="18" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:7&lt;/LC&gt;"
+			text="19" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:1&lt;/LC&gt;"
+			text="20" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:2&lt;/LC&gt;"
+			text="21" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:3&lt;/LC&gt;"
+			text="22" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:4&lt;/LC&gt;"
+			text="23" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:5&lt;/LC&gt;"
+			text="24" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:6&lt;/LC&gt;"
+			text="25" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:7&lt;/LC&gt;"
+			text="26" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:1&lt;/LC&gt;"
+			text="27" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:2&lt;/LC&gt;"
+			text="28" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:3&lt;/LC&gt;"
+			text="29" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:4&lt;/LC&gt;"
+			text="30" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:5&lt;/LC&gt;"
+			text="1" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:6&lt;/LC&gt;"
+			text="2" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:7&lt;/LC&gt;"
+			text="3" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:1&lt;/LC&gt;"
+			text="4" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:2&lt;/LC&gt;"
+			text="5" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:3&lt;/LC&gt;"
+			text="6" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:4&lt;/LC&gt;"
+			text="7" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:5&lt;/LC&gt;"
+			text="8" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:6&lt;/LC&gt;"
+			text="9" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:7&lt;/LC&gt;"
+			text="10" varietyId="1" />
+		<!-- event indications -->
+		<Element colourId="other5" compName="cell_cale_month_pane_g1"
+			display="!360x640" image="qgn_indi_cdr_event_mixed.svg"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:4&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="other5" compName="cell_cale_month_pane_g1"
+			display="!360x640" image="qgn_indi_cdr_event_mixed.svg"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:5&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="other6" compName="cell_cale_month_pane_g1"
+			display="!360x640" image="qgn_indi_cdr_event_mixed.svg"
+			loc_id="&lt;LC&gt;main_pane@v:3&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:5&lt;/LC&gt;"
+			varietyId="0" />
+		<!--CONTENTS OF CALENDAR-->
+		<Element compName="bg_cale_pane_cp02" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_cale" varietyId="0" />
+		<!-- calendar heading pane-->
+		<Element compName="bg_cale_heading_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_cale_heading" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Mo" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t2"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Tu" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t3"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="We" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t4"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Th" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t5"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Fr" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t6"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Sa" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_day_heading_pane_t7"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_day_heading_pane@v:0&lt;/LC&gt;"
+			text="Su" varietyId="0" />
+		<!-- calendar side pane-->
+		<Element compName="bg_cale_side_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_cale_side" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="31" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t2"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="32" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t3"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="33" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t4"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="34" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t5"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="35" varietyId="0" />
+		<Element colourId="text23" compName="cale_month_week_pane_t6"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cale_month_week_pane@v:0&lt;/LC&gt;"
+			text="36" varietyId="0" />
+		<!-- grids lines -->
+		<Element colourId="line1" compName="cale_month_pane_g1"
+			display="360x640" image="qgn_graf_line_solid.svg"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			scale_mode="stretch" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g9"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g10"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g11"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g12"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g13"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_horizontal.svg" varietyId="0" />
+		<Element colourId="line1" compName="cale_month_pane_g2"
+			display="360x640" image="qgn_graf_line_solid.svg"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			scale_mode="stretch" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g3"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g4"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g5"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g6"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g7"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<Element colourId="line2" compName="cale_month_pane_g8"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;"
+			image="qgn_graf_line_secondary_vertical.svg" varietyId="0" />
+		<!-- calendar numbers -->
+		<Element compName="grid_highlight_pane" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			skinId="S60_2_6%qsn_fr_grid" varietyId="0" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:1&lt;/LC&gt;"
+			text="30" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:2&lt;/LC&gt;"
+			text="31" varietyId="1" />
+		<Element colourId="text11" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:3&lt;/LC&gt;"
+			text="1" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:4&lt;/LC&gt;"
+			text="2" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:5&lt;/LC&gt;"
+			text="3" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:6&lt;/LC&gt;"
+			text="4" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:7&lt;/LC&gt;"
+			text="5" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:1&lt;/LC&gt;"
+			text="6" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:2&lt;/LC&gt;"
+			text="7" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:3&lt;/LC&gt;"
+			text="8" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:4&lt;/LC&gt;"
+			text="9" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:5&lt;/LC&gt;"
+			text="10" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:6&lt;/LC&gt;"
+			text="11" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:2#c:7&lt;/LC&gt;"
+			text="12" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:1&lt;/LC&gt;"
+			text="13" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:2&lt;/LC&gt;"
+			text="14" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:3&lt;/LC&gt;"
+			text="15" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:4&lt;/LC&gt;"
+			text="16" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:5&lt;/LC&gt;"
+			text="17" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:6&lt;/LC&gt;"
+			text="18" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:3#c:7&lt;/LC&gt;"
+			text="19" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:1&lt;/LC&gt;"
+			text="20" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:2&lt;/LC&gt;"
+			text="21" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:3&lt;/LC&gt;"
+			text="22" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:4&lt;/LC&gt;"
+			text="23" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:5&lt;/LC&gt;"
+			text="24" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:6&lt;/LC&gt;"
+			text="25" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:7&lt;/LC&gt;"
+			text="26" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:1&lt;/LC&gt;"
+			text="27" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:2&lt;/LC&gt;"
+			text="28" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:3&lt;/LC&gt;"
+			text="29" varietyId="1" />
+		<Element colourId="text22" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:4&lt;/LC&gt;"
+			text="30" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:5&lt;/LC&gt;"
+			text="1" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:6&lt;/LC&gt;"
+			text="2" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:5#c:7&lt;/LC&gt;"
+			text="3" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:1&lt;/LC&gt;"
+			text="4" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:2&lt;/LC&gt;"
+			text="5" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:3&lt;/LC&gt;"
+			text="6" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:4&lt;/LC&gt;"
+			text="7" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:5&lt;/LC&gt;"
+			text="8" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:6&lt;/LC&gt;"
+			text="9" varietyId="1" />
+		<Element colourId="text21" compName="cell_cale_month_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:7&lt;/LC&gt;"
+			text="10" varietyId="1" />
+		<!-- event indications -->
+		<Element colourId="other5" compName="cell_cale_month_pane_g1"
+			display="360x640" image="qgn_indi_cdr_event_mixed.svg"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:1#c:4&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="other5" compName="cell_cale_month_pane_g1"
+			display="360x640" image="qgn_indi_cdr_event_mixed.svg"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:4#c:5&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="other6" compName="cell_cale_month_pane_g1"
+			display="360x640" image="qgn_indi_cdr_event_mixed.svg"
+			loc_id="&lt;LC&gt;main_pane@v:10&lt;/LC&gt;&lt;LC&gt;main_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_cale_month_pane@v:0&lt;/LC&gt;&lt;LC&gt;cell_cale_month_pane@v:0#r:6#c:5&lt;/LC&gt;"
+			varietyId="0" />
+		
+		<!-- preview window -->
+<!--		<Element compName="list_fp_calender_pane"
+			display="360x640"
+			skinId="qsn_fr_popup_preview"
+			varietyId="0" />		
+		<Element colourId="text20"
+			compName="popup_fixed_preview_cale_window_t1"
+			display="360x640"
+			text="Wednesday 01/08/2007"
+			varietyId="0" />
+		<Element colourId="text20" compName="list_single_preview_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;popup_fixed_preview_cale_window@v:0&lt;/LC&gt;&lt;LC&gt;list_fp_cale_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_fp_cale_pane@v:0#r:2#c:1&lt;/LC&gt;"
+			text="&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(no entries)"
+			varietyId="0" />
+-->		
+		<!-- touch pane -->
+		<reference screenName="TouchPaneButtons" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			skinId="qgn_indi_cale_tb_new_entry" varietyId="1" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			skinId="qgn_indi_cale_tb_today" varietyId="1" />
+			
+		<reference screenName="BaseSoftkeys" />			
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			skinId="qgn_indi_cale_tb_right" varietyId="1" />
+		<Element colourId="text13" compName="control_pane_t1"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options"
+			varietyId="4" />
+		<Element colourId="text14" compName="control_pane_t2"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Exit"
+			varietyId="4" />
+	</preview_image>
+</Preview>

@@ -1,0 +1,15 @@
+<effects>
+ <effect name="Convolution" uiname="Convolution" uid="0x10204AE2" type="0" className="com.nokia.tools.theme.s60.effects.effect.Convolution" input="true">
+	<param name="m" type="INT" value=""/>
+	<param name="f" type="INT" value=""/>
+	<param name="s" type="INT" value=""/>
+	<uiparam uiname="m" pos="1" caption="Mode" uiType="JComboBox" options="Edge,Blur,BlurGauss,EmbossSoft,EmbossHard,EnhanceDetail,EnhanceFocus,Soften,Sharpen,SharpenMore,Mean,Median,Dilate,Erode" defaultVal="0" value=""/>
+	<uiparam uiname="f" pos="2" caption="Blend Factor" value="" uiType="JSlider" minVal="0" maxVal="255" defaultVal="255" mandatory="true"/>
+	<!--<uiparam uiname="s" pos="3" caption="Blur Size" value="" defaultVal="3" uiType="JTextField" mandatory="true"/>-->
+ </effect>
+ <valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+<!-- Effects to be done - EnhanceDetail,EnhanceFocus,AdjustableGaussian,BlurGauss-->
+
+ 

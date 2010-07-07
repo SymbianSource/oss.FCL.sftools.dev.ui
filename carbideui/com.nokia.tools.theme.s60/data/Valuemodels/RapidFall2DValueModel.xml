@@ -1,0 +1,10 @@
+<flavourModel>
+<general/>
+<valueModel name="RapidFall2DValueModel" uiName="Rapid Fall" uid="0x1020762A" >
+<param name="f" defaultValue="0,0" />
+<param name="p" defaultValue="0,65536:6554,41372:13107,26117:19661,16487:26214,10408:32768,6571:39322,4148:45875,2618:52429,1653:58982,1044:65536,659;" >
+</param>
+</valueModel>
+<timingModel name="Relative"/>
+
+</flavourModel>

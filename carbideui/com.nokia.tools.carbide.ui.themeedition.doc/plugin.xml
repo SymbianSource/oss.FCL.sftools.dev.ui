@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+<!-- ============================================================================= -->
+<!-- F1 context files                                                              -->
+<!-- ============================================================================= -->
+  <extension point = "org.eclipse.help.contexts">   
+    <contexts file = "contexts/contexts_Clear.xml" plugin="com.nokia.tools.s60.ide"/>          
+  	<contexts file = "contexts/contexts_Edit3rdPartyBitmap.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_Edit3rdPartySVG.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_Edit3rdPartySound.xml" plugin="com.nokia.tools.s60.ide"/> 
+ 	<contexts file = "contexts/contexts_Resource.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_IconView.xml" plugin="com.nokia.tools.s60.ide"/> 
+  	<contexts file = "contexts/contexts_Gallery.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_Layers.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_SearchElement.xml" plugin="com.nokia.tools.s60.ide"/>
+   <contexts
+         file="contexts/contexts_colours.xml"
+         plugin="com.nokia.tools.s60.ide">
+   </contexts>  
+  	<contexts file = "contexts/contexts_ComponentStore.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_ExampleThemesPreferences.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_Export.xml" plugin="com.nokia.tools.screen.ui"/> 
+  	<contexts file = "contexts/contexts_Import.xml" plugin="com.nokia.tools.screen.ui"/> 
+
+  	<contexts file = "contexts/contexts_EntityGraphicsEditor.xml" plugin="com.nokia.tools.s60.ide"/> 
+  	<contexts file = "contexts/contexts_Theme.xml" plugin="com.nokia.tools.s60.ide"/> 
+   	<contexts file = "contexts/contexts_EditAnimateSelectedElements.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_Help.xml" plugin="com.nokia.tools.s60.ide"/>    
+  	<contexts file = "contexts/contexts_OpenProjectWizard.xml" plugin="com.nokia.tools.s60.ide"/>   
+  	<contexts file = "contexts/contexts_CreateDeploymentPackage.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_CreateDeploymentPackage.xml" plugin="com.nokia.tools.theme.s40.ui"/>  
+  	<contexts file = "contexts/contexts_CreateNewProjectWizard.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_KeyPairs.xml" plugin="com.nokia.tools.s60.ide"/>  
+    <contexts file = "contexts/contexts_makeKeysDialog.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_SaveAs.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_ConversionConfirmation.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_TimingDialog.xml" plugin="com.nokia.tools.theme.s60.ui"/>  
+  	<contexts file = "contexts/contexts_ConvertAndEditSVGIn3rdPartyBitmapEditor.xml" plugin="com.nokia.tools.s60.ide"/>  
+  	<contexts file = "contexts/contexts_SetCurrentTime.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_SetAnimateTime.xml" plugin="com.nokia.tools.s60.ide"/>
+  	<contexts file = "contexts/contexts_GoToTime.xml" plugin="com.nokia.tools.s60.ide"/>
+	<contexts file = "contexts/contexts_DistributeAnimateTime.xml" plugin="com.nokia.tools.s60.ide"/>
+	<contexts file = "contexts/contexts_EffectControls.xml" plugin="com.nokia.tools.s60.ide"/>
+	<contexts file = "contexts/contexts_SetDisplayWidth.xml" plugin="com.nokia.tools.s60.ide"/>
+	<contexts file = "contexts/contexts_Preferences.xml" plugin="com.nokia.tools.s60.ide"/>
+	<contexts file = "contexts/contexts_NinePieceOperationConfirmationDialog.xml" plugin="com.nokia.tools.s60.ide"/>
+	<contexts file = "contexts/contexts_DeleteProjectWizard.xml" plugin="com.nokia.tools.s60.ide"/>  
+ <contexts
+       file="contexts/contexts_Outline.xml"
+       plugin="com.nokia.tools.screen.ui">
+ </contexts>
+ <contexts
+       file="contexts/contexts_preference_component_store.xml"
+       plugin="com.nokia.tools.theme.s60.ui">
+ </contexts>
+ <contexts
+       file="contexts/contexts_preference_plugin_handling.xml"
+       plugin="com.nokia.tools.s60.ide">
+ </contexts>
+ <contexts
+       file="contexts/contexts_preferences_external_tools.xml"
+       plugin="com.nokia.tools.s60.ide">
+ </contexts>
+ <contexts
+       file="contexts/contexts_preferences_startup_tips.xml"
+       plugin="com.nokia.tools.startuptip">
+ </contexts>
+ <contexts
+       file="contexts/contexts_preferences_third_party_icon.xml"
+       plugin="com.nokia.tools.theme.s60.ui">
+ </contexts>
+ <contexts
+       file="contexts/contexts_preferences_image_folders.xml"
+       plugin="com.nokia.tools.screen.ui">
+ </contexts>
+
+  </extension>
+  
+<!-- ============================================================================= -->
+<!-- Define primary TOC                                                            -->
+<!-- ============================================================================= -->
+   <extension point="org.eclipse.help.toc">
+      <toc file="toc.xml" primary="true" />
+      <index path="index/"/>
+   </extension>
+
+
+<!-- ============================================================================= -->
+<!-- Define Cheat Sheet contents                                                   -->
+<!-- ============================================================================= -->
+   <extension point="org.eclipse.ui.cheatsheets.cheatSheetContent">
+     <category
+           name="Carbide.ui Theme Edition 2.0"
+           id="com.nokia.tools.category">
+     </category>
+     <cheatsheet
+           name="Creating a theme and editing component properties"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet1"
+           contentFile="Cheatsheet_1.xml">
+         <description>
+               In this tutorial, you learn how to create new themes and edit their components.
+         </description>
+     </cheatsheet>
+	 <cheatsheet
+           name="Importing a theme"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet6"
+           contentFile="Cheatsheet_6.xml">
+         <description>
+               In this tutorial, you learn how to import a theme into Carbide.ui.
+         </description>
+     </cheatsheet>
+	 <cheatsheet
+           name="Using an external editor"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet3"
+           contentFile="Cheatsheet_3.xml">
+         <description>
+               In this tutorial, you learn how to configure an external editor and how to edit a component in the external editor.
+         </description>
+     </cheatsheet>
+	 <!--cheatsheet
+           name="Editing layers"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet11"
+           contentFile="Cheatsheet_11.xml">
+         <description>
+               In this tutorial, you learn how edit the layers of a component.
+         </description>
+     </cheatsheet-->
+	 <cheatsheet
+           name="Editing a layer animation"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet13"
+           contentFile="Cheatsheet_13.xml">
+         <description>
+               In this tutorial, you learn to edit a layer animation.
+         </description>
+     </cheatsheet>
+	 <cheatsheet
+           name="Editing a frame animation"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet12"
+           contentFile="Cheatsheet_12.xml">
+         <description>
+               In this tutorial, you learn how edit an existing frame animation.
+         </description>
+     </cheatsheet>
+	 <cheatsheet
+           name="Creating a key pair"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet4"
+           contentFile="Cheatsheet_4.xml">
+         <description>
+               In this tutorial, you learn how to create key pairs.
+         </description>
+     </cheatsheet>
+	 <cheatsheet
+           name="Creating a sis-package"
+           category="com.nokia.tools.category"
+           id="com.nokia.tools.cheatSheet5"
+           contentFile="Cheatsheet_5.xml">
+         <description>
+               In this tutorial, you learn how to create a sis-package.
+         </description>
+	 </cheatsheet>
+   </extension>
+   
+<!-- ============================================================================= -->
+<!-- Define Intro/Welcome page extension                                           -->
+<!-- ============================================================================= -->
+   <extension
+        point="org.eclipse.ui.intro.configExtension">
+     <configExtension
+           configId="com.nokia.tools.carbide.ui.licensee.introConfig"
+           content="OverviewExtensionContent.xml"/>
+      <configExtension
+            configId="com.nokia.tools.carbide.ui.licensee.introConfig" 
+           content="TutorialsExtensionContent.xml"/>
+      <configExtension
+            configId="com.nokia.tools.carbide.ui.themeedition.introConfig"
+            content="OverviewExtensionContent.xml"/>
+      <configExtension
+            configId="com.nokia.tools.carbide.ui.themeedition.introConfig"
+            content="TutorialsExtensionContent.xml"/>
+   </extension>
+  
+
+
+  
+</plugin>

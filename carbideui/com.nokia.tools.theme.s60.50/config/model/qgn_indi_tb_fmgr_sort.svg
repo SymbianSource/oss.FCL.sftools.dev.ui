@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="-0.081 -0.042 44 44">
+<rect fill="none" height="44" width="44" x="-0.081" y="-0.042"/>
+<linearGradient id="SVGID_1" gradientUnits="userSpaceOnUse" x1="30.29" y1="-8.78" x2="30.29" y2="42.75">
+<stop stop-color="#B2B2B2" offset="0"/>
+<stop stop-color="#000000" offset="1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1)" points="28.407,8.849 32.361,8.849 32.361,26.142 39.271,26.142 39.271,27.8 30.294,36.075 21.303,27.8 21.303,26.142 28.407,26.142 "/>
+<linearGradient id="SVGID_2" gradientUnits="userSpaceOnUse" x1="16.05" y1="8.72" x2="16.05" y2="35.45">
+<stop stop-color="#B2B2B2" offset="0"/>
+<stop stop-color="#000000" offset="1"/>
+</linearGradient>
+<rect fill="url(#SVGID_2)" height="3.928" width="18.724" x="6.691" y="9.108"/>
+<rect fill="url(#SVGID_2)" height="3.928" width="14.209" x="6.691" y="16.578"/>
+<rect fill="url(#SVGID_2)" height="3.928" width="9.802" x="6.691" y="24.048"/>
+<rect fill="url(#SVGID_2)" height="3.928" width="5.912" x="6.691" y="31.518"/>
+</svg>

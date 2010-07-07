@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="setdisplaywidth_context" title="Set Display Width">
+		<description>Use the Set Display Width pop-up window to set the width of the timeline displayed in the Entity graphics editor view. Click Entity graphics editor view to read more about the properties of the Entity graphics editor view.</description>
+ 		<topic label="Animation Editor" href="doc/animation editor.html"/> 		
+	</context>
+	</contexts>
+	
+

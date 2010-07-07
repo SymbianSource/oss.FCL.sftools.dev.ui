@@ -1,0 +1,15 @@
+<body>
+<p>Provides project based content manager implementation.</p>
+<p>Project content source manager is capable of retrieving all
+contents inside a project.</p>
+<p>Usage:</p>
+<pre>
+	// direct invocation
+	IProject project = xxx;
+	IContentSourceManager manager = new ProjectContentSourceManager(project);
+	List&lt;IContent&gt; contents = manager.getRootContents(IContent.TYPE_S60_ALL);
+	
+	// or via the project design nature
+	manager = S60DesignProjectNature.getUIDesignData(project);
+</pre>
+</body>

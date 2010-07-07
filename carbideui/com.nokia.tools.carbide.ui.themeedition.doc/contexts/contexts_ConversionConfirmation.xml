@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="conversionConfirmation_context" title="SVG conversion confirmation window">
+		<description>The SVG conversion confirmation window allows you to set the conversion details when converting SVG images into bitmap images. Click Bitmap conversion settings to read more about the SVG conversion into bitmap images.</description>
+ 		<topic label="Bitmap conversion settings" href="doc/Convert and Edit in Bitmap editor.html"/> 		
+	</context>
+	</contexts>
+	
+

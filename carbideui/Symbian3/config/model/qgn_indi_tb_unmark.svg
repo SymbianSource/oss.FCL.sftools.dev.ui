@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+<rect fill="none" height="54" width="54"/>
+<polygon fill="#FFFFFF" points="49.602,49.721 4.377,49.721 4.377,4.492 49.602,4.492 "/>
+<polygon points="12.523,29.099 16.348,25.827 22.485,33.004 34.958,15.894 34.958,15.894 39.027,18.858 22.797,41.118 "/>
+<polygon fill="#FFFFFF" points="42.067,49.452 4.438,11.924 11.17,5.092 48.858,42.658 "/>
+<rect height="3.732" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 26.2815 65.8752)" width="49.171" x="2.198" y="25.628"/>
+<path d="M6.983,7.102v40.006h40.01V7.102H6.983z M44.38,44.499H9.595V9.711H44.38V44.499L44.38,44.499z"/>
+</svg>

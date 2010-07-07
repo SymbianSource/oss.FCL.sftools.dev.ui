@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--DTD for "preview design"-->
+
+<!ELEMENT Preview (preview_image?)+ >
+<!ATTLIST Preview
+            name          	CDATA  		#IMPLIED	
+            background    	CDATA  		#IMPLIED	
+            MasterId	  	CDATA  		#IMPLIED
+>
+
+
+<!ELEMENT preview_image (Element?, reference? )+>
+
+
+<!ATTLIST preview_image
+
+	    name		CDATA	      	#REQUIRED
+	    previewid		CDATA	      	#IMPLIED
+	    preview		CDATA	      	#REQUIRED	
+	    display		CDATA	      	#IMPLIED	
+>
+
+<!ELEMENT Element EMPTY>
+<!ATTLIST Element 
+	    compName		CDATA       	#REQUIRED
+	    skinId		CDATA         	#IMPLIED
+	    name		CDATA		#IMPLIED
+	    optionId		CDATA         	#IMPLIED
+	    varietyId		CDATA         	#REQUIRED		    	
+	    level		CDATA         	#IMPLIED
+            loc_id		CDATA         	#IMPLIED	            
+       	    text		CDATA         	#IMPLIED			    
+	    image		CDATA         	#IMPLIED
+            is_mask		CDATA         	#IMPLIED	
+            mask		CDATA         	#IMPLIED			                
+            group		CDATA         	#IMPLIED	
+            colourId		CDATA         	#IMPLIED            
+            colour		CDATA         	#IMPLIED            
+        	shape_link_id	CDATA         	#IMPLIED
+            spl_mask_id		CDATA         	#IMPLIED
+            scale_mode ( stretch | tile | tile_x | tile_y | aspect_ratio | scale_best | scale_fit | scale_down_fit ) #IMPLIED      			    
+	    spl_mask_type	CDATA         	#IMPLIED
+	    spl_mask_file	CDATA 	      	#IMPLIED	
+	    opacity		CDATA   	#IMPLIED  
+	    rotate		CDATA		#IMPLIED          
+	    data		CDATA		#IMPLIED
+	    text_full	CDATA		#IMPLIED
+	    display		CDATA	      	#IMPLIED	
+>
+<!-- data is for link to additional metadata info system-->
+
+<!ELEMENT reference EMPTY>
+<!ATTLIST reference
+	    screenName		CDATA       	#REQUIRED
+>

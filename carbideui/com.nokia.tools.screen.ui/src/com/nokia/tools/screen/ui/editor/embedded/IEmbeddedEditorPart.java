@@ -1,0 +1,42 @@
+/*
+* Copyright (c) 2006-2010 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+package com.nokia.tools.screen.ui.editor.embedded;
+
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.runtime.CoreException;
+import org.eclipse.gef.EditPartViewer;
+import org.eclipse.gef.ui.palette.PaletteViewer;
+import org.eclipse.jface.action.IAction;
+import org.eclipse.swt.widgets.Control;
+import org.eclipse.ui.IEditorPart;
+
+public interface IEmbeddedEditorPart extends IEditorPart {
+	void createPaletteControl(PaletteViewer paletteViewer);
+
+	void showView(EditPartViewer viewer);
+
+	void createViewerControl(EditPartViewer viewer);
+	
+	void disposeViewers();
+
+	Control getControl();
+	
+	void doSaveAs(IProject newProject) throws CoreException;
+	
+	IAction getAction(String actionId);
+}

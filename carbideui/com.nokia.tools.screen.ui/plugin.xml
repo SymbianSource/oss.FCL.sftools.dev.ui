@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="embeddedEditors" name="Embedded editors" schema="schema/embeddedEditors.exsd"/>
+   <extension-point id="contributors" name="UI contributors" schema="schema/contributors.exsd"/>
+   <extension-point id="showInSubmenu" name="Item contribution for editor&apos;s &apos;Show In&apos; submenu" schema="schema/EditorShowInPopup.exsd"/>
+   <extension-point id="projectResourcesContribution" name="Add resources to project" schema="schema/projectResourcesContribution.exsd"/>
+   
+	<!-- the contributor is not extensible, loading of configuration elements is 
+		random, thus for safety reason, we define all categories here -->
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertyContributor">
+		<propertyContributor
+			contributorId="com.nokia.tools.screen.ui.propertysheet.tabbed.TabbedProperty"
+			typeMapper="com.nokia.tools.screen.ui.propertysheet.tabbed.WidgetTypeMapper"
+			labelProvider="com.nokia.tools.screen.ui.propertysheet.tabbed.WidgetSectionLabelProvider">
+			<propertyCategory category="general"/>
+			<propertyCategory category="font"/>
+			<propertyCategory category="background"/>
+			<propertyCategory category="text"/>
+			<propertyCategory category="position"/>
+			<propertyCategory category="layout"/>
+			<propertyCategory category="margins"/>
+			<propertyCategory category="borders"/>
+			<propertyCategory category="grid"/>
+			<propertyCategory category="trackster"/>
+			<propertyCategory category="s60"/>
+			<propertyCategory category="other"/>
+			<propertyCategory category="advanced"/>
+			<propertyCategory category="testing"/>
+   <propertyCategory category="databinding"/>
+		</propertyContributor>
+	</extension>
+	
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertyTabs">
+		<propertyTabs
+			contributorId="com.nokia.tools.screen.ui.propertysheet.tabbed.TabbedProperty">
+			<propertyTab
+				label="%labelGeneral"
+				category="general"
+				id="com.nokia.tools.screen.ui.propertysheet.tabbed.general"/>
+			<propertyTab
+				label="%labelAdvanced"
+				category="advanced"
+				id="com.nokia.tools.screen.ui.propertysheet.tabbed.advanced"/>
+		</propertyTabs>
+	</extension>
+	<extension point="org.eclipse.ui.views.properties.tabbed.propertySections">
+      <propertySections contributorId="com.nokia.tools.screen.ui.propertysheet.tabbed.TabbedProperty">
+         <propertySection
+               class="com.nokia.tools.screen.ui.propertysheet.tabbed.InfoSection"
+               enablesFor="1"
+               filter="com.nokia.tools.screen.ui.propertysheet.tabbed.InfoFilter"
+               id="com.nokia.tools.screen.ui.propertysheet.tabbed.section.info"
+               tab="com.nokia.tools.screen.ui.propertysheet.tabbed.general"/>
+         <propertySection
+               class="com.nokia.tools.screen.ui.propertysheet.tabbed.AdvancedPropertySection"
+               filter="com.nokia.tools.screen.ui.propertysheet.tabbed.AdvancedFilter"
+               id="com.nokia.tools.screen.ui.propertysheet.tabbed.section.advanced"
+               tab="com.nokia.tools.screen.ui.propertysheet.tabbed.advanced"/>
+      </propertySections>
+   </extension>
+   <extension
+         point="com.nokia.tools.media.utils.dynamicTooltip">
+         <tooltip-item
+               action="PLAY_ALL"
+               actionProvider="com.nokia.tools.media.utils.tooltip.EditorActionTooltipActionProvider"
+               >
+             <enablement
+                   context="s60_screen_toolbar"
+                   focused="false"
+                   unfocused="false"/>
+		</tooltip-item>
+		<tooltip-item
+        action="PLAY_SELECTION"
+        actionProvider="com.nokia.tools.media.utils.tooltip.EditorActionTooltipActionProvider"
+        >
+               <enablement
+                   context="s60_screen_toolbar"
+                   focused="false"
+                   unfocused="false"/>
+        </tooltip-item>
+        <tooltip-item
+              action="STOP_PLAYING"
+              actionProvider="com.nokia.tools.media.utils.tooltip.EditorActionTooltipActionProvider"
+              >
+               <enablement
+                   context="s60_screen_toolbar"
+                   focused="false"
+                   unfocused="false"/>
+        </tooltip-item>
+        <tooltip-item
+              action="com.nokia.tools.media.utils.tooltip.SeparatorAction"
+              actionProvider="com.nokia.tools.media.utils.tooltip.DefaultTooltipActionProvider">
+               <enablement
+                     context="s60_screen_toolbar"
+                     focused="false"
+                     unfocused="false"/>
+        </tooltip-item>
+        <tooltip-item
+              action="PLAYING_SPEED"
+              actionProvider="com.nokia.tools.media.utils.tooltip.EditorActionTooltipActionProvider">
+               <enablement
+                     context="s60_screen_toolbar"
+                     focused="false"
+                     unfocused="false"/>
+        </tooltip-item>
+	</extension>
+	
+	<extension-point id="resourceViewerSections" name="Resource viewer section" schema="schema/ResourceViewerSection.exsd"/>
+ <extension-point id="newThemeAdditionalWizardPage" name="newThemeAdditionalWizardPage" schema="schema/newProjectWizardPage.exsd"/>
+ <extension-point id="resourceSections" name="Resource Sections" schema="schema/resourceSections.exsd"/>
+ <extension-point id="advancedproperties" name="advancedproperties" schema="schema/advancedproperties.exsd"/>
+ <extension-point id="wizardValidator" name="wizardValidator" schema="schema/wizardValidator.exsd"/>
+ <extension-point id="packagingPreProcessingAction" name="packagingPreProcessingAction" schema="schema/packagingPreProcessingAction.exsd"/>
+<!--
+	<extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.nokia.tools"
+            name="Carbide.ui"/>         	
+      <view
+            category="com.nokia.tools"
+            class="com.nokia.tools.screen.ui.views.ResourceViewPart"
+            icon="icons/resource_view16x16.png"
+            id="com.nokia.tools.screen.ui.views.Resource"
+            name="%ResourceView"/>
+    </extension>
+-->    
+	<extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="com.nokia.tools.screen.ui.views.IIDEPreferenceInitializer"/>
+   </extension>
+   
+    <extension
+       point="org.eclipse.ui.exportWizards">
+    <category
+          id="com.nokia.tools.theme.screen.ui.export"
+          name="Carbide.ui"/>
+    <wizard
+          category="com.nokia.tools.theme.screen.ui.export"
+          class="com.nokia.tools.screen.ui.wizards.ExportWizard"
+          icon="icons/exportdir_wiz.gif"
+          id="com.nokia.tools.theme.screen.ui.exportWizard"
+          name="Export"/>
+ </extension>
+ <extension
+       point="org.eclipse.ui.importWizards">
+    <category
+          id="com.nokia.tools.theme.screen.ui.import"
+          name="Carbide.ui"/>
+    <wizard
+          category="com.nokia.tools.theme.screen.ui.import"
+          class="com.nokia.tools.screen.ui.wizards.ImportWizard"
+          icon="icons/importdir_wiz.gif"
+          id="com.nokia.tools.theme.screen.ui.importWizard"
+          name="Import"/>
+ </extension>
+ <extension
+       point="org.eclipse.ui.startup">
+    <startup
+          class="com.nokia.tools.screen.ui.utils.EclipseUtilsStartup"></startup>
+ </extension>
+
+</plugin>

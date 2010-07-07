@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44" version="1.1" viewBox="0.105 -0.739 44 44" width="44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<rect fill="none" height="44" width="44" x="0.105" y="-0.739"/>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="22.1069" x2="22.1069" y1="10.791" y2="31.9585">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M9.946,30.073V13.702l7.369,7.326l9.594,0.016l7.358-7.342V23.3h2.507V9.942H7.44v22.637h18.682    l-2.31-2.506H9.946z M31.762,12.448l-5.547,5.547h-8.219l-5.545-5.547H31.762z" fill="url(#XMLID_3_)"/>
+</g>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="31.6211" x2="31.6211" y1="10.791" y2="31.958">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#XMLID_4_)" points="38.371,25.302 38.371,31.233 32.224,31.233 32.224,34.917 30.997,34.917 24.871,28.271    30.997,21.616 32.224,21.616 32.224,25.302  "/>
+</g>
+</svg>

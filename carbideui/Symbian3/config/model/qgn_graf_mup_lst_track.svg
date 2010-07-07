@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="100%" viewBox="0 0 16 16" width="100%">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<polygon fill="#F5C219" points="7.546,1.489 7.546,11.078 8.312,11.752 8.325,10.025 8.325,1.672 "/>
+<polygon fill="#E78D13" points="8.107,1.627 8.102,13.09 8.56,12.303 8.548,1.438 "/>
+<path d="M7.546,1.489c0.066,0.076,0.315,0.142,0.559,0.14l0.443-0.191C8.378,1.334,8.099,1.311,7.95,1.334        L7.546,1.489z" fill="#F5E119"/>
+<path d="M8.033,1.633l0.039,4.013C8.167,5.661,8.278,5.677,8.44,5.729c3.512,1.279,2.896,3.619,1.816,5.65        l0.33,0.229c0.826-1.287,1.316-3.06,1.107-4.081c-0.625-2.774-3.545-2.933-3.592-5.894H8.033z" fill="#F5C219"/>
+<radialGradient cx="-674.6147" cy="775.3545" fx="-674.6147" fy="775.3545" gradientTransform="matrix(0.7892 0.1154 0.4202 -0.7613 212.7338 679.3762)" gradientUnits="userSpaceOnUse" id="XMLID_3_" r="2.5762">
+<stop offset="0" style="stop-color:#F7F613"/>
+<stop offset="1" style="stop-color:#E6BD1E"/>
+</radialGradient>
+<path d="M8.286,12.976c-0.601,1.085-1.995,1.829-3.121,1.663c-1.121-0.162-1.549-1.174-0.948-2.26        c0.597-1.083,1.991-1.829,3.116-1.665C8.456,10.879,8.884,11.889,8.286,12.976z" fill="url(#XMLID_3_)"/>
+<path d="M8.038,10.992c0.196,0.415,0.163,0.957-0.147,1.518c-0.598,1.084-1.994,1.829-3.117,1.666        c-0.279-0.041-0.512-0.135-0.697-0.266c0.178,0.387,0.556,0.663,1.099,0.742c1.122,0.164,2.52-0.58,3.116-1.664        C8.743,12.17,8.612,11.396,8.038,10.992z" fill="#E78D13"/>
+<radialGradient cx="-377.9614" cy="299.2393" fx="-377.9614" fy="299.2393" gradientTransform="matrix(1.394 0 0 -1.394 536.9821 423.6987)" gradientUnits="userSpaceOnUse" id="XMLID_4_" r="2.7457">
+<stop offset="0" style="stop-color:#F7F613"/>
+<stop offset="1" style="stop-color:#E78D13"/>
+</radialGradient>
+<path d="M10.849,11.441c0.848-1.277,1.361-3.043,1.164-4.068C11.421,4.594,8.499,4.401,8.536,1.51        L8.154,1.703c0,2.943,2.886,3.078,3.505,5.82c0.209,1.021-0.24,2.797-1.074,4.084L10.849,11.441z" fill="url(#XMLID_4_)"/>
+</g>
+<rect fill="none" height="16" width="16"/>
+</g>
+</g>
+</switch>
+</svg>

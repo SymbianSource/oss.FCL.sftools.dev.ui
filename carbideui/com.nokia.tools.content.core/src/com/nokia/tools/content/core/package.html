@@ -1,0 +1,22 @@
+<body>
+<p>Provides the generic content API</p>
+<p>The content has a tree structure, and the root node {@link
+IContent} identifies the content. The services that content data provide
+are retrieved via various adapters.</p>
+<p>The following method illustrates the typical usage scenario:</p>
+<pre>
+// a file based content
+Object input = new File("contentfile");
+IProgressMonitor monitor = new NullProgressMonitor();
+// fetches the root content
+List&lt;IContent&gt; contents = ContentSourceManager.getGlobalInstance().getRootContents(IContent.TYPE_S60_ALL, input, monitor);
+if (contents.isEmpty()) {
+	IContent content = contents.get(0);
+	IMyAdapter adapter = (IMyAdapter) content.getAdapter(IMyAdapter.class);
+	if (adapter != null) {
+		adapter.doSomething();
+	}
+}
+</pre>
+</body>
+

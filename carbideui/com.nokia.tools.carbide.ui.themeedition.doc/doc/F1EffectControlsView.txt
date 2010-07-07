@@ -1,0 +1,3 @@
+The Effect controls view allows you to edit effect parameters, for example. Click Effect controls view to read more about using the view.
+
+##title: Effect controls view, link to: Effect controls view.###

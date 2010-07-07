@@ -1,0 +1,18 @@
+<Models>
+<valueModels>
+	<model name="LinearRangeValueModel" uiName="LinearRange" class="com.nokia.tools.theme.s60.morphing.valuemodels.LinearRangeValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.LinearRangeValueModelUI"/>
+	<model name="LinearRange2DValueModel" uiName="LinearRange" class="com.nokia.tools.theme.s60.morphing.valuemodels.LinearRange2DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.LinearRange2DValueModelUI"/>
+	<model name="RandomValueModel" uiName="Random" class="com.nokia.tools.theme.s60.morphing.valuemodels.RandomValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.RandomValueModelUI"/>
+	<model name="ConstantValueModel" uiName="Constant" class="com.nokia.tools.theme.s60.morphing.valuemodels.ConstantValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.ConstantValueModelUI"/>
+	<model name="PolyLine1DValueModel" uiName="PolyLineID" class="com.nokia.tools.theme.s60.morphing.valuemodels.PolyLine1DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.PolyLine1DValueModelUI"/>
+	<model name="PolyLine2DValueModel" uiName="PolyLine2D" class="com.nokia.tools.theme.s60.morphing.valuemodels.PolyLine2DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.PolyLine2DValueModelUI"/>
+	<model name="RapidRise1DValueModel" uiName="RapidRise" class="com.nokia.tools.theme.s60.morphing.valuemodels.RapidRise1DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.RapidRise1DValueModelUI"/>
+	<model name="RapidFall1DValueModel" uiName="RapidFall" class="com.nokia.tools.theme.s60.morphing.valuemodels.RapidFall1DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.RapidFall1DValueModelUI"/>
+	<model name="RapidRise2DValueModel" uiName="RapidRise" class="com.nokia.tools.theme.s60.morphing.valuemodels.RapidRise2DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.RapidRise2DValueModelUI"/>
+	<model name="RapidFall2DValueModel" uiName="RapidFall" class="com.nokia.tools.theme.s60.morphing.valuemodels.RapidFall2DValueModel" uiClass="com.nokia.tools.theme.s60.morphing.valuemodels.RapidFall2DValueModelUI"/>
+</valueModels>
+<timingModels>
+	<model name="RealTimeModel" uiName="RealTime" class="com.nokia.tools.theme.s60.morphing.timemodels.RealTimingModel" uiClass="com.nokia.tools.theme.s60.morphing.timemodels.RealTimingModelUI"/>
+	<model name="RelativeTimeModel" uiName="Relative" class="com.nokia.tools.theme.s60.morphing.timemodels.RelativeTimingModel" uiClass="com.nokia.tools.theme.s60.morphing.timemodels.RelativeTimingModelUI"/>
+</timingModels>
+</Models>

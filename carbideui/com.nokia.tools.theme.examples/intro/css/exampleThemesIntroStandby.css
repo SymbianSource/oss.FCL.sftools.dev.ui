@@ -1,0 +1,16 @@
+
+a#heading img {background-image : url(graphics/icons/examples.gif); }
+a#heading:hover img,
+a#heading:focus img,
+a#heading:active img { background-image : url(graphics/icons/examples.gif);}
+
+a#jingmask img {background-image : url(graphics/icons/tdf-jingmask.jpg); }
+a#jingmask:hover img,
+a#jingmask:focus img,
+a#jingmask:active img { background-image : url(graphics/icons/tdf-jingmask.jpg);}
+
+a#haze img {background-image : url(graphics/icons/tdf-haze.jpg); }
+a#haze:hover img,
+a#haze:focus img,
+a#haze:active img { background-image : url(graphics/icons/tdf-haze.jpg);}
+

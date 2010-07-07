@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Working with colors</title>
+</head>
+<body>
+<h2>Working with colors</h2>
+<h3>Editing colors</h3>
+<br>
+Your theme can specify a variety of font and highlight colors. Carbide
+.ui allows you to choose a color using several standard color editing
+styles (palette, RGB, and HSB). Alpha (transparency) values are not
+supported in themes (all colors are 100% opaque). Each color element
+can be separately specified for the main and mini handset screen.<br>
+<br>
+<span style="font-weight: bold;">Tip:</span> Some standard-level phone
+models use color rectangles as a highlight (where more advanced-level
+phones use images). By default, the Workspace and All Screens Display
+show the images defined for these elements.<br>
+<br>
+If you define values for the color rectangles and want to see how they
+look in the Workspace or All Screens Display, select the appropriate
+screen in the Screen Options and set the Row Highlight Type Displayed
+field to Color.<br>
+<br>
+The table below lists the font color elements for the main screen, the
+screens on which they are simulated and the Theme Editor tab on which
+they can be edited.<br>
+<br>
+<span style="font-weight: bold;">Tip:</span> All the font color
+elements can be separately edited for the mini screen. All the mini
+screen font color elements are located in the Mini Screen&gt;Colors
+(Mini) in the editor view.<br>
+<br>
+<table
+ style="width: 1008px; height: 112px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="3" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 160px; text-align: center; font-weight: bold;">Element</td>
+      <td style="width: 276px; text-align: center; font-weight: bold;">Description</td>
+      <td style="width: 231px; text-align: center; font-weight: bold;">Screen</td>
+      <td style="width: 204px; text-align: center; font-weight: bold;">Tab</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Header Font<br>
+Color</td>
+      <td style="width: 276px;">Color of text in the header (top) area</td>
+      <td style="width: 231px;">Most screens</td>
+      <td style="width: 204px;">Default</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Status Area<br>
+Font Color</td>
+      <td style="width: 276px;">Color of text in the status area
+(digital clock and monochrome indicators)</td>
+      <td style="width: 231px;">Most screens<br>
+which show a<br>
+clock</td>
+      <td style="width: 204px;">Default</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Softkey Font<br>
+Color</td>
+      <td style="width: 276px;">Color of text in the three (left,
+middle, right) softkey areas</td>
+      <td style="width: 231px;">Most screens</td>
+      <td style="width: 204px;">Default</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Idle Font<br>
+Color</td>
+      <td style="width: 276px;">Color of text in the middle area when
+in Idle mode&nbsp;&nbsp;&nbsp;</td>
+      <td style="width: 231px;"> Idle (only in the128x128 and 208x208<br>
+simulations)</td>
+      <td style="width: 204px;">Idle&gt;Idle Screen</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Idle Status<br>
+Area Font<br>
+Color</td>
+      <td style="width: 276px;">Color of text in the status area when
+in Idle mode</td>
+      <td style="width: 231px;">Idle and Active Idle</td>
+      <td style="width: 204px;">Idle&gt;Idle Screen</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Idle Softkey<br>
+Area Font<br>
+Color</td>
+      <td style="width: 276px;">Color of text in the three softkey
+areas when in Idle mode&nbsp;&nbsp;&nbsp; </td>
+      <td style="width: 231px;">Idle and Active Idle</td>
+      <td style="width: 204px;">Idle&gt;Idle Screen</td>
+    </tr>
+    <tr>
+      <td style="width: 160px;">Active Idle -<br>
+Active Font<br>
+Color</td>
+      <td style="width: 276px;">Color of text of active elements when
+in Active Idle mode</td>
+      <td style="width: 231px;">Active Idle</td>
+      <td style="width: 204px;">Idle&gt;Active Idle</td>
+    </tr>
+    <tr>
+      <td>Shortcut Bar<br>
+Popup Font<br>
+Color</td>
+      <td>Color of text in the popup bar when<br>
+navigating the shortcut bar in Active Idle mode</td>
+      <td>This element is not simulated</td>
+      <td>Idle&gt;Active Idle</td>
+    </tr>
+    <tr>
+      <td>Menu/List<br>
+Font Color</td>
+      <td>Color of text in list and tab view of the main menu and
+selection lists</td>
+      <td>Main Menu<br>
+(List) and (Tab), Folder, and AudioPlayer</td>
+      <td>Main Menu&gt;List View</td>
+    </tr>
+    <tr>
+      <td>Highlighted<br>
+Menu/List<br>
+Font Color</td>
+      <td>&nbsp;Color of highlighted (selected) text in list and tab
+view of the main menu and selection lists</td>
+      <td>Several screens</td>
+      <td>Main Menu&gt;ListView</td>
+    </tr>
+    <tr>
+      <td>Labelled Grid<br>
+Menu Font<br>
+Color</td>
+      <td>Color of text in labeled grid view of the main
+menu&nbsp;&nbsp;&nbsp; </td>
+      <td>Main Menu (Grid)</td>
+      <td>Main Menu&gt;Grid View</td>
+    </tr>
+    <tr>
+      <td>Labeled Grid<br>
+Menu<br>
+Highlight<br>
+Font Color</td>
+      <td>Color of highlighted (selected) text in labeled grid view of
+the main menu</td>
+      <td>Main Menu (Grid)</td>
+      <td>Main Menu&gt;Grid View</td>
+    </tr>
+    <tr>
+      <td>Reorder<br>
+Menu<br>
+Highlight<br>
+Font Color</td>
+      <td>Color of text used when users reorder items in a list
+(standard-level phones only)</td>
+      <td>This element is not simulated</td>
+      <td>Main Menu&gt;Grid View</td>
+    </tr>
+    <tr>
+      <td>Selected<br>
+Form Item<br>
+Font Color</td>
+      <td>Color of text for the highlighted (selected) item in forms</td>
+      <td>Profile Settings</td>
+      <td>Apps&gt;Forms&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Unselected<br>
+Form Item<br>
+Font Color</td>
+      <td>Color of text for the items in forms</td>
+      <td>Profile Settings</td>
+      <td>Apps&gt;Forms</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+The table below summarizes the highlight and background colors
+available for the main screen, the screens on which they are simulated
+and the Theme Editor tab on which they can be edited.<br>
+<br>
+<table
+ style="width: 1004px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="3" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 176px; font-weight: bold; text-align: center;">Element</td>
+      <td style="width: 312px; font-weight: bold; text-align: center;">Description</td>
+      <td style="width: 255px; font-weight: bold; text-align: center;">Screen</td>
+      <td style="width: 224px; font-weight: bold; text-align: center;">Tab</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Active Idle -<br>
+Content<br>
+Background<br>
+Color</td>
+      <td style="width: 312px;">Color of background when in Active Idle
+mode</td>
+      <td style="width: 255px;">This element is not simulated</td>
+      <td style="width: 224px;">Idle&gt;Active Idle</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Shortcut Bar<br>
+Popup<br>
+Background<br>
+Color</td>
+      <td style="width: 312px;">Color of background in the popup bar
+when navigating the shortcut bar in Active Idle mode</td>
+      <td style="width: 255px;">This element is not simulated</td>
+      <td style="width: 224px;">Idle&gt;Active Idle</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Active Idle -<br>
+Idle Font<br>
+Outline<br>
+Color</td>
+      <td style="width: 312px;">Color of text outline when in Active
+Idle mode</td>
+      <td style="width: 255px;">This element is not simulated</td>
+      <td style="width: 224px;">Idle&gt;Active Idle</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Grid Menu<br>
+Highlight<br>
+Color</td>
+      <td style="width: 312px;">Color of highlight when items are shown
+as a grid view (standard-level phones only)</td>
+      <td style="width: 255px;">Main Menu (Grid)</td>
+      <td style="width: 224px;">Main<br>
+Menu&gt;Grid View</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Reorder<br>
+Menu<br>
+Highlight<br>
+Color</td>
+      <td style="width: 312px;">Color of highlight used when users
+reorder items in a list (standard-level phones only)</td>
+      <td style="width: 255px;">This element is not simulated</td>
+      <td style="width: 224px;">Main<br>
+Menu&gt;Grid View</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Calendar<br>
+Highlight<br>
+Color</td>
+      <td style="width: 312px;">Color of highlight cursor in the
+Calendar screens.<br>
+On some standard-level phones that do not support highlight images,
+this element is used as the highlight<br>
+color in main menu and folder lists.</td>
+      <td style="width: 255px;">Calendar</td>
+      <td style="width: 224px;">Apps&gt;Calendar</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Selected<br>
+Form Item<br>
+Color</td>
+      <td style="width: 312px;">Color of background for the highlighted
+(selected) item in forms</td>
+      <td style="width: 255px;">Profile Settings</td>
+      <td style="width: 224px;">Apps&gt;Forms</td>
+    </tr>
+    <tr>
+      <td style="width: 176px;">Unselected<br>
+Form Item<br>
+Color</td>
+      <td style="width: 312px;">Color of background for the items in
+forms</td>
+      <td style="width: 255px;">Profile Settings</td>
+      <td style="width: 224px;">Apps&gt;Forms</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

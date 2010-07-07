@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Common Image Editing Features</title>
+</head>
+<body>
+<h2>Common image editing features</h2>
+<br>
+A theme can specify a variety of images and animations used for full
+screen backgrounds, highlight images, standard menu icons, and other
+miscellaneous images.The bounding areas, and the way the device scales
+the images within those areas, vary for each theme element and from
+handset to handset. Carbide.ui displays BMP, WBMP, JPG, GIF, M3G, and
+(for screen savers and wallpapers) SVG and Flash, and (for wallpapers)
+ZIP archives of image files. Specific devices can support different
+sets of image content types.<br>
+<h3>Image scaling</h3>
+Images are scaled differently depending on the theme element. Four
+types of scaling are supported in Nokia handsets:<br>
+<ul>
+  <li><span style="font-weight: bold;">Stretch:</span> Images are
+stretched up or down to exactly fill the bounding area. The original
+aspect ratio can change.</li>
+  <li><span style="font-weight: bold;">Up/Down to Fit: </span>Images
+are scaled up or down so that the entire image fits into the bounding
+area. Any extra space is shown as white. The image is centered along
+both axes and the original aspect ratio is preserved.</li>
+  <li><span style="font-weight: bold;">Down to Fit:</span> Images are
+only scaled down until the entire image fits into the bounding area.
+Images smaller than the bounding area are not scaled up. The image is
+centered along both axes and the original aspect ratio is preserved.</li>
+  <li><span style="font-weight: bold;">Best:</span> Images are scaled
+down until the first dimension fits the area, and any excess parts of
+the image are cropped. Smaller images are not scaled up. The image is
+centered along both axes and the original aspect ratio is preserved.</li>
+</ul>
+<br>
+</body>
+</html>

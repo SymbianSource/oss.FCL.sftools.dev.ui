@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Screen Management Framework
+Bundle-SymbolicName: com.nokia.tools.screen.core; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.screen.core.CorePlugin
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.emf.ecore,
+ org.eclipse.gef,
+ com.nokia.tools.resource.core,
+ com.nokia.tools.media.core,
+ com.nokia.tools.content.core,
+ com.nokia.tools.media.utils,
+ com.nokia.tools.platform.core,
+ com.nokia.tools.editing.jfc,
+ com.nokia.tools.editing.core;visibility:=reexport,
+ com.nokia.tools.editing.beaninfo,
+ com.nokia.tools.editing.ui
+Eclipse-LazyStart: true
+Export-Package: com.nokia.tools.screen.core,
+ com.nokia.tools.widget

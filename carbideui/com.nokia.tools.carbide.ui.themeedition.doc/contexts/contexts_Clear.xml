@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="clear_context" title="Clear">
+		<description>The Clear function allows you to restore an edited screen element back to its default appearance. Click Clearing images to read more about clearing screen elements.</description>
+ 		<topic label="Clearing images" href="doc/clearing _images.html"/> 		
+	</context>
+	</contexts>
+	
+

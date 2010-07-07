@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<introContent>
+  <extensionContent alt-style="css/swt.properties" style="css/overview.css" path="tutorials/links-background/page-content/jdtAnchor">
+  <group label="Basic" id="java" style-id="tutorials-group"> 	    
+<link label="Creating a theme and editing component properties" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet1" id="Cheatsheet1" style-id="tutorials-link">
+	<img  style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to create new themes and edit their components.</text>
+    </link>
+	<link label="Importing a theme" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet6" id="Cheatsheet6" style-id="tutorials-link">
+	<img style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to import a theme into Carbide.ui.</text>
+    </link>
+	<link label="Using an external editor" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet3" id="Cheatsheet3" style-id="tutorials-link">
+	<img style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to configure an external editor and how to edit a component in external editor.</text>
+    </link>
+</group>
+
+<group label="Advanced" id="java" style-id="tutorials-group">
+
+	<!-- removed link label="Editing layers" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet11" id="Cheatsheet11" style-id="tutorials-link">
+	<img style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to edit the layers of a component.</text>
+    </link-->
+	<link label="Editing a layer animation" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet13" id="Cheatsheet13" style-id="tutorials-link">
+	<img style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to edit a layer animation.</text>
+    </link>
+	<link label="Editing a frame animation" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet12" id="Cheatsheet12" style-id="tutorials-link">
+	<img style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to edit an existing frame animation.</text>
+    </link>
+	<link label="Creating a key pair" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet4" id="Cheatsheet4" style-id="tutorials-link">
+	<img  style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to create key pairs.</text>
+    </link>
+	<link label="Creating a sis-package" url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=com.nokia.tools.cheatSheet5" id="Cheatsheet5" style-id="tutorials-link">
+	<img style-id="content-img" src="css/graphics/icons2/tutorials.gif" alt="Tutorial">
+                    </img>
+	      <text>In this tutorial, you learn how to create a sis-package.</text>
+    </link>
+</group>
+  </extensionContent>
+</introContent>

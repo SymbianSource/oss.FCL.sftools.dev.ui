@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Name: S60 5.0 Theme
+Bundle-Vendor: NOKIA
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-SymbolicName: com.nokia.tools.theme.s60.50;singleton:=true
+Require-Bundle: com.nokia.tools.platform.core,com.nokia.tools.theme.s60
+Bundle-Version: 2.0.0.qualifier
+

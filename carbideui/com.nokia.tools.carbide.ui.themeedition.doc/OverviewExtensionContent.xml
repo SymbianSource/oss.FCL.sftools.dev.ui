@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<introContent>
+  <!-- Extension to the SDK Overview Page. -->
+  <!-- <extensionContent alt-style="css/swt.properties" style="css/overview.css" path="root/links-background/page-links/endAnchor"> -->
+
+  <extensionContent alt-style="css/swt.properties" style="css/tutorials.css" path="overview/links-background/page-content/jdtAnchor" >
+    <link label="Carbide.ui" url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.nokia.tools.carbide.ui.themeedition.doc/doc/muict_welcome_te.htm" style-id="overview-link">
+    <img style-id="content-img" src="css/graphics/icons2/guide.gif" alt="Overview">
+                    </img>
+      <text>Get familiar with Carbide.ui</text>      
+    </link>
+  </extensionContent>
+
+</introContent>

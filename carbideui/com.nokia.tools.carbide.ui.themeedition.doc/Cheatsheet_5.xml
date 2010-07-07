@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Creating a sis-package">
+   <intro href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/creating_sis_package.html">
+      <description>
+         In this tutorial, you learn how to create a sis-package. To follow the tutorial, you must have a key pair defined in Carbide.ui.  <br/>If the views you need to perform this tutorial are not visible, select <b>Window -&gt; Show View</b> and select the view you want. <br/>Follow the tutorial steps in order. After each step, move to the next step by clicking the button located at the bottom of the step: <b>Click to Perform</b> (if you want the step to be performed automatically), <b>Click to Skip</b> (if you want to perform the step manually) or <b>Click to Complete</b> (if no automatisation is available). If you do not use the buttons to move between steps, the automated tutorial functions become inavailable. To start this tutorial, click the <b>Click to Begin</b> button below.
+      </description>
+   </intro>
+   <item title="Open an existing theme." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/open_existing_theme.html">
+      <description>
+         Select <b>File -&gt; Open Theme</b>. Choose the theme to be opened and click <b>Open</b>.
+      </description>
+      <action class="com.nokia.tools.screen.ui.actions.OpenProjectAction" pluginId="com.nokia.tools.s60.ide" confirm="false">
+      </action>
+   </item>
+   <item title="Create a new sis-package." dialog="true" skip="false" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/creating_sis_package_s60.html">
+      <description>
+         Select <b>Tools -&gt; Create New SIS-Package</b>. The New SIS-Package wizard opens. In the <b>Content to be included</b> field, check the boxes of those theme components which you want to include in the package.Click <b>Next</b>. If you created a password for the Tutorial key, enter that password in the <b>Password</b> field. Click <b>Finish</b>. The package is saved as a .sis file in the desired location.
+      </description>
+      <action class="com.nokia.tools.screen.ui.actions.NewPackageAction" pluginId="com.nokia.tools.s60.ide" confirm="false">
+      </action>
+   </item>
+</cheatsheet>

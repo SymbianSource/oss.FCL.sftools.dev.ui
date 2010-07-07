@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="ExtractMaskAction_context" title="Extract mask">
+		<description>Extracting mask.</description> 			
+	</context>
+</contexts>
+	
+

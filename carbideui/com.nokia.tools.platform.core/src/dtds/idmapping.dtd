@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--DTD for idmapping.xml file-->
+
+
+<!ELEMENT idMappings (skinIdMappings?, layoutMappings?)+ >
+<!ATTLIST idMappings>
+
+<!ELEMENT skinIdMappings (skinEntity+)>
+
+<!ELEMENT skinEntity (layout+)>
+<!ATTLIST skinEntity
+            id          	CDATA  		#IMPLIED	
+>
+
+<!ELEMENT layout EMPTY>
+<!ATTLIST layout
+            name          	CDATA  		#IMPLIED
+            display  		CDATA		#IMPLIED
+>
+
+
+<!ELEMENT layoutMappings (layoutEntity+)>
+
+<!ELEMENT layoutEntity (skin+)>
+<!ATTLIST layoutEntity
+            name          	CDATA  		#IMPLIED	
+            display			CDATA 	 	#IMPLIED
+>
+
+<!ELEMENT skin EMPTY>
+<!ATTLIST skin
+            id          	CDATA  		#IMPLIED
+>

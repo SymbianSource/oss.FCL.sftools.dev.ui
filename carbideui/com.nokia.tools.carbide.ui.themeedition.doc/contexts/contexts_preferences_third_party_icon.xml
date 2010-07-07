@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="third_party_icon_preferences_context" title="Third Party Icons">
+		<description>Third Party Icons preferences allow you to add or remove new icons.</description>
+ 		<topic label="Configuring Carbide.ui - Third Party Icons" href="doc/preferences_thirdparty icons.html"/> 		
+	</context>
+	</contexts>

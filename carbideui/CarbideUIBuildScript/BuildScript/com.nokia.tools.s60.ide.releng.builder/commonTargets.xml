@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project name="project">
+        <property name="packageDir" value="${buildRoot}/../../Downloads" />
+
+        <target name="extractBuilds">
+                <available file="${buildDirectory}/plugins/org.eclipse.platform/plugin.xml" property="eclipseExists" />
+                <antcall target="extractEclipse" />
+                <available file="${buildDirectory}/plugins/org.eclipse.emf/plugin.xml" property="emfExists" />
+                <antcall target="extractEmf" />
+                <available file="${buildDirectory}/plugins/org.eclipse.gef/plugin.xml" property="gefExists" />
+                <antcall target="extractGef" />
+        </target>
+
+        <target name="extract">
+                <exec dir="${buildDirectory}/.." executable="unzip">
+                        <arg line="-o -qq ${buildRoot}/../../Downloads/${zipname}" />
+                </exec>
+
+                <!-- <stripVersions directory="${buildDirectory}/plugins" /> -->
+        </target>
+
+        <target name="extractEclipse">
+                <antcall target="extract">
+                        <param name="zipname" value="eclipse-platform.zip" />
+                </antcall>
+        </target>
+
+        <target name="extractGef" unless="gefExists">
+                <antcall target="extract">
+                        <param name="zipname" value="gef.zip" />
+                </antcall>
+        </target>
+
+        <target name="extractEmf" unless="emfExists">
+                <antcall target="extract">
+                        <param name="zipname" value="emf.zip" />
+                </antcall>
+        </target>
+</project>

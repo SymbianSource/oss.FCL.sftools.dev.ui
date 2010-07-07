@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" viewBox="0 0 44 44" width="44px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<linearGradient gradientUnits="userSpaceOnUse" x1="6.94" x2="34.71" y1="7.91" y2="35.43">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="0.11" stop-color="#E0EAF3"/>
+<stop offset="0.35" stop-color="#A2C2DD"/>
+<stop offset="0.48" stop-color="#8CA9CF"/>
+<stop offset="0.7" stop-color="#6C83BB"/>
+<stop offset="0.75" stop-color="#637DB5"/>
+<stop offset="0.82" stop-color="#4C6EA4"/>
+<stop offset="0.91" stop-color="#265689"/>
+<stop offset="0.99" stop-color="#003D6D"/>
+<stop offset="1" stop-color="#003D6D"/>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2" x1="20.6" x2="20.6" y1="4.09" y2="38.96">
+<stop offset="0" stop-color="#B2B2B2"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2)" points="26.746,14.701 23.996,17.234 28.348,17.234 24.02,21.564 17.183,21.564 12.856,17.234 17.296,17.234 14.546,14.701 7.905,14.701 7.905,34.393 18.093,34.393 18.093,31.857 10.438,31.857 10.438,18.586 16.378,24.49 16.437,24.547 16.519,24.547 24.697,24.561 24.779,24.561 24.838,24.504 30.768,18.588 30.768,24.191 33.303,24.191 33.303,14.701 "/>
+<polygon fill="url(#SVGID_2)" points="17.679,4.1 23.613,4.1 23.613,10.248 27.297,10.248 27.297,11.475 20.647,17.6 13.995,11.475 13.995,10.248 17.679,10.248 "/>
+<path d="M34.061,33.971v3.354H21.767v-9.426h8.1c0.401-0.568,0.919-1.091,1.567-1.517 c0.115-0.075,0.241-0.123,0.36-0.19H20.093v12.84h15.646v-5.732C35.187,33.606,34.623,33.831,34.061,33.971z" fill="url(#SVGID_2)"/>
+<path d="M35.305,19.593v7.438c-0.902-0.115-2.006,0.143-2.949,0.756c-1.613,1.057-2.129,2.753-1.389,3.879 c0.736,1.124,2.68,1.042,4.291-0.016c0.941-0.671,1.605-1.677,1.473-3.02l-0.002-6.829l3.221,1.609l0.561-1.217L35.305,19.593z" fill="url(#SVGID_2)"/>
+<path d="M29.479,33.278l-3.613-3.618l-0.004,0.007v-0.522h-1.033v4.134h-1.475v2.726l4.951-0.003 l2.725-2.723H29.479z M25.861,33.278v-2.584l2.584,2.584H25.861z" fill="url(#SVGID_2)"/>
+<rect fill="none" height="44" width="44"/>
+</svg>

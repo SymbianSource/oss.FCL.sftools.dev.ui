@@ -1,0 +1,28 @@
+<effects>
+<effect name="MovingLayer" uiname="Moving Layer" uid="0x1020762D" type="0" className="com.nokia.tools.theme.s60.effects.effect.MovingLayer" input="true">
+<param name="xy" type="INT" value=""/>
+<!--<param name="y"  type="INT" value=""/>-->
+<!--<param name="bx" type="INT" value=""/>
+<param name="by"  type="INT" value=""/>-->
+
+<!--<uiparam uiname="x" caption="Start X" pos="1" uiType="JTextField" mandatory="true" defaultVal="0" value=""/>
+<uiparam uiname="y" caption="Start Y" pos="2" uiType="JTextField" mandatory="true" defaultVal="0" value=""/>-->
+
+<uiparam uiname="xy" caption="Position" pos="1" uiType="JTextField" mandatory="true" showControl="false" defaultVal="0" value=""/>
+
+<!--<uiparam uiname="bx" caption="Red" pos="1" uiType="JSlider" mandatory="true" minVal="0" maxVal="255" defaultVal="0" value=""/>
+<uiparam uiname="by" caption="Green" pos="2" uiType="JSlider" mandatory="true" minVal="0" maxVal="255" defaultVal="0" value=""/>\
+-->
+
+</effect>
+
+<valueModel preferred="PolyLine2DValueModel" allowed="RapidRise2DValueModel,RapidFall2DValueModel,PolyLine2DValueModel,LinearRange2DValueModel" />
+
+<usage>
+
+	<allowed entitytype="fastanimation" />
+	
+
+</usage>
+
+</effects>

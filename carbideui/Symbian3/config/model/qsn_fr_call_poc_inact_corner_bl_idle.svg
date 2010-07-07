@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="32" viewBox="-0.5 0.5 44 32">
+<g>
+<g>
+<path fill="#656B6B" fill-opacity="0.01" d="M1.5,0.5v7.165C1.5,19.251,10.375,29.5,22.348,29.5c0.104,0,7.996,0,21.152,0v-29H1.5 z"/>
+<path fill="#656B6B" fill-opacity="0.02" d="M2.5,0.5v7.165C2.5,19.116,11.375,28.5,22.398,28.5c0.506,0,8.311,0,21.102,0v-28H2.5 z"/>
+<path fill="#656B6B" fill-opacity="0.03" d="M3.5,0.5v7.165C3.5,18.45,11.75,27.5,22.449,27.5c0.088,0,7.941,0,21.051,0v-27H3.5z"/>
+<path fill="#656B6B" fill-opacity="0.06" d="M4.5,0.5v7.165c0,9.938,7.5,18.839,18.125,18.835c0.1,0,7.883,0,20.875,0v-26H4.5z"/>
+<path fill="#656B6B" fill-opacity="0.05" d="M5.502,0.5v7.165c0,9.438,7.373,17.835,17.123,17.835H43.5v-25H5.502z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M6.501,0.5v6.101C6.5,16.319,13,24.502,23.579,24.5H43.5v-24H6.501z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M7.501,0.5v5.035C7.5,15.122,12.625,23.5,24.607,23.5c0.078,0,7.084,0,18.893,0v-23 H7.501z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M8.501,0.5v3.979C8.5,13.923,12.375,22.5,25.625,22.5H43.5v-22H8.501z"/>
+<path fill="#FFFFFF" fill-opacity="0.8" d="M5.5,0.5v2.915C5.5,13.481,13.158,21.5,22.605,21.5H43.5v-21H5.5z"/>
+<rect x="-0.5" y="0.5" fill="none" width="44" height="32"/>
+</g>
+</g>
+</svg>

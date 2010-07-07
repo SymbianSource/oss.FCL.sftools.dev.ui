@@ -1,0 +1,15 @@
+<effects>
+<effect name="Grayscale" uiname="Grayscale" uid="0x10204AE3" type="0" className="com.nokia.tools.theme.s60.effects.effect.GrayScale" input="true">
+<param name="min" value="" type="INT"/>
+<param name="max" value="" type="INT"/>
+<param name="f"  value="" type="INT"/>
+
+<uiparam uiname="min" pos="1" caption="Lower range" uiType="JTextField" defaultVal="0" value=""/>
+<uiparam uiname="max" pos="2" caption="Higher range" uiType="JTextField" defaultVal="255" value=""/>
+<uiparam uiname="f" pos="3" caption="Blend Factor" uiType="JSlider" value="" defaultVal="255" minVal="0" maxVal="255" mandatory="true"/>
+
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+ 

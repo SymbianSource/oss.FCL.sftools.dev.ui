@@ -1,0 +1,26 @@
+
+<effects>
+<effect name="ApplyGraphics" uiname="Apply graphics" uid="0x101F8748" type="0" className="com.nokia.tools.theme.s60.effects.effect.ApplyGraphics" input="false">
+<param name="f" type="BMP" value=""/>
+<param name="ms" type="INT" value=""/>
+<param name="tx" type="INT" value=""/>
+<param name="ty" type="INT" value=""/>
+<param name="tw" type="INT" value=""/>
+<param name="th" type="INT" value=""/> 
+
+<uiparam uiname="ms" pos="1" caption="Scaling Mode" value="" defaultVal="WithAspectRatio" uiType="JComboBox" options="WithAspectRatio,Stretch"/>
+<!--
+<uiparam uiname="tx" caption="Horizontal Tiles" value="" defaultVal="0" uiType="JTextField" minVal="0" maxVal="255"/>
+<uiparam uiname="ty" caption="Vertical Tiles" value="" defaultVal="0" uiType="JTextField" minVal="0" maxVal="255"/>
+<uiparam uiname="tw" caption="Tile Width" value="" defaultVal="0" uiType="JTextField" minVal="0" maxVal="255"/>
+<uiparam uiname="th" caption="Tile Height" value="" defaultVal="0" uiType="JTextField" minVal="0" maxVal="255"/>
+-->
+
+
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+
+
+ 

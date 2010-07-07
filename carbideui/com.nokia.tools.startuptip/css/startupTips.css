@@ -1,0 +1,17 @@
+body {
+	background-image: url(../Images/background.jpg);
+	font-family: Arial, sans-serif;
+	font-size: x-small;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: x-small;
+	font-weight: lighter;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="entityGraphicsEditor_context" title="Animation Editor">
+		<description>The Animation Editor view allows you to create and edit simple animated elements. Click Animation Editor to read more about creating and editing animations.</description>
+ 		<topic label="Animation Editor" href="doc/animation editor.html"/> 		
+	</context>
+	</contexts>
+	
+

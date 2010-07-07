@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="preferences_context" title="Configuring the Carbide.ui settings">
+		<description>The Preferences window allows you to configure Carbide.ui settings. Click Configuring the Carbide.ui settings to read more.</description>
+ 		<topic label="Configuring the Carbide.ui settings" href="doc/configuring_carbide.ui_settings.html"/> 		
+	</context>
+	</contexts>

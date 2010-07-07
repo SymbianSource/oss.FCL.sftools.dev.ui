@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SVG
+Bundle-SymbolicName: com.nokia.tools.media.svg;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.media.svg.Activator
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ com.nokia.tools.media.core,
+ com.nokia.tools.resource.core,
+ com.nokia.tools.lib.media.svg.batik
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .

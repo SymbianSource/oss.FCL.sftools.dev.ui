@@ -1,0 +1,10 @@
+Here are hints how the supportedIDs.csv shall be edited
+
+Comments can be put in first line or Leave the it blank.
+Enter element ID and the help text associated with it in single line separated with comma (","). 
+E.g. qgn_prop_psln_appsgrid_sub,help text for this element goes here
+
+To edit it:
+1) Open supportedIDs.csv
+2) Make changes.
+3) Save it.

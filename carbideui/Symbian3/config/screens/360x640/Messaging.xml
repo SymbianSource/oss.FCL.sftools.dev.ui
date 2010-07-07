@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+	<preview_image display="portrait,square" name="Messaging" preview="true">
+		
+		<!-- Base screen 0 modified -->
+		<Element compName="application_window"
+             skinId="qsn_bg_screen"
+             varietyId="0" />
+    <Element compName="main_pane"
+    		 display="360x640"
+    		 skinId="qsn_bg_area_main"
+    		 loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;"
+    		 varietyId="0"/>
+    <Element compName="status_pane_g2"
+             skinId="qsn_bg_area_status"
+             varietyId="0" />
+    <Element compName="control_pane_g3"
+             display="!360x640"
+             skinId="qsn_bg_area_control"
+             varietyId="0" />
+    <Element compName="control_pane_g3"
+             display="360x640"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_bg_area_control"
+             varietyId="0" />
+    <Element colourId="icon2"
+             compName="clock_nsta_pane_t2"
+             text="12:28 PM"
+             varietyId="0" />
+    <!-- contents of status pane -->
+    <Element compName="status_pane_g1"
+             display="!360x640"
+             skinId="qsn_bg_navipane_solid"
+             varietyId="0" />
+    <Element compName="status_pane_g1"
+             display="360x640"
+             loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:16&lt;/LC&gt;"
+             skinId="qsn_bg_navipane_solid"
+             varietyId="0" />
+    <Element compName="signal_pane_g1"
+             skinId="qgn_indi_signal_strength"
+             varietyId="0" />
+    <Element colourId="icon5"
+             compName="signal_pane_g2"
+             image="qgn_prop_signal_icon.svg"
+             varietyId="0" />
+    
+		<!--End Base screen 0 modified -->
+		
+		<Element compName="control_pane_g3" display="360x640" loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" skinId="qsn_bg_area_control" varietyId="0"/>
+
+		<reference screenName="TouchPaneHorizontal0"/>
+		
+		<Element compName="status_pane_g1" display="360x640" loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:16&lt;/LC&gt;" skinId="qsn_bg_navipane_solid" varietyId="0"/>	
+		
+		<!-- main area contents -->
+		
+		<Element compName="bg_list_pane_g1" display="360x640" loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:8&lt;/LC&gt;&lt;LC&gt;bg_list_pane@v:0&lt;/LC&gt;" skinId="qsn_bg_column_AB" varietyId="2"/>	
+
+
+		<Element colourId="icon3" compName="signal_pane_g1" image="qgn_indi_no_signal.svg" varietyId="0"/>
+		<Element compName="battery_pane_g1" skinId="qgn_indi_battery_strength" varietyId="0"/>
+
+		<Element colourId="icon6" compName="battery_pane_g2" image="qgn_prop_battery_icon.svg" varietyId="0"/>
+		<Element colourId="text1" compName="title_pane_t1" text="Messaging" varietyId="5"/>
+
+		<reference screenName="MainScrollBar0"/>
+
+		<!--application contents-->
+    
+    <Element compName="list_highlight_pane_cp1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;" skinId="S60_2_6%qsn_fr_list" varietyId="0"/>
+    <Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;" skinId="qgn_prop_mce_write_sub" varietyId="0"/>
+    <Element colourId="text10" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;" text="New message" varietyId="0"/>
+    
+    <Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:2#c:1&lt;/LC&gt;" skinId="qgn_prop_mce_inbox_sub" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:2#c:1&lt;/LC&gt;" text="Inbox" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t2" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:2#c:1&lt;/LC&gt;" text="No messages" varietyId="0"/>
+    
+    <Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:3#c:1&lt;/LC&gt;" skinId="qgn_prop_mce_sent_sub" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:3#c:1&lt;/LC&gt;" text="Sent items" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t2" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:3#c:1&lt;/LC&gt;" text="No messages" varietyId="0"/>
+    
+    <Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:4#c:1&lt;/LC&gt;" skinId="qgn_prop_mce_drafts_sub" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:4#c:1&lt;/LC&gt;" text="Drafts" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t2" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:4#c:1&lt;/LC&gt;" text="No messages" varietyId="0"/>
+    
+    <Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:5#c:1&lt;/LC&gt;" skinId="qgn_prop_mce_outbox_sub" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:5#c:1&lt;/LC&gt;" text="Outbox" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t2" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:5#c:1&lt;/LC&gt;" text="No messages" varietyId="0"/>
+	
+	<Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:6#c:1&lt;/LC&gt;" skinId="qgn_prop_mce_dr_sub" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:6#c:1&lt;/LC&gt;" text="Delivery reports" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t2" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:6#c:1&lt;/LC&gt;" text="Delivery info" varietyId="0"/>
+	
+	<Element compName="list_double_large_graphic_pane_g1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:7#c:1&lt;/LC&gt;" skinId="qgn_prop_mce_documents_sub" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t1" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:7#c:1&lt;/LC&gt;" text="Documents" varietyId="0"/>
+    <Element colourId="text6" compName="list_double_large_graphic_pane_t2" display="360x640" loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:7#c:1&lt;/LC&gt;" text="No messages" varietyId="0"/>
+	
+	
+	
+
+		<!-- control pane contents -->
+		<reference screenName="BaseSoftkeys" />	
+		<Element colourId="text13" compName="control_pane_t1" loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options" varietyId="4"/>
+		
+		<Element colourId="text14" compName="control_pane_t2" loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Exit" varietyId="4"/>
+
+	</preview_image>
+	</Preview>

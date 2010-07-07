@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348" height="40" viewBox="0 0 348 40">
+<switch>
+<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1" content="structured text"/>
+<g>
+<g>
+<path fill-opacity="0.62" stroke-opacity="0.62" fill="url(#_x33__x5F_vaaleampi_2_)" d="M348,37c0,1.656-1.343,3-3,3H3       c-1.656,0-3-1.344-3-3V3c0-1.656,1.344-3,3-3h342c1.657,0,3,1.344,3,3V37z"/>
+<defs>
+<linearGradient id="_x33__x5F_vaaleampi_2_" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="348" y2="20">
+<stop offset="0" style="stop-color:#227BD4"/>
+<stop offset="1" style="stop-color:#D9EFFF"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+</switch>
+</svg>

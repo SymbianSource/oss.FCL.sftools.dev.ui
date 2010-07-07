@@ -1,0 +1,95 @@
+
+#page-content{	
+	width: 670px; 
+	position : relative;		
+}
+
+#links-background {	
+	text-align : center;
+}
+
+.intro-header H1 {
+	font-size : 18pt;
+}
+
+#action-links a .link-label {
+	font-size : 10pt;
+	font-weight : 600;
+	color : #666666;
+}
+
+#page-content a .link-label{
+	font-size : 9pt;
+	font-weight : 600;
+	color : #666666;
+	text-align:center;
+	position:absolute;
+	top:20px;
+	left:70px;
+}
+
+#page-content a p .text	{
+	font-size : 9pt;
+	font-weight : 500;
+	color : #666666;
+}
+
+#page-content .tutorials-link{
+	background-image: url(../graphics/rootpage2/itemBackground.gif);
+	width:200px;
+	height:200px;
+	background-color: transparent;
+	
+}
+
+#links-background > #page-content {
+	width : 200px;
+	margin : 0 auto;
+}
+
+#page-content a img {
+	height : 52px;
+	width : 57px;
+	/*float:left; to center the heading, comment this line*/
+	margin-right:5px;
+	margin-top: 15px;
+	margin-left:13px;    /* move the text to the left, find better Solution*/
+	vertical-align : top;
+	
+	
+}
+
+
+#page-content > a {
+	float : left;
+	position : relative;
+}
+
+
+
+
+#page-content a .background-image {
+	position : absolute;
+}
+
+#page-content a:hover {
+	/* This is needed for IE to force the hover pseudo selectors below to work.*/
+	padding : 0 em;
+}
+
+#page-content a:hover .background-image,
+#page-content a:focus .background-image,
+#page-content a:active .background-image {
+	visibility : visible;
+}
+
+
+#page-content a {
+	position : relative;	
+	margin-left : 0.5em;
+	margin-right : 0.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	text-align : left;
+	
+}

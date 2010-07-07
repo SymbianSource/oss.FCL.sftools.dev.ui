@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+	<preview_image display="360x640"
+                 name="Virtual Keyboard"
+                 preview="false">
+    <reference screenName="Message Editor" />
+    
+    <Element colourId="icon4" compName="navi_icon_pane_g1" display="360x640" image="ts_qgn_stat_case_text.svg" loc_id="&lt;LC&gt;status_pane@v:0&lt;/LC&gt;&lt;LC&gt;navi_pane@v:4&lt;/LC&gt;&lt;LC&gt;navi_icon_pane@v:0&lt;/LC&gt;" varietyId="0"/>
+    
+    <Element compName="vkb2_top_grid_right_pane_g1"
+             skinId="qsn_fr_function_button_normal"
+             varietyId="4" />
+    <Element colourId="icon30"
+             compName="vkb2_top_cell_right_wide_pane_g1"
+             image="qgn_indi_input_backspace.svg"
+             loc_id="&lt;LC&gt;vkb2_top_grid_right_pane_g1@v:4&lt;/LC&gt;"
+             varietyId="4" />
+    <Element compName="vkb2_top_grid_right_pane_g4"
+             skinId="qsn_fr_function_button_normal"
+             varietyId="4" />
+    <Element colourId="icon30"
+             compName="vkb2_top_cell_right_wide_pane_g1"
+             image="qgn_indi_input_move.svg"
+             loc_id="&lt;LC&gt;vkb2_top_cell_right_wide_pane@v:4&lt;/LC&gt;"
+             varietyId="4" />
+    <Element compName="vkb2_top_entry_pane_g1"
+             skinId="qgn_graf_fep_input_bg"
+             varietyId="4" />
+    <Element colourId="text60"
+             compName="vkb2_top_entry_pane_t1"
+             text="QWERTY"
+             varietyId="4" />
+    <Element colourId="text60"
+             compName="vkb2_top_entry_pane_t2"
+             text="VIRTUAL KEYBOARD"
+             varietyId="4" />
+    <Element compName="bg_vkb2_func_pane"
+             skinId="qsn_fr_function_button_normal"
+             varietyId="4" />
+    <Element compName="vkb2_top_cell_left_pane_g1"
+             loc_id="&lt;LC&gt;bg_vkb2_func_pane@v:4&lt;/LC&gt;"
+             image="qgn_indi_itut_close.svg"
+             varietyId="4" />
+    <Element compName="bg_vkb2_func_pane"
+             loc_id="&lt;LC&gt;vkb2_top_cell_left_pane@v:4#r:2#c:1&lt;/LC&gt;"
+             skinId="qsn_fr_function_button_normal"
+             varietyId="4" />
+    <Element colourId="icon30"
+             compName="vkb2_top_cell_left_pane_g1"
+             image="qgn_indi_itut_options.svg"
+             loc_id="&lt;LC&gt;vkb2_top_cell_left_pane@v:4#r:2#c:1&lt;/LC&gt;"
+             varietyId="4" />
+    <reference screenName="VKBKeypadArea" />
+    <reference screenName="VKBpptbottom" />
+    <reference screenName="VKBpptBottomScreenn" />
+    <Element compName="bg_popup_fep_char_preview_window"
+             loc_id="&lt;LC&gt;vkb2_row_keypad_pane@v:0#r:1#c:1&lt;/LC&gt;&lt;LC&gt;vkb2_cell_t_keypad_pane@v:0#r:1#c:1&lt;/LC&gt;"
+             skinId="qsn_fr_input_char_preview"
+             varietyId="4" />
+    <Element colourId="text60"
+             compName="popup_fep_char_preview_window_t1"
+             loc_id="&lt;LC&gt;vkb2_row_keypad_pane@v:0#r:1#c:1&lt;/LC&gt;&lt;LC&gt;vkb2_cell_t_keypad_pane@v:0#r:1#c:1&lt;/LC&gt;"
+             text="A"
+             varietyId="4" />
+  </preview_image>
+ 
+</Preview>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="createDeploymentPackage_context" title="Packaging Themes">
+		<description>The Create New Deployment Package wizard allows you to create a sis-package for your theme. The package (.sis) is saved in the workspace theme directory on the file system which can then be transferred to a mobile device.</description>
+ 		<topic label="Packaging themes" href="doc/creating_sis_package.html"/>
+<topic label="Creating a sis-package" href="doc/creating_sis_package_s60.html"/>
+<topic label="Packaging S60 Audio Theme" href="doc/packaging_s60_audio_theme.html"/> 		
+</context>
+	</contexts>

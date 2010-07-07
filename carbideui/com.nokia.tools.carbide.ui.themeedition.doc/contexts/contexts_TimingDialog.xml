@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="timingDialog_context" title="Timing">
+		<description>The Timing dialog allows you to set the time for an animation. To read more about setting a time for an animation, click Timing animations.</description>
+ 		<topic label="Timing animations" href="doc/timing_layer_animations.html"/> 		
+	</context>
+	</contexts>
+	
+

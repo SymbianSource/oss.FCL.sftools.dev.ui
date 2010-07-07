@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+<rect fill="none" height="8" width="8"/>
+<linearGradient id="SVGID_1" gradientUnits="userSpaceOnUse" x1="4" y1="-35.77" x2="4" y2="8.72">
+<stop stop-color="#9DDB80" offset="0"/>
+<stop stop-color="#6BB149" offset="0.73"/>
+<stop stop-color="#709C5B" offset="1"/>
+</linearGradient>
+<path d="M6.995,5.717c0,0.701-0.567,1.272-1.266,1.272H0V8h5.729C6.981,8,8,6.975,8,5.717V0H6.995V5.717z" fill="url(#SVGID_1)"/>
+<path d="M0,6.99h5.729c0.698,0,1.266-0.571,1.266-1.272V0H0V6.99z" fill="#91DB6E" fill-opacity="0.35"/>
+</svg>

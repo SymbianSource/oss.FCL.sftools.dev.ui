@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="60" height="52" viewBox="-0.078 0.345 60 52">
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="29.92" y1="45.15" x2="29.92" y2="6.75">
+<stop stop-color="#698AB5" offset="0"/>
+<stop stop-color="#41628E" offset="0.71"/>
+<stop stop-color="#385985" offset="1"/>
+</linearGradient>
+<path d="M8.181,6.346c-1.245,0-2.259,1.014-2.259,2.259v35.481c0,1.246,1.014,2.26,2.259,2.26h43.481 c1.246,0,2.26-1.014,2.26-2.26V8.604c0-1.245-1.014-2.259-2.26-2.259H8.181z" fill="url(#_5)"/>
+<g fill-opacity="0.9" stroke-opacity="0.9">
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="29.92" y1="1.8" x2="29.92" y2="46.93">
+<stop stop-color="#6694BF" offset="0"/>
+<stop stop-color="#8CB3D2" offset="0.09"/>
+<stop stop-color="#B3D3E6" offset="0.37"/>
+<stop stop-color="#BDDBEB" offset="0.69"/>
+</linearGradient>
+<path d="M6.922,44.086V8.604c0-0.694,0.564-1.259,1.259-1.259h43.481c0.694,0,1.26,0.564,1.26,1.259 v35.481c0,0.694-0.565,1.26-1.26,1.26H8.181C7.486,45.346,6.922,44.78,6.922,44.086z" fill="url(#_6)"/>
+</g>
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="29.73" y1="43.13" x2="29.73" y2="10.73">
+<stop stop-color="#ADCCED" offset="0"/>
+<stop stop-color="#6385AD" offset="1"/>
+</linearGradient>
+<path d="M52.54,7.723c-0.243-0.252-0.529-0.377-0.878-0.377H8.181c-0.694,0-1.259,0.564-1.259,1.259 v35.481c0,0.346,0.143,0.652,0.372,0.873c0.003,0.013,0.628-0.628,0.628-0.628V8.346h43.999L52.54,7.723z" fill="url(#_7)"/>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="30.11" y1="40.6" x2="30.11" y2="1.13">
+<stop stop-color="#DBF5FF" offset="0"/>
+<stop stop-color="#5985B0" offset="1"/>
+</linearGradient>
+<path d="M7.304,44.968c0.243,0.252,0.529,0.377,0.878,0.377h43.481c0.694,0,1.259-0.564,1.259-1.259V8.604 c0-0.346-0.143-0.652-0.372-0.873c-0.003-0.013-0.628,0.628-0.628,0.628s0,35.206,0,35.985c-0.738,0-43.999,0-43.999,0 L7.304,44.968z" fill="url(#_8)"/>
+<polygon fill="#496DA2" points="38.326,20.607 35.66,17.941 29.922,23.678 24.184,17.941 21.518,20.607 27.256,26.345 21.518,32.084 24.184,34.75 29.922,29.012 35.66,34.75 38.326,32.084 32.588,26.345 "/>
+</svg>

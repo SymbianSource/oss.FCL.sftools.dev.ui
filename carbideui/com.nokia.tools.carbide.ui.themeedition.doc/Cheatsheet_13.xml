@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Editing a layer animation">
+   <intro href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/working_with_animations.html">
+      <description>
+         In this tutorial, you learn to edit a layer animation. <br/>If the views you need to perform this tutorial are not visible, select <b>Window -&gt; Show View</b> and select the view you want. <br/>Follow the tutorial steps in order.After each step, move to the next step by clicking the button located at the bottom of the step: <b>Click to Perform</b> (if you want the step to be performed automatically), <b>Click to Skip</b> (if you want to perform the step manually) or <b>Click to Complete</b> (if no automatisation is available). If you do not use the buttons to move between steps, the automated tutorial functions become inavailable. To start this tutorial, click the <b>Click to Begin</b> button below.
+      </description>
+   </intro>
+   <item title="Create a new theme." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/create_new_theme.html">
+      <description>
+         In the menu bar, select <b>File -&gt; Create New Theme</b>. A New Theme window opens. In the <b>Theme name</b> field, enter <b>Tutorial4</b>. Click  <b>Finish</b>. Click <b>Click to Perform</b> to create a new Theme automatically.
+      </description>
+      <action class="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction" pluginId="com.nokia.tools.carbide.ui.productsupport" confirm="false">
+      </action>
+   </item>
+   <item title="Select the title bar for editing." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/editors.html">
+      <description>
+         In the Editor, right-click the title bar of the active screen. From the pop-up menu, select <b>Edit/Animate selected elements</b>. Click <b>Click to Perform</b> to select the title bar automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet13Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="openInEditor" param2="qsn_bg_navipane_solid">
+      </action>
+   </item>
+   <item title="Create an animated effect for the title bar." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/animation editor.html">
+      <description>
+         To add a new layer to the title bar, right-click the existing layer in the Layers view and select <b>Add layer</b>. Add an effect to the second layer by right-clicking the second layer and choosing <b>Add effect</b>. Add effect <b>ApplyColor</b>. <br/>To animate the layer, right-click the effect and select <b>Parameters</b>. Check the <b>Animate</b> box for Red. Click <b>Click to Perform</b> to create the animation effect automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet13Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="addEffects">
+      </action>
+   </item>
+   <item title="Time the animation." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/timing_layer_animations.html">
+      <description>
+         Create a control point by right-clicking the timeline in the Animation editor and selecting <b>Create Control Point</b>. Set the time for the control point at <b>100</b>. In the Animation editor, select the control point at time index <b>0</b>  and, in the <b>Animated context</b> area, set the amount of red to <b>100</b>. Similarly, set the amount of red to <b>200</b> at the control point at time index 100.
+      </description>
+   </item>
+   <item title="Preview the animation." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/previewing_playing_animations.html">
+      <description>
+         Click the green play button. Click <b>Click to Perform</b> to preview the animation automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet13Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="runAnimation">
+      </action>
+   </item>
+   <item title="Save the theme." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/saving_theme_under_different_name.html">
+      <description>
+         Select <b>File -&gt; Save</b>. Click <b>Click to Perform</b> to save the theme automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet13Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="doSave">
+      </action>
+   </item>
+</cheatsheet>

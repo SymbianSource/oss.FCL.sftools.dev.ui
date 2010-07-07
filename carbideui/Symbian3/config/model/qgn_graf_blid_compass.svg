@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="55" viewBox="0 0 75 55">
+<rect fill="none" height="55" width="75"/>
+<linearGradient id="_136" gradientUnits="userSpaceOnUse" x1="21.18" y1="0.6" x2="39.08" y2="36.57">
+<stop stop-color="#DEE6F1" offset="0"/>
+<stop stop-color="#7579D0" offset="1"/>
+</linearGradient>
+<polyline fill="url(#_136)" points="37.417,10.171 4.962,33.393 12.948,39.023 37.421,20.577 61.9,38.773 69.878,33.061 37.417,10.171 "/>
+<linearGradient id="_137" gradientUnits="userSpaceOnUse" x1="25.15" y1="-0.14" x2="25.15" y2="12.99">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#C2C9E8" offset="0.09"/>
+<stop stop-color="#888DD6" offset="0.26"/>
+<stop stop-color="#6568CA" offset="0.38"/>
+<stop stop-color="#575AC6" offset="0.44"/>
+<stop stop-color="#3D51AC" offset="0.55"/>
+<stop stop-color="#1C468A" offset="0.71"/>
+<stop stop-color="#073F75" offset="0.85"/>
+<stop stop-color="#003D6D" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#_137)" points="37.421,24.37 12.906,44.729 12.849,38.917 37.446,20.179 "/>
+<linearGradient id="_138" gradientUnits="userSpaceOnUse" x1="4.41" y1="-0.77" x2="12.37" y2="67.24">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#C2C9E8" offset="0.09"/>
+<stop stop-color="#888DD6" offset="0.26"/>
+<stop stop-color="#6568CA" offset="0.38"/>
+<stop stop-color="#575AC6" offset="0.44"/>
+<stop stop-color="#3D51AC" offset="0.55"/>
+<stop stop-color="#1C468A" offset="0.71"/>
+<stop stop-color="#073F75" offset="0.85"/>
+<stop stop-color="#003D6D" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#_138)" points="12.9,44.725 4.987,37.652 4.987,33.327 12.948,38.695 "/>
+<polygon fill="url(#_138)" points="61.895,44.594 69.877,37.389 69.877,33.061 61.9,38.432 "/>
+<polygon fill="url(#_137)" points="61.891,38.303 37.421,20.153 37.421,24.319 61.918,44.602 "/>
+</svg>

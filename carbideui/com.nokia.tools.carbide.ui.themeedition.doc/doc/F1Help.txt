@@ -1,0 +1,5 @@
+The Mobile UI Customization Tool is equipped with a very versatile Help section,
+which guides you through all the phases of theme creation. You can look for information
+on some particular aspect of theme creation, or you can watch tutorials on how to
+create and package themes.
+###Tätä Help-sivua ei löytynyt buildistä###

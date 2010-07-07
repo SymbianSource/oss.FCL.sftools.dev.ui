@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="156" height="200" viewBox="0 0 156 200">
+<g fill-opacity="0.8" stroke-opacity="0.8">
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="172.98" y1="98.5" x2="-3.33" y2="98.5">
+<stop stop-color="#7ADEB3" offset="0"/>
+<stop stop-color="#7ADEFC" offset="0.5"/>
+<stop stop-color="#4D5EBD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_7)" points="1,161 1,170 155,170 155,27 "/>
+</g>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="78" y1="48.65" x2="78" y2="180.01">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#000000" offset="0.92"/>
+</linearGradient>
+<polygon fill="url(#_8)" fill-opacity="0.35" points="1,161 1,170 155,170 155,27 " />
+<linearGradient id="_9" gradientUnits="userSpaceOnUse" x1="8.04" y1="168.5" x2="165.75" y2="168.5">
+<stop stop-color="#001266" offset="0"/>
+<stop stop-color="#526E8C" offset="1"/>
+</linearGradient>
+<rect fill="url(#_9)" fill-opacity="0.5" height="1" width="154" x="1" y="168"/>
+<linearGradient id="_10" gradientUnits="userSpaceOnUse" x1="166.65" y1="169.5" x2="13.1" y2="169.5">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<rect fill="url(#_10)" fill-opacity="0.3" height="1" width="154" x="1" y="169"/>
+<linearGradient id="_11" gradientUnits="userSpaceOnUse" x1="177.93" y1="80.5" x2="-2.88" y2="107.64">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_11)" fill-opacity="0.5" points="1,162 1,163 155,29 155,28 " />
+<linearGradient id="_12" gradientUnits="userSpaceOnUse" x1="177.93" y1="79.5" x2="-2.88" y2="106.64">
+<stop stop-color="#E1EBF4" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.5"/>
+<stop stop-color="#496DA2" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_12)" fill-opacity="0.6" points="1,161 1,162 155,28 155,27 " />
+</svg>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Carbide UI
+Bundle-SymbolicName: com.nokia.tools.carbide.ui;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.carbide.ui.Activator
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.carbide.ui.actions,
+ com.nokia.tools.carbide.ui.dialogs

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--DTD for "skin".-->
+
+<!ENTITY %	cdepth  "(c4|c8|c12|c16|c24|1|2|4|8)">
+<!ENTITY %	alignment  "(t|c|b|l|tl|tr|br|bl|cr|cl|ct|cb|cc)">
+
+<!ELEMENT skin (phone, othernames?, languageoverride?, drawlines*,element*, colortable*)>
+<!ATTLIST skin
+		name1			CDATA				#REQUIRED
+		author			CDATA				#IMPLIED
+		puid			CDATA				#IMPLIED
+		type			(normal|system)		#REQUIRED
+		language		CDATA				#IMPLIED
+		protect			(disablecopy|allowcopy)		#IMPLIED
+		palette			CDATA				#IMPLIED
+		version    		CDATA               #IMPLIED
+ 		versionselected	CDATA	         	#IMPLIED
+		package    		CDATA               #IMPLIED
+		screensaver		CDATA               #IMPLIED
+		screensaveruid  CDATA				#IMPLIED
+		copyright		CDATA				#IMPLIED  
+		default_palette CDATA				#IMPLIED     
+		drmprotection    (true | false)         #IMPLIED
+		Bits24PixelSupport (true | false) 	#IMPLIED
+		
+		systemtheme      (true | false)      #IMPLIED
+		uid			CDATA				#IMPLIED     
+		publickey		CDATA				#IMPLIED     
+		privatekey		CDATA				#IMPLIED
+		normaltheme	(true | false)      #IMPLIED
+		w			CDATA		#IMPLIED
+		h			CDATA		#IMPLIED
+		orientation		CDATA		#IMPLIED
+>		
+
+<!ELEMENT phone (model+)>
+<!ELEMENT model EMPTY>
+<!ATTLIST model
+		id			CDATA				#REQUIRED
+>
+
+<!ELEMENT othernames (alias*)>
+<!ELEMENT alias EMPTY>
+<!ATTLIST alias
+		id		CDATA				#REQUIRED
+		name		CDATA				#REQUIRED
+>
+
+<!ELEMENT languageoverride (language*)>
+<!ELEMENT language EMPTY>
+<!ATTLIST language
+		id			CDATA				#REQUIRED
+		uid			CDATA				#REQUIRED
+>
+<!ELEMENT drawlines EMPTY>
+<!ATTLIST drawlines
+	id	CDATA	#REQUIRED
+	value	CDATA	#IMPLIED
+>
+<!ELEMENT element ((refer|graphic*|image*), part*)>
+<!ATTLIST element
+		name		    		CDATA			#IMPLIED 
+		id			    	CDATA			#IMPLIED
+		fix             	(true | false)      		#IMPLIED
+		animate			(true | false)      		#IMPLIED
+		animateparentid			CDATA			#IMPLIED
+		animatetime			CDATA			#IMPLIED
+		animateseqno			CDATA			#IMPLIED
+		derviedlayoutid			CDATA			#IMPLIED
+		halfcycle			CDATA			#IMPLIED
+		referid				CDATA			#IMPLIED
+		bidirectional		(true | false)      		#IMPLIED
+		w			CDATA				#IMPLIED
+		h			CDATA				#IMPLIED
+		t			CDATA				#IMPLIED
+		l			CDATA				#IMPLIED
+		type			CDATA				#IMPLIED
+		animationmode		CDATA				#IMPLIED
+	    majorid 	CDATA		#IMPLIED
+	    minorid		CDATA		#IMPLIED
+>
+
+<!ELEMENT graphic (refer|image*)>
+<!ATTLIST graphic
+		type		    	CDATA				#IMPLIED 
+		status		    	CDATA				#IMPLIED
+		animateseqno		CDATA				#IMPLIED
+		uniqueid		CDATA				#IMPLIED	
+		align			CDATA				#IMPLIED		
+		animatetime		CDATA				#IMPLIED
+		w			CDATA				#IMPLIED
+		h			CDATA				#IMPLIED
+		t			CDATA				#IMPLIED
+		l			CDATA				#IMPLIED
+		stretch			(true | false)      		#IMPLIED
+		tilex			(true | false)      		#IMPLIED
+		tiley			(true | false)      		#IMPLIED
+		reload			(true | false)      		#IMPLIED
+>
+
+<!ELEMENT image (timingmodels?,valuemodels?,(refer|layer*))>
+<!ATTLIST image
+		filename	CDATA				#IMPLIED
+		colourdepth	%cdepth;			#IMPLIED
+		hardmask	CDATA				#IMPLIED
+		softmask	CDATA				#IMPLIED
+		entity_x	CDATA				#IMPLIED
+		entity_y   	CDATA				#IMPLIED
+		image_x		CDATA				#IMPLIED
+		image_y		CDATA				#IMPLIED
+		angle 		CDATA				#IMPLIED
+		status 		(actual|draft)			#IMPLIED
+		tile 		(true|false)			#IMPLIED
+		stretch		(true|false)			#IMPLIED
+		align 		%alignment;			#IMPLIED
+		colourrgb  	CDATA               		#IMPLIED 
+		colouridx  	CDATA               		#IMPLIED 
+		animate		(true | false)      		#IMPLIED
+		animateparentid		CDATA			#IMPLIED
+		animatetime		CDATA			#IMPLIED
+		animateseqno		CDATA			#IMPLIED
+		id			CDATA			#IMPLIED
+		name		    	CDATA			#IMPLIED 
+>
+
+<!ELEMENT timingmodels (timingmodel*)>
+<!ELEMENT valuemodels (valuemodel*)>
+<!ELEMENT timingmodel EMPTY>
+<!ELEMENT valuemodel EMPTY>
+
+<!ATTLIST valuemodel
+	sequenceno	CDATA		#IMPLIED
+	name		CDATA		#IMPLIED
+	e		CDATA		#IMPLIED
+	s		CDATA		#IMPLIED
+	c		CDATA		#IMPLIED
+	timingmodelref	CDATA		#IMPLIED
+	flavourname	CDATA		#IMPLIED
+	max		CDATA		#IMPLIED
+	min		CDATA		#IMPLIED
+	f		CDATA		#IMPLIED
+	p		CDATA		#IMPLIED
+	default		CDATA		#IMPLIED
+	defaultValue	CDATA		#IMPLIED
+>
+
+<!ATTLIST timingmodel
+	sequenceno	CDATA		#IMPLIED
+	name		CDATA		#IMPLIED
+	t		CDATA		#IMPLIED
+	s		CDATA		#IMPLIED
+	d		CDATA		#IMPLIED
+	rc		CDATA		#IMPLIED
+	rd		CDATA		#IMPLIED
+	w		(true|false)	#IMPLIED
+>
+
+<!ELEMENT layer (effect*)>
+<!ATTLIST layer
+		name 		CDATA				#IMPLIED
+		filename	CDATA				#IMPLIED
+		colourdepth	%cdepth;			#IMPLIED
+		hardmask	CDATA				#IMPLIED
+		softmask	CDATA				#IMPLIED
+		entity_x	CDATA				#IMPLIED
+		entity_y    CDATA				#IMPLIED
+		image_x		CDATA				#IMPLIED
+		image_y		CDATA				#IMPLIED
+		angle 		CDATA				#IMPLIED
+		status 		(actual|draft)		#IMPLIED
+		tile 		(true|false)		#IMPLIED
+		stretch		(true|false)		#IMPLIED
+		specialStretchInfo CDATA        #IMPLIED
+		svgsoftmaskInfo  CDATA              #IMPLIED
+		align 		%alignment;			#IMPLIED
+		colourrgb   CDATA               #IMPLIED 
+		colouridx   CDATA               #IMPLIED
+		effectid	    CDATA			#IMPLIED
+		effectname	    CDATA			#IMPLIED 
+		seqno			CDATA				#IMPLIED
+		in_effect	CDATA				#IMPLIED
+		mask		CDATA				#IMPLIED
+		animateseqno CDATA				#IMPLIED
+		animateparentid CDATA			#IMPLIED
+		animatetime   CDATA			#IMPLIED
+		id			   CDATA			#IMPLIED
+		m			   CDATA			#IMPLIED
+		r			   CDATA			#IMPLIED
+		g			   CDATA			#IMPLIED
+		b			   CDATA			#IMPLIED
+		f			   CDATA			#IMPLIED
+		uid			   CDATA			#IMPLIED
+		mode			   CDATA			#IMPLIED
+		a			   CDATA			#IMPLIED
+		ms			   CDATA			#IMPLIED
+		tile_width		   CDATA			#IMPLIED
+		tile_height		   CDATA			#IMPLIED
+		no_image		   CDATA			#IMPLIED
+>
+
+<!ELEMENT effect (param*)>
+<!ATTLIST effect
+		name		CDATA				#IMPLIED 
+		id			CDATA			#IMPLIED
+		brightness		CDATA			#IMPLIED		
+		m			CDATA			#IMPLIED
+		r			CDATA			#IMPLIED
+		g			CDATA			#IMPLIED
+		b			CDATA			#IMPLIED
+		uid			CDATA			#IMPLIED
+		c			CDATA			#IMPLIED
+		fr			CDATA			#IMPLIED
+		fg			CDATA			#IMPLIED
+		fb			CDATA			#IMPLIED
+		min			CDATA			#IMPLIED
+		max			CDATA			#IMPLIED
+		f			CDATA			#IMPLIED
+		mode			CDATA			#IMPLIED
+		a			CDATA			#IMPLIED
+		t			CDATA			#IMPLIED	
+
+>
+<!ELEMENT param EMPTY>
+<!ATTLIST param
+	name			CDATA			#IMPLIED
+	value			CDATA			#IMPLIED
+	valuemodelref		CDATA			#IMPLIED
+>
+
+<!ELEMENT part (refer|image*|graphic*)>
+<!ATTLIST part
+	name		CDATA				#IMPLIED 
+	id		CDATA				#REQUIRED
+	fix		(true | false)			#IMPLIED
+>
+
+<!ELEMENT refer EMPTY>
+<!ATTLIST refer
+        name        CDATA               #IMPLIED
+        id          CDATA               #IMPLIED
+>         
+
+<!ELEMENT colortable (colorcode)>
+<!ATTLIST colortable 
+	id	  CDATA		#REQUIRED
+>
+<!ELEMENT colorcode EMPTY>
+<!ATTLIST colorcode 
+	type	(RGB|IDX)		#REQUIRED
+	value	CDATA			#REQUIRED
+>

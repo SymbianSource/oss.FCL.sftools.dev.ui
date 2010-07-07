@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="72" viewBox="0 0 84 72">
+<g>
+<polyline fill="none" points="83.932,72.127 -0.069,72.127 -0.069,0.127 83.932,0.127 "/>
+<g>
+<linearGradient id="XMLID_113_" gradientUnits="userSpaceOnUse" x1="47.2607" y1="27.9067" x2="55.4092" y2="12.94" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#87A8CB"/>
+<stop offset="1" style="stop-color:#235487"/>
+</linearGradient>
+<path fill="url(#XMLID_113_)" d="M25.344,12.297l-3.625,0.953l1.219,38.891l36.398,9.312l3.145-2.937l1.098-39.172L25.344,12.297z "/>
+</g>
+<g>
+<linearGradient id="XMLID_114_" gradientUnits="userSpaceOnUse" x1="59.3867" y1="51.377" x2="63.1642" y2="6.5659" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#87A8CB"/>
+<stop offset="1" style="stop-color:#235487"/>
+</linearGradient>
+<polygon fill="url(#XMLID_114_)" points="59.257,60.869 61.936,58.291 63.003,19.739 59.839,20.707 "/>
+<linearGradient id="XMLID_115_" gradientUnits="userSpaceOnUse" x1="41.5117" y1="62.9482" x2="40.4815" y2="21.915" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.05" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#A2C2DD"/>
+</linearGradient>
+<polygon fill="url(#XMLID_115_)" points="59.257,60.869 23.38,51.65 22.3,13.635 59.839,20.707 "/>
+<linearGradient id="XMLID_116_" gradientUnits="userSpaceOnUse" x1="40.6963" y1="49.6504" x2="45.1601" y2="60.2949" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.05" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#A2C2DD"/>
+</linearGradient>
+<polygon fill="url(#XMLID_116_)" points="63.003,19.739 25.478,12.883 22.3,13.635 59.839,20.707 "/>
+</g>
+<linearGradient id="XMLID_117_" gradientUnits="userSpaceOnUse" x1="41.9775" y1="49.8584" x2="26.7454" y2="19.6138" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#E6EEF4"/>
+<stop offset="0.4438" style="stop-color:#4A9900"/>
+<stop offset="0.9382" style="stop-color:#0E4E58"/>
+<stop offset="1" style="stop-color:#0E4E58"/>
+</linearGradient>
+<path fill="url(#XMLID_117_)" d="M34.001,26.578l-3.207,4.381l-3.957-0.951v8.691l4.045,0.972l2.316,5.438l6.399,1.957V27.966 L34.001,26.578z"/>
+<g>
+<linearGradient id="XMLID_118_" gradientUnits="userSpaceOnUse" x1="50.8486" y1="48.1064" x2="39.6317" y2="21.1095" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#E6EEF4"/>
+<stop offset="0.4438" style="stop-color:#4A9900"/>
+<stop offset="0.9382" style="stop-color:#0E4E58"/>
+<stop offset="1" style="stop-color:#0E4E58"/>
+</linearGradient>
+<path fill="url(#XMLID_118_)" d="M42.487,35.792c2.074,1.735,1.813,4.638,0.234,5.625l1.803,2.252 c2.603-1.627,2.761-7.518-0.26-9.745L42.487,35.792z"/>
+<linearGradient id="XMLID_119_" gradientUnits="userSpaceOnUse" x1="54.085" y1="46.7607" x2="42.8671" y2="19.7615" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#E6EEF4"/>
+<stop offset="0.4438" style="stop-color:#4A9900"/>
+<stop offset="0.9382" style="stop-color:#0E4E58"/>
+<stop offset="1" style="stop-color:#0E4E58"/>
+</linearGradient>
+<path fill="url(#XMLID_119_)" d="M45.952,32.415c4.271,3.334,3.418,10.718,0.221,12.953l1.813,2.142 c5.422-4.41,3.943-13.767-0.152-16.886L45.952,32.415z"/>
+<linearGradient id="XMLID_120_" gradientUnits="userSpaceOnUse" x1="57.5762" y1="45.3125" x2="46.3575" y2="18.3114" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#E6EEF4"/>
+<stop offset="0.4438" style="stop-color:#4A9900"/>
+<stop offset="0.9382" style="stop-color:#0E4E58"/>
+<stop offset="1" style="stop-color:#0E4E58"/>
+</linearGradient>
+<path fill="url(#XMLID_120_)" d="M49.896,29.241c5.36,4.987,5.396,15.241-0.002,20.282l1.633,1.875 c6.287-5.179,7.092-17.526,0.326-23.923L49.896,29.241z"/>
+</g>
+</g>
+</svg>

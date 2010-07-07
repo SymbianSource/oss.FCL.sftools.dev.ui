@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="gallery_context" title="Gallery view">
+		<description>The Gallery view contains all available, customizable views. It helps you to find the screens or screen elements you want to edit. Click Gallery view to read more about the Gallery view.</description>
+ 		<topic label="Gallery view" href="doc/gallery_view.html"/> 		
+	</context>
+	</contexts>
+

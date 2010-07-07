@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Symbian Media
+Bundle-SymbolicName: com.nokia.tools.media.symbian;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.media.symbian.Activator
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.core.runtime,
+ com.nokia.tools.media.core,
+ com.nokia.tools.resource.core
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.media.symbian.mbm

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="setcurrenttime_context" title="Set Current Time">
+		<description>Use the Set Current Time window to set the time in a certain control point of an animation. Click Timing animations to read more about timing animations.</description>
+ 		<topic label="Timing animations" href="doc/timing_animations.html"/> 		
+	</context>
+	</contexts>
+	
+

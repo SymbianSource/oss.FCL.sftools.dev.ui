@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="72" viewBox="0 0 84 72">
+<g>
+<polyline fill="none" points="83.934,72.063 -0.066,72.063 -0.066,0.063 83.934,0.063 "/>
+<g>
+<g>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="47.2324" y1="27.9297" x2="55.3809" y2="12.9629" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#87A8CB"/>
+<stop offset="1" style="stop-color:#235487"/>
+</linearGradient>
+<path fill="url(#XMLID_6_)" d="M25.316,12.274l-3.625,0.953l1.219,38.89l36.399,9.313l3.145-2.938l1.098-39.171L25.316,12.274z"/>
+</g>
+<linearGradient id="XMLID_7_" gradientUnits="userSpaceOnUse" x1="59.3906" y1="51.4414" x2="63.168" y2="6.632" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#87A8CB"/>
+<stop offset="1" style="stop-color:#235487"/>
+</linearGradient>
+<polygon fill="url(#XMLID_7_)" points="59.26,60.805 61.938,58.227 63.006,19.676 59.842,20.644 "/>
+<linearGradient id="XMLID_8_" gradientUnits="userSpaceOnUse" x1="41.5151" y1="63.0146" x2="40.4849" y2="21.9823" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.05" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#A2C2DD"/>
+</linearGradient>
+<polygon fill="url(#XMLID_8_)" points="59.26,60.805 23.383,51.586 22.303,13.571 59.842,20.644 "/>
+<linearGradient id="XMLID_9_" gradientUnits="userSpaceOnUse" x1="40.6992" y1="49.7139" x2="45.1636" y2="60.3594" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.05" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#A2C2DD"/>
+</linearGradient>
+<polygon fill="url(#XMLID_9_)" points="63.006,19.676 25.481,12.819 22.303,13.571 59.842,20.644 "/>
+</g>
+<linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="43.7002" y1="47.5869" x2="40.6374" y2="25.7358" gradientTransform="matrix(1 0 0 -1 0 71)">
+<stop offset="0" style="stop-color:#E6EEF4"/>
+<stop offset="0.4438" style="stop-color:#337CE5"/>
+<stop offset="0.9382" style="stop-color:#003D6D"/>
+<stop offset="1" style="stop-color:#003D6D"/>
+</linearGradient>
+<polygon fill="url(#XMLID_10_)" points="49.502,46.746 34.618,43.264 34.09,27.264 49.506,30.779 "/>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Theme UI
+Bundle-SymbolicName: com.nokia.tools.theme.ui; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.theme.ui.Activator
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.draw2d,
+ com.nokia.tools.resource.core,
+ com.nokia.tools.media.utils,
+ com.nokia.tools.content.core,
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources,
+ org.eclipse.gef,
+ com.nokia.tools.screen.core,
+ org.eclipse.emf.ecore,
+ org.eclipse.help,
+ com.nokia.tools.screen.ui,
+ com.nokia.tools.packaging,
+ org.eclipse.jface.text,
+ org.eclipse.ui.views.properties.tabbed,
+ com.nokia.tools.platform.core,
+ com.nokia.tools.theme.core,
+ com.nokia.tools.editing.core,
+ com.nokia.tools.editing.ui,
+ com.nokia.tools.ui.branding
+Eclipse-LazyStart: true
+Export-Package: com.nokia.tools.theme.ui,
+ com.nokia.tools.theme.ui.dialogs,
+ com.nokia.tools.theme.ui.propertysheet.tabbed,
+ com.nokia.tools.theme.ui.util

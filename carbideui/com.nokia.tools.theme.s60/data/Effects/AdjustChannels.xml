@@ -1,0 +1,21 @@
+<effects>
+<effect name="AdjustChannels" uiname="Adjust channels" uid="0x10204ADC" type="0" className="com.nokia.tools.theme.s60.effects.effect.AdjustChannels" input="true" >
+<param name="r" type="INT" value=""/>
+<param name="g" type="INT" value=""/>
+<param name="b" type="INT" value=""/>
+<param name="fr" type="INT" value=""/>
+<param name="fg" type="INT" value=""/>
+<param name="fb" type="INT" value=""/>
+<param name="f" type="INT" value=""/>
+
+<!--<uiparam uiname="r" caption="Red" uiType="JTextField" defaultVal="0" value=""/>
+<uiparam uiname="g" caption="Green" uiType="JTextField" defaultVal="0" value=""/>
+<uiparam uiname="b" caption="Blue" uiType="JTextField" defaultVal="0" value=""/>-->
+<uiparam uiname="fr" caption="RedFactor" pos="1" uiType="JTextField" defaultVal="255" value=""/>
+<uiparam uiname="fg" caption="GreenFactor" pos="2" uiType="JTextField" value="" defaultVal="0"/>
+<uiparam uiname="fb" caption="BlueFactor" pos="3" uiType="JTextField" defaultVal="0" value=""/>
+<uiparam uiname="f" caption="BlendFactor" pos="4" uiType="JSlider" minVal="0" maxVal="255" defaultVal="255" value="" mandatory="true"/>
+
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>

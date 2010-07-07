@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="33px" version="1.1" viewBox="0 0 33 33" width="33px" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<path d="M11.852,3.921L0.368,19.367l1.227,0.563l20.044,9.15l10.994-18.234L11.852,3.921z M29.361,12.053   l-1.288,2.136c-0.829-0.148-1.97-0.382-3.024-0.618c-1.33-0.29-2.586-0.581-3.158-0.715l-2.047-3.975L29.361,12.053z M12.659,6.487   l5.214,1.736l3.032,5.891l0.325,0.077c0.003,0.003,1.686,0.4,3.509,0.799c0.884,0.19,1.767,0.38,2.533,0.527l-2.467,4.09   l-7.212-2.801c0.87-1.753,0.523-3.8-0.922-4.821c-1.623-1.146-4.008-0.563-5.322,1.303c-0.205,0.29-0.358,0.595-0.488,0.905   l-3.049-1.185L12.659,6.487z M6.913,14.219l3.606,1.4c-0.066,1.057,0.279,2.063,0.996,2.772l-1.889,2.81l-5.9-2.695L6.913,14.219z    M20.775,26.292l-9.809-4.48l1.789-2.664c1.314,0.429,2.861,0.008,3.972-1.118l7.316,2.841L20.775,26.292z" fill="url(#SVGID_1_)"/>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="16.5005" x2="16.5005" y1="2.5752" y2="23.4582">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+</defs>
+</g>
+<rect fill="none" height="33" width="33"/>
+</svg>

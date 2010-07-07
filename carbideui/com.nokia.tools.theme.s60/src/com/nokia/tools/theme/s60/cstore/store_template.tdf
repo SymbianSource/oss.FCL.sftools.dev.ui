@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE skin SYSTEM "http://abc.com/skindata.dtd">
+<skin author="Author" drmprotection="false" h="320" name1="ComponentStore" orientation="PORTRAIT" package="ComponentStore" systemtheme="false" type="normal" version="2.0" w="240">
+    <phone>
+        <model id="s60_5.0"/>
+    </phone>
+</skin>

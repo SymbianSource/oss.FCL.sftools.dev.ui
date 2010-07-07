@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Creating Private Key Certificate</title>
+</head>
+<body>
+<h2>Creating a Private key and a
+Certificate</h2>
+Use the Certificate Generator (a software development kit command
+line tool) to create a private key and a self-signed certificate.<br>
+<ul>
+  <li>With the Certificate
+Generator, create a private key and a
+self-signed certificate by using the following command: </li>
+</ul>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;<big>&nbsp;</big><span style="font-family: Courier New;">
+makekeys -cert
+[-v] [-len
+&lt;key-length&gt; ] [-password &lt;password&gt; ]
+-dname
+&lt;distinguished-name-string&gt;
+&lt;private-key-file&gt;
+&lt;public-key-cert&gt;</span><br>
+<br>
+<span style="font-weight: bold;">For
+example:</span> <span style="font-family: Courier New;">makekeys -cert
+-dname
+&ldquo;CN=Symbian OU=Development OR=SymbianLtd CO=GB&rdquo;
+mykey.key
+mycert.cer</span><br>
+<br>
+<span style="font-weight: bold;">Note:</span>
+The Certification
+Generator uses a mouse input mechanism to generate the private key. The
+MSDOS property QuickEdit must be turned off for sampling of random data
+from the mouse to work.<br>
+<br>
+<ul>
+  <li>Create a certificate request
+specifying the created private key
+and self-signed certificate by using the following command: </li>
+</ul>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;<big>
+</big><span style="font-family: Courier New;">makekeys
+&ndash; req [-v][-password
+password] -dname &lt;distinguished-name-string&gt;
+&lt;private-key-file&gt; &lt;public-key-cert&gt;
+&lt;cert-request-file&gt;</span><br>
+<br>
+<span style="font-weight: bold;">For
+example: &nbsp;</span><small><big><span
+ style="font-family: Courier New;">makekeys req -dname
+&ldquo;CN=Symbian OU=Development OR=SymbianLtd CO=GB&rdquo;
+mykey.key
+mycert.cer myreq.p10</span></big><br style="font-family: Courier New;">
+</small><br>
+Send the certificate request to the Certificate Authority (CA). <br>
+<ul>
+  <li>The CA uses various means to
+ensure the identification of the
+originator of the certificate request. </li>
+  <li>The CA signs your public key
+using the CA&rsquo;s private key,
+and creates a certificate, which is then sent back to you.</li>
+  <li>The CA may return a single
+certificate or a file containing a
+chain of certificates. The file containing a certificate chain is
+needed if intermediate certificates are required between the
+CA&rsquo;s
+root certificate on the Symbian OS device and the developer
+certificate. </li>
+  <li>You receive the
+authenticated digital certificate. </li>
+</ul>
+<span style="font-weight: bold;">Note:
+</span>Certificates returned by
+the CA must be in the base64-encoded ASCII format. The Certification
+Generator generates base64-encoded certificate files and expects
+certificates that come back from the CA to be in the same format.<br>
+<br>
+<span style="font-weight: bold;">With
+Carbide.ui: </span><br>
+<ul>
+  <li>Specify the private key used
+to create the digital signature </li>
+  <li>Specify the public key
+certificate to be used to decrypt it. For
+a secure installation, the certificate should be an authenticated
+digital certificate. However, the self-signed certificate can also be
+used. </li>
+</ul>
+<br>
+<span style="font-weight: bold;">Note:</span>
+You can also create keys
+using the Handle Key Pairs window. <br>
+<br>
+<h3>Command Arguements</h3>
+<table style="text-align: left; width: 818px;" border="3"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-cert</td>
+      <td style="width: 630px; font-family: Courier New;">Create
+the private key (&lt;private-key-file&gt;) and self-signed
+certificate
+(&lt;public-key-cert&gt;). If the private key file already
+exists, it
+is used to create the self-signed certificate.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-req</td>
+      <td style="width: 630px; font-family: Courier New;">Create
+a certificate request.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-view</td>
+      <td style="width: 630px; font-family: Courier New;">View
+certificate details.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-v</td>
+      <td style="width: 630px; font-family: Courier New;">Verbose
+mode &mdash; displays additional diagnostic information.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-dname
+&lt;distinguished-name-string&gt;</td>
+      <td style="width: 630px; font-family: Courier New;">The
+&lt;distinguished-name-string&gt; specifies the distinguished
+name
+parameters required for the self-signed public key certificate file.
+This command line option must be constructed of a string of
+white-space-separated key=value pairs as follows: <br>
+      <big> </big>
+      <ul>
+        <big> </big><li>CN=common
+name </li>
+        <big> </big><li>OU=organisational
+unit </li>
+        <big> </big><li>OR=organisation
+        </li>
+        <big> </big><li>LO=locality
+        </li>
+        <big> </big><li>ST=state
+        </li>
+        <big> </big><li>CO=country
+        </li>
+        <big> </big>
+      </ul>
+      <big> </big>EM=e-mail
+address <br>
+      <span style="font-weight: bold;">For
+example:</span> "CN=Symbian
+OU=Development OR=SymbianLtd CO=GB"</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-password
+&lt;password&gt;</td>
+      <td style="width: 630px; font-family: Courier New;">Password
+(optional). After creation, the password must be supplied to
+subsequently use the private key.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">-len
+&lt;key-length&gt;</td>
+      <td style="width: 630px; font-family: Courier New;">The
+key-length. The minimum is 512, maximum is 4096. The key length
+defaults to 1024.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">&lt;private-key-file&gt;</td>
+      <td style="width: 630px; font-family: Courier New;">The
+file containing the private key. The developer keeps the private key
+secret, whereas the public key is usually made generally available. The
+file has a .key extension.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">&lt;public-key-cert&gt;</td>
+      <td style="width: 630px; font-family: Courier New;">A
+self-signed certificate containing the public key. The file has a .cer
+extension.</td>
+    </tr>
+    <tr>
+      <td style="font-family: Courier New; text-align: center;">&lt;cert-request-file&gt;</td>
+      <td style="width: 630px; font-family: Courier New;">A
+self-contained file that is sent to the Certificate Authority (CA). The
+Certification Generator creates this file with a private and public
+key. It is then up to the developer to send the file to the CA and
+arrange for the application of the certificate. The file has a .p10
+extension.</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

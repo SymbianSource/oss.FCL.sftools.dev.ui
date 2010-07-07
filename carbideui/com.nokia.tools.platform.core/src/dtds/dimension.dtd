@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--DTD for "tool colour for lines".-->
+
+
+<!ENTITY %	reset  "(none)">
+
+<!ELEMENT dimensions (dimension*)>
+
+<!ELEMENT dimension EMPTY>
+<!ATTLIST dimension    
+    id 		CDATA			#IMPLIED
+>

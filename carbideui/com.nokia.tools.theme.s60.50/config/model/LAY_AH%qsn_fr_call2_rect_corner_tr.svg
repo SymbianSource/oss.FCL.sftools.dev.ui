@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="24" height="24" viewBox="-0.5 -0.5 24 24">
+<path d="M-0.5,9.5h10c6.617,0,12,5.383,12,12v2h-22V9.5z" fill="#656B6B" fill-opacity="0.01"/>
+<path d="M-0.5,10.5h10c6.064,0,11,4.936,11,11v2h-21V10.5z" fill="#656B6B" fill-opacity="0.03"/>
+<path d="M-0.5,11.5h10c5.514,0,10,4.486,10,10v2h-20V11.5z" fill="#656B6B" fill-opacity="0.04"/>
+<path d="M-0.5,12.5h10c4.963,0,9,4.037,9,9v2h-19V12.5z" fill="#656B6B" fill-opacity="0.09"/>
+<rect fill="#656B6B" fill-opacity="0.03" height="11" width="19" x="-0.5" y="12.5"/>
+<linearGradient id="_24" gradientUnits="userSpaceOnUse" x1="8.5" y1="107" x2="8.5" y2="18.5">
+<stop stop-color="#D9F4E0" offset="0"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<rect fill="url(#_24)" height="10" width="18" x="-0.5" y="13.5"/>
+<rect fill="none" height="24" width="24" x="-0.5" y="-0.5"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="332" height="82" viewBox="-0.104 0.006 332 82">
+<path fill-opacity="0.01" fill="#656B6B" d="M11.896,10.006c-5.514,0-10,4.486-10,10v52c0,5.514,4.486,10,10,10h306 c5.514,0,10-4.486,10-10v-52c0-5.514-4.486-10-10-10H11.896z"/>
+<path fill-opacity="0.02" fill="#656B6B" d="M11.896,11.006c-4.963,0-9,4.037-9,9v52c0,4.963,4.037,9,9,9h306c4.963,0,9-4.037,9-9v-52 c0-4.963-4.037-9-9-9H11.896z"/>
+<path fill-opacity="0.04" fill="#656B6B" d="M11.896,12.006c-4.41,0-8,3.59-8,8v52c0,4.412,3.59,8,8,8h306c4.412,0,8-3.588,8-8v-52 c0-4.41-3.588-8-8-8H11.896z"/>
+<path fill-opacity="0.07" fill="#656B6B" d="M11.896,13.006c-3.859,0-7,3.141-7,7v52c0,3.859,3.141,7,7,7h306c3.859,0,7-3.141,7-7v-52 c0-3.859-3.141-7-7-7H11.896z"/>
+<path fill-opacity="0.11" fill="#656B6B" d="M11.896,14.006c-3.309,0-6,2.691-6,6v52c0,3.309,2.691,6,6,6h306c3.309,0,6-2.691,6-6v-52 c0-3.309-2.691-6-6-6H11.896z"/>
+<path fill-opacity="0.13" fill="#656B6B" d="M322.896,72.006c0,2.762-2.238,5-5,5h-306c-2.762,0-5-2.238-5-5v-52c0-2.762,2.238-5,5-5 h306c2.762,0,5,2.238,5,5V72.006z"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="163.9" y1="69.12" x2="163.9" y2="28.5">
+<stop stop-color="#D9F4E0" offset="0"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<rect x="5.896" y="14.006" fill="url(#_2)" width="316" height="62"/>
+</svg>

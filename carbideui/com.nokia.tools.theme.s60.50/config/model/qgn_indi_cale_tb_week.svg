@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="43.939" height="43.945" viewBox="0 0 43.939 43.945">
+<linearGradient id="_3" gradientUnits="userSpaceOnUse" x1="-2.61" y1="-6.68" x2="30.89" y2="32.32">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M8.501,7.299V36.35h26.75V7.299H8.501z M10.819,33.973V14.525h22.096v19.447H10.819z" fill="url(#_3)"/>
+<path d="M20.785,31.75h-2.922c1.116-3.428,3.032-7.631,5.75-12.609h-6.891v-2.469h10.359v1.137 C27.082,17.809,23.04,25.028,20.785,31.75z" fill="url(#_3)"/>
+</svg>

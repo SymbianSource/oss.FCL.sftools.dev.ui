@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+<!--BASE IMAGE CONTAINING BACKGROUND IMAGES, STATUS AREA CONTENT (WITH NAVI_WIPE), SCROLL PANE AND CONTROL PANE DATA-->
+  <preview_image display="portrait,square"
+                 name="BaseScreen16"
+                 preview="false">
+    <Element compName="application_window"
+             skinId="qsn_bg_screen"
+             varietyId="0" />
+    <Element compName="main_pane"
+    		 display="360x640"
+    		 skinId="qsn_bg_area_main"
+    		 loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;"
+    		 varietyId="0"/>
+    <Element compName="status_pane_g2"
+             skinId="qsn_bg_area_status"
+             varietyId="0" />
+    <Element compName="control_pane_g3"
+             display="!360x640"
+             skinId="qsn_bg_area_control"
+             varietyId="0" />
+    <Element compName="control_pane_g3"
+             display="360x640"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_bg_area_control"
+             varietyId="0" />
+    <Element colourId="icon2"
+             compName="clock_nsta_pane_t2"
+             text="12:28 pm"
+             varietyId="0" />
+    <!-- contents of status pane -->
+    <Element compName="status_pane_g1"
+             display="!360x640"
+             skinId="qsn_bg_navipane_solid"
+             varietyId="0" />
+    <Element compName="status_pane_g1"
+             display="360x640"
+             loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:16&lt;/LC&gt;"
+             skinId="qsn_bg_navipane_solid"
+             varietyId="0" />
+    <Element compName="signal_pane_g1"
+             skinId="qgn_indi_signal_strength"
+             varietyId="0" />
+    <Element colourId="icon5"
+             compName="signal_pane_g2"
+             image="qgn_prop_signal_icon.svg"
+             varietyId="0" />
+    <Element compName="battery_pane_g1"
+             skinId="qgn_indi_battery_strength"
+             varietyId="0" />
+    <Element colourId="icon6"
+             compName="battery_pane_g2"
+             image="qgn_prop_battery_icon.svg"
+             varietyId="0" />
+    <!-- control pane contents -->
+    <reference screenName="BaseSoftkeys" />	
+    <Element colourId="text13"
+             compName="control_pane_t1"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             text="Options"
+             varietyId="3" />
+    <Element colourId="text14"
+             compName="control_pane_t2"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             text="Done"
+             varietyId="3" />
+  </preview_image>
+
+	<preview_image display="portrait,square" name="Notepad" preview="true">
+		<reference screenName="BaseScreen16"/>
+		<reference screenName="TouchPaneHorizontal0"/>
+		<reference screenName="MainScrollBar0"/>
+		
+    	<Element colourId="icon27" compName="control_pane_g4" display="!360x640" image="qgn_prop_msk_menu.svg" varietyId="0"/>
+
+		<Element colourId="text1" compName="title_pane_t1" text="Notes" varietyId="5"/>
+		<!-- the stat case text image looks obsure on the view -->
+		<Element colourId="icon4" compName="navi_icon_pane_g1" display="!360x640" image="ts_qgn_stat_case_text.svg" loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_icon_pane@v:0&lt;/LC&gt;" varietyId="0"/>
+    	<Element colourId="icon4" compName="navi_icon_pane_g1" display="360x640" image="ts_qgn_stat_case_text.svg" loc_id="&lt;LC&gt;status_pane@v:0&lt;/LC&gt;&lt;LC&gt;navi_pane@v:4&lt;/LC&gt;&lt;LC&gt;navi_icon_pane@v:0&lt;/LC&gt;" varietyId="0"/>
+
+		<!-- main pane contents -->
+		<Element compName="bg_notes_pane" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;" skinId="qsn_fr_notepad" varietyId="0"/>
+		<Element compName="bg_notes_pane" display="360x640" loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:22&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0&lt;/LC&gt;" skinId="qsn_fr_notepad" varietyId="0"/>
+		
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:1&lt;/LC&gt;" text="First line" varietyId="0"/>
+		<Element compName="list_notes_text_pane_g1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:1&lt;/LC&gt;" skinId="line3" varietyId="0"/>
+		<Element colourId="text34" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:2&lt;/LC&gt;" text="Second line" varietyId="0"/>
+		<Element compName="list_notes_text_pane_g1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:2&lt;/LC&gt;" skinId="line3" varietyId="0"/>
+		<!-- <Element skinId="S60_2_6%qsn_fr_list" compName="list_highlight_pane_cp1" varietyId="0" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:3&lt;/LC&gt;" /> -->
+
+		<Element colourId="text34" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:3&lt;/LC&gt;" text="Third line" varietyId="0"/>
+		<Element compName="list_notes_text_pane_g1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:3&lt;/LC&gt;" skinId="line3" varietyId="0"/>
+		<Element colourId="text34" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:4&lt;/LC&gt;" text="Fourth line" varietyId="0"/>
+		<Element compName="list_notes_text_pane_g1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:4&lt;/LC&gt;" skinId="line3" varietyId="0"/>
+		<Element colourId="highlight2" compName="list_notes_text_pane_t1" display="!360x640" image="ts_qgn_highlight_part_text_bg.svg" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" varietyId="0"/>
+		<Element colourId="text24" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" text="Fifth line" varietyId="0"/>
+		<Element colourId="text34" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" text="Fifth" varietyId="0"/>
+		<Element compName="list_notes_text_pane_g1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" skinId="line3" varietyId="0"/>
+		<Element colourId="highlight2" compName="list_notes_text_pane_t1" display="!360x640" image="ts_qgn_highlight_text_bg.svg" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:6&lt;/LC&gt;" varietyId="0"/>
+		<Element colourId="text24" compName="list_notes_text_pane_t1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:6&lt;/LC&gt;" text="Sixth line" varietyId="0"/>
+		<Element compName="list_notes_text_pane_g1" display="!360x640" loc_id="&lt;LC&gt;main_pane@v:3#r:1&lt;/LC&gt;&lt;LC&gt;main_notes_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;list_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:6&lt;/LC&gt;" skinId="line3" varietyId="0"/>
+	
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0&lt;/LC&gt;" text="First line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:2#c:1&lt;/LC&gt;" text="Second line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:2#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:3#c:1&lt;/LC&gt;" text="Third line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:3#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:4#c:1&lt;/LC&gt;" text="Fourth line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:4#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="highlight2" compName="list_notes_text_pane_t1" display="360x640" image="ts_qgn_highlight_part_text_bg.svg" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" varietyId="0"/>
+    	<Element colourId="text24" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" text="Fifth line" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:5#c:1&lt;/LC&gt;" text="Fifth" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:5#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="highlight2" compName="list_notes_text_pane_t1" display="360x640" image="ts_qgn_highlight_text_bg.svg" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:6&lt;/LC&gt;" varietyId="0"/>
+    	<Element colourId="text24" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:6#c:1&lt;/LC&gt;" text="Sixth line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:6#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:7#c:1&lt;/LC&gt;" text="Seventh line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:7#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:8#c:1&lt;/LC&gt;" text="Eighth line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:8#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:9#c:1&lt;/LC&gt;" text="Ninth line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:9#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+	    <Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:10#c:1&lt;/LC&gt;" text="Tenth line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:10#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:11#c:1&lt;/LC&gt;" text="Eleventh line" varietyId="0"/>
+    	<Element compName="list_notes_text_pane_g1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:11#c:1&lt;/LC&gt;" image="white_line.svg" varietyId="0"/>
+    </preview_image>
+</Preview>

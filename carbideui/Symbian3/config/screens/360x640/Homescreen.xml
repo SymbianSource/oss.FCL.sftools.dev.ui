@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview MasterId="70" name="Home Screen Prt">
+	<preview_image display="portrait,square" name="Home Screen" preview="true">
+        <Element compName="application_window" skinId="qsn_bg_screen_idle" varietyId="0" />
+        <Element colourId="icon5" compName="signal_pane_g2" image="qgn_prop_signal_icon.svg" loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:6&lt;/LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;signal_pane@v:2&lt;/LC&gt;" varietyId="1"/>
+        <Element colourId="icon6" compName="battery_pane_g2" image="qgn_prop_battery_icon.svg" loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:6&lt;/LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;battery_pane@v:2&lt;/LC&gt;" varietyId="1"/>
+        <Element colourId="text1" compName="title_pane_t1" loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:6&lt;/LC&gt;&lt;LC&gt;status_pane@v:2&lt;/LC&gt;&lt;LC&gt;title_pane@v:2&lt;/LC&gt;" text="Operator" varietyId="5"/>
+        <!-- <Element compName="widget_background" skinId="qgn_home_bg_widget" varietyId="1"/> -->
+        <Element compName="hs_widget_clock_background" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <!-- <Element compName="hs_widget_clock_background" skinId="qsn_fr_home" varietyId="0"/> -->
+        <Element compName="hs_widget_clock_background" skinId="qsn_home_clock_analogue_face" varietyId="0"/>
+        <Element compName="hs_widget_clock_minute" skinId="qsn_home_clock_analogue_pointer_minute" varietyId="0"/>
+        <Element compName="hs_widget_clock_hour" skinId="qsn_home_clock_analogue_pointer_hour" varietyId="0"/>
+        <Element compName="hs_widget_background_p1" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_t1" skinId="text75" text="Wed 12/03/08" varietyId="0"/>
+        <Element compName="hs_widget_background_p2" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_t2" skinId="text75" text="General" varietyId="0"/>
+        <Element compName="hs_widget_background_g2" skinId="qgn_indi_home_profile_general" varietyId="0"/>
+        <Element compName="hs_widget_background_p3" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <!-- <Element compName="hs_widget_background_p4" skinId="qgn_home_bg_widget" varietyId="0"/> -->
+    	<Element compName="list_set_graphic_pane_g1"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:1&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:1&lt;/LC&gt;"
+             text="11:00 Proposals for Future D..."
+             varietyId="0" />
+    	<Element compName="list_set_graphic_pane_g1"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:2&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:2&lt;/LC&gt;"
+             text="14:30 Lunch with Julian"
+             varietyId="0" />
+    	<Element compName="list_set_graphic_pane_g1"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:3&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:3&lt;/LC&gt;"
+             text="18:00 Nightwish Concert"
+             varietyId="0" />
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_browser" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:1&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_mce_cxt" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:2&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_phob_cxt" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:3&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_log_cxt" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:4&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p6" skinId="qgn_home_bg_widget" varietyId="0"/>
+    	<Element compName="list_set_graphic_pane_g1"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:1&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:1&lt;/LC&gt;"
+             text="Yahoo! (12)"
+             varietyId="0" />
+    	<Element compName="list_set_graphic_pane_g1"
+             image="qgn_indi_ai_eplg_read.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:2&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:2&lt;/LC&gt;"
+             text="Jack.Ryan Meeting ab ..."
+             varietyId="0" />
+    	<Element compName="list_set_graphic_pane_g1"
+             image="qgn_indi_ai_eplg_read.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:3&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:3&lt;/LC&gt;"
+             text="Jack Spa... Invitatio ..."
+             varietyId="0" />
+        <Element compName="hs_widget_background_p7" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p8" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p9" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p10" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p11" skinId="qgn_home_button_widget" varietyId="0"/>
+		<Element compName="hs_widget_background_p8" display="360x640"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+		<Element compName="hs_widget_background_p9" display="360x640"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+		<Element compName="hs_widget_background_p10" display="360x640"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+		<Element compName="hs_widget_background_p11" display="360x640"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+        <Element compName="hs_widget_background_p12" skinId="qgn_home_contactname_bg" varietyId="0"/>
+        <Element compName="hs_widget_background_p13" skinId="qgn_home_contactname_bg" varietyId="0"/>
+        <Element compName="hs_widget_background_p14" skinId="qgn_home_contactname_bg" varietyId="0"/>
+        <Element compName="hs_widget_background_p15" skinId="qgn_home_contactname_bg" varietyId="0"/>
+    	<Element colourId="text75"
+             compName="hs_widget_background_p12_t1"
+             text="Walker"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_p13_t1"
+             text="Julian..."
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_p14_t1"
+             text="Minna"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_p15_t1"
+             text="Add"
+             varietyId="0" />
+        <Element compName="hs_widget_background_p16" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p17" skinId="qgn_home_button_widget" varietyId="0"/>
+    	<Element colourId="text75"
+             compName="hs_widget_background_p16_t1"
+             text="Shakira - Hips don't Lie"
+             varietyId="0" />
+        <Element compName="hs_widget_background_p18" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p19" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p20" skinId="qgn_home_button_widget" varietyId="0"/>
+    <Element compName="hs_widget_background_p18"
+             skinId="qgn_prop_image_tb_prev"
+             varietyId="0" />
+    <Element compName="hs_widget_background_p19"
+             skinId="qgn_prop_image_tb_play2"
+             varietyId="0" />
+    <Element compName="hs_widget_background_p20"
+             skinId="qgn_prop_image_tb_next"
+             varietyId="0" />
+
+    <Element compName="control_pane_sk_g3"
+             display="360x640"
+             skinId="qgn_fr_sctrl_sk_button"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             varietyId="0" />
+    <Element compName="control_pane_sk_g4"
+             display="360x640"
+             skinId="qgn_fr_sctrl_sk_button"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             varietyId="0" />
+    <Element compName="control_pane_sk_g5"
+             display="360x640"
+             skinId="qgn_fr_sctrl_sk_button"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             varietyId="0" />
+	<!-- <Element compName="control_pane_sk_g6" image="qgn_home_page_63" loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"	varietyId="0"/> -->
+   	<Element compName="control_pane_sk_g6" display="360x640"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+			skinId="qgn_home_page_32"
+			varietyId="0" /> 
+    <Element colourId="text15" compName="control_pane_t1" loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options" varietyId="4"/>
+    <Element colourId="text16" compName="control_pane_t2" loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Call" varietyId="4"/>
+
+    </preview_image>
+
+</Preview>

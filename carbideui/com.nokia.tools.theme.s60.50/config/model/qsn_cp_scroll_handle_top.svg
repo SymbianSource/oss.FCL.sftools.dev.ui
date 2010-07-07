@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="12" version="1.1" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<rect fill="none" height="12" width="12"/>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="2" x2="10" y1="7.5005" y2="7.5005">
+<stop offset="0" style="stop-color:#788FB8"/>
+<stop offset="1" style="stop-color:#235487"/>
+</linearGradient>
+<path d="M8.779,3H3.219C2.547,3,2,3.538,2,4.2V12h8V4.2C10,3.538,9.451,3,8.779,3z" fill="url(#XMLID_4_)" fill-opacity="0.7" stroke-opacity="0.7"/>
+<path d="M8.654,3.5H3.344C2.877,3.5,2.5,3.872,2.5,4.329V12h7V4.329C9.5,3.872,9.121,3.5,8.654,3.5z" fill="#A2C2DD"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_5_" x1="-9.0625" x2="22.5625" y1="7.8755" y2="7.8755">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.1142" style="stop-color:#E0EAF3"/>
+<stop offset="0.35" style="stop-color:#A2C2DD"/>
+<stop offset="0.4825" style="stop-color:#8CA9CF"/>
+<stop offset="0.7" style="stop-color:#6C83BB"/>
+<stop offset="0.7458" style="stop-color:#637DB5"/>
+<stop offset="0.8189" style="stop-color:#4C6EA4"/>
+<stop offset="0.9097" style="stop-color:#265689"/>
+<stop offset="0.9888" style="stop-color:#003D6D"/>
+<stop offset="1" style="stop-color:#003D6D"/>
+</linearGradient>
+<path d="M8.654,3.75H3.344c-0.328,0-0.594,0.26-0.594,0.579V12h6.5V4.329    C9.25,4.01,8.982,3.75,8.654,3.75z" fill="url(#XMLID_5_)" fill-opacity="0.6" stroke-opacity="0.6"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_6_" x1="2.9951" x2="9.8349" y1="8.0005" y2="8.0005">
+<stop offset="0" style="stop-color:#E1EBF4"/>
+<stop offset="0.4944" style="stop-color:#CEE1EF"/>
+<stop offset="1" style="stop-color:#C5CEEF"/>
+</linearGradient>
+<path d="M8.154,4H3.842C3.516,4,3.25,4.26,3.25,4.578V12h5.5V4.578C8.75,4.26,8.482,4,8.154,4z" fill="url(#XMLID_6_)"/>
+<path d="M3.344,3.75c-0.328,0-0.594,0.26-0.594,0.579V12H6V3.75H3.344z" fill="#FFFFFF" fill-opacity="0.5" stroke-opacity="0.5"/>
+</g>
+</g>
+</svg>

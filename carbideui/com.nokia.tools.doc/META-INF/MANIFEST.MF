@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Carbide.ui Documentation Base
+Bundle-SymbolicName: com.nokia.tools.doc; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Eclipse-LazyStart: true
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.ui.cheatsheets,
+ org.eclipse.core.runtime,
+ org.eclipse.gef,
+ com.nokia.tools.media.utils,
+ com.nokia.tools.screen.core,
+ com.nokia.tools.s60.ide,
+ com.nokia.tools.content.core,
+ com.nokia.tools.screen.ui,
+ org.eclipse.emf.ecore,
+ org.eclipse.ui.views.properties.tabbed,
+ com.nokia.tools.theme.s60,
+ com.nokia.tools.theme.core,
+ com.nokia.tools.editing.core,
+ com.nokia.tools.platform.core

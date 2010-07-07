@@ -1,0 +1,1 @@
+The Gallery view contains all available, customizable views. It helps you to find the screens or screen elements you want to edit. Click Gallery to read more about the Gallery view.

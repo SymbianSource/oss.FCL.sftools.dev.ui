@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="platformExecutables" name="Platform Executables" schema="schema/platformExecutables.exsd"/>
+   <extension-point id="exampleThemes" name="Example Themes" schema="schema/exampleThemes.exsd"/>
+   <extension-point id="platformSupportInfo" name="Platform Support Info" schema="schema/platformSupportInfo.exsd"/>
+   <extension
+         id="contentProvider"
+         name="%contentProvider"
+         point="com.nokia.tools.content.core.providers">
+      <provider
+            class="com.nokia.tools.theme.s60.S60ThemeProvider"/>
+   </extension>
+
+   <extension
+         point="com.nokia.tools.platform.core.themes">
+      <container
+      		id="S60_THEME_CONTAINER" 
+      		name="S60 Theme"
+      		default="true"
+      		manager="com.nokia.tools.theme.s60.model.S60ThemeManager"
+      		largeIcon="icons/large_icon.png" 
+      		description="%themeDescription" />
+   </extension>
+</plugin>

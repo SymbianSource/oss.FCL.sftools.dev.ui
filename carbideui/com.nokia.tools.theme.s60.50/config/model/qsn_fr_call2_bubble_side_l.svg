@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="62" viewBox="-1.501 -1.5 44 62">
+<rect x="0.499" y="-1.5" fill="#656B6B" fill-opacity="0.01" width="42" height="62"/>
+<rect x="1.499" y="-1.5" fill="#656B6B" fill-opacity="0.02" width="41" height="62"/>
+<rect x="2.499" y="-1.5" fill="#656B6B" fill-opacity="0.03" width="40" height="62"/>
+<rect x="3.499" y="-1.5" fill="#656B6B" fill-opacity="0.06" width="39" height="62"/>
+<rect x="4.5" y="-1.5" fill="#656B6B" fill-opacity="0.05" width="38" height="62"/>
+<rect x="5.499" y="-1.5" fill="#656B6B" fill-opacity="0.1" width="37" height="62"/>
+<rect x="6.499" y="-1.5" fill="#656B6B" fill-opacity="0.1" width="36" height="62"/>
+<rect x="7.499" y="-1.5" fill="#656B6B" fill-opacity="0.1" width="35" height="62"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="23.5" y1="70" x2="23.5" y2="-10">
+<stop stop-color="#D9F4E0" offset="0"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<rect x="4.499" y="-1.5" fill="url(#_2)" width="38" height="62"/>
+</svg>

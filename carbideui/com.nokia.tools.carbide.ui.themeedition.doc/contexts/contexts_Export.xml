@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+<contexts><context id="exportTheme_context" title="Export Theme"><description>The Export Theme allows you to export a theme file. You can export a theme file from workspace to specified destination.</description><topic label="Export Theme" href="doc/exporting_s60_themes.html"></topic></context></contexts>

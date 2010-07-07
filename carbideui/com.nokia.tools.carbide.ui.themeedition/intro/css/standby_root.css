@@ -1,0 +1,143 @@
+/* 
+ * Set up general font colours, sizes, etc.  Some of these will override
+ * settings from the shared CSS 
+ */
+.intro-header H1 {
+	font-size : 15pt;
+}
+
+#page-links a .link-label, #action-links a .link-label {
+	font-size : 13pt;
+	font-weight : 600;
+	color : #666666;
+}
+
+#page-links a p .text, #action-links a p .text {
+	font-size : 10pt;
+	font-weight : 500;
+	color : #666666;
+}
+
+/*
+ * Set up the content for the standby page.
+ */
+body {
+	min-width : 230px;	
+	/* since IE doesn't support min-width, use expression */
+	width:expression(document.body.clientWidth < 230? "230px": "auto" );
+	background-image : url(graphics/rootpage2/background.jpg);
+	background-repeat : no-repeat;
+	background-position : top left;
+	background-color : #d0d0d0;
+}
+/*
+.page { 
+	background-image : url(graphics/rootpage2/welcome_screen_ui.gif);
+	background-repeat : no-repeat;
+	background-position : bottom left;
+	min-width : 230px;
+	/* since IE doesn't support min-width, use expression */
+/*	width:expression(document.body.clientWidth < 230? "230px": "auto" );
+ 	min-height : 610px;
+	height : 100%;
+	height : expression(document.body.clientHeight < 450? "450px": "100%" );
+}*/
+
+/* 
+ * Set up the navigation bar.  It should be centered in the middle
+ * of the page
+ */
+
+#links-background { 
+	width : 100%; 
+ 	margin-top : 10%; 
+	margin-bottom : auto;
+	text-align : left;
+}
+
+#page-links a {
+	display : block;
+	width : 220px;
+	text-align : left; 
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 0px;
+	vertical-align : top;
+}
+
+
+#page-links .root-link{
+	background-image: url(graphics/rootpage2/itemBackground.gif);
+	width:200px;
+	height:200px;
+	background-color:transparent;	
+}	
+
+
+
+
+#page-links a span, #page-links a p {
+	display : block;
+	width : 160px;
+	margin : 0px;
+	padding : 0px;
+}
+
+#page-links a .link-label {
+	position : relative;
+	left : 60px;
+	top : -50px;
+}
+
+#page-links a p .text {
+	position : relative;
+	left : 60px;
+	top : -50px;
+
+}
+
+#page-links a img {
+	height : 52px;
+	width : 57px;
+	vertical-align : middle;
+}
+
+#page-links a:hover,
+#page-links a:focus,
+#page-links a:active  { border : 0px; }
+
+#page-links a:hover p,
+#page-links a:focus p,
+#page-links a:active p  { margin : 0px; padding : 0px; }
+
+/* properties for each of the page-links */
+a#overview img { background-image : url(graphics/icons2/guide.gif); }
+a#overview:hover img,
+a#overview:focus img,
+a#overview:active img { background-image : url(graphics/icons2/guide_hover.gif); }
+
+a#tutorials img { background-image : url(graphics/icons2/tutorials.gif); }
+a#tutorials:hover img,
+a#tutorials:focus img,
+a#tutorials:active img { background-image : url(graphics/icons2/tutorials_hover.gif);}
+
+a#forumnokia img {background-image : url(graphics/icons2/forum_nokia.gif); }
+a#forumnokia:hover img,
+a#forumnokia:focus img,
+a#forumnokia:active img { background-image : url(graphics/icons2/forum_nokia_hover.gif);}
+
+a#createtheme img {background-image : url(graphics/icons2/create_theme.gif); }
+a#createtheme:hover img,
+a#createtheme:focus img,
+a#createtheme:active img { background-image : url(graphics/icons2/create_theme_hover.gif);}
+
+a#opentheme img {background-image : url(graphics/icons2/open_theme.gif); }
+a#opentheme:hover img,
+a#opentheme:focus img,
+a#opentheme	:active img { background-image : url(graphics/icons2/open_theme_hover.gif);}
+
+a#transfertheme img {background-image : url(graphics/icons2/transfer_theme.gif); }
+a#transfertheme:hover img,
+a#transfertheme:focus img,
+a#transfertheme:active img { background-image : url(graphics/icons2/transfer_theme_hover.gif);}
+

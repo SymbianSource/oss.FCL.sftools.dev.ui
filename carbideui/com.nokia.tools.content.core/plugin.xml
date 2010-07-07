@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="providers" name="Content Providers" schema="schema/providers.exsd"/>
+   <extension
+         id="S60DesignNature"
+         name="%s60DesignNatureName"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run class="com.nokia.tools.content.core.project.S60DesignProjectNature"/>
+      </runtime>
+   </extension>
+</plugin>

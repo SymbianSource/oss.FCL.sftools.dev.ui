@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="100%" height="100%" viewBox="-0.136 -0.327 88 88.001">
+<linearGradient id="_9" gradientUnits="userSpaceOnUse" x1="54.87" y1="52.22" x2="64.11" y2="70.43">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path fill="url(#_9)" d="M67.778,22.703c-0.375,0.516,0.264,1.236,0.264,1.236c9.182,9.589,1.037,19.773-14.354,26.1 c-0.088-1.65-0.377-7.133-0.377-7.133L26.841,59.607l0.689,6.24l27.982,8.809c0,0,0.061-6.271,0.07-7.301 c13.545-4.229,26.924-14.82,24.539-30.598c-0.133-3.051-1.762-8.871-11.049-14.146C69.075,22.613,68.153,22.188,67.778,22.703z M80.126,36.757c0,0.023,0.006,0.057,0.008,0.08l-0.01-0.098C80.124,36.748,80.124,36.751,80.126,36.757z"/>
+<linearGradient id="_10" gradientUnits="userSpaceOnUse" x1="33.31" y1="32.3" x2="42.5" y2="50.41">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path fill="url(#_10)" d="M32.181,17.909C19.198,22.814,6.657,32.068,6.657,42.037c0,5.385,4.5,16.073,13.279,19.688 l-0.658-6.264c-0.537-0.145-1.146-0.779-1.576-1.307c-1.975-8.4,4.17-14.459,15.809-19.323c0.219,1.502,0.967,6.662,0.967,6.662 L59.14,24.307l0.836-5.734L31.71,10.209C31.71,10.21,32.118,16.877,32.181,17.909z"/>
+<linearGradient id="_11" gradientUnits="userSpaceOnUse" x1="86.43" y1="33.13" x2="48.59" y2="72.63">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#4A9900" offset="0.44"/>
+<stop stop-color="#0E4E58" offset="0.94"/>
+</linearGradient>
+<path fill="url(#_11)" d="M78.302,32.603c0,0-24.568,28.249-24.598,28.409c0.445,3.434,0.748,5.232,0.93,5.742 C55.009,66.656,86.161,58.178,78.302,32.603z"/>
+<polygon fill="#235487" points="54.741,66.676 53.706,61.012 53.747,67.066 54.696,73.342 "/>
+<linearGradient id="_12" gradientUnits="userSpaceOnUse" x1="33.1" y1="51.92" x2="52.2" y2="86.26">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#4A9900" offset="0.44"/>
+<stop stop-color="#0E4E58" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#_12)" points="54.14,67.854 54.677,73.5 28.315,65.205 27.745,60.043 "/>
+<linearGradient id="_13" gradientUnits="userSpaceOnUse" x1="43.88" y1="78.2" x2="59.63" y2="31.7">
+<stop stop-color="#DCE8E4" offset="0"/>
+<stop stop-color="#43910A" offset="1"/>
+</linearGradient>
+<path fill="url(#_13)" d="M68.655,23.354c21.814,12.382,6.742,29.541-14.922,37.498l0.439,7.104l-26.396-7.809 L52.538,44.4l0.365,6.899C69.462,44.84,78.626,33.765,68.655,23.354z"/>
+<linearGradient id="_14" gradientUnits="userSpaceOnUse" x1="15.33" y1="67.38" x2="28" y2="29.79">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<path fill="url(#_14)" d="M17.651,56.863c-5.611-14.038,9.971-20.694,18.146-23.881c-1.025-2.484-0.68-2.818-1.705-5.309 C15.839,34.785,9.091,45.182,17.651,56.863"/>
+<linearGradient id="_15" gradientUnits="userSpaceOnUse" x1="68.81" y1="18.85" x2="25.31" y2="40.35">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_15)" points="59.046,19.179 58.351,23.82 35.12,40.011 34.397,34.761 "/>
+<path fill="#496DA2" d="M18.483,56.031c-3.41-1.578-10.863-14.67-10.863-14.67c-0.393,6.76,5.006,15.813,11.311,18.922 L18.483,56.031z"/>
+<linearGradient id="_16" gradientUnits="userSpaceOnUse" x1="19.06" y1="71.18" x2="32.23" y2="32.65">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<path fill="url(#_16)" d="M18.146,55.973c-21.814-12.383-6.74-29.542,14.922-37.497l-0.436-7.105l26.395,7.812 L34.263,34.927l-0.363-6.902C17.343,34.486,8.179,45.561,18.146,55.973z"/>
+</svg>

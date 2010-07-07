@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="image_folders_preferences_context" title="Configuring the Image Folders">
+		<description>Image Folders window allows you to configure folder settings for image file selection in Select Image dialog.</description>
+ 		<topic label="Configuring Carbide.ui - Image Folders" href="doc/preferences_image_folders.html"/> 		
+	</context>
+	</contexts>

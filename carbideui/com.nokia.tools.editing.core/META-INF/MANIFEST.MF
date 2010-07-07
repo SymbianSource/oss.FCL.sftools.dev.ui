@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.nokia.tools.editing.core; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.editing.core,
+ com.nokia.tools.editing.model,
+ com.nokia.tools.editing.model.util
+Bundle-Activator: com.nokia.tools.editing.core.Activator

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="20" version="1.1" viewBox="0 0 60 20" width="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<rect fill="none" height="20" width="60"/>
+<polygon fill="#00386D" fill-opacity="0.4" points="0,20 60,20 60,20 60,19 0,19  " stroke-opacity="0.4"/>
+<rect fill="#F7FAFC" fill-opacity="0.8" height="19.002" stroke-opacity="0.8" width="60"/>
+</g>
+</svg>

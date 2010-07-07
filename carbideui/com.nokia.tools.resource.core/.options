@@ -1,0 +1,15 @@
+com.nokia.tools.resource.core/debug/performance	= false
+com.nokia.tools.resource.core/debug/deepclean		= false
+com.nokia.tools.resource.core/debug/batch			= false
+
+com.nokia.tools.resource.core/debug/parser		= false
+com.nokia.tools.resource.core/debug/animation		= false
+
+com.nokia.tools.resource.core/debug/caching		= false
+com.nokia.tools.resource.core/debug/cleanresource	= false
+
+com.nokia.tools.resource.core/debug/ui			= false
+com.nokia.tools.resource.core/debug/communication	= false
+
+com.nokia.tools.resource.core/debug/liveWindow	= false
+com.nokia.tools.resource.core/debug/jni			= false

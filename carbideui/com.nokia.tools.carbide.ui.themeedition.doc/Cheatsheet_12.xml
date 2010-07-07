@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Editing a frame animation">
+   <intro href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/working_with_animations.html">
+      <description>
+         In this tutorial, you learn how edit an existing frame animation. To follow the tutorial, you must have an external vector editor installed in your computer. <br/>If the views you need to perform this tutorial are not visible, select <b>Window -&gt; Show View</b>  and select the view you want. <br/>Follow the tutorial steps in order.After each step, move to the next step by clicking the button located at the bottom of the step: <b>Click to Perform</b>  (if you want the step to be performed automatically), <b>Click to Skip</b> (if you want to perform the step manually) or <b>Click to Complete </b> (if no automatisation is available). If you do not use the buttons to move between steps, the automated tutorial functions become inavailable. To start this tutorial, click the <b>Click to Begin</b> button below.
+      </description>
+   </intro>
+   <item title="Create a new theme." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/create_new_theme.html">
+      <description>
+         In the menu bar, select <b>File -&gt; Create New Theme</b>. A New Theme window opens. In the <b>Theme name</b> field, enter <b>Tutorial5</b>. Click  <b>Finish</b>. Click <b>Click to Perform</b> to create a new Theme automatically.
+      </description>
+      <action class="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction" pluginId="com.nokia.tools.carbide.ui.productsupport" confirm="false">
+      </action>
+   </item>
+   <item title="Select the animated Browser Connecting icon." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/working_with_component_library.html">
+      <description>
+         In the Resource view, select <b>Icons -&gt; Miscellaneous Icons -&gt; Browser Connecting (Animated)</b>. Click <b>Click to Perform</b> to select the animated icon automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.SelectAniIconViewContent" pluginId="com.nokia.tools.doc" confirm="false" param1="S60_2_6%qgn_menu_wml_anim">
+      </action>
+   </item>
+   <item title="Open the Entity graphics editor view." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/working_with_animations.html">
+      <description>
+         In the Browser Connecting (Animated) view, select the <b>Edit/Animate selected elements</b> symbol. Entity graphics editor view opens. Click <b>Click to Perform</b> to open the Entity graphics editor automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.OpenGraphicsEditorAction" pluginId="com.nokia.tools.doc" confirm="false" param1="IconView">
+      </action>
+   </item>
+   <item title="Edit the animation." dialog="true" skip="false" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/edit_frame_animations.html">
+      <description>
+         Select the third frame and click the red cross to delete the frame from the animation. Click the white paper sheet to add an empty frame to the animation. Right-click a desired frame to edit it in an external editor. Edit the frame in the external editor. Save the frame and exit the external editor.
+      </description>
+   </item>
+   <item title="Time the animation." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/timing_frame_animations.html">
+      <description>
+         Set the length of each animated frame to be of the same length by clicking the  <b>Distribute Animate Time</b> button. Enter <b>150</b> for the time. Change the length of the third frame by right-clicking the frame and selecting <b>Set animate time</b>. Enter the length as <b>600</b> and click <b>OK</b>. Click <b>Click to Perform</b> to time the animation automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet12Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="setAnimTime" param2="150" param3="600">
+      </action>
+   </item>
+   <item title="Preview the animation." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/previewing_playing_animations.html">
+      <description>
+         Click the green play button. Click <b>Click to Perform</b> to preview the animation automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet12Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="runAnimation">
+      </action>
+   </item>
+   <item title="Save the theme." dialog="true" skip="false" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/saving_theme_under_different_name.html">
+      <description>
+         Select <b>File -&gt; Save</b>. Click <b>Click to Perform</b> to save the theme automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet12Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="doSave">
+      </action>
+   </item>
+</cheatsheet>

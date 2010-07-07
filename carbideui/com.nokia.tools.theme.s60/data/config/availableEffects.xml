@@ -1,0 +1,64 @@
+<effects>
+	<group-def id="default">
+		<effect id="ChannelBlending" multilayer="true"/>
+		<effect id="AlphaBlending" multilayer="true"/>
+		
+		<effect id="ApplyColor" noimage="true" multilayer="false"/>
+		
+		<effect id="AdjustChannels" multilayer="false"/>
+		<effect id="ApplyGraphics" multilayer="false"/>
+		<effect id="BlackAndWhite" multilayer="false"/>
+		<effect id="Contrast" multilayer="false"/>
+		<effect id="Convolution" multilayer="false"/>
+		<effect id="Grayscale" multilayer="false"/>
+		<effect id="Invert" multilayer="false"/>
+		<effect id="MovingLayer" multilayer="false"/>
+		<effect id="Noise" multilayer="false"/>
+		<effect id="Saturation" multilayer="false"/>
+		<effect id="Solarize" multilayer="false"/>
+	</group-def>
+
+	<!-- global definition -->	
+	<entity-def id="*" group="default"/>
+	
+	<!-- effects whitch do not support animation -->
+	<entity-def id="qsn_bg_column_A" group="default" canBeAnimated="true"/>
+	<entity-def id="qsn_bg_slice_list_A" group="default" canBeAnimated="false" />	
+	<entity-def id="qsn_bg_column_0" group="default" canBeAnimated="true" />
+	<entity-def id="qsn_bg_slice_list_0" group="default" canBeAnimated="false" />
+	<entity-def id="qsn_bg_column_AB" group="default" canBeAnimated="true" />
+	<entity-def id="qsn_bg_slice_list_AB" group="default" canBeAnimated="false" />
+	
+	<!-- sample
+	<entity-def id="qn_bg_column_AB" group="default">
+		<enable>
+			<effect id="MyEffect"/>
+		</enable>
+		<disable>
+			<effect id="ApplyGraphics"/>
+		</disable>
+	</entity-def>
+	-->
+	
+	<!-- timing model constraints
+	!!! not used for now !!!! because can be obtained from model -->
+	<timingConstraints>		
+		<!-- * stands as name-wildcard -->
+		<entity-timing-def id="qsn_bg_*" timing="Relative"/>
+		<entity-timing-def id="qsn_anim_*" timing="RealTime"/>
+	</timingConstraints>
+
+	<!--  layer constraints -->
+	<layerConstraints>
+		<entity-type type="scaleable">
+			<constraint name="max-layers-count" value="3"/>
+		</entity-type>
+		<entity-type type="morphing">
+			<constraint name="max-layers-count" value="5"/>
+		</entity-type>
+		<entity-type type="fastanimation">
+			<constraint name="max-layers-count" value="5"/>
+		</entity-type>
+	</layerConstraints>
+	
+</effects>

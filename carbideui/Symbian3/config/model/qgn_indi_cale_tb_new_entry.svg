@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44" version="1.1" viewBox="-0.011 -0.11 44 44" width="44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_5_" x1="21.5115" x2="21.5115" y1="10.4714" y2="35.8465">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#XMLID_5_)" points="10.806,12.756 10.806,29.39 13.056,27.14 13.056,15.006 29.966,15.006 29.966,34.01     26.87,34.01 24.62,36.26 32.216,36.26 32.216,12.756   "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_6_" x1="16.6204" x2="16.6204" y1="10.4714" y2="35.8465">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M8.733,36.23l9.803-9.805c0.099,0.275,0.813,2.031,2.12,3.34c1.307,1.307,3.12,2.041,3.272,2.096    l-4.367,4.369h3.042l4.949-4.951v-8.457h-8.456L5.689,36.23H8.733z M24.136,24.973c0.107,0.281,0.259,0.555,0.484,0.78    c0.226,0.227,0.499,0.377,0.78,0.484v3.822c-1.135-0.248-2.289-0.879-3.226-1.818c-0.953-0.955-1.588-2.124-1.828-3.27    L24.136,24.973L24.136,24.973z" fill="url(#XMLID_6_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_7_" x1="21.531" x2="21.531" y1="10.4714" y2="35.8464">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect fill="url(#XMLID_7_)" height="2" width="12.043" x="15.51" y="17.446"/>
+<rect fill="none" height="44" width="44" x="-0.011" y="-0.11"/>
+</g>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_8_" x1="34.0242" x2="34.0242" y1="6.7341" y2="29.8664">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M37.641,9.397l-4.47,1.974l1.139,2.572l4.467-1.975L37.641,9.397z M31.129,4.842L29.271,9.37    l2.602,1.07l1.859-4.53L31.129,4.842z" fill="url(#XMLID_8_)"/>
+</g>
+</g>
+</svg>

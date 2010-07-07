@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--  TOOL Colour for lines XML  -->
+
+<!DOCTYPE drawlines SYSTEM "drawlines.dtd">
+
+<drawlines>
+	<entity name="Draw Lines" id="property_list_separator_lines" values="True,False" default="True" mandatory="false" />	
+</drawlines>

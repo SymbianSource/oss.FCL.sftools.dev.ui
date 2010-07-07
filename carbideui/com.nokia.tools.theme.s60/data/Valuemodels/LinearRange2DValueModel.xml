@@ -1,0 +1,20 @@
+<flavourModel>
+<general/>
+<valueModel name="LinearRange2DValueModel" uiName="Linear" uid="0x1020762A" >
+<param name="f" defaultValue="0,0" />
+<!--
+<param name="p" defaultValue="30597,30597:35933,35933:41157,41157:46419,46419:51662,51662;" >
+<param name="p" defaultValue="5140,5140:10537,10537:15677,15677:20817,20817:26214,26214:31354,31354:36751,36751;" >
+</param>
+-->
+
+<param name="p" defaultValue="0,0:6553,6553:13107,13107:19660,19660:26214,26214:32767,32767:39321,39321:45874,45874:52428,52428:58981,58981:65535,65535;" >
+</param>
+
+
+</valueModel>
+<timingModel name="Relative"/>
+
+</flavourModel>
+
+

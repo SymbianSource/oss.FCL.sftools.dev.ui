@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Commandline Plug-in
+Bundle-SymbolicName: com.nokia.tools.packaging.commandline; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ com.nokia.tools.resource.core,
+ com.nokia.tools.media.utils,
+ com.nokia.tools.theme.s60,
+ com.nokia.tools.packaging,
+ com.nokia.tools.platform.core,
+ com.nokia.tools.content.core
+Eclipse-LazyStart: true
+Export-Package: com.nokia.tools.packaging.commandline,
+ com.nokia.tools.packaging.commandline.commands,
+ com.nokia.tools.packaging.commandline.util

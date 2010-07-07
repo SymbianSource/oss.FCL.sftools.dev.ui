@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44" version="1.1" viewBox="0.322 -0.275 44 44" width="44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_3_" x1="19.906" x2="19.906" y1="6.7214" y2="39.8464">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#XMLID_3_)" points="18.568,23.566 20.693,23.566 21.244,21.513 19.119,21.513   "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_4_" x1="22.3215" x2="22.3215" y1="6.7214" y2="39.8469">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M10.002,1.486v40.6l24.64-20.301L10.002,1.486z M26.725,23.565l-0.512,1.911l-4.055,0.001    l-1.05,3.917h-1.979l1.05-3.917l-2.125,0.001l-1.05,3.916h-1.979l1.05-3.916l-4.055,0.001l0.514-1.912l4.054-0.001l0.55-2.053    l-4.054,0.001l0.512-1.912h4.056l1.049-3.916h1.979l-1.049,3.916l2.125-0.001l1.049-3.915h1.979l-1.05,3.915h4.055l-0.513,1.91    l-4.055,0.002l-0.55,2.053L26.725,23.565z" fill="url(#XMLID_4_)"/>
+</g>
+<rect fill="none" height="44" width="44" x="0.322" y="-0.275"/>
+</g>
+</svg>

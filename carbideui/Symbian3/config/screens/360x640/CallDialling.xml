@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+	<preview_image display="360x640" name="Call Dialling"
+		preview="true">
+		<reference screenName="BaseScreen4" />
+		<reference screenName="TouchPaneHorizontal0" />
+		<!-- <reference screenName="VolumeIndicatorPortrait" /> -->
+		<!-- <reference screenName="NaviArrowPortrait" /> -->
+		<reference screenName="BaseScreenCall2" />
+		<!-- <reference screenName="BaseScreen17" /> -->
+		<!--  <Element colourId="icon5" compName="signal_pane_g2" display="360x640"
+			image="qgn_prop_signal_icon.svg" varietyId="0" />
+		<Element colourId="icon6" compName="battery_pane_g2" display="360x640"
+			image="qgn_prop_battery_icon.svg" varietyId="0" />-->
+		<!-- analogue clock -->
+		<Element compName="popup_clock_analogue_window_g1" skinId="qsn_cp_clock_analogue_face_1"
+			varietyId="0" />
+		<Element compName="popup_clock_analogue_window_g2" skinId="qsn_cp_clock_analogue_border_num"
+			varietyId="0" />
+		<Element compName="popup_clock_analogue_window_g3" skinId="qsn_cp_clock_analogue_pointer_hour"
+			varietyId="0" />
+		<Element compName="popup_clock_analogue_window_g4" skinId="qsn_cp_clock_analogue_pointer_minute"
+			varietyId="0" />
+		<Element colourId="icon1" compName="popup_clock_analogue_window_t1"
+			text="01" varietyId="0" />
+		<Element compName="popup_clock_analogue_window_g5" skinId="qsn_cp_clock_analogue_face_2"
+			varietyId="0" />
+		<Element colourId="text2" compName="navi_text_pane_t1"
+			display="!360x640" loc_id="&lt;LC&gt;navi_pane@v:6&lt;/LC&gt;" text="We 01/08/2007"
+			varietyId="0" />
+		<Element colourId="text2" compName="navi_text_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:16&lt;/LC&gt;&lt;LC&gt;navi_pane@v:6&lt;/LC&gt;"
+			text="We 01/08/2007" varietyId="0" />
+		<!-- <Element colourId="text36" compName="title_pane_t1"
+			loc_id="&lt;LC&gt;title_pane@v:1&lt;/LC&gt;" text="Operator"
+			varietyId="0" /> -->
+		<!-- contents of main pane -->
+		<!-- <Element compName="call4_image_pane"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;"
+			skinId="qgn_graf_call_image_1" varietyId="2" /> -->
+			
+		<Element compName="popup_call4_audio_in_window" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;call4_windows_pane@v:2&lt;/LC&gt;"
+			skinId="qsn_fr_call2_rect" varietyId="4" />
+		<Element colourId="text51" compName="popup_call_audio_in_window_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;call4_windows_pane@v:2&lt;/LC&gt;&lt;LC&gt;popup_call4_audio_in_window@v:4&lt;/LC&gt;"
+			text="+3589123456789" varietyId="0" />
+		<Element colourId="text51" compName="popup_call_audio_in_window_t2"
+			display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;call4_windows_pane@v:2&lt;/LC&gt;&lt;LC&gt;popup_call4_audio_in_window@v:4&lt;/LC&gt;"
+			text="calling" varietyId="0" />
+		<Element compName="popup_call_status_window_g2" image="qgn_indi_call_active.svg" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;call4_windows_pane@v:2&lt;/LC&gt;&lt;LC&gt;popup_call4_audio_in_window@v:4&lt;/LC&gt;"
+			varietyId="0" />
+    <Element compName="bg_button_pane_cp09"
+             display="360x640"
+             skinId="qsn_fr_button_normal"
+             loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@v:0&lt;/LC&gt;"
+             varietyId="0" />
+    <Element compName="bg_button_pane_cp09"
+             display="360x640"
+             skinId="qsn_fr_button_normal_reject"
+ 			 loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@#r:1#c:2&lt;/LC&gt;"
+             varietyId="0" />
+		<!-- <Element compName="bg_button_pane_cp09" image="qgn_graf_bg_touch_horizontal.svg" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@v:0&lt;/LC&gt;"
+			skinId="bg_popup_sub_pane_cp2" varietyId="0" /> 
+		<Element compName="bg_button_pane_cp09" image="qgn_graf_bg_touch_horizontal.svg" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@#r:1#c:2&lt;/LC&gt;"
+			skinId="bg_popup_sub_pane_cp2" varietyId="0" />-->
+		<Element compName="cell_call4_button_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@v:0&lt;/LC&gt;"
+			skinId="qgn_indi_button_loudspeaker" varietyId="0" />
+		<Element compName="cell_call4_button_pane_g1"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@#r:1#c:2&lt;/LC&gt;"
+			skinId="qgn_indi_button_end_active_call" varietyId="0" />
+		<Element colourId="text82" compName="cell_call4_button_pane_t1" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@v:0&lt;/LC&gt;"
+			text="Loud Speaker" varietyId="0" />
+		<Element colourId="text83" compName="cell_call4_button_pane_t1"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;main_call4_pane@v:0&lt;/LC&gt;&lt;LC&gt;grid_call4_button_pane@v:2&lt;/LC&gt;&lt;LC&gt;cell_call4_button_pane@#r:1#c:2&lt;/LC&gt;"
+			text="End call" varietyId="0" />
+			
+		<!-- touch pane -->
+		<reference screenName="TouchPaneButtons" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			skinId="qgn_indi_button_loudspeaker" varietyId="1" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			skinId="qgn_indi_button_mute_mic" varietyId="1" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			skinId="qgn_indi_dialer_contacts" varietyId="1" />
+			
+		<!--Contents of control pane-->
+		<reference screenName="BaseSoftkeys" />	
+		<Element colourId="text15" compName="control_pane_t1"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options"
+			varietyId="4" />
+		<Element colourId="text16" compName="control_pane_t2"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Silence"
+			varietyId="4" />
+	</preview_image>
+</Preview>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Carbide.ui Theme Edition User Guide">
+<topic label="Read me" href="doc/readme_te.htm"></topic>
+<topic label="Introduction to Carbide.ui" href="doc/Introduction to Carbide.ui.html">
+<topic label="Starting Carbide.UI" href="doc/Starting_carbide.ui.html"></topic>
+</topic>
+<topic label="Tour of the Carbide.ui" href="doc/Tour_Carbide.ui.html">
+<topic label="Menu Bar" href="doc/Menu_Bar.html"></topic>
+<topic label="Tool Bar" href="doc/toolbar.html"></topic>
+<topic label="Editors" href="doc/editors.html"></topic>
+<topic label="Setting active screen in Editor" href="doc/Setting the active screen in the Editor view.html"></topic>
+<topic label="Editing components from the Editor" href="doc/Editing components from the Editor view.html">
+<topic label="Convert and Edit in Bitmap editor" href="doc/Convert and Edit in Bitmap editor.html"></topic>
+<topic label="Open in System associated program" href="doc/Open in System associated program.html"></topic>
+<topic label="Edit image in Vector editor" href="doc/Edit image in Vector editor.html"></topic>
+<topic label="Tiling Editors" href="doc/Tiling_editors.html"></topic>
+</topic>
+<topic label="Synchronizing component selection with the Resources view" href="doc/Synchronizing component selection with the Resources view.html"></topic>
+<topic label="Using Undo, Redo, Copy, Paste and Zoom" href="doc/undo_copy_paste_zoom.html"></topic>
+<topic label="Add Bookmark" href="doc/add_bookmark.html"></topic>
+<topic label="Adding Task" href="doc/adding_task_te.html"></topic>
+<topic label="Show In" href="doc/show_in.html"></topic>
+<topic label="Select Multiple Components" href="doc/select multiple components_te.html"></topic>
+<topic label="Animation Editor" href="doc/animation editor.html"></topic>
+</topic>
+<topic label="Views" href="doc/Views.html">
+<topic label="Navigator View" href="doc/navigator_view.html">
+<topic label="Select Working Set" href="doc/select_work_set.html"></topic>
+<topic label="Context Menu Navigator View" href="doc/context_menu_navigator_view.html"></topic>
+</topic>
+<topic label="Resource View" href="doc/resource_view.html">
+<topic label="Navigating the hierarchy" href="doc/Naviating the hierarchy.html"></topic>
+<topic label="Copying and Pasting Elements from Resource View" href="doc/copying_components_resource_view.html"></topic>
+<topic label="Taking Contents From Existing Themes" href="doc/taking_elements_existing_themes.html"></topic>
+</topic>
+<topic label="Gallery View" href="doc/gallery_view.html"></topic>
+<topic label="Components View" href="doc/Component_view.html"></topic>
+<topic label="Component Store View" href="doc/component_store_view.html"></topic>
+<topic label="Properties View" href="doc/properties_View.html"></topic>
+<topic label="Layers View" href="doc/layers_view.html"></topic>
+<topic label="Referenced Color View" href="doc/referenced_color_view.html"></topic>
+<topic label="Outline View" href="doc/outline_view.html"></topic>
+<topic label="Task Views" href="doc/Task_views.html"></topic>
+<topic label="Search View" href="doc/search_view.html"></topic>
+<topic label="Bookmarks View" href="doc/bookmarks_view.html"></topic>
+<topic label="Effect Control View" href="doc/effect_control_view.html"></topic>
+<topic label="Other Views" href="doc/other_views.html"></topic>
+</topic>
+<topic label="Configuring Carbide.ui Settings" href="doc/configuring_carbide.ui_settings.html">
+<topic label="Carbide.ui Preferences" href="doc/Prefernces_carbide.ui.html"></topic>
+<topic label="Confirmation" href="doc/preferences_confirmation.html"></topic>
+<topic label="Display" href="doc/preferences_display.html"></topic>
+<topic label="Component Store" href="doc/preferences_component_store.html"></topic>
+<topic href="doc/preferences_example_themes.html" label="Example Themes">
+</topic>
+<topic label="External Tools" href="doc/preferences_external_tool.html"></topic>
+<topic label="Image Folders" href="doc/preferences_image_folders.html"></topic>
+<topic href="doc/preferences_pluginmanagement.html" label="Plugin Management">
+</topic>
+<topic label="Third Party Icons" href="doc/preferences_thirdparty icons.html"></topic>
+</topic>
+<topic label="Managing Themes" href="doc/managing_themes_theme_components.html">
+<topic label="Switching Workspace" href="doc/choosing_switching_workspace.html"></topic>
+<topic label="Create New Theme" href="doc/create_new_theme.html"></topic>
+<topic label="Open Existing Theme" href="doc/open_existing_theme.html"></topic>
+<topic label="Saving a theme under a different name" href="doc/saving_theme_under_different_name.html"></topic>
+<topic label="Closing Theme" href="doc/closing_theme.html"></topic>
+<topic label="Delete Theme" href="doc/delete_existing_theme.html"></topic>
+<topic label="Importing and Exporting Themes" href="doc/importing_exporting_themes.html">
+<topic label="Importing Themes" href="doc/importing_s60_themes.html"></topic> 
+<topic label="Exporting Themes" href="doc/exporting_s60_themes.html"></topic>
+</topic>
+</topic>
+<topic label="Editing Themes" href="doc/editing_themes.html">
+<topic label="Theme Editing Process" href="doc/theme_editing_process.html"></topic>
+
+<topic label="Working with Images" href="doc/working_with_images.html">
+<topic label="Common Image Editing Features" href="doc/common_image_editing_features.html"></topic>
+<topic label="Managing Layers" href="doc/managing_layers.html"></topic>
+<topic label="Clearing Images" href="doc/clearing _images.html"></topic>
+<topic label="Editing Vector Graphics" href="doc/editing_vector_graphics.html"></topic>
+<topic label="Optimizing SVG Graphics" href="doc/optmizing_svg_graphics.html"></topic>
+<topic label="Editing Bitmaps" href="doc/editing_bitmaps.html"></topic>
+<topic label="Nine Piece Call Handling Windows" href="doc/nine_piece_call_handling_windows.html"></topic>
+<topic label="Switching between 11 Piece Elements and single piece element" href="doc/Switching11Piece_te.html"></topic>
+<topic label="Switching between 9 Piece to Single Piece Element" href="doc/swtiching_9_piece_to_single_piece_element.html"></topic>
+<topic label="3 Piece Elements Support" href="doc/Switching3Piece_te.html"></topic>
+</topic>
+<topic label="Managing Masks" href="doc/managing_masks.html">
+<topic label="Extracting Masks" href="doc/extracting_masks.html"></topic>
+<topic label="Edit Mask" href="doc/edit_mask.html"></topic>
+</topic>
+<topic label="Working With Animations" href="doc/working_with_animations.html">
+<topic label="Creating and Editing Layer Animations" href="doc/creating_editing_layer_animations.html"></topic>
+<topic label="Edit Frame Animations" href="doc/edit_frame_animations.html"></topic>
+<topic label="Using Animation Effects" href="doc/using_animation_effects.html"></topic>
+<topic label="Adding Effects" href="doc/adding_effects.html"></topic>
+<topic label="Editing Effects" href="doc/editing_effects.html"></topic>
+<topic label="Channel Blend" href="doc/channel_blend.html"></topic>
+<topic label="Timing Animations" href="doc/timing_animations.html"></topic>
+<topic label="Using Timing Models" href="doc/using_timing_models.html"></topic>
+<topic label="Using Control Points" href="doc/using_control_points.html"></topic>
+<topic label="Timing Layer Animations" href="doc/timing_layer_animations.html"></topic>
+<topic label="Timing Frame Animations" href="doc/timing_frame_animations.html"></topic>
+<topic label="Previewing Playing Animations" href="doc/previewing_playing_animations.html"></topic>
+<topic href="doc/animation_mode.html" label="Animation mode">
+</topic>
+</topic>
+<topic label="Working With Colors" href="doc/working_with_colors.html">
+<topic label="Referenced Colors" href="doc/referenced_color.html"></topic>
+<topic label="SVG Colorize" href="doc/svg_colorize.html"></topic>
+<topic label="SVG Colourize for Multiple Icons" href="doc/svg_colourize_multiple_icons.html"></topic>
+</topic>
+<topic label="Using Tasks" href="doc/using_tasks.html">
+<topic label="Adding Tasks" href="doc/usingtask_adding_task.html"></topic>
+<topic label="Deleting Completed Task" href="doc/usingtask_deleting_completed_task.html"></topic>
+<topic label="Filtering Task in the task view" href="doc/using_task_filtering_task_view.html"></topic>
+</topic>
+<topic href="doc/editing_element_properties.html" label="Editing component properties">
+   <topic href="doc/adjusting_colour.html" label="Adjusting colour">
+   </topic>
+   <topic href="doc/optimising_component_properties.html" label="Optimising component properties">
+   </topic>
+</topic>
+</topic>
+<topic label="Theme Component Reference" href="doc/theme_component_refernce_s60.html">
+
+<topic label="Background" href="doc/S60_background.html">
+<topic label="Areas" href="doc/s60_areas.html"></topic>
+<topic label="Icons" href="doc/s60_icons.html"></topic>
+<topic label="Highlights" href="doc/s60_highlights.html"></topic>
+<topic label="Pop-up Windows" href="doc/pop_up_windows.html"></topic>
+<topic label="Indicators" href="doc/s60_indicators.html">
+<topic label="Volume Indicators" href="doc/s60_volume_indicators.html"></topic>
+<topic label="Tab Indicators" href="doc/s60_tab_indicators.html"></topic>
+<topic label="Signal and Battery Indicators" href="doc/s60_signal_battery_indicators.html"></topic>
+<topic label="Slide Indicators" href="doc/s60_slider_indicators.html"></topic>
+<topic label="Navigation Indicators" href="doc/s60_navigation_indicators.html"></topic>
+<topic label="Wait Progress Bar Indicators" href="doc/s60_wait_progress_bar.html"></topic>
+</topic>
+<topic label="Scroll Bars and Lines" href="doc/s60_scroll_bars_lines.html"></topic>
+<topic label="Applications" href="doc/s60_applications.html">
+<topic label="Clock" href="doc/s60_applications_clock.html"></topic>
+<topic label="Pinboard" href="doc/s60_applications_pinboard.html"></topic>
+<topic label="Calendar" href="doc/s60_applications_calendar.html"></topic>
+<topic label="Settings" href="doc/s60_applications_settings.html"></topic>
+<topic label="Calculator" href="doc/s60_applications_calculator.html"></topic>
+<topic label="Notepad" href="doc/s60_applications_notepad.html"></topic>
+<topic label="Music Player" href="doc/s60_applications_music_player.html"></topic>
+</topic>
+<topic label="Colours" href="doc/s60_colours.html">
+<topic label="Colour Groups" href="doc/s60_colour_colour_groups.html"></topic>
+</topic>
+<topic label="Multimedia" href="doc/s60_multimedia.html"></topic>
+</topic>
+</topic>
+<topic label="Packaging Themes" href="doc/creating_sis_package.html">
+<topic label="Defining New Key Pairs" href="doc/defining_new_key_pairs.html"></topic>
+<topic label="Creating New Key Pairs" href="doc/creating_new_key_pairs.html"></topic>
+<topic label="Editing Key Pairs" href="doc/editing_key_pairs.html"></topic>
+<topic label="Deleting Key Pairs" href="doc/deleting_key_pairs.html"></topic>
+<topic label="Setting up and signing" href="doc/setting_up_signing.html"></topic>
+<topic label="Creating Private Key Certificate" href="doc/creating_private_key_certificate.html"></topic>
+<topic label="Security Settings" href="doc/security_settings.html"></topic>
+<topic label="Packaging" href="doc/creating_sis_package_s60.html"></topic>
+<topic label="Command Line Packaging" href="doc/command_line_packaging.html">
+</topic>
+</topic>
+<topic label="Tips and Tricks" href="doc/tipsandtricks_te.htm">
+<topic href="doc/startup_tip.html" label="Startup Tip">
+</topic>
+<topic label="Glossary" href="doc/glossary_te.htm"></topic>
+</topic>
+</toc>

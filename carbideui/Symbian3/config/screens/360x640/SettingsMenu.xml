@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+	<preview_image display="portrait,square" name="Settings Menu"
+		preview="true">
+		<reference screenName="BaseScreen0" />
+		<reference screenName="TouchPaneHorizontal0" />
+		<reference screenName="MainScrollBar0" />
+
+		<Element colourId="text56" compName="control_pane_t3" display="!360x640"
+			text="Open" varietyId="3" />
+
+		<!-- main area contents -->
+		<Element compName="bg_list_pane_g1" display="!360x640" skinId="qsn_bg_column_AB"
+			varietyId="2" />
+		<Element compName="bg_list_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:8&lt;/LC&gt;&lt;LC&gt;bg_list_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_bg_column_AB" varietyId="2" />
+
+		<!--
+			<Element skinId="qsn_bg_slice_list_AB" compName="bg_list_pane_g3"
+			varietyId="2" /> <Element
+			skinId="qgn_graf_line_primary_vertical_dashed"
+			compName="bg_list_pane_g4" varietyId="2" /> <Element
+			skinId="qgn_graf_line_primary_horizontal_dashed"
+			compName="bg_list_pane_g5" varietyId="2" />
+		-->
+
+		<Element colourId="text1" compName="title_pane_t1" text="Settings"
+			varietyId="5" />
+
+		<reference screenName="FourTabPortrait" />
+		<Element colourId="icon9" compName="tabs_4_1_passive_pane_g1"
+			display="!360x640" image="qgn_prop_set_apps_tab4.svg"
+			loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_4_passive_pane_cp2@v:0&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon9" compName="tabs_4_1_passive_pane_g1"
+			display="!360x640" image="qgn_prop_set_conn_tab4.svg"
+			loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_4_passive_pane@v:1&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon9" compName="tabs_4_1_passive_pane_g1"
+			display="!360x640" image="qgn_prop_set_call_tab4.svg"
+			loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_4_passive_pane_cp@v:0&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="icon8" compName="tabs_4_active_pane_g1"
+			display="!360x640" image="qgn_prop_set_gene_tab4.svg"
+			loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_4_active_pane@v:0&lt;/LC&gt;"
+			varietyId="0" />
+
+		<!--application content-->
+		<Element compName="list_highlight_pane_cp1" display="!360x640"
+			loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+			skinId="S60_2_6%qsn_fr_list" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="!360x640"
+			loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+			skinId="qgn_prop_set_gene_psln" varietyId="0" />
+		<Element colourId="text10" compName="list_single_large_graphic_pane_t1"
+			display="!360x640" loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+			text="Personalisation" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="!360x640"
+			loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:2&lt;/LC&gt;"
+			skinId="qgn_prop_set_datim_sub" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="!360x640" loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:2&lt;/LC&gt;"
+			text="Date &amp; Time" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="!360x640"
+			loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:3&lt;/LC&gt;"
+			skinId="qgn_prop_set_accessory_sub" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="!360x640" loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:3&lt;/LC&gt;"
+			text="Accessory" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="!360x640"
+			loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:4&lt;/LC&gt;"
+			skinId="qgn_prop_set_sec_sub" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="!360x640" loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:4&lt;/LC&gt;"
+			text="Security" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="!360x640"
+			loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:5&lt;/LC&gt;"
+			skinId="qgn_prop_set_gene_phone" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="!360x640" loc_id="&lt;LC&gt;list_single_large_graphic_pane@v:0#r:5&lt;/LC&gt;"
+			text="Original Settings" varietyId="0" />
+
+		<Element compName="list_highlight_pane_cp1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@v:0&lt;/LC&gt;"
+			skinId="S60_2_6%qsn_fr_list" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@v:0&lt;/LC&gt;"
+			skinId="qgn_prop_cp_perso_prof" varietyId="0" />
+		<Element colourId="text10" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@v:0&lt;/LC&gt;"
+			text="Profiles" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:2#c:1&lt;/LC&gt;"
+			skinId="qgn_prop_set_gene_psln" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:2#c:1&lt;/LC&gt;"
+			text="Themes" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:3#c:1&lt;/LC&gt;"
+			skinId="qgn_prop_cp_dev" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:3#c:1&lt;/LC&gt;"
+			text="Phone" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:4#c:1&lt;/LC&gt;"
+			skinId="qgn_prop_cp_inst" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:4#c:1&lt;/LC&gt;"
+			text="Application mgr." varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:5#c:1&lt;/LC&gt;"
+			skinId="qgn_prop_cp_tele" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:5#c:1&lt;/LC&gt;"
+			text="Calling" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:6#c:1&lt;/LC&gt;"
+			skinId="qgn_prop_cp_conn_shortcut" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:6#c:1&lt;/LC&gt;"
+			text="Connectivity" varietyId="0" />
+		<Element compName="list_single_large_graphic_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:7#c:1&lt;/LC&gt;"
+			skinId="qgn_prop_set_apps_sub" varietyId="0" />
+		<Element colourId="text6" compName="list_single_large_graphic_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_large_graphic_pane@#r:7#c:1&lt;/LC&gt;"
+			text="Application sett." varietyId="0" />
+		<reference screenName="BaseSoftkeys" />		
+        <Element colourId="text13"
+             compName="control_pane_t1"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             text="Options"
+             varietyId="4" />
+    <Element colourId="text14"
+             compName="control_pane_t2"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             text="Exit"
+             varietyId="4" />
+	</preview_image>
+</Preview>

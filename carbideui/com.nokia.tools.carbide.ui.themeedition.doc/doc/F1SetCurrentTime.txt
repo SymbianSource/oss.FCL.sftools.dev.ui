@@ -1,0 +1,3 @@
+Use the Set Current Time window to set the time in a certain control point of an animation. Click Timing animations to read more about timing animations.
+
+###Pop-up window opens: In the Animation editor view, right-click the timeline and select Set Current Time.; Title: Set Current Time; links to: Timing animations?###

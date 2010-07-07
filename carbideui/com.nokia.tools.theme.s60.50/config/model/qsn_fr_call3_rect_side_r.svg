@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="24" height="78" viewBox="-0.5 -0.5 24 78">
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.01" width="22" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.02" width="21" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.03" width="19.999" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.06" width="19" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.05" width="18" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.1" width="17" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.1" width="16.001" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.1" width="15" height="78"/>
+<rect x="-0.5" y="-0.5" fill="#656B6B" fill-opacity="0.05" width="15" height="78"/>
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="6.5" y1="87.5" x2="6.5" y2="-10.5">
+<stop stop-color="#A8C4CC" offset="0"/>
+<stop stop-color="#D9F4E0" offset="0.53"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<rect x="-0.5" y="-0.5" fill="url(#_7)" width="14" height="78"/>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="6" y1="86.5" x2="6" y2="-9.5">
+<stop stop-color="#A8C4CC" offset="0"/>
+<stop stop-color="#D9F4E0" offset="0.53"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<path fill="url(#_8)" d="M-0.5,77.5h13c0-18.321,0-59.679,0-78h-13V77.5z"/>
+<linearGradient id="_9" gradientUnits="userSpaceOnUse" x1="5.49" y1="85.5" x2="5.49" y2="-8.49">
+<stop stop-color="#A8C4CC" offset="0"/>
+<stop stop-color="#D9F4E0" offset="0.53"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<path fill="url(#_9)" d="M-0.5,77.5h12c0-17.769,0-60.232,0-78h-12V77.5z"/>
+<linearGradient id="_10" gradientUnits="userSpaceOnUse" x1="5" y1="84.5" x2="5" y2="-7.5">
+<stop stop-color="#C4D9D1" offset="0"/>
+<stop stop-color="#D9F4E0" offset="0.23"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<path fill="url(#_10)" d="M-0.5,77.5h11c0-17.127,0-60.873,0-78h-11V77.5z"/>
+<linearGradient id="_11" gradientUnits="userSpaceOnUse" x1="4.5" y1="83.5" x2="4.5" y2="-6.5">
+<stop stop-color="#C4D9D1" offset="0"/>
+<stop stop-color="#D9F4E0" offset="0.23"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<path fill="url(#_11)" d="M-0.5,77.5h10c0-16.385,0-61.615,0-78h-10V77.5z"/>
+<linearGradient id="_12" gradientUnits="userSpaceOnUse" x1="4" y1="82.5" x2="4" y2="-5.5">
+<stop stop-color="#C4D9D1" offset="0"/>
+<stop stop-color="#D9F4E0" offset="0.23"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<path fill="url(#_12)" d="M-0.5,77.5h9c0-15.511,0-62.491,0-78h-9V77.5z"/>
+</svg>

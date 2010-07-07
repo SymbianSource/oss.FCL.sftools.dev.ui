@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Optmizing svg Graphics</title>
+</head>
+<body>
+<h2>Optimizing SVG graphics</h2>
+<h3>Complexity </h3>
+The complexity of the graphics is mainly defined by the content and
+drawing style. A world map or a gothic-looking object is relative
+bigger in file size than a ball or a simplified modern looking object. <br>
+Complexity can be reduced without affecting the outlook of the object
+by: <br>
+<ul>
+  <li>Reducing points (anchors) </li>
+  <li>Reducing curved points </li>
+  <li>Simplifying shapes (paths) </li>
+</ul>
+* SVGt file&rsquo; storage size on disk, ASCII text format
+optimized
+with SVG2SVGT too <br>
+<br>
+<div style="text-align: center;"><img
+ style="width: 504px; height: 233px;" alt=""
+ src="optmizing_svg_graphics1.png"><br>
+<div style="text-align: left;">
+<div style="text-align: center;"><span style="font-weight: bold;">Figure:
+</span>Different size graphics<br>
+</div>
+<br>
+<h3>Reducing points </h3>
+Removing unnecessary points is a way to optimize graphics as each point
+consumes ~20-40 bytes of memory. Actions to do this are: <br>
+<ul>
+  <li>Removing stacked points </li>
+  <li>Removing points that have no
+visual impact </li>
+</ul>
+Points may be created stacked close to each. This may occur, for
+example, when multiple shapes have been combined with Boolean
+operations (e.g. union, subtract, divide).<br>
+<br>
+<h3>Simplify curved points </h3>
+A curved line requires more time and CPU power to render than a
+straight line. Therefore utilizing straight lines whenever possible is
+preferable. Actions to do this are: <br>
+<ul>
+  <li>Covert hidden curved lines
+to straight lines </li>
+  <li>Change visually indifferent
+curved lines to straight lines </li>
+  <li>Retract unnecessary handles </li>
+</ul>
+<img style="width: 147px; height: 147px;" alt=""
+ src="optmizing_svg_graphics2.png"> <img
+ style="width: 155px; height: 153px;" alt=""
+ src="optmizing_svg_graphics3.png"><br>
+<br>
+Remove points that do not have any visual effect - point&rsquo;s
+existence does not affect the shape&rsquo;s outlook. <br>
+<br>
+<img style="width: 464px; height: 154px;" alt=""
+ src="optmizing_svg_graphics4.png"><br>
+<br>
+If an outline is hidden, it is recommended to simplify it by converting
+the relevant curved points to straight ones. <br>
+<br>
+<img style="width: 449px; height: 109px;" alt=""
+ src="optmizing_svg_graphics5.png"><br>
+<br>
+If a curved line can not be recognized, convert them into straight
+lines. <br>
+<br>
+<img style="width: 149px; height: 145px;" alt=""
+ src="optmizing_svg_graphics6.png"><br>
+<br>
+If a line is not needed to be curved on both sides of a point retract
+the handle that is on the straight line side. <br>
+<br>
+<h3>Simplify shapes </h3>
+Simplifying shapes by removing unnecessary details is another step for
+optimization graphics. Actions are: <br>
+<ul>
+  <li>Remove hidden shape details </li>
+  <li>Combine shapes with similar
+fills</li>
+</ul>
+<h3>Demanding features </h3>
+Gradient and opacity are relative demanding features for the SVG engine
+to render, especially when used in large areas. Optimization actions
+are: <br>
+<ul>
+  <li>Use gradients and opacity
+sparingly </li>
+  <li>Combine shapes with same
+gradient </li>
+  <li>Do not use overlapping
+transparency (opacity) </li>
+</ul>
+Avoid using overlapping transparency or transparency on a gradient.
+Create the same visual effect &lsquo;faking&rsquo; the
+transparency
+outcome. <br>
+</div>
+</div>
+</body>
+</html>

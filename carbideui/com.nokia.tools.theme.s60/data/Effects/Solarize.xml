@@ -1,0 +1,13 @@
+<effects>
+<effect name="Solarize" uiname="Solarize" uid="0x10204AE7" type="0" className="com.nokia.tools.theme.s60.effects.effect.Solarize" input="true">
+<param name="c" type="INT" value=""/>
+<param name="t" type="INT" value=""/> 
+<param name="f" type="INT" value=""/> 
+<uiparam uiname="c" pos="1" caption="Bitmask" uiType="JTextField" value="" defaultVal="7"/>
+<uiparam uiname="t" pos="2" caption="Threshold" uiType="JSlider" minVal="0" maxVal="255" value="" defaultVal="127"/>
+<uiparam uiname="f" pos="3" caption="Blend Factor" uiType="JSlider" minVal="0" maxVal="255" value="" defaultVal="255"/>
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+ 

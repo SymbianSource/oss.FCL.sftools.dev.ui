@@ -1,0 +1,10 @@
+<flavourModel>
+<general/>
+<valueModel name="RapidRise1DValueModel" uiName="Rapid Rise" uid="0x10207629" >
+<param name="f" defaultValue="0,0" />
+<param name="p" defaultValue="0,655:6554,1038:13107,1644:19661,2605:26214,4126:32768,6537:39322,10355:45875,16402:52429,25983:58982,41158:65536,65198;" >
+</param>
+</valueModel>
+<timingModel name="Relative"/>
+
+</flavourModel>

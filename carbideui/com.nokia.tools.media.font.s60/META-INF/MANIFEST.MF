@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: S60 Fonts
+Bundle-SymbolicName: com.nokia.tools.media.font.s60;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Vendor: NOKIA
+Require-Bundle: com.nokia.tools.media.core

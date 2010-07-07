@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+ <link rel="StyleSheet"
+ href="style.css">
+  <title>whats_new_release</title>
+</head>
+<body>
+<h2>Whats New in the Release</h2>
+<br>
+Carbide.ui has been designed with the creative professional in mind. It
+allows the S60 and Series 40 UI to be customized with full WYSIWYG
+layout, without the need for layout definition, coding, or specialized
+mobile design experience. In addition, Carbide.ui can be integrated
+with a wide range of creative graphic and audio packages, allowing
+designers to work with their favorite tools.<br>
+<br>
+Carbide.ui 3.2 Theme Edition enables creation of S60 Audio themes.
+Audio themes are supported on some of the S60 3rd Edition, Feature Pack
+1 and later phones, such as the Nokia 5700 XpressMusic phone.<br>
+<br>
+Once a theme has been created, Carbide.ui can be used to package the
+theme into an installation file and prepare it for Open Mobile Alliance
+(OMA) digital rights management (DRM) protection, if required, after
+which it will be ready for deployment to devices.<br>
+<br style="font-weight: bold;">
+<span style="font-weight: bold;">-Support for the elements of SPR 7.2
+in Series 40 </span><br style="font-weight: bold;">
+<span style="font-weight: bold;">-Support Arabic and Hebrew icons</span><br>
+<br>
+<h2>Known Problems and Limitations:</h2>
+<ul>
+  <li><span style="font-weight: bold;">SVG created in Adobe Illustrator
+CS3: </span>In rare cases, SVG created in Adobe Illustrator CS3 and
+saved using the default mode (not using the Save for Web &amp; Devices
+option) appears to be outside the viewbox when applied to theme
+components. These graphics appear as if their top-left corner has been
+translated toward the center of the theme component. This happens
+either during the save in Illustrator, when Carbide.ui converts the SVG
+to SVGT, or when such SVG files are pasted in to Carbide.ui, where
+Carbide.ui filters out all non-SVGT-compliant content. This filtered
+content is an Adobe-specific transformation of the inverse viewBox
+matrix; for example, viewBox="-0.75 0.748 20 8").</li>
+</ul>
+<ul>
+  <ul>
+    <li><span style="font-weight: bold;">&nbsp; Workaround:</span> Use
+the Illustrator CS3 Save for Web &amp; Devices option when saving SVG
+files.</li>
+  </ul>
+</ul>
+<ul>
+  <li><span style="font-weight: bold;">Switching Series 40 Theme
+versions: </span>Switching of the Series 40 Theme version is not
+supported. (Switching platform versions is supported for S60 graphical
+themes.) </li>
+</ul>
+<ul>
+  <ul>
+    <li>&nbsp; <span style="font-weight: bold;">Workaround:</span> See
+the Compatibility Issues section of this document for a description of
+the workaround.</li>
+  </ul>
+</ul>
+<ul>
+  <li><span style="font-weight: bold;">Animated layers and effects
+(layer animations) &mdash; S60 themes only</span>: The behavior of an
+animation in the Carbide.ui preview and on a device may differ. This is
+because, on a device, some of the animation elements do not support all
+of the available effects when they are applied to the first layer. </li>
+  <ul>
+    <li><span style="font-weight: bold;">Workaround: </span>Test
+themes on a device to confirm it works as expected.</li>
+  </ul>
+</ul>
+<ul>
+  <li><span style="font-weight: bold;">Relative time-mode animations</span>
+&mdash; S60 themes only: Elements in backgrounds and areas support
+relative time-mode animations with two control points (start and end)
+only. In addition, SVG graphics are recommended for use in combination
+with animated background effects. The Zebra theme provides an example
+of recommended practice.</li>
+  <ul>
+    <li>&nbsp;Workaround: Use only start and end control points for
+elements in backgrounds and areas.</li>
+  </ul>
+</ul>
+<ul>
+  <li><span style="font-weight: bold;">Undo failures:</span> In rare
+cases, Undo may fail after the platform has been changed several times
+or after switching the simulated resolution.&nbsp; </li>
+  <ul>
+    <li>Workaround: Undo changes manually.</li>
+  </ul>
+</ul>
+<ul>
+  <li><span style="font-weight: bold;">Opening workspaces:</span>
+Problems may occur when opening a workspace edited with earlier
+versions of Carbide.ui. This is a known Eclipse defect. </li>
+  <ul>
+    <li>Workaround: The metadata folder in any existing workspace
+should be cleared. There is no need to delete existing projects from
+the workspace. All folders inside Eclipse\Configuration folder should
+be cleared, except config.ini file, which must not be edited or removed.</li>
+  </ul>
+</ul>
+<ul>
+  <li><span style="font-weight: bold;">Workspace path: </span>The
+workspace path should not contain non-ASCII characters.</li>
+  <li><span style="font-weight: bold;">Project names:</span> Carbide.ui
+may not work properly for projects containing non-ASCII characters
+running on non-Unicode platforms.</li>
+  <li><span style="font-weight: bold;">Linking project paths:</span>
+Linking project path is case-sensitive. </li>
+  <li><span style="font-weight: bold;">Embedded images in SVG images:</span>
+Embedded bitmaps (PNG, JPG, and BMP) within SVG are not supported. </li>
+  <li><span style="font-weight: bold;">Series 40 emulator support: </span>All
+Series 40 features work on the Series 40 5th Edition, Feature Pack 1
+emulator, for GIF and animated GIF format ONLY.</li>
+  <ul>
+    <li>Device testing: During development, themes created in
+Carbide.ui were fully tested against the Series 40 and S60 emulators.
+Exhaustive testing against devices was not conducted; as a result,
+differences may be noticed when themes are installed on some devices.</li>
+  </ul>
+  <li>&nbsp;It is known that formats such as SWF, SVG, and M3G do not
+work consistently on devices.</li>
+  <li><span style="font-weight: bold;">Series 40 Big Clock:</span>
+Image skinning of Series 40 Big Clock hands is not supported and a
+preview for color skinning is not available.</li>
+  <li>S60 elements: The elements under the following S60 theme
+categories are available in the tool, but have no effect when displayed
+on a device:</li>
+  <ul>
+    <li>Secondary Vertical Line</li>
+    <li>Secondary Horizontal Line</li>
+    <li>Primary Vertical Line</li>
+    <li>Primary Horizontal Line</li>
+    <li>Phone Memory</li>
+    <li>Push To Talk Settings</li>
+    <li>Stream Link</li>
+    <li>Application Open State Indication</li>
+    <li>&nbsp;Both Marker icons</li>
+    <li>&nbsp;Todo</li>
+    <li>&nbsp;Icons -&gt; Toolbar Icons</li>
+    <li>Icons -&gt; eSWT Icons</li>
+    <li>&nbsp;Colors -&gt; eSWT and Colors -&gt; MIDP Colors</li>
+    <li>Icons -&gt; Miscellaneous Icons -&gt; Idle Item Indicators</li>
+  </ul>
+  <li>Blue bubbles for Active Call Frame, First Active Call Bubble,
+Second Call Bubble will still appear in the phone.</li>
+  <li>POC call bubbles are not tested.</li>
+  <li>In 2nd Edition FP2, for Highlights, Pop-up Windows, Indicators
+and Applications under Resources view, some elements are having place
+holders, but the icons will not appear.</li>
+  <li>In 2nd Edition FP2, the 3rd party Application icons are not
+getting packaged.</li>
+  <li>Tool shows an error (Error loading content) while opening few S40
+themes eventhough they seem to be valid themes (even if they work on
+phone). This happens if the themes were not created using Carbide.ui.</li>
+  <li>The thumbnail image &ldquo;large_thumbnail.gif&rdquo; cannot be
+defined in the Carbide.ui. The tool is removing the thumbnail when a
+theme (with thumbnail) is loaded, changed and packaged.</li>
+  <li>In Windows Vista Business Edition, for 3rd Edition FP1 and FP2
+themes, SVG to SVGt conversion is not working while saving the themes.</li>
+  <li>In Windows Vista Business Edition, for 3rd Edition FP1 and
+FP2,&nbsp; SVG to MIF conversion is not working while packaging. </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,256 @@
+
+
+/* 
+ * Set up general font colours, sizes, etc.  Some of these will override
+ * settings from the shared CSS 
+ */
+.intro-header H1 {
+	font-size : 18pt;
+}
+#page-links a .link-label, #action-links a .link-label {
+	font-size : 10pt;	font-weight : 600;	color : #666666;
+	position: absolute;
+	top:30px;
+	left:80px;
+}
+#page-links a p .text, #action-links a p .text {
+	font-size : 9pt;	font-weight : 100;	color : #666666;
+}
+
+/* 
+ * Set up the navigation bar.  It should be centered in the middle
+ * of the page
+ */
+#links-background {		text-align : center;
+	font-weight:100;
+}
+
+/* specify a width for Moz so we can center.  
+ * **Important** If additional links are added, we will have to increase this width 
+ * to accomodate them, otherwise they will wrap to a new line 
+ */
+#links-background > #page-links {
+	width : 200px;/*33em;*/	margin : 0 auto;
+	font-weight:100;
+}
+
+#above-page-links{
+	width:900px;
+	position:relative;
+	top: 30;
+	font-weight:100;
+	left: 40;
+	/*top:50px;*/
+	/*background-color:blue; for debugging layout*/	
+	}
+
+
+#page-links {
+	width: 650px; 
+	position : relative;	
+	font-weight:100;
+
+	/*background-color:yellow; for debugging layout*/
+}
+
+#page-links .root-link{
+	background-image: url(graphics/rootpage2/itemBackground.gif);
+	width:200px;
+	height:200px;
+	margin-right: 100;
+	margin-bottom: 30;
+	background-color:transparent;
+	font-weight:100;	
+}
+
+
+
+#page-links a {
+	position : relative;
+	margin:10px;
+	font-weight:100;
+	text-align : left;
+	
+}
+
+/* float left for Moz so the items all appear inline */
+#page-links > a {
+	float : left;
+	position : relative;
+}
+
+
+
+#page-links a img {
+	height : 52px;	width : 57px;	vertical-align : middle;
+	margin-top: 15px;
+	margin-left:13px;	
+}
+
+
+/* remove the hover image from the flow of the document,
+   so it doesn't take up space and change the position
+   of the link label and descriptions */
+#page-links a .background-image {
+	position : absolute;
+}
+
+
+/* properly align the link label and text based on class (left vs. right) */
+#page-links a:hover {
+	/* This is needed for IE to force the hover pseudo selectors below to work.*/
+	padding : 0 em;
+}
+
+
+/* properties for each of the page-links  */
+a .background-image {
+	background-image : url(graphics/icons2/bullet_turq-whitebg.gif);	visibility : hidden;
+}
+
+/* properties for each of the page-links */
+a#overview img {background-image : url(graphics/icons2/guide.gif); }
+a#overview:hover img,
+a#overview:focus img,
+a#overview:active img { background-image : url(graphics/icons2/guide_hover.gif);}
+
+a#tutorials img {background-image : url(graphics/icons2/tutorials.gif); }
+a#tutorials:hover img,
+a#tutorials:focus img,
+a#tutorials:active img { background-image : url(graphics/icons2/tutorials_hover.gif);}
+
+a#forumnokia img {background-image : url(graphics/icons2/forum_nokia.gif); }
+a#forumnokia:hover img,
+a#forumnokia:focus img,
+a#forumnokia:active img { background-image : url(graphics/icons2/forum_nokia_hover.gif);}
+
+a#createtheme img {background-image : url(graphics/icons2/create_theme.gif); }
+a#createtheme:hover img,
+a#createtheme:focus img,
+a#createtheme:active img { background-image : url(graphics/icons2/create_theme_hover.gif);}
+
+a#opentheme img {background-image : url(graphics/icons2/open_theme.gif); }
+a#opentheme:hover img,
+a#opentheme:focus img,
+a#opentheme:active img { background-image : url(graphics/icons2/open_theme_hover.gif);}
+
+a#transfertheme img {background-image : url(graphics/icons2/transfer_theme.gif); }
+a#transfertheme:hover img,
+a#transfertheme:focus img,
+a#transfertheme:active img { background-image : url(graphics/icons2/transfer_theme_hover.gif);}
+
+
+#big-tile-link a .link-label{
+	font-size : 10pt;
+	font-weight : 100;
+	color : #666666;
+	position:relative;
+	top:-30px;
+	left:80px;
+}
+
+
+#page-side-links a p{
+	font-size : 8pt;
+	font-weight : 500;
+	color : #666666;
+}
+
+
+
+
+
+
+#big-tile-link a img {
+	height : 30px;
+	width : 36px;
+	/*vertical-align : middle;*/
+	margin-top: 16px;
+	margin-left:20px;
+	
+}
+#big-tile-link a .link-label {
+	font-size : 10pt;
+	font-weight : 600;
+	color : #666666;
+}
+
+#big-tile-link .root-projects{
+	width:200px;
+	
+	font-size : 2pt;
+	font-weight : 600;
+	color : #111666;		
+	position: relative;
+	top: 10px;	
+}
+
+#link .examples{
+	color : #000000;		
+	position: relative;
+	font-weight:400;
+}
+
+.examples-heading{
+	color : #666666;		
+	position: relative;
+	top: 15px;
+}
+
+.examples-heading-text{
+	color : #666666;		
+	position: relative;	
+	font-size : 10pt;
+	font-weight : 600;	
+	top:-45px;
+	left: 60px;
+}
+
+.group-of-links{
+	width:100%;
+}
+
+.examples{
+	color : #111666;		
+	position: relative;
+	float:left;
+	left:20px;		
+	font-weight : 400;
+	font-size:8pt;
+	top:-20px;
+}
+
+.examples-imgs{
+	color : #111666;		
+	position: relative;	
+	top:-8px;
+	left:10px;
+	
+}
+
+.examples-side-text{
+	color : #000000;		
+	position: relative;
+	top: 10px;	
+	left: 10px;	
+	
+}
+
+.examples-group-text{
+	color : #666666;		
+	position: relative;
+	top: -20px;	
+	left: 0px;
+	font-size : 10pt;
+	font-weight : 600;
+}
+
+.page-side-links-text{
+	font-size : 10pt;
+	font-weight : 600;
+	color : #666666;
+	margin-top: 15px;
+	top: 0px;
+	left: 0px;
+	position:relative;
+}

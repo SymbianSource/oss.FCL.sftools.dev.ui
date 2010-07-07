@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertyContributor">
+		<propertyContributor
+			contributorId="com.nokia.tools.theme.s60.ui.animation.LayerAnimationControls"
+			labelProvider="com.nokia.tools.theme.s60.ui.animation.controls.LayerControlsSectionLabelProvider">
+			<propertyCategory category="general"></propertyCategory>
+			<propertyCategory category="static"></propertyCategory>
+			<propertyCategory category="animated"></propertyCategory>
+		</propertyContributor>
+	</extension>
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertyTabs">
+		<propertyTabs
+			contributorId="com.nokia.tools.theme.s60.ui.animation.LayerAnimationControls">
+			<propertyTab label="General" category="general"
+				id="LayerEffectAnimationControls.general">
+			</propertyTab>
+			<propertyTab label="Still" category="static"
+				id="LayerEffectAnimationControls.static">
+			</propertyTab>
+			<propertyTab label="Animated" category="animated"
+				afterTab="LayerEffectAnimationControls.static"
+				id="LayerEffectAnimationControls.animated">
+			</propertyTab>
+		</propertyTabs>
+	</extension>
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertySections">
+		<propertySections
+			contributorId="com.nokia.tools.screen.ui.propertysheet.tabbed.TabbedProperty">
+			<propertySection
+               class="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.StretchSection"
+               id="com.nokia.tools.screen.ui.propertysheet.tabbed.section.stretch"
+               tab="com.nokia.tools.screen.ui.propertysheet.tabbed.general"
+               filter="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.StretchModeFilter" />
+			<propertySection
+				class="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.LineCategoryInfoSection"
+				id="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.section.line"
+				tab="com.nokia.tools.screen.ui.propertysheet.tabbed.general"
+				filter="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.LineCategoryFilter" />
+			<propertySection
+        		class="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.PlatformSupportSection"
+         		filter="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.PlatformSupportFilter"
+         		id="com.nokia.tools.theme.s60.ui.propertysheet.tabbed.section.platform"
+         		tab="com.nokia.tools.screen.ui.propertysheet.tabbed.general"/>
+		</propertySections>
+	</extension>
+
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertySections">
+		<propertySections
+			contributorId="com.nokia.tools.theme.s60.ui.animation.LayerAnimationControls">
+			<propertySection
+				class="com.nokia.tools.theme.s60.ui.animation.controls.LayerInfoSection"
+				id="LayerGeneralSection"
+				tab="LayerEffectAnimationControls.general">
+				<input type="com.nokia.tools.theme.s60.editing.EditableImageLayer" />
+			</propertySection>
+			<propertySection
+				class="com.nokia.tools.theme.s60.ui.animation.controls.LayerEffectStaticControlsSection"
+				id="LayerEffectStaticControlsSection"
+				tab="LayerEffectAnimationControls.static">
+				<input type="com.nokia.tools.theme.s60.effects.EffectObject" />
+			</propertySection>
+			<propertySection
+         class="com.nokia.tools.theme.s60.ui.animation.controls.LayerEffectAnimatedControlsSection"
+         filter="com.nokia.tools.theme.s60.ui.animation.controls.LayerEffectAnimationControlsFilter"
+         id="LayerEffectAnimatedControlsSection"
+         tab="LayerEffectAnimationControls.animated"/>
+		</propertySections>
+	</extension>
+
+  <extension
+        point = "org.eclipse.ui.preferencePages">      
+        <page
+             category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+             class="com.nokia.tools.theme.s60.ui.preferences.ComponentStorePrefPage"
+             id="com.nokia.tools.s60.preferences.ComponentStorePrefPage"
+             name="Component Store"/>
+   </extension>
+
+	<extension
+		point="com.nokia.tools.screen.ui.contributors">
+		<gallery contentType="S60THEME" default="Idle" 
+			screens="Active Second Call,Idle,Settings List,Contacts,Calendar Month View,Pinboard,Settings Menu,Form Selection List" />
+		<packaging contentType="S60THEME" 
+			operationClass="com.nokia.tools.theme.s60.ui.wizards.PackagingOperation"
+			helpContextId="com.nokia.tools.s60.ide.createDeploymentPackage_context">
+			<wizardPage class="com.nokia.tools.theme.s60.ui.wizards.NewPackagePage1" />
+			<wizardPage class="com.nokia.tools.theme.s60.ui.wizards.NewPackagePage2" />
+		</packaging>
+	</extension>
+
+   <extension
+         point="com.nokia.tools.screen.ui.contributors">
+      <operation
+            createProject="com.nokia.tools.theme.s60.ui.actions.S60CreateProjectAction"
+            exportProject="com.nokia.tools.theme.s60.ui.wizards.S60ExportProjectOperation"
+            importProject="com.nokia.tools.theme.s60.ui.wizards.S60ImportProjectOperation"
+            openProject="com.nokia.tools.theme.s60.ui.actions.S60OpenProjectAction"/>
+   </extension>
+   <extension
+         point="com.nokia.tools.screen.ui.packagingPreProcessingAction">
+      <packagingPreProcessingAction
+            actionClass="com.nokia.tools.theme.s60.ui.helper.packaging.S60PackagingPreprocessingAction"
+            contentType="S60THEME">
+      </packagingPreProcessingAction>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.nokia.tools.theme.s60.ui.keygeneration.actionset"
+            label="KeyGenerator"
+            visible="true">
+			<action
+               class="com.nokia.tools.theme.s60.ui.actions.KeyPairsAction"
+               disabledIcon="icons/dtool16/handle_key_pairs16x16.png"
+               icon="icons/etool16/handle_key_pairs16x16.png"
+               id="com.nokia.tools.theme.s60.ui.actions.KeyPairsAction"
+               label="%KeyPairsAction.label"
+               menubarPath="Tools/KeyPairGroup"
+               style="push"/>
+      </actionSet>
+   </extension>
+</plugin>

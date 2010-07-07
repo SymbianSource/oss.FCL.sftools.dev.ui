@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="32" viewBox="-1.479 0.993 44 32">
+<path fill="#656B6B" fill-opacity="0.01" d="M42.521,31.993h-16.5l-1.279-0.057C11.591,31.317,1.189,20.897,0.566,7.702 L0.521,6.764V0.993h42V31.993z"/>
+<path fill="#656B6B" fill-opacity="0.02" d="M42.521,30.993h-16.5l-1.223-0.055C12.161,30.343,2.165,20.333,1.566,7.655 l0.011-0.002C1.571,7.618,1.521,6.715,1.521,6.715V0.993h41V30.993z"/>
+<path fill="#656B6B" fill-opacity="0.03" d="M42.521,29.993h-16.5l-1.163-0.053C12.731,29.368,3.141,19.767,2.566,7.607L2.521,6.67 V0.993h40V29.993z"/>
+<path fill="#656B6B" fill-opacity="0.05" d="M42.521,28.993h-16.5l-1.104-0.051C13.302,28.394,4.116,19.202,3.565,7.559l0.02-0.004 C3.577,7.508,3.521,6.626,3.521,6.626V0.993h39V28.993z"/>
+<path fill="#656B6B" fill-opacity="0.06" d="M42.521,27.993h-16.5l-1.044-0.049C13.872,27.421,5.091,18.636,4.566,7.512L4.55,7.268 L4.521,6.581V0.993h38V27.993z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M42.521,26.993h-16.5l-0.984-0.047c-10.592-0.5-18.969-8.875-19.47-19.479L5.521,6.538 V0.993h37V26.993z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M42.521,25.993h-16.5l-0.924-0.045c-10.088-0.477-18.055-8.443-18.53-18.53 c0,0.003-0.046-0.925-0.046-0.925v-5.5h36V25.993z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M42.521,24.993h-16.5c-0.296,0-0.584-0.03-0.877-0.044 c-9.5-0.448-17.13-8.079-17.578-17.579C7.55,7.078,7.521,6.79,7.521,6.493v-5.5h35V24.993z"/>
+<path fill="#CADCEC" d="M9.521,6.493c0,9.099,7.402,16.5,16.5,16.5h16.5v1h-16.5c-9.665,0-17.5-7.834-17.5-17.5v-5.5h1V6.493z"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="26.02" y1="-111.01" x2="26.02" y2="23.99">
+<stop stop-color="#DEE9F3" offset="0"/>
+<stop stop-color="#E6EFF6" offset="0.1"/>
+<stop stop-color="#F9FBFD" offset="0.36"/>
+<stop stop-color="#FFFFFF" offset="0.54"/>
+<stop stop-color="#FBFCFE" offset="0.67"/>
+<stop stop-color="#EFF4F9" offset="0.8"/>
+<stop stop-color="#DAE7F2" offset="0.92"/>
+<stop stop-color="#CADCEC" offset="1"/>
+</linearGradient>
+<path fill="url(#_2)" d="M42.521,22.993h-16.5c-9.098,0-16.5-7.401-16.5-16.5v-5.5h33V22.993z"/>
+</svg>

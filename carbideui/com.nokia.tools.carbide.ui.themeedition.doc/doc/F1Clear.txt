@@ -1,0 +1,1 @@
+The Clear function allows you to restore an edited screen element back to its default appearance. Click Clear to read more about clearing screen elements.

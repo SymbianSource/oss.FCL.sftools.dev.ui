@@ -1,0 +1,218 @@
+/*
+* Copyright (c) 2006-2010 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+package com.nokia.tools.screen.ui.gef;
+
+import org.eclipse.draw2d.ColorConstants;
+import org.eclipse.draw2d.IFigure;
+import org.eclipse.draw2d.Label;
+import org.eclipse.draw2d.XYLayout;
+import org.eclipse.draw2d.geometry.Rectangle;
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.util.EcoreUtil;
+import org.eclipse.gef.DefaultEditDomain;
+import org.eclipse.gef.GraphicalEditPart;
+import org.eclipse.gef.GraphicalViewer;
+import org.eclipse.gef.Request;
+import org.eclipse.gef.RequestConstants;
+import org.eclipse.ui.IEditorPart;
+import org.eclipse.ui.views.properties.IPropertySource;
+
+import com.nokia.tools.editing.core.EditingUtil;
+import com.nokia.tools.editing.jfc.JFCFigure;
+import com.nokia.tools.editing.model.EditDiagram;
+import com.nokia.tools.editing.model.EditObject;
+import com.nokia.tools.editing.ui.figure.FeedbackFigure;
+import com.nokia.tools.editing.ui.figure.LiveFigure;
+import com.nokia.tools.editing.ui.part.DefaultGraphicalEditPart;
+import com.nokia.tools.screen.core.IScreenElement;
+import com.nokia.tools.screen.core.JEMUtil;
+import com.nokia.tools.ui.figure.OutlineBorder;
+import com.nokia.tools.widget.SContainer;
+
+/**
+ * This is the base class of the graphical editpart for the normal screen
+ * widgets.
+ * 
+ */
+public class SComponentGraphicalEditPart extends DefaultGraphicalEditPart {
+	/**
+	 * Constructs a widget graphical editpart.
+	 * 
+	 * @param model the widget JEM instance.
+	 */
+	public SComponentGraphicalEditPart(EditObject model) {
+		super(model);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.nokia.tools.editing.ui.part.DefaultGraphicalEditPart#createFigure()
+	 */
+	@Override
+	protected IFigure createFigure() {
+		EObject model = (EObject) getModel();
+		IFigure figure;
+		if (model.eContainer() instanceof EditDiagram) {
+			figure = new JFCFigure((GraphicalViewer) getViewer());
+			OutlineBorder border = new OutlineBorder(ColorConstants.button,
+					ColorConstants.button);
+			figure.setBorder(border);
+			figure.setLayoutManager(new XYLayout());
+		} else {
+			figure = super.createFigure();
+		}
+		final IScreenElement adapter = JEMUtil.getScreenElement(model);
+		figure.setToolTip(new Label() {
+			/*
+			 * (non-Javadoc)
+			 * 
+			 * @see org.eclipse.draw2d.Label#getSubStringText()
+			 */
+			@Override
+			public String getSubStringText() {
+				return adapter.getText();
+			}
+
+			/*
+			 * (non-Javadoc)
+			 * 
+			 * @see org.eclipse.draw2d.Label#getText()
+			 */
+			@Override
+			public String getText() {
+				return adapter.getText();
+			}
+		});
+		return figure;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.nokia.tools.editing.ui.part.DefaultGraphicalEditPart#deactivate()
+	 */
+	@Override
+	public void deactivate() {
+		super.deactivate();
+		if (getFigure() instanceof LiveFigure) {
+			((LiveFigure) getFigure()).dispose();
+		}
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.eclipse.ve.internal.jfc.core.ComponentGraphicalEditPart#performRequest(org.eclipse.gef.Request)
+	 */
+	@Override
+	public void performRequest(Request req) {
+		// filter out doubleClick request
+		if (req.getType() == RequestConstants.REQ_OPEN) {
+
+			IEditorPart editorPart = ((DefaultEditDomain) getViewer()
+					.getEditDomain()).getEditorPart();
+			if (editorPart instanceof IDoubleClickListener) {
+				((IDoubleClickListener) editorPart).doubleClick(this);
+				return;
+			}
+		}
+		super.performRequest(req);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.eclipse.ve.internal.jfc.core.ComponentGraphicalEditPart#getAdapter(java.lang.Class)
+	 */
+	@Override
+	public Object getAdapter(Class type) {
+		if (IPropertySource.class == type) {
+			IScreenElement adapter = JEMUtil
+					.getScreenElement((EObject) getModel());
+			if (adapter != null && adapter.getTargetAdapter() != null) {
+				return EcoreUtil.getRegisteredAdapter(adapter
+						.getTargetAdapter().getWidget(), IPropertySource.class);
+			}
+		}
+		return super.getAdapter(type);
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.nokia.tools.editing.ui.part.DefaultGraphicalEditPart#isContainer()
+	 */
+	@Override
+	protected boolean isContainer() {
+		return (EditingUtil.getBean((EditObject) getModel()) instanceof SContainer);
+	}
+
+	protected IFigure getTopFigure() {
+		if (getParent() == null) {
+			return null;
+		}
+		EditObject eo = (EditObject) getModel();
+		while (eo.getParent() != null) {
+			eo = eo.getParent();
+		}
+		GraphicalEditPart part = (GraphicalEditPart) getViewer()
+				.getEditPartRegistry().get(eo);
+		return part.getFigure();
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.eclipse.gef.editparts.AbstractEditPart#setSelected(int)
+	 */
+	@Override
+	public void setSelected(int value) {
+		super.setSelected(value);
+		removeContour();
+	}
+
+	public void removeContour() {
+		IFigure top = getTopFigure();
+		if (top != null) {
+			IFigure parent = top.getParent();
+			for (Object figure : parent.getChildren().toArray()) {
+				if (figure instanceof FeedbackFigure) {
+					parent.remove((IFigure) figure);
+				}
+			}
+		}
+	}
+
+	public void showContour(Rectangle[] contourBounds) {
+		removeContour();
+		IFigure top = getTopFigure();
+		if (top != null) {
+			Rectangle topBounds = top.getBounds();
+			for (Rectangle bounds : contourBounds) {
+				if (bounds == null) {
+					continue;
+				}
+				FeedbackFigure contour = new FeedbackFigure();
+				contour.setOutline(true);
+				top.getParent().add(contour);
+				contour.setBounds(new Rectangle(bounds.x + topBounds.x,
+						bounds.y + topBounds.y, bounds.width, bounds.height));
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" viewBox="0 0 44 44" width="44px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M23.016,30.785H9.811V14.413l7.369,7.327l9.594,0.016l7.358-7.343v6.856l2.507,2.72V10.654H7.305 v22.637h15.711V30.785z M31.626,13.16l-5.547,5.547H17.86l-5.545-5.547H31.626z" fill="url(#SVGID_1)"/>
+<polygon fill="url(#SVGID_1)" points="25.016,31.946 25.016,26.014 31.163,26.014 31.163,22.33 32.39,22.33 38.516,28.978 32.39,35.631 31.163,35.631 31.163,31.946 "/>
+<rect fill="none" height="44" width="44"/>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1" x1="21.97" x2="21.97" y1="10.65" y2="33.22">
+<stop offset="0" stop-color="#B2B2B2"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+</svg>

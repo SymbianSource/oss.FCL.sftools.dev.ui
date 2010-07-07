@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="56" viewBox="46.521 -23.007 44 56">
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.01" width="42" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.02" width="41" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.03" width="40" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.05" width="39" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.06" width="38" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.1" width="37" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.1" width="36" height="56"/>
+<rect x="46.521" y="-23.007" fill="#656B6B" fill-opacity="0.1" width="35" height="56"/>
+<rect x="83.521" y="-23.007" fill="#CADCEC" width="1" height="56"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="65.02" y1="-79.01" x2="65.02" y2="55.99">
+<stop stop-color="#DEE9F3" offset="0"/>
+<stop stop-color="#E6EFF6" offset="0.1"/>
+<stop stop-color="#F9FBFD" offset="0.36"/>
+<stop stop-color="#FFFFFF" offset="0.54"/>
+<stop stop-color="#FBFCFE" offset="0.67"/>
+<stop stop-color="#EFF4F9" offset="0.8"/>
+<stop stop-color="#DAE7F2" offset="0.92"/>
+<stop stop-color="#CADCEC" offset="1"/>
+</linearGradient>
+<rect x="46.521" y="-23.007" fill="url(#_2)" width="37" height="56"/>
+</svg>

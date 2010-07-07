@@ -1,0 +1,120 @@
+1: SUN IS WILLING TO LICENSE THIS SPECIFICATION TO YOU ONLY UPON THE CONDITION
+    2: THAT YOU ACCEPT ALL OF THE TERMS CONTAINED IN THIS LICENSE AGREEMENT
+    3: ("AGREEMENT").  PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE
+    4: CAREFULLY. BY DOWNLOADING THIS SPECIFICATION, YOU ACCEPT THE TERMS AND
+    5: CONDITIONS OF THIS LICENSE AGREEMENT. IF YOU ARE NOT WILLING TO BE BOUND BY
+    6: ITS TERMS, SELECT THE "DECLINE" BUTTON AT THE BOTTOM OF THIS PAGE AND THE
+    7: DOWNLOADING PROCESS WILL NOT CONTINUE.
+    8: 
+    9: 
+   10: 
+   11: Java(TM) Advanced Imaging API Specification ("Specification")
+   12: Version: 1.1
+   13: Status: MR
+   14: Release: April, 2003
+   15: 
+   16: Copyright 2003 Sun Microsystems, Inc.  4150 Network Circle, Santa Clara, California 95054, U.S.A.
+   17: 
+   18: All rights reserved.
+   19: 
+   20: NOTICE
+   21: The Specification is protected by copyright and the information described
+   22: therein may be protected by one or more U.S. patents, foreign patents, or
+   23: pending applications.  Except as provided under the following license, no
+   24: part of the Specification may be reproduced in any form by any means without
+   25: the prior written authorization of Sun Microsystems, Inc. ("Sun") and its
+   26: licensors, if any.  Any use of the Specification and the information
+   27: described therein will be governed by the terms and conditions of this
+   28: license and the Export Control Guidelines as set forth in the Terms of Use
+   29: on Sun's website.  By viewing, downloading or otherwise copying the
+   30: Specification, you agree that you have read, understood, and will comply
+   31: with all of the terms and conditions set forth herein.
+   32: 
+   33: Sun hereby grants you a fully-paid, non-exclusive, non-transferable,
+   34: worldwide, limited license (without the right to sublicense), under Sun's
+   35: intellectual property rights that are essential to practice the
+   36: Specification, to internally practice the Specification for the purpose of
+   37: designing and developing your Java applets and applications intended to run
+   38: on the Java platform or creating a clean room implementation of the
+   39: Specification that: (i) includes a complete implementation of the current
+   40: version of the Specification, without subsetting or supersetting; (ii)
+   41: implements all of the interfaces and functionality of the Specification
+   42: without subsetting or supersetting; (iii) includes a complete implementation
+   43: of any optional components (as defined by the Specification) which you
+   44: choose to implement, without subsetting or supersetting; (iv) implements all
+   45: of the interfaces and functionality of such optional components, without
+   46: subsetting or supersetting; (v) does not add any additional packages,
+   47: classes or interfaces to the "java.*" or "javax.*" packages or subpackages
+   48: or other packages defined by the Specification; (vi) satisfies all testing
+   49: requirements available from Sun relating to the most recently published
+   50: version of the Specification six (6) months prior to any release of the
+   51: clean room implementation or upgrade thereto; (vii) does not derive from any
+   52: Sun source code or binary code materials; and (viii) does not include any
+   53: Sun source code or binary code materials without an appropriate and separate
+   54: license from Sun. The Specification contains the proprietary information of
+   55: Sun and may only be used in accordance with the license terms set forth
+   56: herein. This license  will terminate immediately without notice from Sun if
+   57: you fail to comply with any provision of this license.   Upon termination or
+   58: expiration of this license, you must cease use of or destroy the
+   59: Specification.
+   60: 
+   61: TRADEMARKS
+   62: No right, title, or interest in or to any trademarks, service marks, or
+   63: trade names of Sun or Sun's licensors is granted hereunder.  Sun, Sun
+   64: Microsystems, the Sun logo, Java, and the Java Coffee Cup logo are
+   65: trademarks or registered trademarks of Sun Microsystems, Inc. in the U.S.
+   66: and other countries.
+   67: 
+   68: DISCLAIMER OF WARRANTIES
+   69: THE SPECIFICATION IS PROVIDED "AS IS".  SUN MAKES NO REPRESENTATIONS OR
+   70: WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO,
+   71: WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+   72: NON-INFRINGEMENT THAT THE CONTENTS OF THE SPECIFICATION ARE SUITABLE FOR ANY
+   73: PURPOSE OR THAT ANY PRACTICE OR IMPLEMENTATION OF SUCH CONTENTS WILL NOT
+   74: INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADE SECRETS OR OTHER
+   75: RIGHTS.  This document does not represent any commitment to release or
+   76: implement any portion of the Specification in any product.
+   77: 
+   78: THE SPECIFICATION COULD INCLUDE TECHNICAL INACCURACIES OR TYPOGRAPHICAL
+   79: ERRORS.  CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION THEREIN; THESE
+   80: CHANGES WILL BE INCORPORATED INTO NEW VERSIONS OF THE SPECIFICATION, IF
+   81: ANY.  SUN MAY MAKE IMPROVEMENTS AND/OR CHANGES TO THE PRODUCT(S) AND/OR THE
+   82: PROGRAM(S) DESCRIBED IN THE SPECIFICATION AT ANY TIME.  Any use of such
+   83: changes in the Specification will be governed by the then-current license
+   84: for the applicable version of the Specification.
+   85: 
+   86: LIMITATION OF LIABILITY
+   87: TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT WILL SUN OR ITS LICENSORS
+   88: BE LIABLE FOR ANY DAMAGES, INCLUDING WITHOUT LIMITATION, LOST REVENUE,
+   89: PROFITS OR DATA, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL OR
+   90: PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY,
+   91: ARISING OUT OF OR RELATED TO ANY FURNISHING, PRACTICING, MODIFYING OR ANY
+   92: USE OF THE SPECIFICATION, EVEN IF SUN AND/OR ITS LICENSORS HAVE BEEN ADVISED
+   93: OF THE POSSIBILITY OF SUCH DAMAGES.
+   94: 
+   95: You will indemnify, hold harmless, and defend Sun and its licensors from any
+   96: claims arising or resulting from: (i) your use of the Specification; (ii)
+   97: the use or distribution of your Java application, applet and/or clean room
+   98: implementation; and/or (iii) any claims that later versions or releases of
+   99: any Specification furnished to you are incompatible with the Specification
+  100: provided to you under this license.
+  101: 
+  102: RESTRICTED RIGHTS LEGEND
+  103: U.S. Government:  If this Specification is being acquired by or on behalf of
+  104: the U.S. Government or by a U.S. Government prime contractor or
+  105: subcontractor (at any tier), then the Government's rights in the Software
+  106: and accompanying documentation shall be only as set forth in this license;
+  107: this is in accordance with 48 C.F.R. 227.7201 through 227.7202-4 (for
+  108: Department of Defense (DoD) acquisitions) and with 48 C.F.R. 2.101 and
+  109: 12.212 (for non-DoD acquisitions).
+  110: 
+  111: REPORT
+  112: You may wish to report any ambiguities, inconsistencies or inaccuracies you
+  113: may find in connection with your use of the Specification ("Feedback"). To
+  114: the extent that you provide Sun with any Feedback, you hereby: (i) agree
+  115: that such Feedback is provided on a non-proprietary and non-confidential
+  116: basis, and (ii) grant Sun a perpetual, non-exclusive, worldwide, fully
+  117: paid-up, irrevocable license, with the right to sublicense through multiple
+  118: levels of sublicensees, to incorporate, disclose, and use without limitation
+  119: the Feedback for any purpose related to the Specification and future
+  120: versions, implementations, and test suites thereof.

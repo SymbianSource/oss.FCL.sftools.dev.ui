@@ -1,0 +1,157 @@
+<!-- uid value is not given. Type ditermines whether the effect is on-layer effect or between-layer effect.
+ 0 stands for on-layer effect and 1 stands for between-layer effect-->
+
+<effects>
+<effect name="Adjust channels" uid="" type="0" />
+
+<effect name="Grayscale" uid="" type="0">
+<attribute caption="Brightness" uiType="JSlider" minVal="0" maxVal="255"/>
+</effect>
+
+<effect name="Black and white" uid="" type="0">
+<attribute caption="Threshold" uiType="JSlider" minVal="0" maxVal="255"/>
+</effect>
+
+<effect name="Contrast" uid="" type="0" >
+<attribute caption="Contrast" uiType="JSlider" minVal="0" maxVal="255"/>
+</effect>
+
+<effect name="Saturation" uid="" type="0">
+<attribute  caption="Saturation" uiType="JSlider" minVal="0" maxVal="255"/>
+</effect>
+
+<effect name="Invert" uid="" type="0"/>
+
+<effect name="Noise" uid="" type="0">
+<attribute  caption="Noise" uiType="JSlider" minVal="0" maxVal="255"/>
+</effect>
+
+<effect name="Solarize" uid="" type="0"/>
+
+<effect name="Edgedetect" uid="" type="0" />
+
+<effect name="Blur" uid="" type="0"/>
+
+<effect name="Emboss" uid="" type="0"/>
+
+<effect name="Enhance" uid="" type="0" />
+
+<effect name="Soften" uid="" type="0"/>
+
+<effect name="Sharpen" uid="" type="0"/>
+
+<effect name="Mean" uid="" type="0"/>
+
+<effect name="Median" uid="" type="0"/>
+
+<effect name="Dilate" uid="" type="0"/>
+
+<effect name="Erode" uid="" type="0"/>
+
+<effect name="Pixelate" uid="" type="0">
+<attribute caption="CellSize" value="2" uiType="JTextField"/>
+</effect>
+
+
+
+<effect name="Drop Shadow" uid="" type="0" shadowX="" shadowY="" color="">
+<attribute caption="shadowX" value="0"  uiType="JTextField" />
+<attribute caption="shadowY" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="Normal" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="Darken" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="Lighten" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="Multiply" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="Screen" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="HardLight" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="SoftLight" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="Overlay" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="Difference" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="Dodge" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="Burn" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+<effect name="AOverB" uid="" type="1" >
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="BOverA" uid="" type="1" >
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="AInB" uid="" type="1" >
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="BInA" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="AOutB" uid="" type="1" >
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="BOutA" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="ATopB" uid="" type="1" >
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="BTopA" uid="" type="1" >
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="AXorB" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+<effect name="feathring" uid="" type="1">
+<attribute caption="X" value="0" uiType="JTextField" />
+<attribute caption="Y" value="0" uiType="JTextField" />
+</effect>
+
+</effects>
+
+ 

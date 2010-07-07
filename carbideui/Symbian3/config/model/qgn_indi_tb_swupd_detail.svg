@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" version="1.1" viewBox="0 0 44 44" width="44px" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<g>
+<rect fill="none" fill-opacity="0.48" height="44" stroke-opacity="0.48" width="44"/>
+</g>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="21.3794" x2="21.3794" y1="0.375" y2="43.2922">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<ellipse cx="21.377" cy="12.607" fill="url(#SVGID_1_)" rx="3.797" ry="3.813"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="21.9995" x2="21.9995" y1="0.375" y2="43.2922">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" points="25.238,31.551 25.238,18.699 16.675,18.686 16.675,22.252 18.838,22.293 18.838,31.551     15.965,31.551 15.965,35.205 28.035,35.205 28.035,31.551   "/>
+</g>
+</g>
+</svg>

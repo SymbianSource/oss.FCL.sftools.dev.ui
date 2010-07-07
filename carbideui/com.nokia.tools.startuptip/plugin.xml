@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.nokia.tools.startuptip.StartupTipPlugin">
+      </startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="com.nokia.tools.s60.preferences.S60UICustomizationGeneralPreferencePage"
+            class="com.nokia.tools.startuptip.preferences.StartupTipPreferencePage"
+            id="com.nokia.tools.startuptip.preferencePage"
+            name="Startup Tips">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.nokia.tools.startuptip.actionset"
+            label="Startup Tip Actionset"
+            visible="true">
+         <action
+               class="com.nokia.tools.startuptip.actions.ShowStartupTipActionDelegate"
+               id="com.nokia.tools.startuptip.helpMenuaAtion"
+               label="Start&amp;up Tips"
+               menubarPath="help/helpStart"
+               tooltip="Show the startup tip">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

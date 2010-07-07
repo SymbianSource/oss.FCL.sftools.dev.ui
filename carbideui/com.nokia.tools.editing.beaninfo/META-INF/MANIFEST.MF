@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Beaninfo Plug-in
+Bundle-SymbolicName: com.nokia.tools.editing.beaninfo
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.editing.beaninfo.Activator
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.core.runtime,
+ com.nokia.tools.editing.core,
+ org.eclipse.emf.ecore
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.editing.beaninfo

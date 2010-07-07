@@ -1,0 +1,4387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE idMappings SYSTEM "idmapping.dtd">
+<idMappings>
+  <layoutMappings>
+    <!-- Screen -->
+    <layoutEntity display="portrait,landscape"
+                  name="screen_g1@V:0">
+      <skin id="qsn_bg_screen" />
+      <skin id="qsn_bg_screen_idle" />
+      <skin id="qgn_home_contactname_bg" />
+      <skin id="qgn_home_add" />
+      <skin id="qgn_home_edit_mode" />
+      <skin id="qgn_home_edit_bg_widget" />
+      <skin id="qgn_home_photo_mask" />
+      <skin id="qgn_indi_home_profile_silent" />
+      <skin id="qgn_indi_home_profile_timed" />
+      <skin id="qgn_indi_sctrl_sk_mask_middle_prt" />
+      <skin id="qgn_indi_ai_eplg_unread" />
+      <skin id="qgn_indi_ai_eplg_default" />
+      <skin id="qgn_indi_ai_eplg_read" />
+      <skin id="qgn_home_refreshing_1" />
+      <skin id="qgn_home_refreshing_2" />
+      <skin id="qgn_home_refreshing_3" />
+      <skin id="qgn_home_refreshing_4" />
+      <skin id="qgn_home_refreshing_fails" />
+      <skin id="qgn_home_widget_offline" />
+      <skin id="qgn_prop_home_add_friend" />
+      <skin id="qgn_prop_home_default_friend" />
+      <skin id="qsn_home_clock_analogue_pointer_hour" />
+      <skin id="qsn_home_clock_analogue_pointer_minute" />
+      <skin id="qsn_home_clock_analogue_face" />
+      <skin id="qgn_graf_music_home_anim_download00" />
+      <skin id="qgn_graf_music_home_anim_download01" />
+      <skin id="qgn_graf_music_home_anim_download02" />
+      <skin id="qgn_graf_music_home_anim_download03" />
+      <skin id="qgn_graf_music_home_anim_download04" />
+      <skin id="qgn_graf_music_home_anim_download05" />
+      <skin id="qgn_graf_music_home_anim_download06" />
+      <skin id="qgn_graf_music_home_anim_download07" />
+      <!--<skin id="qgn_home_page_63" />-->
+      <skin id="background" />
+      <skin id="SoundRingingTone" />
+      <skin id="SoundMessageAlert" />
+      <skin id="qgn_indi_input_close" />
+      <skin id="qgn_graf_adapt_search_bg" />
+      <skin id="qgn_graf_fep_bg_colour" />
+      <skin id="qgn_graf_fep_input_bg" />
+      <skin id="qgn_graf_fep_candi_list_pressed" />
+      <skin id="qgn_graf_fep_candi_list_pri" />
+      <skin id="qgn_graf_fep_candi_list_sec" />
+      <skin id="qgn_graf_fep_candi_list_sel" />      
+      <skin id="qgn_prop_set_service" />
+      <skin id="qgn_prop_set_voip_advanced" />
+      <skin id="qgn_menu_am_widget" />
+      <skin id="qgn_prop_video_no_right" />
+      <skin id="qgn_prop_video_valid_right" />
+      <skin id="qgn_prop_mg_gamsnapps" />
+      <skin id="qgn_prop_folder_vc_general" />
+      <skin id="qgn_prop_folder_vc_message" />
+      <skin id="qgn_prop_folder_vc_organiser" />
+      <skin id="qgn_prop_folder_vc_profiles" />
+      <skin id="qgn_prop_folder_vc_tools" />
+      <skin id="qgn_prop_set_apps_mp" />
+      <skin id="qgn_prop_mp_folder_recent_played" />
+      <skin id="qgn_menu_imageprint" />
+      <skin id="Screensaver" />
+      <skin id="qsn_fr_keypad_button2_normal" />
+      <skin id="qsn_fr_keypad_button2_inactive" />
+      <skin id="qsn_fr_keypad_button2_pressed" />
+      <skin id="qsn_fr_separator_h_l_shdwin" />
+      <skin id="qsn_fr_separator_v_t_shdwin" />
+      <skin id="qgn_indi_browser_tb_bm" />
+      <skin id="LAY_AH%qgn_prop_unsupported_file" />
+      <skin id="qgn_indi_sct_close" />
+      <skin id="qgn_indi_itut_close" />
+      <skin id="qgn_indi_button_decrease" />
+      <skin id="qgn_indi_button_decrease_pressed" />
+      <skin id="qgn_indi_button_increase" />
+      <skin id="qgn_indi_button_increase_pressed" />
+      <skin id="qsn_fr_separator_h_l_shdwnone" />
+      <skin id="qsn_fr_separator_h_l_shdwout" />
+      <skin id="qsn_fr_separator_h_m_shdwin" />
+      <skin id="qsn_fr_separator_h_m_shdwnone" />
+      <skin id="qsn_fr_separator_h_m_shdwout" />
+      <skin id="qsn_fr_separator_h_r_shdwin" />
+      <skin id="qsn_fr_separator_h_r_shdwnone" />
+      <skin id="qsn_fr_separator_h_r_shdwout" />
+      <skin id="qsn_fr_separator_v_b_shdwin" />
+      <skin id="qsn_fr_separator_v_b_shdwnone" />
+      <skin id="qsn_fr_separator_v_b_shdwout" />
+      <skin id="qsn_fr_separator_v_m_shdwin" />
+      <skin id="qsn_fr_separator_v_m_shdwnone" />
+      <skin id="qsn_fr_separator_v_m_shdwout" />
+      <skin id="qsn_fr_separator_v_t_shdwnone" />
+      <skin id="qsn_fr_separator_v_t_shdwout" />
+      <!--  Music Player 3 Icons  -->
+      <skin id="qgn_graf_blid_dirring_mask" />
+      <skin id="qsn_cp_scroll_horizontal_handle_top" />
+      <skin id="qsn_cp_scroll_horizontal_handle_top_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_handle_middle_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_handle_bottom_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_bg_top_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_bg_middle_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_bg_bottom_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_handle_middle" />
+      <skin id="qsn_cp_scroll_horizontal_handle_bottom" />
+      <skin id="qgn_graf_rkm_all" />
+      <skin id="qgn_graf_rkm_all_dim" />
+      <skin id="qgn_graf_rkm_pause" />
+      <skin id="qgn_graf_rkm_pause_next" />
+      <skin id="qgn_graf_rkm_pause_prev" />
+      <skin id="qgn_graf_rkm_play" />
+      <skin id="qgn_graf_rkm_play_next" />
+      <skin id="qgn_graf_rkm_play_prev" />
+      <!-- 
+                        <skin id="qgn_graf_rkm_play_prev_dim" />
+                        <skin id="qgn_graf_rkm_play_next_dim" />
+                        <skin id="qgn_graf_rkm_pause_prev_dim" />
+                        <skin id="qgn_graf_rkm_pause_next_dim" />
+                        <skin id="qgn_graf_rkm_stop_next_dim" />
+                        <skin id="qgn_graf_rkm_stop_prev_dim" />
+                        -->
+      <skin id="qgn_graf_rkm_stop_prev" />
+      <skin id="qgn_graf_rkm_stop" />
+      <skin id="qgn_graf_rkm_stop_next" />
+      <skin id="qgn_graf_mup_podcast_art" />
+      <skin id="qgn_graf_mup_npv_prbar_top_play" />
+      <skin id="qgn_graf_mup_npv_prbar_mid_download" />
+      <skin id="qgn_graf_mup_npv_prbar_bgd_ls" />
+      <skin id="qgn_graf_mup_npv_prbar_bgd" />
+      <skin id="qgn_graf_mup_npv_defalbumart" />
+      <skin id="qgn_graf_mup_lst_userplayl" />
+      <skin id="qgn_graf_mup_lst_track" />
+      <skin id="qgn_graf_mup_lst_pdc_title" />
+      <skin id="qgn_graf_mup_lst_pdc_partplay" />
+      <skin id="qgn_graf_mup_lst_pdc_noplay" />
+      <skin id="qgn_graf_mup_lst_pdc_new" />
+      <skin id="qgn_graf_mup_lst_pdc_episode" />
+      <skin id="qgn_graf_mup_lst_pdc_date" />
+      <skin id="qgn_graf_mup_lst_pdc_compplay" />
+      <skin id="qgn_graf_mup_lst_pdc_categ" />
+      <skin id="qgn_graf_mup_lst_pdc_auto" />
+      <skin id="qgn_graf_mup_lst_pdc_added" />
+      <skin id="qgn_graf_mup_lst_expd_track" />
+      <skin id="qgn_graf_mup_lst_expd_artist" />
+      <skin id="qgn_graf_mup_lst_drm_exp" />
+      <skin id="qgn_graf_mup_lst_corrupttrack" />
+      <skin id="qgn_graf_mup_lst_corruptpodc" />
+      <skin id="qgn_graf_mup_lst_colpsd_track" />
+      <skin id="qgn_graf_mup_lst_colpsd_artist" />
+      <skin id="qgn_graf_mup_lst_brokentrack" />
+      <skin id="qgn_graf_mup_lst_brokenpodc" />
+      <skin id="qgn_graf_mup_lst_brokenplayl" />
+      <skin id="qgn_graf_mup_icon_upnp_remote" />
+      <skin id="qgn_graf_mup_dlst_podcast" />
+      <skin id="qgn_graf_mup_dlst_nowplaying" />
+      <skin id="qgn_graf_mup_dlst_music" />
+      <skin id="qgn_graf_mup_ctx_reordersong" />
+      <skin id="qgn_graf_mup_ctx_addsong" />
+      <!-- End -  Music Player 3 Icons  -->
+    </layoutEntity>
+    <layoutEntity name="bg_button_pane_pane_cp04@v:0">
+      <skin id="qgn_indi_dialer_one" />
+      <skin id="qgn_indi_dialer_two" />
+      <skin id="qgn_indi_dialer_three" />
+      <skin id="qgn_indi_dialer_four" />
+      <skin id="qgn_indi_dialer_five" />
+      <skin id="qgn_indi_dialer_six" />
+      <skin id="qgn_indi_dialer_seven" />
+      <skin id="qgn_indi_dialer_eight" />
+      <skin id="qgn_indi_dialer_nine" />
+      <skin id="qgn_indi_dialer_zero" />
+      <skin id="qgn_indi_dialer_prefix" />
+      <skin id="qgn_indi_dialer_hash" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_pane_cp07@v:0">
+      <skin id="qgn_graf_call_first_one_held" />
+    </layoutEntity>
+    <layoutEntity name="wallpaper_pane_g1@V:0">
+      <skin id="wallpaper" />
+    </layoutEntity>
+    <layoutEntity name="main_pane_g1@V:0">
+      <skin id="qsn_bg_area_main" />
+      <skin id="qsn_bg_area_main_list_gene" />
+      <skin id="qsn_bg_area_main_list_set" />
+    </layoutEntity>
+    <layoutEntity name="main_pane_g1@V:1">
+      <skin id="qsn_bg_area_main_idle" />
+      <skin id="qgn_graf_call_image_1" />
+      <skin id="qgn_graf_nslider_end_left" />
+      <skin id="qgn_graf_nslider_end_right" />
+      <skin id="qgn_graf_nslider_middle" />
+      <skin id="qgn_graf_nslider_marker" />
+      <skin id="qgn_graf_nslider_marker_selected" />
+      <skin id="qgn_graf_volume_set_off" />
+      <skin id="qgn_graf_volume_set_on" />
+    </layoutEntity>
+    <layoutEntity name="main_pane_g1@V:2">
+      <skin id="qsn_bg_area_main_high" />
+    </layoutEntity>
+    <layoutEntity name="main_pane_g1@V:3">
+      <skin id="qsn_bg_area_main_apps_grid" />
+    </layoutEntity>
+    <layoutEntity name="main_pane_g1@V:4">
+      <skin id="qsn_bg_area_main_message" />
+    </layoutEntity>
+    <layoutEntity name="main_qdial_pane@V:0">
+      <skin id="qsn_bg_area_main_qdial" />
+    </layoutEntity>
+    <layoutEntity name="main_calc_pane@V:0">
+      <skin id="qsn_bg_area_main_calc" />
+      <skin id="qsn_bg_area_main_pinb" />
+    </layoutEntity>
+    <layoutEntity name="cell_calc_pane_g2@V:0">
+      <skin id="qgn_indi_calc_add" />
+      <skin id="qgn_indi_calc_percent" />
+      <skin id="qgn_indi_calc_cancel   " />
+      <skin id="qgn_indi_calc_separator  " />
+      <skin id="qgn_indi_calc_clear " />
+      <skin id="qgn_indi_calc_seven  " />
+      <skin id="qgn_indi_calc_divide  " />
+      <skin id="qgn_indi_calc_sign  " />
+      <skin id="qgn_indi_calc_eight   " />
+      <skin id="qgn_indi_calc_six  " />
+      <skin id="qgn_indi_calc_equals " />
+      <skin id="qgn_indi_calc_squareroot  " />
+      <skin id="qgn_indi_calc_five  " />
+      <skin id="qgn_indi_calc_subtract  " />
+      <skin id="qgn_indi_calc_four  " />
+      <skin id="qgn_indi_calc_three  " />
+      <skin id="qgn_indi_calc_multiply  " />
+      <skin id="qgn_indi_calc_two  " />
+      <skin id="qgn_indi_calc_nine  " />
+      <skin id="qgn_indi_calc_zero  " />
+      <skin id="qgn_indi_calc_one  " />
+      <skin id="qgn_indi_calc_button_divide" />
+      <skin id="qgn_indi_calc_button_divide_pressed" />
+      <skin id="qgn_indi_calc_button_equals" />
+      <skin id="qgn_indi_calc_button_equals_pressed" />
+      <skin id="qgn_indi_calc_button_minus" />
+      <skin id="qgn_indi_calc_button_minus_pressed" />
+      <skin id="qgn_indi_calc_button_plus" />
+      <skin id="qgn_indi_calc_button_plus_pressed" />
+      <skin id="qgn_indi_calc_button_multiply" />
+      <skin id="qgn_indi_calc_button_multiply_pressed" />
+      <skin id="qgn_indi_calc_button_percent_inactive" />
+      <skin id="qgn_indi_calc_button_percent_pressed" />
+      <skin id="qgn_indi_calc_button_percent" />
+      <skin id="qgn_indi_calc_button_squareroot_pressed" />
+      <skin id="qgn_indi_calc_button_squareroot" />
+      <skin id="qgn_indi_calc_button_squareroot_inactive" />
+      <skin id="qgn_indi_calc_button_sign_inactive" />
+      <skin id="qgn_indi_calc_button_sign" />
+      <skin id="qgn_indi_calc_button_sign_pressed" />
+      <skin id="qgn_indi_calc_button_mr_pressed" />
+      <skin id="qgn_indi_calc_button_ms_pressed" />
+      <skin id="qgn_indi_calc_button_ms" />
+      <skin id="qgn_indi_calc_button_mr" />
+      <skin id="qgn_indi_calc_button_up" />
+      <skin id="qgn_indi_calc_button_up_pressed" />
+      <skin id="qgn_indi_calc_button_up_inactive" />
+      <skin id="qgn_indi_calc_button_down" />
+      <skin id="qgn_indi_calc_button_down_pressed" />
+      <skin id="qgn_indi_calc_button_down_inactive" />
+      <skin id="qgn_indi_input_backspace " />
+      <skin id="qgn_indi_input_capslock " />
+      <skin id="qgn_indi_input_case_accented " />
+      <skin id="qgn_indi_input_case_accented_cyrillic " />
+      <skin id="qgn_indi_input_case_capital " />
+      <skin id="qgn_indi_input_case_capital_cyrillic " />
+      <skin id="qgn_indi_input_case_numeric_special " />
+      <skin id="qgn_indi_input_case_numeric_thai " />
+      <skin id="qgn_indi_input_case_small " />
+      <skin id="qgn_indi_input_case_small_cyrillic " />
+      <skin id="qgn_indi_input_case_small_greek " />
+      <skin id="qgn_indi_input_case_special " />
+      <skin id="qgn_indi_input_case_text " />
+      <skin id="qgn_indi_input_case_text_arabic " />
+      <skin id="qgn_indi_input_case_text_cyrillic " />
+      <skin id="qgn_indi_input_case_text_greek " />
+      <skin id="qgn_indi_input_case_text_hebrew " />
+      <skin id="qgn_indi_input_case_text_hindi " />
+      <skin id="qgn_indi_input_case_text_thai " />
+      <skin id="qgn_indi_input_chinese " />
+      <skin id="qgn_indi_input_clear " />
+      <skin id="qgn_indi_input_convert_to_kanji " />
+      <skin id="qgn_indi_input_enter " />
+      <skin id="qgn_indi_input_hiragana " />
+      <skin id="qgn_indi_input_katakana " />
+      <skin id="qgn_indi_input_move " />
+      <skin id="qgn_indi_input_options " />
+      <skin id="qgn_indi_input_shift " />
+      <skin id="qgn_indi_input_smileys " />
+      <skin id="qgn_indi_input_space_l " />
+      <skin id="qgn_indi_input_space_middle " />
+      <skin id="qgn_indi_input_space_r " />
+      <skin id="qgn_indi_input_switcher " />
+      <skin id="qgn_indi_input_char_next " />
+      <skin id="qgn_indi_input_char_prev " />
+      <skin id="qgn_indi_input_arrow_up " />
+      <skin id="qgn_indi_input_arrow_down " />
+      <skin id="qgn_indi_input_button_mode " />
+      <skin id="qgn_indi_input_case_all_types_japanese " />
+      <skin id="qgn_indi_input_candi_list_close " />
+      <skin id="qgn_indi_cdr_todo" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="status_pane_g2@V:0">
+      <skin id="qsn_bg_area_status" />
+      <skin id="qsn_bg_area_stacon_lt" />
+      <skin id="qsn_bg_area_stacon_rt" />
+      <skin id="qsn_bg_area_stacon_lt_idle" />
+      <skin id="qsn_bg_area_stacon_rt_idle" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="stacon_top_pane_g1@V:1">
+      <skin id="qsn_bg_area_status" />
+      <skin id="qsn_bg_area_status_idle" />
+      <skin id="qsn_bg_area_stacon_lt" />
+      <skin id="qsn_bg_area_stacon_lt_idle" />
+      <skin id="qsn_bg_navipane_solid" />
+      <skin id="qsn_bg_navipane_wipe" />
+      <skin id="qsn_bg_navipane_solid_idle" />
+      <skin id="qsn_component_colors_cg2" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="stacon_top_pane_g1@V:0">
+      <skin id="qsn_bg_area_stacon_rt" />
+      <skin id="qsn_bg_area_stacon_rt_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane@V:1">
+      <skin id="qsn_fr_status_flat" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g9@V:0">
+      <skin id="qsn_fr_status_flat_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g8@V:0">
+      <skin id="qsn_fr_status_flat_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g7@V:0">
+      <skin id="qsn_fr_status_flat_side_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g6@V:0">
+      <skin id="qsn_fr_status_flat_side_t" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g5@V:0">
+      <skin id="qsn_fr_status_flat_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g4@V:0">
+      <skin id="qsn_fr_status_flat_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g3@V:0">
+      <skin id="qsn_fr_status_flat_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g2@V:0">
+      <skin id="qsn_fr_status_flat_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_status_flat_pane_g1@V:0">
+      <skin id="qsn_fr_status_flat_center" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="status_pane_g3@V:0">
+      <skin id="qsn_bg_area_status_idle" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="stacon_bottom_pane_g1@V:1">
+      <skin id="qsn_bg_area_stacon_lb_idle" />
+      <skin id="qsn_bg_area_stacon_lb" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="stacon_bottom_pane_g1@V:0">
+      <skin id="qsn_bg_area_stacon_rb_idle" />
+      <skin id="qsn_bg_area_stacon_rb" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="status_pane_g1@V:0">
+      <skin id="qsn_bg_navipane_solid" />
+      <skin id="qsn_bg_navipane_solid_idle" />
+      <skin id="qsn_bg_navipane_wipe" />
+      <skin id="qsn_component_colors_cg2" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g1@V:0">
+      <skin id="qsn_bg_column_0" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g3@V:0">
+      <skin id="qsn_bg_slice_list_0" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g1@V:1">
+      <skin id="qsn_bg_column_A" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g3@V:1">
+      <skin id="qsn_bg_slice_list_A" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g1@V:2">
+      <skin id="qsn_bg_column_AB" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g3@V:2">
+      <skin id="qsn_bg_slice_list_AB" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_pane_idle_g1@V:0">
+      <skin id="qgn_graf_idle_fade" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_pane_idle_g1@V:1">
+      <skin id="qgn_graf_idle_fade" />
+    </layoutEntity>
+    <layoutEntity name="bg_active_tab_pane_g1_cp1@V:0">
+      <skin id="qgn_graf_tab_active_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_active_tab_pane_g2_cp1@V:0">
+      <skin id="qgn_graf_tab_active_m" />
+    </layoutEntity>
+    <layoutEntity name="bg_active_tab_pane_g3_cp1@V:0">
+      <skin id="qgn_graf_tab_active_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_passive_tab_pane_g1_cp1@V:0">
+      <skin id="qgn_graf_tab_passive_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_passive_tab_pane_g2_cp1@V:0">
+      <skin id="qgn_graf_tab_passive_m" />
+    </layoutEntity>
+    <layoutEntity name="bg_passive_tab_pane_g3_cp1@V:0">
+      <skin id="qgn_graf_tab_passive_r" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="battery_pane_stacon_g1@V:0">
+      <skin id="qgn_indi_battery_strength" />
+      <skin id="qgn_indi_battery_strength_lsc" />
+      <skin id="LAY_AH%qgn_indi_battery_strength" />
+      <skin id="LAY_AH%qgn_indi_battery_strength_lsc" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="signal_pane_stacon_g1@V:0">
+      <skin id="qgn_indi_signal_strength" />
+      <skin id="qgn_indi_signal_strength_lsc" />
+      <skin id="LAY_AH%qgn_indi_signal_strength" />
+      <skin id="LAY_AH%qgn_indi_signal_strength_lsc" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="battery_pane_g1@V:0">
+      <skin id="qgn_indi_battery_strength" />
+      <skin id="qgn_indi_battery_strength_lsc" />
+      <skin id="LAY_AH%qgn_indi_battery_strength" />
+      <skin id="LAY_AH%qgn_indi_battery_strength_lsc" />
+    </layoutEntity>
+    <layoutEntity name="battery_pane_g1@V:1">
+      <skin id="qsn_component_colors_cg3" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="signal_pane_g1@V:0">
+      <skin id="qgn_indi_signal_strength" />
+      <skin id="qgn_indi_signal_strength_lsc" />
+      <skin id="LAY_AH%qgn_indi_signal_strength" />
+      <skin id="LAY_AH%qgn_indi_signal_strength_lsc" />
+    </layoutEntity>
+    <layoutEntity name="signal_pane_g2@V:0">
+      <skin id="qgn_prop_signal_icon" />
+    </layoutEntity>
+    <layoutEntity name="scroll_bg_pane_g1@V:0">
+      <skin id="qsn_cp_scroll_bg_top" />
+      <skin id="qsn_cp_scroll_bg_top_pressed" />
+    </layoutEntity>
+    <layoutEntity name="scroll_bg_pane_g2@V:0">
+      <skin id="qsn_cp_scroll_bg_middle" />
+      <skin id="qsn_cp_scroll_bg_middle_pressed" />
+    </layoutEntity>
+    <layoutEntity name="scroll_bg_pane_g3@V:0">
+      <skin id="qsn_cp_scroll_bg_bottom_pressed" />
+      <skin id="qsn_cp_scroll_bg_bottom" />
+    </layoutEntity>
+    <layoutEntity name="scroll_handle_pane_g1@V:0">
+      <skin id="qsn_cp_scroll_handle_bg_top" />
+    </layoutEntity>
+    <layoutEntity name="scroll_handle_pane_g2@V:0">
+      <skin id="qsn_cp_scroll_handle_bg_middle" />
+    </layoutEntity>
+    <layoutEntity name="scroll_handle_pane_g3@V:0">
+      <skin id="qsn_cp_scroll_handle_bg_bottom" />
+    </layoutEntity>
+    <layoutEntity name="scroll_bg_pane_g1@V:0">
+      <skin id="qsn_cp_scroll_horizontal_bg_top" />
+    </layoutEntity>
+    <layoutEntity name="scroll_bg_pane_g2@V:0">
+      <skin id="qsn_cp_scroll_horizontal_bg_middle" />
+    </layoutEntity>
+    <layoutEntity name="scroll_bg_pane_g3@V:0">
+      <skin id="qsn_cp_scroll_horizontal_bg_bottom" />
+    </layoutEntity>
+    <layoutEntity name="scroll_handle_focus_pane_g1@V:0">
+      <skin id="qsn_cp_scroll_handle_top" />
+      <skin id="qsn_cp_scroll_handle_top_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_handle_top" />
+    </layoutEntity>
+    <layoutEntity name="scroll_handle_focus_pane_g2@V:0">
+      <skin id="qsn_cp_scroll_handle_middle" />
+      <skin id="qsn_cp_scroll_handle_middle_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_handle_middle" />
+    </layoutEntity>
+    <layoutEntity name="scroll_handle_focus_pane_g3@V:0">
+      <skin id="qsn_cp_scroll_handle_bottom" />
+      <skin id="qsn_cp_scroll_handle_bottom_pressed" />
+      <skin id="qsn_cp_scroll_horizontal_handle_bottom" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g5@V:0">
+      <skin id="qgn_graf_line_primary_horizontal_dashed" />
+      <skin id="qgn_graf_line_primary_horizontal" />
+    </layoutEntity>
+    <layoutEntity name="bg_list_pane_g4@V:0">
+      <skin id="qgn_graf_line_primary_vertical_dashed" />
+      <skin id="qgn_graf_line_primary_vertical" />
+    </layoutEntity>
+    <layoutEntity name="listscroll_popup_graphic_pane_g1@V:0">
+      <skin id="qgn_graf_line_secondary_horizontal" />
+    </layoutEntity>
+    <layoutEntity name="listscroll_popup_graphic_pane_g2@V:0">
+      <skin id="qgn_graf_line_secondary_vertical" />
+    </layoutEntity>
+    <layoutEntity name="msg_body_pane_g1@V:0">
+      <skin id="qgn_graf_line_message_horizontal" />
+    </layoutEntity>
+    <layoutEntity name="popup_clock_analogue_window_g1@V:0">
+      <skin id="qsn_cp_clock_analogue_face_1" />
+    </layoutEntity>
+    <layoutEntity name="popup_clock_analogue_window_g2@V:0">
+      <skin id="qsn_cp_clock_analogue_border_num" />
+      <skin id="qsn_cp_clock_digital_new_stop" />
+      <skin id="qgn_graf_nslider_vertical_tick_major" />
+      <skin id="qgn_graf_nslider_vertical_tick_minor" />
+      <skin id="qgn_graf_volume_small_1_on" />
+      <skin id="qgn_graf_volume_small_1_off" />
+      <skin id="qgn_graf_volume_small_2_off" />
+      <skin id="qgn_graf_volume_set_1_on" />
+      <skin id="qgn_graf_volume_set_2_on" />
+      <skin id="qgn_graf_volume_set_3_on" />
+      <skin id="qgn_graf_volume_set_1_off" />
+      <skin id="qgn_graf_volume_set_2_off" />
+      <skin id="qgn_graf_volume_set_3_off" />
+    </layoutEntity>
+    <layoutEntity name="popup_clock_analogue_window_g5@V:0">
+      <skin id="qsn_cp_clock_analogue_face_2" />
+    </layoutEntity>
+    <layoutEntity name="popup_clock_analogue_window_g3@V:0">
+      <skin id="qsn_cp_clock_analogue_pointer_hour" />
+    </layoutEntity>
+    <layoutEntity name="popup_clock_analogue_window_g4@V:0">
+      <skin id="qsn_cp_clock_analogue_pointer_minute" />
+    </layoutEntity>
+    <layoutEntity name="pinb_bg_pane_g10@V:0">
+      <skin id="qsn_bg_slice_pinb" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_pane_cp01@V:0">
+      <skin id="qsn_fr_cale" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g2@V:0">
+      <skin id="qsn_fr_cale_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g3@V:0">
+      <skin id="qsn_fr_cale_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g4@V:0">
+      <skin id="qsn_fr_cale_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g5@V:0">
+      <skin id="qsn_fr_cale_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g6@V:0">
+      <skin id="qsn_fr_cale_side_t" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g7@V:0">
+      <skin id="qsn_fr_cale_side_b" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g8@V:0">
+      <skin id="qsn_fr_cale_side_l" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g9@V:0">
+      <skin id="qsn_fr_cale_side_r" />
+    </layoutEntity>
+    <layoutEntity name="cale_bg_pane_g1@V:0">
+      <skin id="qsn_fr_cale_center" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane@V:0">
+      <skin id="qsn_fr_cale_heading" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g2@V:0">
+      <skin id="qsn_fr_cale_heading_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g3@V:0">
+      <skin id="qsn_fr_cale_heading_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g4@V:0">
+      <skin id="qsn_fr_cale_heading_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g5@V:0">
+      <skin id="qsn_fr_cale_heading_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g6@V:0">
+      <skin id="qsn_fr_cale_heading_side_t" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g7@V:0">
+      <skin id="qsn_fr_cale_heading_side_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g8@V:0">
+      <skin id="qsn_fr_cale_heading_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g9@V:0">
+      <skin id="qsn_fr_cale_heading_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_heading_pane_g1@V:0">
+      <skin id="qsn_fr_cale_heading_center" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane@V:0">
+      <skin id="qsn_fr_cale_side" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g2@V:0">
+      <skin id="qsn_fr_cale_side_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g3@V:0">
+      <skin id="qsn_fr_cale_side_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g4@V:0">
+      <skin id="qsn_fr_cale_side_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g5@V:0">
+      <skin id="qsn_fr_cale_side_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g6@V:0">
+      <skin id="qsn_fr_cale_side_side_t" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g7@V:0">
+      <skin id="qsn_fr_cale_side_side_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g8@V:0">
+      <skin id="qsn_fr_cale_side_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g9@V:0">
+      <skin id="qsn_fr_cale_side_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_side_pane_g1@V:0">
+      <skin id="qsn_fr_cale_side_center" />
+    </layoutEntity>
+    <layoutEntity name="bg_calc_display_pane_g3@V:0">
+      <skin id="qsn_fr_calc_display_side_r" />
+      <skin id="qsn_fr_itut_button_compose_side_r" />
+      <skin id="qsn_fr_itut_button_compose_pressed_side_r" />
+      <skin id="qsn_fr_itut_button_candi_side_r" />
+      <skin id="qsn_fr_itut_button_candi_pressed_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_calc_display_pane_g1@V:0">
+      <skin id="qsn_fr_calc_display_side_l" />
+      <skin id="qsn_fr_itut_button_compose_side_l" />
+      <skin id="qsn_fr_itut_button_compose_pressed_side_l" />
+      <skin id="qsn_fr_itut_button_candi_side_l" />
+      <skin id="qsn_fr_itut_button_candi_pressed_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_calc_display_pane_g2@V:0">
+      <skin id="qsn_fr_calc_display_center" />
+      <skin id="qsn_fr_itut_button_compose_middle" />
+      <skin id="qsn_fr_itut_button_compose_pressed_middle" />
+      <skin id="qsn_fr_itut_button_candi_middle" />
+      <skin id="qsn_fr_itut_button_candi_pressed_middle" />
+    </layoutEntity>
+    <!-- Check here for the Merge Issue-->
+    <!--<layoutEntity name="bg_calc_paper_pane@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g1@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_center" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g2@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_tl" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g3@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_tr" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g4@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_bl" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g5@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_br" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g6@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_t" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g7@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_b" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g8@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_l" />
+                </layoutEntity>
+
+                <layoutEntity name="calc_bg_paper_pane_g9@V:0"
+                        display="!320x480tch,!480x320tch,!480x640tch,!640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_r" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane@v:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g1@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_center" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g2@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_tl" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g3@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_tr" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g4@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_bl" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g5@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_corner_br" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g6@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_t" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g7@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_b" />
+                </layoutEntity>
+
+                <layoutEntity name="bg_calc_paper_pane_g8@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_l" />
+                </layoutEntity>
+
+                <layoutEntity name="calc_bg_paper_pane_g9@V:1"
+                        display="320x480tch,480x320tch,480x640tch,640x480tch">
+                        <skin id="qsn_fr_calc_paper_side_r" />
+                </layoutEntity>
+                -->
+    <layoutEntity name="bg_notes_pane@V:0">
+      <skin id="qsn_fr_notepad" />
+      <skin id="qsn_fr_notepad_cont" />
+    </layoutEntity>
+    <layoutEntity name="bg_notes_pane_g2@V:0">
+      <skin id="qsn_fr_notepad_corner_tl" />
+      <skin id="qsn_fr_notepad_cont_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_notes_pane_g3@V:0">
+      <skin id="qsn_fr_notepad_corner_tr" />
+      <skin id="qsn_fr_notepad_cont_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g4@V:0">
+      <skin id="qsn_fr_notepad_corner_bl" />
+      <skin id="qsn_fr_notepad_cont_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g5@V:0">
+      <skin id="qsn_fr_notepad_corner_br" />
+      <skin id="qsn_fr_notepad_cont_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g6@V:0">
+      <skin id="qsn_fr_notepad_side_t" />
+      <skin id="qsn_fr_notepad_cont_side_t" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g7@V:0">
+      <skin id="qsn_fr_notepad_side_b" />
+      <skin id="qsn_fr_notepad_cont_side_b" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g8@V:0">
+      <skin id="qsn_fr_notepad_side_l" />
+      <skin id="qsn_fr_notepad_cont_side_l" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g9@V:0">
+      <skin id="qsn_fr_notepad_side_r" />
+      <skin id="qsn_fr_notepad_cont_side_r" />
+    </layoutEntity>
+    <layoutEntity name="notes_bg_pane_g1@V:0">
+      <skin id="qsn_fr_notepad_center" />
+      <skin id="qsn_fr_notepad_cont_center" />
+    </layoutEntity>
+    <layoutEntity name="wait_border_pane_g1@V:0">
+      <skin id="qgn_graf_bar_frame_side_l" />
+    </layoutEntity>
+    <layoutEntity name="wait_border_pane_g2@V:0">
+      <skin id="qgn_graf_bar_frame_center" />
+    </layoutEntity>
+    <layoutEntity name="wait_border_pane_g3@V:0">
+      <skin id="qgn_graf_bar_frame_side_r" />
+    </layoutEntity>
+    <layoutEntity name="slider_set_pane_cp3@V:0">
+      <skin id="qgn_indi_slider_set" />
+    </layoutEntity>
+    <layoutEntity name="slider_set_pane_g1@V:0">
+      <skin id="qgn_graf_slider_edit" />
+    </layoutEntity>
+    <layoutEntity name="slider_set_pane_g2@V:0">
+      <skin id="qgn_indi_slider_edit" />
+    </layoutEntity>
+    <layoutEntity name="control_pane_g2@V:0">
+      <skin id="qgn_indi_scroll_down_mask" />
+    </layoutEntity>
+    <layoutEntity name="control_pane_g1@V:0">
+      <skin id="qgn_indi_scroll_up_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_wml_button_pane@V:0">
+      <skin id="qsn_fr_sel_button" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g2@V:0">
+      <skin id="qsn_fr_sel_button_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g3@V:0">
+      <skin id="qsn_fr_sel_button_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g4@V:0">
+      <skin id="qsn_fr_sel_button_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g5@V:0">
+      <skin id="qsn_fr_sel_button_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g6@V:0">
+      <skin id="qsn_fr_sel_button_side_t" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g7@V:0">
+      <skin id="qsn_fr_sel_button_side_b" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g8@V:0">
+      <skin id="qsn_fr_sel_button_side_l" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g9@V:0">
+      <skin id="qsn_fr_sel_button_side_r" />
+    </layoutEntity>
+    <layoutEntity name="wml_button_bg_pane_g1@V:0">
+      <skin id="qsn_fr_sel_button_center" />
+    </layoutEntity>
+    <layoutEntity name="bg_active_tab_pane_cp1@V:0">
+      <skin id="qsn_component_colors_cg6a" />
+    </layoutEntity>
+    <layoutEntity name="bg_passive_tab_pane_cp1@V:0">
+      <skin id="qsn_component_colors_cg6b" />
+    </layoutEntity>
+    <layoutEntity name="power_save_pane@V:0">
+      <skin id="qsn_component_colors_cg9" />
+    </layoutEntity>
+    <layoutEntity name="title_pane@V:0">
+      <skin id="qsn_component_colors_cg10" />
+    </layoutEntity>
+    <layoutEntity name="control_pane@V:0">
+      <skin id="qsn_component_colors_cg12" />
+    </layoutEntity>
+    <layoutEntity name="list_single_graphic_pane@V:0">
+      <skin id="qsn_component_colors_cg14" />
+      <skin id="qgn_prop_link_embd" />
+      <skin id="qgn_prop_link_embd_medium" />
+      <skin id="qgn_prop_mup_playlist" />
+      <skin id="qgn_prop_mup_album" />
+      <skin id="qgn_prop_mup_audio" />
+      <skin id="qgn_prop_mup_artist" />
+      <skin id="qgn_prop_mup_songs" />
+      <skin id="qgn_prop_mup_playlist_auto" />
+      <skin id="qgn_prop_mup_genre" />
+      <skin id="qgn_prop_mup_composer" />      
+    </layoutEntity>
+    <layoutEntity name="cell_app_pane@V:0">
+      <skin id="qsn_component_colors_cg15" />
+    </layoutEntity>
+    <layoutEntity name="bg_cale_pane@V:0">
+      <skin id="qsn_component_colors_cg16" />
+    </layoutEntity>
+    <layoutEntity name="form_field_data_wide_pane@V:0">
+      <skin id="qsn_component_colors_cg17" />
+    </layoutEntity>
+    <layoutEntity name="popup_query_data_window@V:0">
+      <skin id="qsn_component_colors_cg18" />
+    </layoutEntity>
+    <layoutEntity name="cell_cale_week_pane_g2@V:0">
+      <skin id="qsn_component_colors_cg20" />
+      <skin id="qsn_component_colors_cg21" />
+      <skin id="qsn_component_colors_cg22" />
+      <skin id="qsn_component_colors_cg23" />
+    </layoutEntity>
+    <!-- icons -->
+    <layoutEntity name="cell_app_pane_g2@V:0">
+      <skin id="qgn_indi_app_open" />
+      <skin id="qgn_indi_marked_grid_add" />
+      <skin id="qgn_prop_drm_rights_exp_super" />
+      <skin id="qgn_prop_drm_rights_valid_super" />
+    </layoutEntity>
+    
+    <layoutEntity display="portrait,square"
+                 name="area_bottom_pane@v:0">
+      <skin id="qgn_home_page_11" />
+      <skin id="qgn_home_page_21" />
+      <skin id="qgn_home_page_22" />
+      <skin id="qgn_home_page_31" />
+      <skin id="qgn_home_page_32" />
+      <skin id="qgn_home_page_33" />
+    </layoutEntity>
+    
+    <layoutEntity display="portrait,square"
+                  name="cell_app_pane_g1@V:1">
+      <!--  9.2 New Icons starts here -->
+      <skin id="qgn_indi_cale_tb_changeview" />
+      <skin id="qgn_indi_cale_tb_hide" />
+      <skin id="qgn_indi_cale_tb_new" />
+      <skin id="qgn_indi_cale_tb_unhide" />
+      <skin id="qgn_indi_clk_tb_reset" />
+      <skin id="qgn_indi_radio_default" />
+      <skin id="qgn_indi_music_widget_tb_radio_sound"/>
+      <skin id="qgn_indi_music_widget_tb_radio_sound_dimmed"/>
+      <skin id="qgn_indi_music_widget_tb_radio_sound_muted"/>
+      <skin id="qgn_indi_music_widget_tb_radio_sound_muted_dimmed"/>
+      <skin id="qgn_indi_radio_tb_gotoweb"/>
+      <skin id="qgn_indi_radio_tb_list"/>
+      <skin id="qgn_indi_radio_tb_mshop"/>
+      <skin id="qgn_indi_speaker"/>
+      <skin id="qgn_indi_speaker_muted"/>
+      <skin id="qgn_indi_radio_tb_manualtune"/>
+      <skin id="qgn_prop_set_button" />
+      <skin id="qgn_graf_notif_bg" />
+      <skin id="qgn_graf_notif_no_events_bg" />
+      <skin id="qgn_indi_tb_email_accept" />
+      <skin id="qgn_indi_tb_email_decline" />
+      <skin id="qgn_indi_tb_email_extend" />
+      <skin id="qgn_indi_tb_email_reply" />
+      <skin id="qgn_indi_tb_email_reply_all" />
+      <skin id="qgn_indi_tb_email_tentative" />
+      <skin id="qgn_indi_tb_folder_settings" />
+      <skin id="qgn_indi_tb_gallery_rename" />
+      <skin id="qgn_indi_tb_loc" />
+      <skin id="qgn_indi_tb_map" />
+      <skin id="qgn_indi_tb_new_timer" />
+      <skin id="qgn_indi_tb_radio_next" />
+      <skin id="qgn_indi_tb_radio_previous" />
+      <skin id="qgn_indi_tb_radio_scan" />
+      <skin id="qgn_indi_tb_radio_station_save" />
+      <skin id="qgn_indi_tb_radio_station_save_all" />
+      <skin id="qgn_indi_tb_rename" />
+      <skin id="qgn_indi_tb_scrolldown" />
+      <skin id="qgn_indi_tb_scrollup" />
+      <skin id="qgn_indi_tb_slideshow" />
+      <skin id="qgn_indi_tb_stp_watch_lap" />
+      <skin id="qgn_indi_tb_stp_watch_split" />
+      <skin id="qgn_indi_tb_swupd_detail" />
+      <skin id="qgn_indi_tb_swupd_history" />
+      <skin id="qgn_indi_tb_swupd_start" />
+      <skin id="qgn_menu_chi_talking_dict" />
+      <skin id="qgn_menu_cmail" />
+      <skin id="qgn_menu_cmail_intra_browser" />
+      <skin id="qgn_menu_intranet" />
+      <skin id="qgn_menu_vdc_suite" />
+      <skin id="photoeditor" />
+      <skin id="qgn_menu_swupdate" />
+      <skin id="video_editor" />
+      <skin id="qgn_note_locev_alarm" />
+      <skin id="qgn_note_locev_alarm_acc" />
+      <skin id="qgn_note_locev_alarm_inacc" />
+      <skin id="qgn_note_locev_alarm_inacc_heavy" />
+      <skin id="qgn_note_nfc_touchtotrans" />
+      <skin id="qgn_prop_clock_homecity" />
+      <skin id="qgn_prop_locev_draft" />
+      <skin id="qgn_prop_locev_invalid" />
+      <skin id="qgn_prop_locev_new" />
+      <skin id="qgn_prop_locev_trigger" />
+      <skin id="qgn_prop_pb_comm_call" />
+      <skin id="qgn_prop_pb_comm_chat" />
+      <skin id="qgn_prop_pb_comm_email" />
+      <skin id="qgn_prop_pb_comm_message" />
+      <skin id="qgn_prop_pb_comm_no_valid_lm" />
+      <skin id="qgn_prop_pb_comm_url" />
+      <skin id="qgn_prop_pb_comm_valid_lm" />
+      <skin id="qgn_prop_pb_comm_vcall" />
+      <skin id="qgn_prop_pb_comm_voip" />
+      <skin id="qgn_prop_usb_modem" />
+      <skin id="qgn_prop_usb_mtp" />
+      <skin id="qgn_prop_usb_pcsuite" />
+      <skin id="qgn_prop_usb_print" />
+      <skin id="qgn_indi_tb_unmark" />
+      <skin id="qgn_indi_tb_upload" />
+      <skin id="qgn_indi_cale_tb_today" />
+      <skin id="qgn_prop_locev_completed" />
+      <skin id="qgn_menu_music" />
+      <skin id="qgn_menu_group_web" />
+      <skin id="qgn_menu_photos" />
+      <skin id="qgn_menu_video" />
+      <skin id="qgn_menu_group_apps" />
+      <skin id="qgn_menu_games" />
+      <skin id="qgn_indi_button_answer_white" />
+      <skin id="qgn_indi_button_logdialer_white" />
+      <skin id="qgn_indi_sct_page_next" />
+      <skin id="qgn_indi_sct_page_prev" />
+      <skin id="qgn_indi_switch_sct2" />
+      <skin id="qgn_indi_switch_smiley2" />
+
+      <!-- 9.2 New Icons end here -->
+      <skin id="S60_2_6%qgn_menu_wml_anim" />
+      <skin id="qgn_menu_browser_anim" />
+      <skin id="qgn_menu_wml_anim" />
+      <skin id="qgn_menu_appsgrid_cxt" />
+      <skin id="qgn_menu_bt_cxt" />
+      <skin id="qgn_menu_cale_cxt" />
+      <skin id="qgn_menu_cnv_cxt" />
+      <skin id="qgn_menu_con_cxt" />
+      <skin id="qgn_menu_games_cxt" />
+      <skin id="qgn_menu_help_cxt" />
+      <skin id="LAY_AH%qgn_menu_help_cxt" />
+      <skin id="LAY_AH%qgn_menu_help" />
+      <skin id="qgn_menu_im_cxt" />
+      <skin id="qgn_menu_mce_card" />
+      <skin id="qgn_menu_im_away" />
+      <skin id="qgn_menu_im_invisible" />
+      <skin id="qgn_menu_im_on" />
+      <skin id="qgn_menu_im_off_cxt" />
+      <skin id="qgn_menu_ir_cxt" />
+      <skin id="qgn_menu_java_cxt" />
+      <skin id="qgn_menu_log_cxt" />
+      <skin id="qgn_menu_mce_mmc_cxt" />
+      <skin id="qgn_menu_mce_cxt" />
+      <skin id="qgn_menu_memory_cxt" />
+      <skin id="qgn_menu_midlet_suite_cxt" />
+      <skin id="qgn_menu_mode_cxt" />
+      <skin id="qgn_menu_note_cxt" />
+      <skin id="qgn_menu_phob_cxt" />
+      <skin id="qgn_menu_set_cxt" />
+      <skin id="qgn_menu_simpd_cxt" />
+      <skin id="qgn_menu_smsvo_cxt" />
+      <skin id="qgn_menu_todo_cxt" />
+      <skin id="qgn_menu_unknown_cxt" />
+      <skin id="qgn_menu_video_cxt" />
+      <skin id="qgn_menu_voirec_cxt" />
+      <skin id="qgn_menu_wclk_cxt" />
+      <skin id="qgn_menu_wml_cxt" />
+      <skin id="qgn_menu_about_cxt" />
+      <skin id="qgn_menu_am_cxt" />
+      <skin id="qgn_menu_cb_cxt" />
+      <skin id="qgn_menu_cmon_cxt" />
+      <skin id="qgn_menu_dm_cxt" />
+      <skin id="qgn_menu_fax_cxt" />
+      <skin id="qgn_menu_fmgr_cxt" />
+      <skin id="qgn_menu_mg_cxt" />
+      <skin id="qgn_menu_mg_2_cxt" />
+      <skin id="qgn_menu_mmc_cxt" />
+      <skin id="qgn_menu_psln_cxt" />
+      <skin id="qgn_prop_psln_active" />
+      <skin id="qgn_menu_sat_cxt" />
+      <skin id="qgn_menu_simin_cxt" />
+      <skin id="qgn_menu_sml_cxt" />
+      <skin id="qgn_menu_ussd_cxt" />
+      <skin id="qgn_menu_vc_cxt" />
+      <skin id="qgn_menu_videocam_cxt" />
+      <skin id="qgn_menu_wallet_cxt" />
+      <skin id="qgn_menu_dyc_cxt" />
+      <skin id="qgn_menu_dyc_off_cxt" />
+      <skin id="qgn_menu_cams_cxt" />
+      <skin id="qgn_menu_loc_cxt" />
+      <skin id="qgn_menu_chi_dictionary_cxt" />
+      <skin id="qgn_menu_sms_editor_cxt" />
+      <skin id="qgn_menu_sms_viewer_cxt" />
+      <skin id="qgn_menu_camcorder_cxt" />
+      <skin id="qgn_menu_camcorder_cxt1" />
+      <skin id="qgn_menu_cam_cxt" />
+      <skin id="qgn_menu_divert_cxt" />
+      <skin id="qgn_menu_blid" />
+      <skin id="qgn_menu_blid_off_cxt" />
+      <skin id="qgn_menu_calc" />
+      <skin id="qgn_menu_call_video" />
+      <skin id="qgn_menu_cb_2_cxt" />
+      <skin id="qgn_menu_dm_disabled_cxt" />
+      <skin id="qgn_menu_drm" />
+      <skin id="qgn_menu_drm_exp_forbid" />
+      <skin id="qgn_menu_drm_rights_exp" />
+      <skin id="qgn_menu_dyc_roaming_cxt" />
+      <skin id="qgn_menu_folder_apps" />
+      <skin id="LAY_AH%qgn_menu_folder_apps" />
+      <skin id="qgn_menu_group_connect" />
+      <skin id="LAY_AH%qgn_menu_group_connect" />
+      <skin id="qgn_menu_group_extras" />
+      <skin id="LAY_AH%qgn_menu_group_extras" />
+      <skin id="qgn_menu_group_install" />
+      <skin id="LAY_AH%qgn_menu_group_install" />
+      <skin id="qgn_menu_group_organiser" />
+      <skin id="LAY_AH%qgn_menu_group_organiser" />
+      <skin id="qgn_menu_group_tools" />
+      <skin id="LAY_AH%qgn_menu_group_tools" />
+      <skin id="qgn_menu_idle" />
+      <skin id="qgn_menu_idlestate" />
+      <skin id="qgn_menu_idlestate2" />
+      <skin id="qgn_menu_im_roaming_cxt" />
+      <skin id="qgn_menu_jap_dictionary" />
+      <skin id="qgn_menu_lm" />
+      <skin id="qgn_menu_mce_card_cxt" />
+      <skin id="qgn_menu_operator" />
+      <skin id="qgn_menu_pinb" />
+      <skin id="qgn_menu_qdial" />
+      <skin id="qgn_menu_simfdn_cxt" />
+      <skin id="qgn_menu_warr" />
+      <skin id="qgn_menu_group_media" />
+      <skin id="qgn_menu_browser" />
+      <skin id="qgn_menu_mod_document" />
+      <skin id="qgn_menu_mop_presentation" />
+      <skin id="qgn_menu_mos_sheet" />
+      <skin id="qgn_menu_mp" />
+      <skin id="qgn_menu_radio" />
+      <skin id="qgn_menu_radio_1" />
+      <skin id="qgn_menu_voip" />
+      <skin id="qgn_prop_am_midlet" />
+      <skin id="qgn_prop_am_sis" />
+      <skin id="qgn_menu_usb" />
+      <skin id="qgn_menu_installer" />
+      <skin id="qgn_menu_audio" />
+      <skin id="qgn_menu_email" />
+      <skin id="qgn_menu_mms" />
+      <skin id="qgn_menu_news" />
+      <skin id="qgn_menu_poc_app" />
+      <skin id="qgn_menu_shortcut" />
+      <skin id="qgn_menu_sip" />
+      <skin id="qgn_menu_sound" />
+      <skin id="qgn_menu_xdm" />
+      <skin id="qgn_prop_remote_drive_memc" />
+      <skin id="qgn_menu_catalogs" />
+      <skin id="qgn_menu_mtv" />
+      <skin id="qgn_menu_appshell_mp" />
+      <skin id="qgn_menu_drm_exp_forbid" />
+      <skin id="qgn_menu_drm_rights_exp" />
+      <skin id="qgn_menu_hwr_training" />
+      <skin id="qgn_menu_imed" />
+      <skin id="qgn_menu_mce_gene" />
+      <skin id="qgn_menu_mce_postcard" />
+      <skin id="qgn_menu_mce_sel_mes" />
+      <skin id="qgn_menu_mce_sms" />
+      <skin id="qgn_menu_mce_syncmail" />
+      <skin id="qgn_menu_mce_unified" />
+      <skin id="qgn_menu_nfc" />
+      <skin id="qgn_menu_search" />
+      <skin id="qgn_menu_location" />
+      <skin id="qgn_menu_mupsv" />
+      <skin id="qgn_menu_trk" />
+      <skin id="qgn_menu_video_sharing" />
+      <skin id="qgn_menu_fmgr_remote_drive" />
+      <skin id="qgn_indi_dialer_contacts" />
+      <skin id="qgn_indi_browser_bm_tb_new" />
+      <skin id="qgn_indi_browser_feeds_tb_back_to_web" />
+      <skin id="qgn_indi_browser_feeds_tb_next" />
+      <skin id="qgn_indi_browser_feeds_tb_open_detail" />
+      <skin id="qgn_indi_browser_feeds_tb_open_full" />
+      <skin id="qgn_indi_browser_feeds_tb_open_topic" />
+      <skin id="qgn_indi_browser_feeds_tb_update" />
+      <skin id="qgn_indi_browser_feeds_tb_update_all" />
+      <skin id="qgn_indi_browser_tb_delete" />
+      <skin id="qgn_indi_browser_tb_blank" />
+      <skin id="qgn_indi_browser_tb_find_kw" />
+      <skin id="qgn_indi_browser_tb_find_kw_next" />
+      <skin id="qgn_indi_browser_tb_find_kw_prev" />
+      <skin id="qgn_indi_browser_tb_full" />
+      <skin id="qgn_indi_browser_tb_history_back" />
+      <skin id="qgn_indi_browser_tb_history_fw" />
+      <skin id="qgn_indi_button_mode" />
+      <skin id="qgn_indi_cam4_tb_add_to_album" />
+      <skin id="qgn_indi_cam4_tb_capture" />
+      <skin id="qgn_indi_cam4_tb_delete" />
+      <!-- <skin id="qgn_indi_cam4_tb_edit" /> -->
+      <skin id="qgn_indi_cam4_tb_extension" />
+      <skin id="qgn_indi_cam4_tb_flash" />
+      <skin id="qgn_indi_cam4_tb_light" />
+      <skin id="qgn_indi_cam4_tb_light_off" />
+      <!-- <skin id="qgn_indi_cam4_tb_pause" /> -->
+      <skin id="qgn_indi_cam4_tb_play" />
+      <skin id="qgn_indi_cam4_tb_record" />
+      <skin id="qgn_indi_cam4_tb_send" />
+      <skin id="qgn_indi_cam4_antired" />
+      <skin id="qgn_indi_cam4_autoflash" />
+      <skin id="qgn_indi_cam4_flash_off" />
+      <skin id="qgn_indi_cam4_flash_on" />
+      <skin id="qgn_indi_dialer_add_contacts" />
+      <skin id="qgn_indi_dialer_call_send" />
+      <skin id="qgn_indi_dialer_clear" />
+      <skin id="qgn_indi_dialer_eight" />
+      <skin id="qgn_indi_dialer_eight_latin" />
+      <skin id="qgn_indi_dialer_five_latin" />
+      <skin id="qgn_indi_dialer_four_latin" />
+      <skin id="qgn_indi_dialer_hash_latin" />
+      <skin id="qgn_indi_dialer_nine_latin" />
+      <skin id="qgn_indi_dialer_one_latin" />
+      <skin id="qgn_indi_dialer_prefix_latin" />
+      <skin id="qgn_indi_dialer_seven_latin" />
+      <skin id="qgn_indi_dialer_six_latin" />
+      <skin id="qgn_indi_dialer_three_latin" />
+      <skin id="qgn_indi_dialer_two_latin" />
+      <skin id="qgn_indi_dialer_zero_latin" />
+      <skin id="qgn_indi_dialer_five" />
+      <skin id="qgn_indi_dialer_four" />
+      <skin id="qgn_indi_dialer_hash" />
+      <skin id="qgn_indi_dialer_logs" />
+      <skin id="qgn_indi_dialer_nine" />
+      <skin id="qgn_indi_dialer_one" />
+      <skin id="qgn_indi_dialer_prefix" />
+      <skin id="qgn_indi_dialer_seven" />
+      <skin id="qgn_indi_dialer_six" />
+      <skin id="qgn_indi_dialer_speed_dial" />
+      <skin id="qgn_indi_dialer_three" />
+      <skin id="qgn_indi_dialer_two" />
+      <skin id="qgn_indi_dialer_videocall_send" />
+      <skin id="qgn_indi_dialer_zero" />
+      <skin id="qgn_indi_edit_vidpict" />
+      <skin id="qgn_indi_eq_tb_create_new" />
+      <skin id="qgn_indi_mg_tb_delete" />
+      <skin id="qgn_indi_mg_tb_edit" />
+      <skin id="qgn_indi_mg_tb_send" />
+      <skin id="qgn_indi_mg_tb_stream_new" />
+      <skin id="qgn_indi_mpttv_tb_unmark" />
+      <skin id="qgn_indi_mptv_tb_mark" />
+      <skin id="qgn_indi_mup_tb_addsongs" />
+      <skin id="qgn_indi_mup_tb_addtoplaylist" />
+      <skin id="qgn_indi_mup_tb_gotostore" />
+      <skin id="qgn_indi_mup_tb_shuffle" />
+      <skin id="qgn_indi_mup_tb_play" />
+      <skin id="qgn_indi_switch_sct" />
+      <skin id="qgn_indi_switch_smiley" />
+      <skin id="qgn_indi_tb_bthf" />
+      <skin id="qgn_indi_tb_change_status" />
+      <skin id="qgn_indi_tb_char_grid" />
+      <skin id="qgn_indi_tb_edit_model" />
+      <skin id="qgn_indi_tb_fmgr_detail" />
+      <skin id="qgn_indi_tb_fmgr_eject" />
+      <skin id="qgn_indi_tb_fmgr_sort" />
+      <skin id="qgn_indi_tb_handset" />
+      <skin id="qgn_indi_tb_model_preview" />
+      <skin id="qgn_indi_tb_playlist_new" />
+      <skin id="qgn_indi_tb_remove" />
+      <skin id="qgn_indi_tb_smiley" />
+      <skin id="qgn_indi_tb_voip" />
+      <skin id="qgn_indi_call4_image_mask_lsc" />
+      <skin id="qgn_indi_call4_image_mask_prt" />
+      <skin id="qgn_indi_nslider_level_decrease" />
+      <skin id="qgn_indi_nslider_level_increase" />
+      <skin id="qgn_indi_nslider_muted" />
+      <skin id="qgn_indi_nslider_unmuted" />
+      <skin id="qgn_indi_nslider_zoom_in" />
+      <skin id="qgn_indi_nslider_zoom_out" />
+      <skin id="qgn_graf_bg_prt_top_mask_icon" />
+      <skin id="qgn_graf_bg_prt_bottom_mask_icon" />
+      <skin id="qgn_graf_bg_lsc_top_mask_icon" />
+      <skin id="qgn_graf_bg_lsc_side_right_mask_icon" />
+      <skin id="qgn_indi_sctrl_mask_act_lsc" />
+      <skin id="qgn_indi_sctrl_mask_act_prt" />
+      <skin id="qgn_indi_sctrl_mask_inact_lsc" />
+      <skin id="qgn_indi_sctrl_mask_inact_prt" />
+      <!--
+      <skin id="qgn_indi_sctrl_sk_mask_left_prt" />
+      <skin id="qgn_indi_sctrl_sk_mask_lsc" />
+      <skin id="qgn_indi_sctrl_sk_mask_right_prt" />
+      -->
+      <skin id="qgn_indi_mup4_play" />
+      <skin id="qgn_indi_mup4_play_dimmed" />
+      <skin id="qgn_indi_mup4_play_focused" />
+      <skin id="qgn_indi_mup4_pause_focused" />
+      <skin id="qgn_indi_mup4_pause_dimmed" />
+      <skin id="qgn_indi_mup4_pause" />
+      <skin id="qgn_indi_mup4_rewind_focused" />
+      <skin id="qgn_indi_mup4_rewind_dimmed" />
+      <skin id="qgn_indi_mup4_rewind" />
+      <skin id="qgn_indi_mup_tb_forward" />
+      <skin id="qgn_indi_mup_tb_rewind" />
+      <skin id="qgn_prop_mup_library_music" />
+      <skin id="qgn_prop_mup_library_pcast" />
+      <skin id="qgn_prop_mup_now_play" />
+      <skin id="qgn_indi_mup4_forward_focused" />
+      <skin id="qgn_indi_mup4_forward_dimmed" />
+      <skin id="qgn_indi_mup4_forward" />
+      <skin id="qgn_indi_mup4_stop_focused" />
+      <skin id="qgn_indi_mup4_stop_dimmed" />
+      <skin id="qgn_indi_mup4_stop" />
+      <skin id="qgn_indi_mup4_volume_down" />
+      <skin id="qgn_indi_mup4_volume_down_dimmed" />
+      <skin id="qgn_indi_mup4_volume_down_focused" />
+      <skin id="qgn_indi_mup4_volume_up_focused" />
+      <skin id="qgn_indi_mup4_volume_up_dimmed" />
+      <skin id="qgn_indi_mup4_volume_up" />
+      <skin id="qgn_indi_calc_button_minus_pressed" />
+      <skin id="qgn_indi_touch_available" />
+      <skin id="qgn_indi_calc_up" />
+      <skin id="qgn_indi_calc_button_minus" />
+      <skin id="qgn_indi_tp_toolbar" />
+      <skin id="qgn_indi_calc_button_squareroot" />
+      <skin id="qgn_indi_button_answer" />
+      <skin id="qgn_indi_calc_button_mr_pressed" />
+      <skin id="qgn_indi_calc_button_ms_pressed" />
+      <skin id="qgn_indi_browser_tb_bm" />
+      <skin id="qgn_indi_browser_tb_feeds" />
+      <skin id="qgn_indi_browser_tb_help" />
+      <skin id="qgn_indi_browser_tb_images" />
+      <skin id="qgn_indi_browser_tb_key_map" />
+      <skin id="qgn_indi_browser_tb_pages" />
+      <skin id="qgn_indi_browser_tb_rotate" />
+      <skin id="qgn_indi_browser_tb_save_bm" />
+      <skin id="qgn_indi_browser_tb_save_page" />
+      <skin id="qgn_indi_browser_tb_send_url" />
+      <skin id="qgn_indi_browser_tb_settings" />
+      <skin id="qgn_indi_browser_tb_switch_win" />
+      <skin id="qgn_indi_browser_tb_tb" />
+      <skin id="qgn_indi_browser_tb_urls" />
+      <skin id="qgn_indi_browser_tb_view_images" />
+      <skin id="qgn_indi_browser_tb_view_pages" />
+      <skin id="qgn_indi_browser_tb_websearch" />
+      <skin id="qgn_indi_browser_tb_zoom_in" />
+      <skin id="qgn_indi_browser_tb_zoom_out" />
+      <skin id="qgn_indi_button_bluetooth" />
+      <skin id="qgn_indi_button_conference" />
+      <skin id="qgn_indi_button_drop" />
+      <skin id="qgn_indi_button_end_active_call" />
+      <skin id="qgn_indi_button_end_all_calls" />
+      <skin id="qgn_indi_button_end_call" />
+      <skin id="qgn_indi_button_go_idle" />
+      <skin id="qgn_indi_button_handset" />
+      <skin id="qgn_indi_button_hold" />
+      <skin id="qgn_indi_button_join" />
+      <skin id="qgn_indi_button_loudspeaker" />
+      <skin id="qgn_indi_button_mute_mic" />
+      <skin id="qgn_indi_button_participants" />
+      <skin id="qgn_indi_button_private" />
+      <skin id="qgn_indi_button_reject" />
+      <skin id="qgn_indi_button_send_dtmf" />
+      <skin id="qgn_indi_button_swap" />
+      <skin id="qgn_indi_button_unhold" />
+      <skin id="qgn_indi_button_unmute_mic" />
+      <skin id="qgn_indi_button_video_to_voice" />
+      <skin id="qgn_indi_button_voice_to_video" />
+      <!-- Check here for the Merge Issue-->
+      <skin id="qgn_indi_calc_button_divide" />
+      <skin id="qgn_indi_calc_button_divide_pressed" />
+      <skin id="qgn_indi_calc_button_down" />
+      <skin id="qgn_indi_calc_button_down_inactive" />
+      <skin id="qgn_indi_calc_button_down_pressed" />
+      <skin id="qgn_indi_calc_button_equals" />
+      <skin id="qgn_indi_calc_button_equals_pressed" />
+      <skin id="qgn_indi_calc_button_mr" />
+      <skin id="qgn_indi_calc_button_ms" />
+      <skin id="qgn_indi_calc_button_multiply" />
+      <skin id="qgn_indi_calc_button_multiply_pressed" />
+      <skin id="qgn_indi_calc_button_percent" />
+      <skin id="qgn_indi_calc_button_percent_inactive" />
+      <skin id="qgn_indi_calc_button_percent_pressed" />
+      <skin id="qgn_indi_calc_button_plus" />
+      <skin id="qgn_indi_calc_button_plus_pressed" />
+      <skin id="qgn_indi_calc_button_sign" />
+      <skin id="qgn_indi_calc_button_sign_inactive" />
+      <skin id="qgn_indi_calc_button_sign_pressed" />
+      <skin id="qgn_indi_calc_button_squareroot_inactive" />
+      <skin id="qgn_indi_calc_button_squareroot_pressed" />
+      <skin id="qgn_indi_calc_button_up" />
+      <skin id="qgn_indi_calc_button_up_inactive" />
+      <skin id="qgn_indi_calc_button_up_pressed" />
+      <skin id="qgn_indi_calc_down" />
+      <skin id="qgn_indi_cale_tb_meeting_new" />
+      <skin id="qgn_indi_cale_tb_todo_new" />
+      <skin id="qgn_indi_cams_tb_burst" />
+      <skin id="qgn_indi_cams_tb_camera_main" />
+      <skin id="qgn_indi_cams_tb_camera_secondary" />
+      <skin id="qgn_indi_cams_tb_capture" />
+      <skin id="qgn_indi_cams_tb_close" />
+      <skin id="qgn_indi_cams_tb_flash" />
+      <skin id="qgn_indi_cams_tb_focus_auto" />
+      <skin id="qgn_indi_cams_tb_minitb" />
+      <skin id="qgn_indi_cams_tb_night" />
+      <skin id="qgn_indi_cams_tb_photo" />
+      <skin id="qgn_indi_cams_tb_photo_quality" />
+      <skin id="qgn_indi_cams_tb_photo_reso" />
+      <skin id="qgn_indi_cams_tb_rec" />
+      <skin id="qgn_indi_cams_tb_rec_pause" />
+      <skin id="qgn_indi_cams_tb_rec_stop" />
+      <skin id="qgn_indi_cams_tb_tone" />
+      <skin id="qgn_indi_cams_tb_video" />
+      <skin id="qgn_indi_cams_tb_video_length" />
+      <skin id="qgn_indi_cams_tb_video_reso" />
+      <skin id="qgn_indi_cams_tb_white" />
+      <skin id="qgn_indi_level_decrease" />
+      <skin id="qgn_indi_level_increase" />
+      <skin id="qgn_indi_mce_tb_audio" />
+      <skin id="qgn_indi_mce_tb_image" />
+      <skin id="qgn_indi_mce_tb_other" />
+      <skin id="qgn_indi_mce_tb_pres" />
+      <skin id="qgn_indi_mce_tb_text" />
+      <skin id="qgn_indi_mce_tb_video" />
+      <skin id="qgn_indi_mp_tb_remove_all" />
+      <skin id="qgn_indi_mp_tb_remove_one" />
+      <skin id="qgn_indi_mup_default_album" />
+      <skin id="qgn_indi_mup_default_album_pcast" />
+      <skin id="qgn_indi_tb_add_recipient" />
+      <skin id="qgn_indi_tb_appsgrid" />
+      <skin id="qgn_indi_tb_avail_contacts" />
+      <skin id="qgn_indi_tb_avail_contacts" />
+      <skin id="qgn_indi_tb_brightness" />
+      <skin id="qgn_indi_tb_brightness" />
+      <skin id="qgn_indi_tb_business_card" />
+      <skin id="qgn_indi_tb_call" />
+      <skin id="qgn_indi_tb_call" />
+      <skin id="qgn_indi_tb_call_video" />
+      <skin id="qgn_indi_tb_call_video" />
+      <skin id="qgn_indi_tb_call_volume" />
+      <skin id="qgn_indi_tb_call_volume" />
+      <skin id="qgn_indi_tb_camcorder" />
+      <skin id="qgn_indi_tb_camera" />
+      <skin id="qgn_indi_tb_camera_main" />
+      <skin id="qgn_indi_tb_camera_main" />
+      <skin id="qgn_indi_tb_camera_secondary" />
+      <skin id="qgn_indi_tb_camera_secondary" />
+      <skin id="qgn_indi_tb_dialler" />
+      <skin id="qgn_indi_tb_email_forward" />
+      <skin id="qgn_indi_tb_email_new" />
+      <skin id="qgn_indi_tb_email_reply" />
+      <skin id="qgn_indi_tb_expand_insert" />
+      <skin id="qgn_indi_tb_extension" />
+      <skin id="qgn_indi_tb_ffw_frew" />
+      <skin id="qgn_indi_tb_ffw_frew" />
+      <skin id="qgn_indi_tb_fullscreen" />
+      <skin id="qgn_indi_tb_fullscreen" />
+      <skin id="qgn_indi_tb_gallery" />
+      <skin id="qgn_indi_tb_gallery" />
+      <skin id="qgn_indi_tb_ihf_off" />
+      <skin id="qgn_indi_tb_ihf_off" />
+      <skin id="qgn_indi_tb_ihf_on" />
+      <skin id="qgn_indi_tb_ihf_on" />
+      <skin id="qgn_indi_tb_mce" />
+      <skin id="qgn_indi_tb_mce" />
+      <skin id="qgn_indi_tb_microphone_mute" />
+      <skin id="qgn_indi_tb_microphone_mute" />
+      <skin id="qgn_indi_tb_microphone_unmute" />
+      <skin id="qgn_indi_tb_microphone_unmute" />
+      <skin id="qgn_indi_tb_msg_forward" />
+      <skin id="qgn_indi_tb_msg_new" />
+      <skin id="qgn_indi_tb_msg_reply" />
+      <skin id="qgn_indi_tb_msg_send" />
+      <skin id="qgn_indi_tb_note" />
+      <skin id="qgn_indi_tb_pause_send_video" />
+      <skin id="qgn_indi_tb_pause_send_video" />
+      <skin id="qgn_indi_tb_pb" />
+      <skin id="qgn_indi_tb_pb" />
+      <skin id="qgn_indi_tb_play" />
+      <skin id="qgn_indi_tb_play" />
+      <skin id="qgn_indi_tb_playlist_new" />
+      <skin id="qgn_indi_tb_playlist_new" />
+      <skin id="qgn_indi_tb_profiles" />
+      <skin id="qgn_indi_tb_retrieve_mms" />
+      <skin id="qgn_indi_tb_send_video" />
+      <skin id="qgn_indi_tb_slide" />
+      <skin id="qgn_indi_tb_swap_images" />
+      <skin id="qgn_indi_tb_swap_images" />
+      <skin id="qgn_indi_tb_template" />
+      <skin id="qgn_indi_tb_video" />
+      <skin id="qgn_indi_tb_video" />
+      <skin id="qgn_indi_tb_video_disable" />
+      <skin id="qgn_indi_tb_video_disable" />
+      <skin id="qgn_indi_tb_zoom" />
+      <skin id="qgn_indi_tb_zoom" />
+      <skin id="qgn_indi_timetrack_marked" />
+      <skin id="qgn_indi_timetrack_marker" />
+      <skin id="qgn_indi_tp_appsgrid" />
+      <skin id="qgn_indi_tp_appswapper" />
+      <skin id="qgn_indi_tp_contacts" />
+      <skin id="qgn_indi_tp_dialler" />
+      <skin id="qgn_indi_tp_fullscreen" />
+      <skin id="qgn_indi_tp_help" />
+      <skin id="qgn_indi_tp_idle" />
+      <skin id="qgn_indi_tp_input" />
+      <skin id="qgn_indi_tp_rotate_screen" />
+      <skin id="qgn_indi_volume_arrow_down" />
+      <skin id="qgn_indi_volume_arrow_down_inactive" />
+      <skin id="qgn_indi_volume_arrow_down_selected" />
+      <skin id="qgn_indi_volume_arrow_up" />
+      <skin id="qgn_indi_volume_arrow_up_inactive" />
+      <skin id="qgn_indi_volume_arrow_up_selected" />
+      <skin id="qgn_indi_browser_tb_back" />
+      <skin id="qgn_indi_browser_tb_find" />
+      <skin id="qgn_indi_browser_tb_forward" />
+      <skin id="qgn_indi_browser_tb_forward_inact" />
+      <skin id="qgn_indi_browser_tb_go" />
+      <skin id="qgn_indi_browser_tb_home" />
+      <skin id="qgn_indi_browser_tb_page" />
+      <skin id="qgn_indi_browser_tb_reload" />
+      <skin id="qgn_indi_browser_tb_rss" />
+      <skin id="qgn_indi_browser_tb_stop" />
+      <skin id="qgn_indi_browser_tb_goto" />
+      <skin id="qgn_indi_browser_feeds_tb_previous" />
+      <skin id="qgn_indi_cale_tb_left" />
+      <skin id="qgn_indi_tb_cale_alarm_dismiss_all" />
+      <skin id="qgn_indi_tb_cale_alarm_dismiss" />
+      <skin id="qgn_indi_mg_tb_stream_new" />
+      <skin id="qgn_indi_cale_tb_day" />
+      <skin id="qgn_indi_cale_tb_month" />
+      <skin id="qgn_indi_cale_tb_new_entry" />
+      <skin id="qgn_indi_cale_tb_right" />
+      <skin id="qgn_indi_cale_tb_todo" />
+      <skin id="qgn_indi_cale_tb_week" />
+    </layoutEntity>
+    <!-- context pane icons -->
+    <layoutEntity display="landscape"
+                  name="cell_app_pane_g1@V:0">
+      <skin id="S60_2_6%qgn_menu_wml_anim" />
+      <skin id="qgn_menu_browser_anim" />
+      <skin id="qgn_menu_wml_anim" />
+      <skin id="qgn_menu_appsgrid_cxt" />
+      <skin id="qgn_menu_bt_cxt" />
+      <skin id="qgn_menu_cale_cxt" />
+      <skin id="qgn_menu_cnv_cxt" />
+      <skin id="qgn_menu_con_cxt" />
+      <skin id="qgn_menu_games_cxt" />
+      <!-- <skin id="qgn_menu_help_cxt" /> -->
+      <skin id="qgn_menu_im_cxt" />
+      <skin id="qgn_menu_mce_card" />
+      <skin id="qgn_menu_im_away" />
+      <skin id="qgn_menu_im_invisible" />
+      <skin id="qgn_menu_im_on" />
+      <skin id="qgn_menu_im_off_cxt" />
+      <skin id="qgn_menu_ir_cxt" />
+      <skin id="qgn_menu_ir" />
+      <skin id="qgn_menu_java_cxt" />
+      <skin id="qgn_menu_log_cxt" />
+      <skin id="qgn_menu_mce_mmc_cxt" />
+      <skin id="qgn_menu_mce_cxt" />
+      <skin id="qgn_menu_memory_cxt" />
+      <skin id="qgn_menu_midlet_suite_cxt" />
+      <skin id="qgn_menu_mode_cxt" />
+      <skin id="qgn_menu_note_cxt" />
+      <skin id="qgn_menu_phob_cxt" />
+      <skin id="qgn_menu_set_cxt" />
+      <skin id="qgn_menu_simpd_cxt" />
+      <skin id="qgn_menu_smsvo_cxt" />
+      <skin id="qgn_menu_todo_cxt" />
+      <skin id="qgn_menu_unknown_cxt" />
+      <skin id="qgn_menu_video_cxt" />
+      <skin id="qgn_menu_voirec_cxt" />
+      <skin id="qgn_menu_wclk_cxt" />
+      <skin id="qgn_menu_wml_cxt" />
+      <skin id="qgn_menu_about_cxt" />
+      <skin id="qgn_menu_am_cxt" />
+      <skin id="qgn_menu_cb_cxt" />
+      <skin id="qgn_menu_cmon_cxt" />
+      <skin id="qgn_menu_dm_cxt" />
+      <skin id="qgn_menu_fax_cxt" />
+      <skin id="qgn_menu_fmgr_cxt" />
+      <skin id="qgn_menu_mg_cxt" />
+      <skin id="qgn_menu_mg_2_cxt" />
+      <skin id="qgn_menu_mmc_cxt" />
+      <skin id="qgn_menu_psln_cxt" />
+      <skin id="qgn_prop_psln_active" />
+      <skin id="qgn_menu_sat_cxt" />
+      <skin id="qgn_menu_simin_cxt" />
+      <skin id="qgn_menu_sml_cxt" />
+      <skin id="qgn_menu_ussd_cxt" />
+      <skin id="qgn_menu_videocam_cxt" />
+      <skin id="qgn_menu_wallet_cxt" />
+      <skin id="qgn_menu_dyc_cxt" />
+      <skin id="qgn_menu_dyc_off_cxt" />
+      <skin id="qgn_menu_cams_cxt" />
+      <skin id="qgn_menu_loc_cxt" />
+      <skin id="qgn_menu_chi_dictionary_cxt" />
+      <skin id="qgn_menu_sms_editor_cxt" />
+      <skin id="qgn_menu_sms_viewer_cxt" />
+      <skin id="qgn_menu_camcorder_cxt" />
+      <skin id="qgn_menu_camcorder_cxt1" />
+      <skin id="qgn_menu_cam_cxt" />
+      <skin id="qgn_menu_divert_cxt" />
+      <skin id="qgn_menu_blid" />
+      <skin id="qgn_menu_vc_cxt" />
+      <skin id="qgn_menu_blid_off_cxt" />
+      <skin id="qgn_menu_calc" />
+      <skin id="qgn_menu_call_video" />
+      <skin id="qgn_menu_cb_2_cxt" />
+      <skin id="qgn_menu_dm_disabled_cxt" />
+      <skin id="qgn_menu_drm" />
+      <skin id="qgn_menu_drm_exp_forbid" />
+      <skin id="qgn_menu_drm_rights_exp" />
+      <skin id="qgn_menu_dyc_roaming_cxt" />
+      <skin id="qgn_menu_folder_apps" />
+      <!-- <skin id="qgn_menu_group_connect" />
+                        <skin id="qgn_menu_group_extras" /> 
+                        <skin id="qgn_menu_group_install" />-->
+      <skin id="qgn_menu_group_organiser" />
+      <!-- <skin id="qgn_menu_group_tools" /> -->
+      <skin id="qgn_menu_idle" />
+      <skin id="qgn_menu_idlestate" />
+      <skin id="qgn_menu_idlestate2" />
+      <skin id="qgn_menu_im_roaming_cxt" />
+      <skin id="qgn_menu_jap_dictionary" />
+      <skin id="qgn_menu_lm" />
+      <skin id="qgn_menu_mce_card_cxt" />
+      <skin id="qgn_menu_operator" />
+      <skin id="qgn_menu_pinb" />
+      <skin id="qgn_menu_qdial" />
+      <skin id="qgn_menu_simfdn_cxt" />
+      <skin id="qgn_menu_warr" />
+      <skin id="qgn_menu_group_media" />
+      <skin id="LAY_AH%qgn_menu_group_media" />
+      <skin id="qgn_menu_browser" />
+      <skin id="qgn_menu_mod_document" />
+      <skin id="qgn_menu_mop_presentation" />
+      <skin id="qgn_menu_mos_sheet" />
+      <skin id="qgn_menu_mp" />
+      <skin id="qgn_menu_radio" />
+      <skin id="qgn_menu_radio_1" />
+      <skin id="qgn_menu_voip" />
+      <skin id="qgn_prop_am_midlet" />
+      <skin id="qgn_prop_am_sis" />
+      <skin id="qgn_menu_usb" />
+      <skin id="qgn_menu_installer" />
+      <skin id="qgn_menu_audio" />
+      <skin id="qgn_menu_email" />
+      <skin id="qgn_menu_mms" />
+      <skin id="qgn_menu_news" />
+      <skin id="qgn_menu_poc_app" />
+      <skin id="qgn_menu_shortcut" />
+      <skin id="qgn_menu_sip" />
+      <skin id="qgn_menu_sound" />
+      <skin id="qgn_menu_xdm" />
+      <skin id="qgn_prop_mmc_non" />
+      <skin id="qgn_menu_mtv" />
+      <skin id="qgn_menu_url" />
+    </layoutEntity>
+    <!-- Application Shell Icons -->
+    <layoutEntity name="cell_app_pane_g1@V:0">
+      <skin id="qgn_menu_phob_lst" />
+      <skin id="qgn_menu_cam_lst" />
+      <skin id="qgn_menu_wml_lst" />
+      <skin id="qgn_menu_cale_lst" />
+      <skin id="qgn_menu_im_lst" />
+      <skin id="qgn_menu_mce_lst" />
+      <skin id="qgn_menu_todo_lst" />
+      <skin id="qgn_menu_mode_lst" />
+      <skin id="qgn_menu_bt_lst" />
+      <skin id="qgn_menu_calc_lst" />
+      <skin id="qgn_menu_help_lst" />
+      <skin id="qgn_menu_idle_lst" />
+      <skin id="qgn_menu_ir_lst" />
+      <skin id="qgn_menu_log_lst" />
+      <skin id="qgn_menu_mce_card_lst" />
+      <skin id="qgn_menu_note_lst" />
+      <skin id="qgn_menu_pinb_lst" />
+      <skin id="qgn_menu_qdial_lst" />
+      <skin id="qgn_menu_set_lst" />
+      <skin id="qgn_menu_simpd_lst" />
+      <skin id="qgn_menu_smsvo_lst" />
+      <skin id="qgn_menu_voirec_lst" />
+      <skin id="qgn_menu_wclk_lst" />
+      <skin id="qgn_menu_cnv_lst" />
+      <skin id="qgn_menu_about_lst" />
+      <skin id="qgn_menu_am_lst" />
+      <skin id="qgn_menu_cb_lst" />
+      <skin id="qgn_menu_cmon_lst" />
+      <skin id="qgn_menu_dm_lst" />
+      <skin id="qgn_menu_fax_lst" />
+      <skin id="qgn_menu_fmgr_lst" />
+      <skin id="qgn_menu_mg_lst" />
+      <skin id="qgn_menu_mg_2_lst" />
+      <skin id="qgn_menu_mmc_lst" />
+      <skin id="qgn_menu_psln_lst" />
+      <skin id="qgn_menu_sat_lst" />
+      <skin id="qgn_menu_simin_lst" />
+      <skin id="qgn_menu_sml_lst" />
+      <skin id="qgn_menu_ussd_lst" />
+      <skin id="qgn_menu_vc_lst" />
+      <skin id="qgn_menu_wallet_lst" />
+      <skin id="qgn_menu_dyc_lst" />
+      <skin id="qgn_menu_cams_lst" />
+      <skin id="qgn_menu_loc_lst" />
+      <skin id="qgn_menu_chi_dictionary_lst" />
+      <skin id="qgn_menu_sms_editor_lst" />
+      <skin id="qgn_menu_sms_viewer_lst" />
+      <skin id="qgn_menu_camcorder_lst" />
+      <skin id="qgn_menu_divert_lst" />
+      <skin id="qgn_menu_phota_lst" />
+      <skin id="qgn_menu_am_midlet" />
+      <skin id="qgn_menu_am_sis" />
+      <skin id="qgn_menu_apps_dcd" />
+      <skin id="qgn_menu_sivc" />
+      <skin id="qgn_menu_wlan_logon" />
+      <skin id="qgn_menu_wlan_sniffer" />
+    </layoutEntity>
+    <!-- List Icons -->
+    <!-- other list icons -->
+    <layoutEntity name="list_double_large_graphic_pane_g1@V:0">
+      <skin id="qgn_prop_log_timers_sub" />
+      <skin id="qgn_prop_log_gprs_sub" />
+      <skin id="qgn_prop_log_calls_sub" />
+      <skin id="qgn_prop_log_in_sub" />
+      <skin id="qgn_prop_log_out_sub" />
+      <skin id="qgn_prop_log_missed_sub" />
+      <skin id="qgn_prop_log_timer_call_last" />
+      <skin id="qgn_prop_log_timer_call_out" />
+      <skin id="qgn_prop_log_timer_call_in" />
+      <skin id="qgn_prop_log_timer_call_all" />
+      <skin id="qgn_prop_log_timer_call_active" />
+      <skin id="qgn_prop_log_mostd_sub" />
+      <skin id="qgn_prop_log_gprs_received" />
+      <skin id="qgn_prop_log_gprs_sent" />
+      <skin id="qgn_prop_dyc_blocked_sub" />
+      <skin id="qgn_prop_dyc_private_sub" />
+      <skin id="qgn_prop_dyc_public_sub" />
+      <skin id="qgn_prop_file_audio" />
+      <skin id="qgn_prop_file_download" />
+      <skin id="qgn_prop_file_playlist" />
+      <skin id="qgn_prop_file_ram" />
+      <skin id="qgn_prop_file_sounds" />
+      <skin id="qgn_prop_file_video" />
+      <skin id="qgn_prop_folder_dyc" />
+      <skin id="qgn_prop_folder_large" />
+      <skin id="LAY_AH%qgn_prop_folder_large" />
+      <skin id="qgn_prop_folder_profiles" />
+      <skin id="LAY_AH%qgn_prop_folder_profiles" />
+      <skin id="qgn_prop_profiles" />
+      <skin id="qgn_prop_folder_sub_large" />
+      <skin id="LAY_AH%qgn_prop_folder_sub_large" />
+      <skin id="qgn_prop_image_corrupted" />
+      <skin id="qgn_prop_image_notcreated" />
+      <skin id="qgn_prop_mmc_memc_large" />
+      <skin id="qgn_prop_netw_shared_conn" />
+      <skin id="qgn_prop_phone_memc_large" />
+      <skin id="qgn_prop_folder_medium" />
+      <skin id="LAY_AH%qgn_prop_folder_medium" />
+      <skin id="qgn_prop_im_friends" />
+      <skin id="qgn_prop_im_saved" />
+      <skin id="qgn_prop_blid_navigation_sub" />
+      <skin id="qgn_menu_phota_cxt" />
+      <skin id="qgn_prop_blid_location_sub" />
+      <skin id="qgn_prop_blid_trip_sub" />
+      <skin id="qgn_prop_poc_channel_group1" />
+      <skin id="qgn_prop_poc_channel_group2" />
+      <skin id="qgn_prop_poc_network_group1" />
+      <skin id="qgn_prop_poc_network_group2" />
+      <skin id="qgn_prop_unknown" />
+      <skin id="LAY_AH%qgn_prop_unknown" />
+      <skin id="qgn_prop_poc_log_in_sub" />
+      <skin id="qgn_prop_poc_log_missed_sub" />
+      <skin id="qgn_prop_poc_log_out_sub" />
+      <skin id="qgn_prop_folder_vc_media" />
+      <skin id="LAY_AH%qgn_prop_folder_vc_media" />
+      <skin id="qgn_prop_unsupported_file" />
+      <skin id="qgn_prop_cmon_conn_active" />
+      <skin id="qgn_prop_cmon_wlan_avail" />
+      <skin id="qgn_prop_push_default" />
+      <skin id="qgn_prop_set_phone_sub" />
+      <skin id="qgn_prop_ota_tone" />
+      <skin id="qgn_prop_set_video_sharing" />
+      <skin id="qgn_prop_set_conn_remotedrive" />
+      <skin id="LAY_AH%qgn_prop_set_conn_dest_uncategorized" />
+      <skin id="qgn_prop_set_conn_presence" />
+      <skin id="qgn_prop_set_apps_cmode" />
+      <skin id="qgn_prop_set_apps_wml" />
+      <!-- <skin id="qgn_prop_set_gene_loc" />  -->
+      <skin id="qgn_prop_folder_not_install" />
+      <skin id="qgn_prop_folder_vc_media" />
+      <skin id="qgn_prop_folder_install" />
+      <skin id="qgn_prop_folder_parent" />
+      <skin id="qgn_prop_folder_video" />
+      <skin id="qgn_prop_folder_images" />
+      <!-- Duplicate -->
+      <!-- <skin id="qgn_prop_unsupported_file" /> -->
+    </layoutEntity>
+    <!-- Media Gallery Icons -->
+    <layoutEntity name="list_single_large_graphic_pane_g1@V:0">
+      <!-- Line 1 -->
+      <skin id="qgn_prop_album_music" />
+      <skin id="dummy_list_icons" />
+      <skin id="qgn_prop_folder_apps_medium" />
+      <skin id="qgn_prop_album_photo" />
+      <skin id="qgn_prop_album_video" />
+      <skin id="qgn_prop_video_mb" />
+      <skin id="qgn_prop_video_corrupted" />
+      <skin id="qgn_prop_group_large" />
+      <skin id="qgn_prop_mce_documents_new_sub" />
+      <skin id="LAY_AH%qgn_prop_mce_documents_new_sub" />
+      <skin id="qgn_prop_mce_documents_sub" />
+      <skin id="LAY_AH%qgn_prop_mce_documents_sub" />
+      <skin id="qgn_prop_mce_sent_sub" />
+      <skin id="qgn_prop_set_network_sub" />
+      <skin id="qgn_prop_set_sec_sub" />
+      <skin id="qgn_prop_set_device_sub" />
+      <skin id="qgn_prop_file_music_sub" />
+      <skin id="qgn_prop_file_sounds_sub" />
+      <skin id="qgn_prop_file_video_sub" />
+      <skin id="dummy_setting_icons" />
+      <skin id="qgn_prop_file_all_sub" />
+      <skin id="qgn_prop_file_images_sub" />
+      <skin id="qgn_prop_file_links_sub" />
+      <skin id="qgn_prop_mce_inbox_new_sub" />
+      <skin id="qgn_prop_mce_inbox_sub" />
+      <skin id="qgn_prop_set_div_sub" />
+      <skin id="qgn_prop_set_accessory_sub" />
+      <skin id="qgn_prop_set_barr_sub" />
+      <skin id="qgn_prop_set_call_sub" />
+      <skin id="dummy_miscellaneous_icons" />
+      <skin id="qgn_prop_mce_outbox_sub" />
+      <skin id="qgn_prop_mce_remote_new_sub" />
+      <skin id="qgn_prop_mce_remote_sub" />
+      <skin id="qgn_prop_set_cams_image_sub" />
+      <skin id="qgn_prop_set_cams_video_sub" />
+      <skin id="qgn_prop_set_connec_sub" />
+      <skin id="qgn_prop_mce_dr_sub" />
+      <skin id="qgn_prop_mce_drafts_sub" />
+      <skin id="LAY_AH%qgn_prop_mce_drafts_sub" />
+      <skin id="qgn_indi_tb_conversation"/>
+      <skin id="qgn_prop_im_ibox" />
+      <skin id="qgn_prop_im_ibox_new" />
+      <skin id="qgn_prop_mce_write_sub" />
+      <skin id="qgn_prop_set_datim_sub" />
+      <skin id="qgn_prop_set_mp_audio_sub" />
+      <skin id="qgn_prop_set_mp_stream_sub" />
+      <skin id="qgn_prop_set_mp_video_sub" />
+      <skin id="qgn_prop_cp_conn_ir" />
+      <skin id="qgn_prop_cp_conn_ir_off" />
+      <skin id="dummy_messaging_icons" />
+      <skin id="qgn_prop_file_presentation" />
+      <skin id="qgn_prop_file_presentations_sub" />
+      <skin id="LAY_AH%qgn_prop_file_presentations_sub" />
+      <skin id="qgn_prop_group_medium" />
+      <skin id="qgn_prop_wallet_tickets_sub" />
+      <skin id="qgn_prop_wallet_service_sub" />
+      <skin id="qgn_prop_wallet_pnotes_sub" />
+      <skin id="qgn_prop_wallet_cards_sub" />
+      <skin id="qgn_prop_sml_remote_new_sub" />
+      <skin id="qgn_prop_sml_remote_sub" />
+      <skin id="qgn_prop_sml_usb_off" />
+      <skin id="qgn_prop_sml_usb" />
+      <skin id="qgn_prop_sml_sync_to_server" />
+      <skin id="qgn_prop_sml_sync_server" />
+      <skin id="qgn_prop_sml_sync_off" />
+      <skin id="qgn_prop_sml_sync_from_server" />
+      <skin id="qgn_prop_sml_ir_off" />
+      <skin id="qgn_prop_sml_ir" />
+      <skin id="qgn_prop_sml_http_off" />
+      <skin id="qgn_prop_sml_http" />
+      <skin id="qgn_prop_sml_bt_off" />
+      <skin id="qgn_prop_sml_bt" />
+      <skin id="qgn_prop_fmgr_backup_sub" />
+      <skin id="qgn_prop_fmgr_mmc_no_sub" />
+      <skin id="qgn_prop_fmgr_mmc_sub" />
+      <skin id="qgn_prop_voip_new_service" />
+      <skin id="qgn_prop_fmgr_phone_memc_sub" />
+      <skin id="qgn_prop_psln_ai_sub" />
+      <skin id="qgn_prop_psln_appsgrid_sub" />
+      <skin id="qgn_prop_psln_cimage_sub" />
+      <skin id="qgn_prop_psln_general_sub" />
+      <skin id="qgn_prop_psln_ssaver_sub" />
+      <skin id="qgn_prop_psln_wpaper_sub" />
+      <skin id="qgn_prop_set_apps_am" />
+      <skin id="qgn_prop_set_apps_bt" />
+      <skin id="qgn_prop_set_apps_cale" />
+      <skin id="qgn_prop_set_apps_cams" />
+      <skin id="qgn_prop_set_apps_im" />
+      <skin id="qgn_prop_set_apps_loc" />
+      <skin id="qgn_prop_set_apps_log" />
+      <skin id="qgn_prop_set_apps_mce" />
+      <skin id="qgn_prop_set_apps_phob" />
+      <skin id="qgn_prop_set_apps_poc" />
+      <skin id="qgn_prop_set_apps_radio" />
+      <skin id="qgn_prop_set_apps_vr" />
+      <skin id="qgn_prop_set_apps_sis" />
+      <skin id="qgn_prop_set_apps_sub" />
+      <skin id="qgn_prop_set_apps_usb" />
+      <skin id="qgn_prop_set_apps_voirec" />
+      <skin id="qgn_prop_set_apps_wml" />
+      <skin id="qgn_prop_set_conn_accp" />
+      <skin id="qgn_prop_set_conn_config" />
+      <skin id="qgn_prop_set_conn_data" />
+      <skin id="qgn_prop_set_conn_dm" />
+      <skin id="qgn_prop_set_conn_gprs" />
+      <skin id="qgn_prop_set_conn_sip" />
+      <skin id="qgn_prop_set_conn_sub" />
+      <skin id="qgn_prop_set_conn_voip" />
+      <skin id="qgn_prop_set_conn_vpn" />
+      <skin id="qgn_prop_set_conn_wlan" />
+      <skin id="qgn_prop_set_conn_xdm" />
+      <skin id="qgn_prop_set_gene_loc" />
+      <skin id="qgn_prop_set_gene_phone" />
+      <skin id="qgn_prop_set_gene_psln" />
+      <skin id="qgn_prop_set_gene_sub" />
+      <skin id="qgn_prop_set_gene_tv" />
+      <skin id="qgn_prop_wml_folder_adap_sub" />
+      <skin id="LAY_AH%qgn_prop_wml_folder_adap_sub" />
+      <skin id="qgn_prop_wml_folder_bm_sub" />
+      <skin id="LAY_AH%qgn_prop_wml_folder_bm_sub" />
+      <skin id="qgn_prop_wml_folder_news_sub" />
+      <skin id="LAY_AH%qgn_prop_wml_folder_news_sub" />
+      <skin id="qgn_prop_wml_folder_page_sub" />
+      <skin id="LAY_AH%qgn_prop_wml_folder_page_sub" />
+      <skin id="qgn_prop_set_default_sub" />
+      <skin id="qgn_prop_set_conn_acl" />
+      <skin id="qgn_prop_drm_exp_forbid_large" />
+      <skin id="qgn_prop_drm_exp_large" />
+      <skin id="qgn_prop_drm_removed_large" />
+      <skin id="qgn_prop_drm_valid_large" />
+      <skin id="qgn_prop_cp_conn" />
+      <skin id="qgn_prop_cp_conn_admin" />
+      <skin id="qgn_prop_cp_conn_datasync" />
+      <skin id="qgn_prop_cp_conn_exchange" />
+      <skin id="qgn_prop_cp_conn_man" />
+      <skin id="qgn_prop_cp_conn_sync" />
+      <skin id="qgn_prop_cp_dev" />
+      <skin id="qgn_prop_cp_dev_about" />
+      <skin id="qgn_prop_cp_dev_def" />
+      <skin id="qgn_prop_cp_dev_diag" />
+      <skin id="qgn_prop_cp_dev_disp" />
+      <skin id="qgn_prop_cp_dev_interact" />
+      <skin id="qgn_prop_cp_dev_keyguard" />
+      <skin id="qgn_prop_cp_dev_man" />
+      <skin id="qgn_prop_cp_dev_orig" />
+      <skin id="qgn_prop_cp_dev_sec" />
+      <skin id="qgn_prop_cp_dev_update" />
+      <skin id="qgn_prop_cp_dev_ps_activate" />
+      <skin id="qgn_prop_cp_inst" />
+      <skin id="qgn_prop_cp_inst_files" />
+      <skin id="qgn_prop_cp_inst_installs" />
+      <skin id="qgn_prop_cp_inst_settings" />
+      <skin id="qgn_prop_cp_perso" />
+      <skin id="qgn_prop_cp_perso_idle" />
+      <skin id="qgn_prop_cp_perso_lang" />
+      <skin id="qgn_prop_cp_perso_prof" />
+      <skin id="qgn_prop_cp_perso_theme" />
+      <skin id="qgn_prop_cp_tele" />
+      <skin id="qgn_prop_cp_tele_speed" />
+      <skin id="qgn_prop_cp_tele_vmail" />
+      <skin id="qgn_prop_fmgr_usb_memc_sub" />
+      <skin id="qgn_prop_fmgr_ms" />
+      <skin id="qgn_prop_fmgr_ms_sub" />
+    </layoutEntity>
+    <!-- note icons -->
+    <layoutEntity name="popup_note_window_g1@V:0">
+      <skin id="qgn_note_alarm_alert" />
+      <skin id="qgn_note_alarm_todo" />
+      <skin id="qgn_note_poc" />
+      <skin id="qgn_note_wml" />
+      <skin id="qgn_note_alarm_calendar" />
+      <skin id="qgn_note_alarm_clock" />
+      <skin id="qgn_note_alarm_misc" />
+      <skin id="qgn_note_call" />
+      <skin id="qgn_note_copy" />
+      <skin id="qgn_note_dyc_status_changed" />
+      <skin id="qgn_note_gprs" />
+      <skin id="qgn_note_im_message" />
+      <skin id="qgn_note_memory" />
+      <skin id="qgn_note_move" />
+      <skin id="qgn_note_progress" />
+      <skin id="qgn_note_remote_mailbox" />
+      <skin id="qgn_note_sim" />
+      <skin id="qgn_note_sml" />
+      <skin id="qgn_note_sml_server" />
+      <skin id="qgn_note_voice" />
+      <skin id="qgn_note_voice_found" />
+      <skin id="qgn_note_warr" />
+      <skin id="qgn_note_browser" />
+      <skin id="qgn_note_batt_charging_anim" />
+      <skin id="qgn_note_batt_full_anim" />
+      <skin id="qgn_note_batt_low_anim" />
+      <skin id="qgn_note_batt_not_charging_anim" />
+      <skin id="qgn_note_batt_recharge_anim" />
+      <skin id="S60_2_6%qgn_note_error_anim" />
+      <skin id="S60_2_6%qgn_note_bt_anim" />
+      <skin id="qgn_note_erased_anim" />
+      <skin id="qgn_note_bt_anim" />
+      <skin id="qgn_note_error_anim" />
+      <skin id="S60_2_6%qgn_note_faxpc_anim" />
+      <skin id="qgn_note_info_anim" />
+      <skin id="qgn_note_faxpc_anim" />
+      <skin id="qgn_note_keyguard_locked_anim" />
+      <skin id="S60_2_6%qgn_note_info_anim" />
+      <skin id="qgn_note_keyguard_open_anim" />
+      <skin id="qgn_note_ok_anim" />
+      <skin id="qgn_note_query_anim" />
+      <skin id="LAY_AH%qgn_note_query_anim" />
+      <skin id="qgn_note_warning_anim" />
+      <skin id="qgn_note_mupsv" />
+      <skin id="qgn_note_nfc_print" />
+      <skin id="qgn_note_nfc_write_tag" />
+      <skin id="qgn_note_bt" />
+      <skin id="qgn_note_keyguard" />
+      <skin id="qgn_note_info" />
+      <skin id="qgn_note_faxpc" />
+      <skin id="qgn_note_error" />
+      <skin id="qgn_note_erased" />
+      <skin id="qgn_note_batt_recharge" />
+      <skin id="qgn_note_batt_not_charging" />
+      <skin id="qgn_note_batt_low" />
+      <skin id="qgn_note_batt_full" />
+      <skin id="qgn_note_batt_charging" />
+      <skin id="qgn_note_query" />
+      <skin id="LAY_AH%qgn_note_query" />
+      <skin id="qgn_note_warning" />
+      <skin id="qgn_note_ok" />
+    </layoutEntity>
+    <!-- note icons in Idle Mode have a different layout -->
+    <layoutEntity name="popup_snote_single_graphic_window_g2@V:0">
+      <skin id="qgn_note_mail" />
+      <skin id="qgn_note_message" />
+      <skin id="qgn_note_mms" />
+    </layoutEntity>
+    <layoutEntity name="wait_anim_pane_g1@V:0">
+      <skin id="qgn_graf_bar_progress" />
+      <skin id="qgn_graf_bar_wait_idle" />
+      <skin id="qgn_graf_bar_wait_increm_idle" />
+    </layoutEntity>
+    <layoutEntity name="wait_anim_pane_g2@V:0">
+      <skin id="qgn_graf_bar_wait_anim" />
+      <skin id="qgn_graf_bar_wait_increm" />
+      <skin id="qgn_graf_bar_wait_increm_02" />
+      <skin id="qgn_graf_bar_wait_increm_03" />
+      <skin id="qgn_graf_bar_wait_increm_04" />
+      <skin id="qgn_graf_bar_wait_increm_05" />
+      <skin id="qgn_graf_bar_wait_increm_06" />
+      <skin id="qgn_graf_bar_wait_increm_07" />
+      <skin id="qgn_graf_bar_wait_increm_08" />
+      <skin id="qgn_graf_bar_wait_increm_09" />
+      <skin id="qgn_graf_bar_wait_increm_10" />
+      <skin id="qgn_graf_bar_wait_increm_11" />
+      <skin id="qgn_graf_bar_wait_increm_12" />
+      <skin id="qgn_graf_bar_wait_increm_13" />
+      <skin id="qgn_graf_bar_wait_increm_14" />
+      <skin id="qgn_graf_bar_wait_increm_15" />
+      <skin id="qgn_graf_bar_wait_increm_16" />
+      <skin id="qgn_graf_bar_wait_increm_17" />
+      <skin id="qgn_graf_bar_wait_increm_18" />
+      <skin id="qgn_graf_bar_wait_increm_19" />
+    </layoutEntity>
+    <layoutEntity name="wait_bar_pane@V:3">
+      <!-- guess work for the middle three : UMA -->
+      <skin id="qgn_graf_bar_frame_short" />
+      <skin id="qgn_graf_bar_frame_long" />
+      <skin id="qgn_graf_bar_frame_vorec" />
+    </layoutEntity>
+    <!-- find pane icons -->
+    <layoutEntity name="find_pane_g1@V:0">
+      <skin id="qgn_indi_find_glass" />
+      <skin id="LAY_AH%qgn_indi_find_glass" />
+    </layoutEntity>
+    <layoutEntity name="find_pinb_pane_g1@v:0">
+      <skin id="qgn_indi_find_goto" />
+      <skin id="LAY_AH%qgn_indi_find_goto" />
+      <skin id="qgn_indi_find_title" />
+      <skin id="qgn_indi_ai_cale" />
+    </layoutEntity>
+    <layoutEntity name="ai_gene_pane_1_g1@V:0">
+      <skin id="qgn_indi_cdr_meeting" />
+      <skin id="qgn_indi_ai_todo" />
+      <skin id="qgn_indi_cdr_reminder" />
+      <skin id="qgn_indi_cdr_birthday" />
+      <skin id="qgn_indi_ai_nt_def" />
+    </layoutEntity>
+    <!-- areas : control area -->
+    <!-- control area -->
+    <layoutEntity display="portrait,square"
+                  name="control_pane_g3@V:0">
+      <skin id="qsn_bg_area_control" />
+      <skin id="qsn_bg_area_control_popup" />
+      <skin id="qsn_bg_area_control_idle" />
+      <skin id="qsn_bg_area_stacon_lb_idle" />
+      <skin id="qsn_bg_area_stacon_lb" />
+      <skin id="qsn_bg_area_stacon_rb_idle" />
+      <skin id="qsn_bg_area_stacon_rb" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="stacon_bottom_pane@v:0">
+      <skin id="qsn_bg_area_control" />
+      <skin id="qsn_bg_area_control_popup" />
+      <skin id="qsn_bg_area_control_idle" />
+    </layoutEntity>
+    <!-- highlight -->
+    <!-- list highlight & new list highlight -->
+    <!-- highlights -->
+    <!-- list highlights -->
+    <layoutEntity name="list_highlight_pane_g10_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list" />
+      <skin id="qsn_fr_list" />
+      <skin id="qsn_anim_list" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g2_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_corner_tl" />
+      <skin id="qsn_fr_list_corner_tl_pressed" />
+      <skin id="qsn_fr_list_corner_tl" />
+      <skin id="qsn_anim_list_corner_tl" />
+      <skin id="qsn_fr_button_tb_corner_tl_mode" />
+      <skin id="qsn_fr_home_tl_pressed" />
+      <skin id="qsn_fr_home_tl" />
+      <skin id="qgn_fr_cmail_field_corner_tl" />
+      <skin id="qsn_fr_button_normal_answer_tl" />
+      <skin id="qsn_fr_button_pressed_answer_tl" />
+      <skin id="qsn_fr_button_inactive_answer_tl" />
+      <skin id="qsn_fr_button_highlight_answer_tl" />
+      <skin id="qsn_fr_button_normal_reject_tl" />
+      <skin id="qsn_fr_button_pressed_reject_tl" />
+      <skin id="qsn_fr_button_inactive_reject_tl" />
+      <skin id="qsn_fr_button_highlight_reject_tl" />
+      <skin id="qsn_fr_button_normal_hold_tl" />
+      <skin id="qsn_fr_button_pressed_hold_tl" />
+      <skin id="qsn_fr_button_inactive_hold_tl" />
+      <skin id="qsn_fr_button_highlight_hold_tl" />
+	  <skin id="qsn_fr_keypad_button_inactive_tl" />
+	  <skin id="qsn_fr_keypad_button_normal_tl" />
+	  <skin id="qsn_fr_keypad_button_pressed_tl" />
+      <skin id="qsn_fr_cmail_list_corner_tl" />
+      <skin id="qsn_fr_title_divider_corner_tl" />
+      <skin id="qgn_home_button_widget_tl" />
+      <skin id="qsn_fr_function_button_corner_tl_normal" />
+      <skin id="qsn_fr_popup_heading_corner_tl" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_tl" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_tl_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_tl" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_tl_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_tl" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_tl_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_corner_tl" />
+      <skin id="qsn_fr_button_corner_tl_pressed" />
+      <skin id="qsn_fr_button_tb_corner_tl_pressed" />
+      <skin id="qsn_fr_button_corner_tl_normal" />
+      <skin id="qsn_fr_button_corner_tl_inactive" />
+      <skin id="qsn_fr_calc_paper_corner_tl" />
+      <skin id="qsn_fr_button_highlight_corner_tl" />
+      <skin id="qgn_fr_input_icf_bg_tl" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g3_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_corner_tr" />
+      <skin id="qsn_fr_list_corner_tr_pressed" />
+      <skin id="qsn_fr_button_tb_corner_tr_mode" />
+      <skin id="qsn_fr_home_tr_pressed" />
+      <skin id="qsn_fr_home_tr" />
+      <skin id="qgn_fr_cmail_field_corner_tr" />
+      <skin id="qsn_fr_button_normal_answer_tr" />
+      <skin id="qsn_fr_button_pressed_answer_tr" />
+      <skin id="qsn_fr_button_inactive_answer_tr" />
+      <skin id="qsn_fr_button_highlight_answer_tr" />
+      <skin id="qsn_fr_button_normal_reject_tr" />
+      <skin id="qsn_fr_button_pressed_reject_tr" />
+      <skin id="qsn_fr_button_inactive_reject_tr" />
+      <skin id="qsn_fr_button_highlight_reject_tr" />
+      <skin id="qsn_fr_button_normal_hold_tr" />
+      <skin id="qsn_fr_button_pressed_hold_tr" />
+      <skin id="qsn_fr_button_inactive_hold_tr" />
+      <skin id="qsn_fr_button_highlight_hold_tr" />
+	  <skin id="qsn_fr_keypad_button_inactive_tr" />
+	  <skin id="qsn_fr_keypad_button_normal_tr" />
+	  <skin id="qsn_fr_keypad_button_pressed_tr" />
+      <skin id="qsn_fr_cmail_list_corner_tr" />
+      <skin id="qsn_fr_title_divider_corner_tr" />
+      <skin id="qgn_home_button_widget_tr" />
+      <skin id="qsn_fr_function_button_corner_tr_normal" />
+      <skin id="qsn_fr_popup_heading_corner_tr" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_tr" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_tr_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_tr" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_tr_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_tr" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_tr_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_corner_tr" />
+      <skin id="qsn_fr_button_corner_tr_pressed" />
+      <skin id="qsn_fr_button_tb_corner_tr_pressed" />
+      <skin id="qsn_fr_button_corner_tr_normal" />
+      <skin id="qsn_fr_button_corner_tr_inactive" />
+      <skin id="qsn_fr_list_corner_tr" />
+      <skin id="qsn_anim_list_corner_tr" />
+      <skin id="qsn_fr_calc_paper_corner_tr" />
+      <skin id="qsn_fr_button_highlight_corner_tr" />
+      <skin id="qgn_fr_input_icf_bg_tr" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g4_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_corner_bl" />
+      <skin id="qsn_fr_list_corner_bl_pressed" />
+      <skin id="qsn_fr_list_corner_bl" />
+      <skin id="qsn_fr_button_tb_corner_bl_mode" />
+      <skin id="qsn_fr_home_bl_pressed" />
+      <skin id="qsn_fr_home_bl" />
+      <skin id="qgn_fr_cmail_field_corner_bl" />
+      <skin id="qsn_fr_button_normal_answer_bl" />
+      <skin id="qsn_fr_button_pressed_answer_bl" />
+      <skin id="qsn_fr_button_inactive_answer_bl" />
+      <skin id="qsn_fr_button_highlight_answer_bl" />
+      <skin id="qsn_fr_button_normal_reject_bl" />
+      <skin id="qsn_fr_button_pressed_reject_bl" />
+      <skin id="qsn_fr_button_inactive_reject_bl" />
+      <skin id="qsn_fr_button_highlight_reject_bl" />
+      <skin id="qsn_fr_button_normal_hold_bl" />
+      <skin id="qsn_fr_button_pressed_hold_bl" />
+      <skin id="qsn_fr_button_inactive_hold_bl" />
+      <skin id="qsn_fr_button_highlight_hold_bl" />
+	  <skin id="qsn_fr_keypad_button_inactive_bl" />
+	  <skin id="qsn_fr_keypad_button_normal_bl" />
+	  <skin id="qsn_fr_keypad_button_pressed_bl" />
+      <skin id="qsn_fr_cmail_list_corner_bl" />
+      <skin id="qsn_fr_title_divider_corner_bl" />
+      <skin id="qgn_home_button_widget_bl" />
+      <skin id="qsn_fr_function_button_corner_bl_normal" />
+      <skin id="qsn_fr_popup_heading_corner_bl" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_bl" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_bl_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_bl" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_bl_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_bl" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_bl_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_corner_bl" />
+      <skin id="qsn_fr_button_corner_bl_normal" />
+      <skin id="qsn_fr_button_corner_bl_inactive" />
+      <skin id="qsn_fr_button_corner_bl_pressed" />
+      <skin id="qsn_fr_button_tb_corner_bl_pressed" />
+      <skin id="qsn_fr_calc_paper_corner_bl" />
+      <skin id="qsn_anim_list_corner_bl" />
+      <skin id="qsn_fr_button_highlight_corner_bl" />
+      <skin id="qgn_fr_input_icf_bg_bl" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g5_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_corner_br" />
+      <skin id="qsn_fr_list_corner_br_pressed" />
+      <skin id="qsn_fr_list_corner_br" />
+      <skin id="qsn_fr_button_tb_corner_br_mode" />
+      <skin id="qsn_fr_home_br_pressed" />
+      <skin id="qsn_fr_home_br" />
+      <skin id="qgn_fr_cmail_field_corner_br" />
+      <skin id="qsn_fr_button_normal_answer_br" />
+      <skin id="qsn_fr_button_pressed_answer_br" />
+      <skin id="qsn_fr_button_inactive_answer_br" />
+      <skin id="qsn_fr_button_highlight_answer_br" />
+      <skin id="qsn_fr_button_normal_reject_br" />
+      <skin id="qsn_fr_button_pressed_reject_br" />
+      <skin id="qsn_fr_button_inactive_reject_br" />
+      <skin id="qsn_fr_button_highlight_reject_br" />
+      <skin id="qsn_fr_button_normal_hold_br" />
+      <skin id="qsn_fr_button_pressed_hold_br" />
+      <skin id="qsn_fr_button_inactive_hold_br" />
+      <skin id="qsn_fr_button_highlight_hold_br" />
+	  <skin id="qsn_fr_keypad_button_inactive_br" />
+	  <skin id="qsn_fr_keypad_button_normal_br" />
+	  <skin id="qsn_fr_keypad_button_pressed_br" />
+      <skin id="qsn_fr_cmail_list_corner_br" />
+      <skin id="qsn_fr_title_divider_corner_br" />
+      <skin id="qgn_home_button_widget_br" />
+      <skin id="qsn_fr_function_button_corner_br_normal" />
+      <skin id="qsn_fr_popup_heading_corner_br" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_br" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_corner_br_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_br" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_corner_br_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_br" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_corner_br_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_corner_br" />
+      <skin id="qsn_fr_button_corner_br_normal" />
+      <skin id="qsn_fr_button_corner_br_inactive" />
+      <skin id="qsn_fr_button_corner_br_pressed" />
+      <skin id="qsn_fr_button_tb_corner_br_pressed" />
+      <skin id="qsn_fr_calc_paper_corner_br" />
+      <skin id="qsn_anim_list_corner_br" />
+      <skin id="qsn_fr_button_highlight_corner_br" />
+      <skin id="qgn_fr_input_icf_bg_br" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g6_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_side_t" />
+      <skin id="qsn_fr_list_side_t_pressed" />
+      <skin id="qsn_fr_list_side_t" />
+      <skin id="qsn_fr_button_tb_side_t_mode" />
+      <skin id="qsn_fr_home_t_pressed" />
+      <skin id="qsn_fr_home_t" />
+      <skin id="qgn_fr_cmail_field_side_t" />
+      <skin id="qsn_fr_button_normal_answer_t" />
+      <skin id="qsn_fr_button_pressed_answer_t" />
+      <skin id="qsn_fr_button_inactive_answer_t" />
+      <skin id="qsn_fr_button_highlight_answer_t" />
+      <skin id="qsn_fr_button_normal_reject_t" />
+      <skin id="qsn_fr_button_pressed_reject_t" />
+      <skin id="qsn_fr_button_inactive_reject_t" />
+      <skin id="qsn_fr_button_highlight_reject_t" />
+      <skin id="qsn_fr_button_normal_hold_t" />
+      <skin id="qsn_fr_button_pressed_hold_t" />
+      <skin id="qsn_fr_button_inactive_hold_t" />
+      <skin id="qsn_fr_button_highlight_hold_t" />
+	  <skin id="qsn_fr_keypad_button_inactive_t" />
+	  <skin id="qsn_fr_keypad_button_normal_t" />
+	  <skin id="qsn_fr_keypad_button_pressed_t" />
+      <skin id="qsn_fr_cmail_list_side_t" />
+      <skin id="qsn_fr_title_divider_side_t" />
+      <skin id="qgn_home_button_widget_t" />
+      <skin id="qsn_fr_function_button_side_t_normal" />
+      <skin id="qsn_fr_popup_heading_side_t" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_t" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_t_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_t" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_t_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_t" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_t_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_side_t" />
+      <skin id="qsn_fr_button_side_t_normal" />
+      <skin id="qsn_fr_button_side_t_inactive" />
+      <skin id="qsn_fr_button_side_t_pressed" />
+      <skin id="qsn_fr_button_tb_side_t_pressed" />
+      <skin id="qsn_anim_list_side_t" />
+      <skin id="qsn_fr_calc_paper_side_t" />
+      <skin id="qsn_fr_button_highlight_side_t" />
+      <skin id="qgn_fr_input_icf_bg_t" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g7_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_side_b" />
+      <skin id="qsn_fr_list_side_b_pressed" />
+      <skin id="qsn_fr_list_side_b" />
+      <skin id="qsn_fr_button_tb_side_b_mode" />
+      <skin id="qsn_fr_home_b_pressed" />
+      <skin id="qsn_fr_home_b" />
+      <skin id="qgn_fr_cmail_field_side_b" />
+      <skin id="qsn_fr_button_normal_answer_b" />
+      <skin id="qsn_fr_button_pressed_answer_b" />
+      <skin id="qsn_fr_button_inactive_answer_b" />
+      <skin id="qsn_fr_button_highlight_answer_b" />
+      <skin id="qsn_fr_button_normal_reject_b" />
+      <skin id="qsn_fr_button_pressed_reject_b" />
+      <skin id="qsn_fr_button_inactive_reject_b" />
+      <skin id="qsn_fr_button_highlight_reject_b" />
+      <skin id="qsn_fr_button_normal_hold_b" />
+      <skin id="qsn_fr_button_pressed_hold_b" />
+      <skin id="qsn_fr_button_inactive_hold_b" />
+      <skin id="qsn_fr_button_highlight_hold_b" />
+	  <skin id="qsn_fr_keypad_button_inactive_b" />
+	  <skin id="qsn_fr_keypad_button_normal_b" />
+	  <skin id="qsn_fr_keypad_button_pressed_b" />
+      <skin id="qsn_fr_cmail_list_side_b" />
+      <skin id="qsn_fr_title_divider_side_b" />
+      <skin id="qgn_home_button_widget_b" />
+      <skin id="qsn_fr_function_button_side_b_normal" />
+      <skin id="qsn_fr_popup_heading_side_b" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_b" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_b_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_b" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_b_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_b" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_b_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_side_b" />
+      <skin id="qsn_fr_button_side_b_normal" />
+      <skin id="qsn_fr_button_side_b_inactive" />
+      <skin id="qsn_fr_button_side_b_pressed" />
+      <skin id="qsn_fr_button_tb_side_b_pressed" />
+      <skin id="qsn_fr_calc_paper_side_b" />
+      <skin id="qsn_anim_list_side_b" />
+      <skin id="qsn_fr_button_highlight_side_b" />
+      <skin id="qgn_fr_input_icf_bg_b" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g8_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_side_l" />
+      <skin id="qsn_fr_list_side_l_pressed" />
+      <skin id="qsn_fr_button_tb_side_l_mode" />
+      <skin id="qsn_fr_home_l_pressed" />
+      <skin id="qsn_fr_home_l" />
+      <skin id="qgn_fr_cmail_field_side_l" />
+      <skin id="qsn_fr_button_normal_answer_l" />
+      <skin id="qsn_fr_button_pressed_answer_l" />
+      <skin id="qsn_fr_button_inactive_answer_l" />
+      <skin id="qsn_fr_button_highlight_answer_l" />
+      <skin id="qsn_fr_button_normal_reject_l" />
+      <skin id="qsn_fr_button_pressed_reject_l" />
+      <skin id="qsn_fr_button_inactive_reject_l" />
+      <skin id="qsn_fr_button_highlight_reject_l" />
+      <skin id="qsn_fr_button_normal_hold_l" />
+      <skin id="qsn_fr_button_pressed_hold_l" />
+      <skin id="qsn_fr_button_inactive_hold_l" />
+      <skin id="qsn_fr_button_highlight_hold_l" />
+	  <skin id="qsn_fr_keypad_button_inactive_l" />
+	  <skin id="qsn_fr_keypad_button_normal_l" />
+	  <skin id="qsn_fr_keypad_button_pressed_l" />
+      <skin id="qsn_fr_cmail_list_side_l" />
+      <skin id="qsn_fr_title_divider_side_l" />
+      <skin id="qgn_home_button_widget_l" />
+      <skin id="qsn_fr_function_button_side_l_normal" />
+      <skin id="qsn_fr_popup_heading_side_l" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_l" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_l_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_l" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_l_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_l" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_l_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_side_l" />
+      <skin id="qsn_fr_button_side_l_pressed" />
+      <skin id="qsn_fr_button_tb_side_l_pressed" />
+      <skin id="qsn_fr_button_side_l_normal" />
+      <skin id="qsn_fr_button_side_l_inactive" />
+      <skin id="qsn_fr_list_side_l" />
+      <skin id="qsn_anim_list_side_l" />
+      <skin id="qsn_fr_calc_paper_side_l" />
+      <skin id="qsn_fr_button_highlight_side_l" />
+      <skin id="qgn_fr_input_icf_bg_l" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g9_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_side_r" />
+      <skin id="qsn_fr_list_side_r_pressed" />
+      <skin id="qsn_fr_list_side_r" />
+      <skin id="qsn_fr_button_tb_side_r_mode" />
+      <skin id="qsn_fr_home_r_pressed" />
+      <skin id="qsn_fr_home_r" />
+      <skin id="qgn_fr_cmail_field_side_r" />
+      <skin id="qsn_fr_button_normal_answer_r" />
+      <skin id="qsn_fr_button_pressed_answer_r" />
+      <skin id="qsn_fr_button_inactive_answer_r" />
+      <skin id="qsn_fr_button_highlight_answer_r" />
+      <skin id="qsn_fr_button_normal_reject_r" />
+      <skin id="qsn_fr_button_pressed_reject_r" />
+      <skin id="qsn_fr_button_inactive_reject_r" />
+      <skin id="qsn_fr_button_highlight_reject_r" />
+      <skin id="qsn_fr_button_normal_hold_r" />
+      <skin id="qsn_fr_button_pressed_hold_r" />
+      <skin id="qsn_fr_button_inactive_hold_r" />
+      <skin id="qsn_fr_button_highlight_hold_r" />
+	  <skin id="qsn_fr_keypad_button_inactive_r" />
+	  <skin id="qsn_fr_keypad_button_normal_r" />
+	  <skin id="qsn_fr_keypad_button_pressed_r" />
+      <skin id="qsn_fr_cmail_list_side_r" />
+      <skin id="qsn_fr_title_divider_side_r" />
+      <skin id="qgn_home_button_widget_r" />
+      <skin id="qsn_fr_function_button_side_r_normal" />
+      <skin id="qsn_fr_popup_heading_side_r" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_r" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_side_r_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_r" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_side_r_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_r" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_side_r_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_side_r" />
+      <skin id="qsn_fr_button_side_r_normal" />
+      <skin id="qsn_fr_button_side_r_pressed" />
+      <skin id="qsn_fr_button_side_r_inactive" />
+      <skin id="qsn_fr_button_tb_side_r_pressed" />
+      <skin id="qsn_fr_calc_paper_side_r" />
+      <skin id="qsn_anim_list_side_r" />
+      <skin id="qsn_fr_button_highlight_side_r" />
+      <skin id="qgn_fr_input_icf_bg_r" />
+    </layoutEntity>
+    <layoutEntity name="list_highlight_pane_g1_cp1@V:0">
+      <skin id="S60_2_6%qsn_fr_list_center" />
+      <skin id="qsn_fr_list_center_pressed" />
+      <skin id="qsn_fr_list_center" />
+      <skin id="qsn_fr_button_tb_center_mode" />
+      <skin id="qsn_fr_home_center_pressed" />
+      <skin id="qsn_fr_home_center" />
+      <skin id="qgn_fr_cmail_field_center" />
+      <skin id="qsn_fr_button_normal_answer_center" />
+      <skin id="qsn_fr_button_pressed_answer_center" />
+      <skin id="qsn_fr_button_inactive_answer_center" />
+      <skin id="qsn_fr_button_highlight_answer_center" />
+      <skin id="qsn_fr_button_normal_reject_center" />
+      <skin id="qsn_fr_button_pressed_reject_center" />
+      <skin id="qsn_fr_button_inactive_reject_center" />
+      <skin id="qsn_fr_button_highlight_reject_center" />
+      <skin id="qsn_fr_button_normal_hold_center" />
+      <skin id="qsn_fr_button_pressed_hold_center" />
+      <skin id="qsn_fr_button_inactive_hold_center" />
+      <skin id="qsn_fr_button_highlight_hold_center" />
+	  <skin id="qsn_fr_keypad_button_inactive_center" />
+	  <skin id="qsn_fr_keypad_button_normal_center" />
+	  <skin id="qsn_fr_keypad_button_pressed_center" />
+      <skin id="qsn_fr_cmail_list_center" />
+      <skin id="qsn_fr_title_divider_center" />
+      <skin id="qgn_home_button_widget_center" />
+      <skin id="qsn_fr_function_button_center_normal" />
+      <skin id="qsn_fr_popup_heading_center" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call2_rect_center" />
+      <skin id="LAY_AH%qsn_fr_call2_rect_center_disconn" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_center" />
+      <skin id="LAY_AH%qsn_fr_call3_rect_center_disconn" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_center" />
+      <skin id="LAY_AH%qsn_fr_call_poc_inact_center_idle" />
+      <!-- A-H icons end -->
+      <skin id="qsn_fr_call_poc_inact_center" />
+      <skin id="qsn_fr_button_center_normal" />
+      <skin id="qsn_fr_button_center_inactive" />
+      <skin id="qsn_fr_button_center_pressed" />
+      <skin id="qsn_fr_button_tb_center_pressed" />
+      <skin id="qsn_fr_calc_paper_center" />
+      <skin id="qsn_anim_list_center" />
+      <skin id="qsn_fr_button_highlight_center" />
+      <skin id="qgn_fr_input_icf_bg_center" />
+    </layoutEntity>
+    <!-- grid highlight & new grid highlight -->
+    <layoutEntity name="cell_highlight_pane_g10@V:0">
+      <skin id="qsn_fr_grid" />
+      <skin id="S60_2_6%qsn_fr_grid" />
+      <skin id="qsn_anim_grid" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g2@V:0">
+      <skin id="qsn_fr_grid_corner_tl" />
+      <skin id="S60_2_6%qsn_fr_grid_corner_tl" />
+      <skin id="qsn_fr_grid_corner_tl_pressed" />
+      <skin id="qsn_anim_grid_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g3@V:0">
+      <skin id="qsn_fr_grid_corner_tr" />
+      <skin id="S60_2_6%qsn_fr_grid_corner_tr" />
+      <skin id="qsn_fr_grid_corner_tr_pressed" />
+      <skin id="qsn_anim_grid_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g4@V:0">
+      <skin id="qsn_fr_grid_corner_bl" />
+      <skin id="S60_2_6%qsn_fr_grid_corner_bl" />
+      <skin id="qsn_fr_grid_corner_bl_pressed" />
+      <skin id="qsn_anim_grid_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g5@V:0">
+      <skin id="qsn_fr_grid_corner_br" />
+      <skin id="S60_2_6%qsn_fr_grid_corner_br" />
+      <skin id="qsn_fr_grid_corner_br_pressed" />
+      <skin id="qsn_anim_grid_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g6@V:0">
+      <skin id="qsn_fr_grid_side_t" />
+      <skin id="S60_2_6%qsn_fr_grid_side_t" />
+      <skin id="qsn_fr_grid_side_t_pressed" />
+      <skin id="qsn_anim_grid_side_t" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g7@V:0">
+      <skin id="qsn_fr_grid_side_b" />
+      <skin id="S60_2_6%qsn_fr_grid_side_b" />
+      <skin id="qsn_fr_grid_side_b_pressed" />
+      <skin id="qsn_anim_grid_side_b" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g8@V:0">
+      <skin id="qsn_fr_grid_side_l" />
+      <skin id="S60_2_6%qsn_fr_grid_side_l" />
+      <skin id="qsn_fr_grid_side_l_pressed" />
+      <skin id="qsn_anim_grid_side_l" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g9@V:0">
+      <skin id="qsn_fr_grid_side_r" />
+      <skin id="S60_2_6%qsn_fr_grid_side_r" />
+      <skin id="qsn_fr_grid_side_r_pressed" />
+      <skin id="qsn_anim_grid_side_r" />
+    </layoutEntity>
+    <layoutEntity name="cell_highlight_pane_g1@V:0">
+      <skin id="qsn_fr_grid_center" />
+      <skin id="S60_2_6%qsn_fr_grid_center" />
+      <skin id="qsn_fr_grid_center_pressed" />
+      <skin id="qsn_anim_grid_center" />
+    </layoutEntity>
+    <!-- input highlight -->
+    <layoutEntity name="input_focus_pane@V:0">
+      <skin id="S60_2_6%qsn_fr_input" />
+      <skin id="qsn_fr_input" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g2@V:0">
+      <skin id="S60_2_6%qsn_fr_input_corner_tl" />
+      <skin id="qsn_fr_input_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g3@V:0">
+      <skin id="S60_2_6%qsn_fr_input_corner_tr" />
+      <skin id="qsn_fr_input_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g4@V:0">
+      <skin id="S60_2_6%qsn_fr_input_corner_bl" />
+      <skin id="qsn_fr_input_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g5@V:0">
+      <skin id="S60_2_6%qsn_fr_input_corner_br" />
+      <skin id="qsn_fr_input_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g6@V:0">
+      <skin id="S60_2_6%qsn_fr_input_side_t" />
+      <skin id="qsn_fr_input_side_t" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g7@V:0">
+      <skin id="S60_2_6%qsn_fr_input_side_b" />
+      <skin id="qsn_fr_input_side_b" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g8@V:0">
+      <skin id="S60_2_6%qsn_fr_input_side_l" />
+      <skin id="qsn_fr_input_side_l" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g9@V:0">
+      <skin id="S60_2_6%qsn_fr_input_side_r" />
+      <skin id="qsn_fr_input_side_r" />
+    </layoutEntity>
+    <layoutEntity name="input_focus_pane_g1@V:0">
+      <skin id="S60_2_6%qsn_fr_input_center" />
+      <skin id="qsn_fr_input_center" />
+    </layoutEntity>
+    <!-- popups -->
+    <!-- general pop-up window graphic for Portrait-->
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane@V:0">
+      <skin id="qsn_fr_popup" />
+      <skin id="Window Frames Fswap" />
+      <skin id="Window Frames Note" />
+      <skin id="Window Frames Query" />
+      <skin id="Window Frames Find" />
+      <skin id="Window Frames Menu" />
+      <skin id="Window Frames SNote" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g2@V:0">
+      <skin id="qsn_fr_popup_corner_tl" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g3@V:0">
+      <skin id="qsn_fr_popup_corner_tr" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g4@V:0">
+      <skin id="qsn_fr_popup_corner_bl" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g5@V:0">
+      <skin id="qsn_fr_popup_corner_br" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g6@V:0">
+      <skin id="qsn_fr_popup_side_t" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g7@V:0">
+      <skin id="qsn_fr_popup_side_b" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g8@V:0">
+      <skin id="qsn_fr_popup_side_l" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g9@V:0">
+      <skin id="qsn_fr_popup_side_r" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g1@V:0">
+      <skin id="qsn_fr_popup_center" />
+      <skin id="qsn_fr_popup_center_note" />
+      <skin id="qsn_fr_popup_center_query" />
+      <skin id="qsn_fr_popup_center_find" />
+      <skin id="qsn_fr_popup_center_menu" />
+      <skin id="qsn_fr_popup_center_snote" />
+      <skin id="qsn_fr_popup_center_fswap" />
+    </layoutEntity>
+    <!-- general pop-up window graphic for Landscape -->
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane@V:1">
+      <skin id="qsn_fr_popup" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g2@V:1">
+      <skin id="qsn_fr_popup_corner_tl" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g3@V:1">
+      <skin id="qsn_fr_popup_corner_tr" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g4@V:1">
+      <skin id="qsn_fr_popup_corner_bl" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g5@V:1">
+      <skin id="qsn_fr_popup_corner_br" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g6@V:1">
+      <skin id="qsn_fr_popup_side_t" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g7@V:1">
+      <skin id="qsn_fr_popup_side_b" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g8@V:1">
+      <skin id="qsn_fr_popup_side_l" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g9@V:1">
+      <skin id="qsn_fr_popup_side_r" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g1@V:1">
+      <skin id="qsn_fr_popup_center" />
+    </layoutEntity>
+    <!-- Submenu Pop-up Window Graphic - For portrait  -->
+    <layoutEntity name="bg_popup_sub_pane@V:0">
+      <skin id="qsn_fr_popup_sub" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g2@V:0">
+      <skin id="qsn_fr_popup_sub_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g3@V:0">
+      <skin id="qsn_fr_popup_sub_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g4@V:0">
+      <skin id="qsn_fr_popup_sub_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g5@V:0">
+      <skin id="qsn_fr_popup_sub_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g6@V:0">
+      <skin id="qsn_fr_popup_sub_side_t" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g7@V:0">
+      <skin id="qsn_fr_popup_sub_side_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g8@V:0">
+      <skin id="qsn_fr_popup_sub_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g9@V:0">
+      <skin id="qsn_fr_popup_sub_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_sub_pane_g1@V:0">
+      <skin id="qsn_fr_popup_center_submenu" />
+    </layoutEntity>
+    <!--  Pop-up Window heading Graphic -->
+    <layoutEntity name="bg_popup_heading_pane@V:0">
+      <skin id="qsn_fr_popup_heading" />
+    </layoutEntity>
+    <!--<layoutEntity name="bg_popup_heading_pane_g2@V:0">
+                        <skin id="qsn_fr_popup_heading_corner_tl"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g3@V:0">
+                        <skin id="qsn_fr_popup_heading_corner_tr"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g4@V:0">
+                        <skin id="qsn_fr_popup_heading_corner_bl"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g5@V:0">
+                        <skin id="qsn_fr_popup_heading_corner_br"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g6@V:0">
+                        <skin id="qsn_fr_popup_heading_side_t"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g7@V:0">
+                        <skin id="qsn_fr_popup_heading_side_b"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g8@V:0">
+                        <skin id="qsn_fr_popup_heading_side_l"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g9@V:0">
+                        <skin id="qsn_fr_popup_heading_side_r"/>
+                </layoutEntity>
+
+                <layoutEntity name="bg_popup_heading_pane_g1@V:0">
+                        <skin id="qsn_fr_popup_heading_center"/>
+                </layoutEntity>
+
+
+                -->
+    <!-- preview pop-up window-->
+    <layoutEntity name="bg_popup_preview_window_pane@V:0">
+      <skin id="qsn_fr_popup_preview" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g2@V:0">
+      <skin id="qsn_fr_popup_preview_corner_tl" />
+      <skin id="qsn_fr_function_button_corner_tl_pressed" />
+      <skin id="qsn_fr_function_button_corner_tl_inactive" />
+      <skin id="qsn_fr_input_char_preview_corner_tl" />
+      <skin id="qgn_fr_sctrl_button_corner_tl" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_tl" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_tl_pressed" />
+      <skin id="qgn_fr_sctrl_button_corner_tl_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g3@V:0">
+      <skin id="qsn_fr_popup_preview_corner_tr" />
+      <skin id="qsn_fr_function_button_corner_tr_pressed" />
+      <skin id="qsn_fr_function_button_corner_tr_inactive" />
+      <skin id="qsn_fr_input_char_preview_corner_tr" />
+      <skin id="qgn_fr_sctrl_button_corner_tr" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_tr" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_tr_pressed" />
+      <skin id="qgn_fr_sctrl_button_corner_tr_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g4@V:0">
+      <skin id="qsn_fr_popup_preview_corner_bl" />
+      <skin id="qsn_fr_function_button_corner_bl_pressed" />
+      <skin id="qsn_fr_function_button_corner_bl_inactive" />
+      <skin id="qsn_fr_input_char_preview_corner_bl" />
+      <skin id="qgn_fr_sctrl_button_corner_bl" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_bl" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_bl_pressed" />
+      <skin id="qgn_fr_sctrl_button_corner_bl_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g5@V:0">
+      <skin id="qsn_fr_popup_preview_corner_br" />
+      <skin id="qsn_fr_function_button_corner_br_pressed" />
+      <skin id="qsn_fr_function_button_corner_br_inactive" />
+      <skin id="qsn_fr_input_char_preview_corner_br" />
+      <skin id="qgn_fr_sctrl_button_corner_br" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_br" />
+      <skin id="qgn_fr_sctrl_sk_button_corner_br_pressed" />
+      <skin id="qgn_fr_sctrl_button_corner_br_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g6@V:0">
+      <skin id="qsn_fr_popup_preview_side_t" />
+      <skin id="qsn_fr_function_button_side_t_pressed" />
+      <skin id="qsn_fr_function_button_side_t_inactive" />
+      <skin id="qsn_fr_input_char_preview_side_t" />
+      <skin id="qgn_fr_sctrl_button_side_t" />
+      <skin id="qgn_fr_sctrl_sk_button_side_t" />
+      <skin id="qgn_fr_sctrl_sk_button_side_t_pressed" />
+      <skin id="qgn_fr_sctrl_button_side_t_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g7@V:0">
+      <skin id="qsn_fr_popup_preview_side_b" />
+      <skin id="qsn_fr_function_button_side_b_pressed" />
+      <skin id="qsn_fr_function_button_side_b_inactive" />
+      <skin id="qsn_fr_input_char_preview_side_b" />
+      <skin id="qgn_fr_sctrl_button_side_b" />
+      <skin id="qgn_fr_sctrl_sk_button_side_b" />
+      <skin id="qgn_fr_sctrl_sk_button_side_b_pressed" />
+      <skin id="qgn_fr_sctrl_button_side_b_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g8@V:0">
+      <skin id="qsn_fr_popup_preview_side_l" />
+      <skin id="qsn_fr_function_button_side_l_pressed" />
+      <skin id="qsn_fr_function_button_side_l_inactive" />
+      <skin id="qsn_fr_input_char_preview_side_l" />
+      <skin id="qgn_fr_sctrl_button_side_l" />
+      <skin id="qgn_fr_sctrl_sk_button_side_l" />
+      <skin id="qgn_fr_sctrl_sk_button_side_l_pressed" />
+      <skin id="qgn_fr_sctrl_button_side_l_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g9@V:0">
+      <skin id="qsn_fr_popup_preview_side_r" />
+      <skin id="qsn_fr_function_button_side_r_pressed" />
+      <skin id="qsn_fr_function_button_side_r_inactive" />
+      <skin id="qsn_fr_input_char_preview_side_r" />
+      <skin id="qgn_fr_sctrl_button_side_r" />
+      <skin id="qgn_fr_sctrl_sk_button_side_r" />
+      <skin id="qgn_fr_sctrl_sk_button_side_r_pressed" />
+      <skin id="qgn_fr_sctrl_button_side_r_pressed" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_preview_window_pane_g1@V:0">
+      <skin id="qsn_fr_popup_preview_center" />
+      <skin id="qsn_fr_function_button_center_pressed" />
+      <skin id="qsn_fr_function_button_center_inactive" />
+      <skin id="qsn_fr_input_char_preview_center" />
+      <skin id="qgn_fr_sctrl_button_center" />
+      <skin id="qgn_fr_sctrl_sk_button_center" />
+      <skin id="qgn_fr_sctrl_sk_button_center_pressed" />
+      <skin id="qgn_fr_sctrl_button_center_pressed" />
+    </layoutEntity>
+    <!--            <layoutEntity name="bg_popup_call_poc_act_pane@V:0">-->
+    <!--                    <skin id="qsn_fr_call_poc_act" />-->
+    <!--            </layoutEntity>-->
+    <layoutEntity name="bg_popup_call_poc_act_pane_g2@V:0">
+      <skin id="qsn_fr_call_poc_act_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g6@V:0">
+      <skin id="qsn_fr_call_poc_act_side_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g10@V:0">
+      <skin id="qsn_fr_call_poc_act_side_tm" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g11@V:0">
+      <skin id="qsn_fr_call_poc_act_side_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g3@V:0">
+      <skin id="qsn_fr_call_poc_act_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g8@V:0">
+      <skin id="qsn_fr_call_poc_act_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g1@V:0">
+      <skin id="qsn_fr_call_poc_act_center" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g9@V:0">
+      <skin id="qsn_fr_call_poc_act_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g4@V:0">
+      <skin id="qsn_fr_call_poc_act_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g7@V:0">
+      <skin id="qsn_fr_call_poc_act_side_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call_poc_act_pane_g5@V:0">
+      <skin id="qsn_fr_call_poc_act_corner_br" />
+    </layoutEntity>
+    <!-- call rect frame and call rect disconnected frame -->
+    <layoutEntity name="bg_popup_call2_rect_pane@V:0">
+      <skin id="qsn_fr_call2_rect" />
+      <skin id="qsn_fr_call2_rect_disconn" />
+      <skin id="qsn_fr_call2_rect_co_mask" />
+      <skin id="qsn_fr_call_poc_act" />
+      <skin id="qsn_fr_call_poc_act_idle" />
+      <skin id="qsn_fr_call_poc_inact" />
+      <skin id="qsn_fr_call_poc_inact_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g1@V:0">
+      <skin id="qsn_fr_call2_rect_center" />
+      <skin id="qsn_fr_call2_rect_center_disconn" />
+      <skin id="qsn_fr_call2_rect_center_mask_icon" />
+      <skin id="qsn_fr_call2_rect_center_mask" />
+      <skin id="qsn_fr_call_poc_act_center_idle" />
+      <skin id="qsn_fr_call_poc_inact_center" />
+      <skin id="qsn_fr_call_poc_inact_center_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g2@V:0">
+      <skin id="qsn_fr_call2_rect_corner_tl" />
+      <skin id="qsn_fr_call2_rect_corner_tl_disconn" />
+      <skin id="qsn_fr_call2_rect_corner_tl_mask_icon" />
+      <skin id="qsn_fr_call2_rect_corner_tl_mask" />
+      <skin id="qsn_fr_call_poc_act_corner_tl_idle" />
+      <skin id="qsn_fr_call_poc_inact_corner_tl" />
+      <skin id="qsn_fr_call_poc_inact_corner_tl_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g6@V:0">
+      <skin id="qsn_fr_call2_rect_side_t" />
+      <skin id="qsn_fr_call2_rect_side_t_disconn" />
+      <skin id="qsn_fr_call2_rect_side_t_mask_icon" />
+      <skin id="qsn_fr_call2_rect_side_t_mask" />
+      <!--  <skin id="qsn_fr_call_poc_act_side_t" /> -->
+      <skin id="qsn_fr_call_poc_act_side_t_idle" />
+      <skin id="qsn_fr_call_poc_inact_side_t" />
+      <skin id="qsn_fr_call_poc_inact_side_t_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g3@V:0">
+      <skin id="qsn_fr_call2_rect_corner_tr" />
+      <skin id="qsn_fr_call2_rect_corner_tr_disconn" />
+      <skin id="qsn_fr_call2_rect_corner_tr_mask_icon" />
+      <skin id="qsn_fr_call2_rect_corner_tr_mask" />
+      <skin id="qsn_fr_call_poc_act_corner_tr_idle" />
+      <skin id="qsn_fr_call_poc_inact_corner_tr" />
+      <skin id="qsn_fr_call_poc_inact_corner_tr_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g8@V:0">
+      <skin id="qsn_fr_call2_rect_side_l" />
+      <skin id="qsn_fr_call2_rect_side_l_disconn" />
+      <skin id="qsn_fr_call2_rect_side_l_mask_icon" />
+      <skin id="qsn_fr_call2_rect_side_l_mask" />
+      <skin id="qsn_fr_call_poc_act_side_l_idle" />
+      <skin id="qsn_fr_call_poc_inact_side_l" />
+      <skin id="qsn_fr_call_poc_inact_side_l_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g9@V:0">
+      <skin id="qsn_fr_call2_rect_side_r" />
+      <skin id="qsn_fr_call2_rect_side_r_disconn" />
+      <skin id="qsn_fr_call2_rect_side_r_mask_icon" />
+      <skin id="qsn_fr_call2_rect_side_r_mask" />
+      <skin id="qsn_fr_call_poc_act_side_r_idle" />
+      <skin id="qsn_fr_call_poc_inact_side_r" />
+      <skin id="qsn_fr_call_poc_inact_side_r_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g4@V:0">
+      <skin id="qsn_fr_call2_rect_corner_bl" />
+      <skin id="qsn_fr_call2_rect_corner_bl_disconn" />
+      <skin id="qsn_fr_call2_rect_corner_bl_mask_icon" />
+      <skin id="qsn_fr_call2_rect_corner_bl_mask" />
+      <skin id="qsn_fr_call_poc_act_corner_bl_idle" />
+      <skin id="qsn_fr_call_poc_inact_corner_bl" />
+      <skin id="qsn_fr_call_poc_inact_corner_bl_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g7@V:0">
+      <skin id="qsn_fr_call2_rect_side_b" />
+      <skin id="qsn_fr_call2_rect_side_b_disconn" />
+      <skin id="qsn_fr_call2_rect_side_b_mask_icon" />
+      <skin id="qsn_fr_call2_rect_side_b_mask" />
+      <skin id="qsn_fr_call_poc_act_side_b_idle" />
+      <skin id="qsn_fr_call_poc_inact_side_b" />
+      <skin id="qsn_fr_call_poc_inact_side_b_idle" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_rect_pane_g5@V:0">
+      <skin id="qsn_fr_call2_rect_corner_br" />
+      <skin id="qsn_fr_call2_rect_corner_br_disconn" />
+      <skin id="qsn_fr_call2_rect_corner_br_mask_icon" />
+      <skin id="qsn_fr_call2_rect_corner_br_mask" />
+      <skin id="qsn_fr_call_poc_act_corner_br_idle" />
+      <skin id="qsn_fr_call_poc_inact_corner_br" />
+      <skin id="qsn_fr_call_poc_inact_corner_br_idle" />
+      <skin id="qsn_fr_call_poc_act_side_tl" />
+      <skin id="qsn_fr_call_poc_act_side_tl_idle" />
+      <!--                    <skin id="qsn_fr_call_poc_act_side_tm" />-->
+      <skin id="qsn_fr_call_poc_act_side_tm_idle" />
+      <!--                    <skin id="qsn_fr_call_poc_act_side_tr" />-->
+      <skin id="qsn_fr_call_poc_act_side_tr_idle" />
+      <skin id="qsn_fr_call_poc_inact_side_t" />
+      <skin id="qsn_fr_call_poc_act_side_tm_idle" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_fr_call_poc_act_center_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_center" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_bl_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_bl" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_br_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_br" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_tl_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_tl" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_tr_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_corner_tr" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_b_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_b" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_l_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_l" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_r_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_r" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_tl_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_tl" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_tm_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_tm" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_tr_idle" />
+      <skin id="LAY_AH%qsn_fr_call_poc_act_side_tr" />
+      <!-- A-H ends -->
+    </layoutEntity>
+    <!-- call bubble -->
+    <layoutEntity name="bg_popup_call2_bubble_pane@V:0">
+      <skin id="qsn_fr_call2_bubble" />
+      <skin id="qsn_fr_call2_bubble_disconn" />
+      <skin id="qsn_fr_call2_bubble_first" />
+      <skin id="qsn_fr_call2_bubble_second" />
+      <skin id="qsn_fr_call2_bubble_first_disconn" />
+      <skin id="qsn_fr_call2_bubble_second_disconn" />
+      <skin id="qsn_fr_call2_bubble_co_mask" />
+      <skin id="qsn_fr_call2_bubble_first_co_mask" />
+      <skin id="qsn_fr_call2_bubble_second_co_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g1@V:0">
+      <skin id="qsn_fr_call2_bubble_center" />
+      <skin id="qsn_fr_call2_bubble_center_disconn" />
+      <skin id="qsn_fr_call2_bubble_center_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_center_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g2@V:0">
+      <skin id="qsn_fr_call2_bubble_corner_tl_first" />
+      <skin id="qsn_fr_call2_bubble_corner_tl_first_disconn" />
+      <skin id="qsn_fr_call2_bubble_corner_tl_second" />
+      <skin id="qsn_fr_call2_bubble_corner_tl_second_disconn" />
+      <skin id="qsn_fr_call2_bubble_corner_tl_first_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_corner_tl_second_mask_icon" />
+      <!-- <skin id="qsn_fr_call2_bubble_corner_tl_first_mask" />
+                        <skin id="qsn_fr_call2_bubble_corner_tl_second_mask" /> -->
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g6@V:0">
+      <skin id="qsn_fr_call2_bubble_side_t" />
+      <skin id="qsn_fr_call2_bubble_side_t_disconn" />
+      <skin id="qsn_fr_call2_bubble_side_t_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_side_t_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g3@V:0">
+      <skin id="qsn_fr_call2_bubble_corner_tr" />
+      <skin id="qsn_fr_call2_bubble_corner_tr_disconn" />
+      <skin id="qsn_fr_call2_bubble_corner_tr_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_corner_tr_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g8@V:0">
+      <skin id="qsn_fr_call2_bubble_side_l" />
+      <skin id="qsn_fr_call2_bubble_side_l_disconn" />
+      <skin id="qsn_fr_call2_bubble_side_l_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_side_l_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g9@V:0">
+      <skin id="qsn_fr_call2_bubble_side_r" />
+      <skin id="qsn_fr_call2_bubble_side_r_disconn" />
+      <skin id="qsn_fr_call2_bubble_side_r_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_side_r_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g4@V:0">
+      <skin id="qsn_fr_call2_bubble_corner_bl" />
+      <skin id="qsn_fr_call2_bubble_corner_bl_disconn" />
+      <skin id="qsn_fr_call2_bubble_corner_bl_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_corner_bl_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g7@V:0">
+      <skin id="qsn_fr_call2_bubble_side_b" />
+      <skin id="qsn_fr_call2_bubble_side_b_disconn" />
+      <skin id="qsn_fr_call2_bubble_side_b_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_side_b_mask" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call2_bubble_pane_g5@V:0">
+      <skin id="qsn_fr_call2_bubble_corner_br_first" />
+      <skin id="qsn_fr_call2_bubble_corner_br_first_disconn" />
+      <skin id="qsn_fr_call2_bubble_corner_br_second" />
+      <skin id="qsn_fr_call2_bubble_corner_br_second_disconn" />
+      <skin id="qsn_fr_call2_bubble_corner_br_first_mask_icon" />
+      <skin id="qsn_fr_call2_bubble_corner_br_second_mask_icon" />
+      <!-- <skin id="qsn_fr_call2_bubble_corner_br_first_mask" />
+                        <skin id="qsn_fr_call2_bubble_corner_br_second_mask" /> -->
+      <!-- Duuplicate -->
+      <!-- <skin id="qsn_fr_call2_bubble_corner_br_first_mask_icon" /> -->
+    </layoutEntity>
+    <!-- video as ring tone frame and call rect disconnected frame -->
+    <layoutEntity name="bg_popup_call3_rect_pane@V:0">
+      <skin id="qsn_fr_call3_rect" />
+      <skin id="qsn_fr_call3_rect_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g1@V:0">
+      <skin id="qsn_fr_call3_rect_center" />
+      <skin id="qsn_fr_call3_rect_center_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g2@V:0">
+      <skin id="qsn_fr_call3_rect_corner_tl" />
+      <skin id="qsn_fr_call3_rect_corner_tl_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g6@V:0">
+      <skin id="qsn_fr_call3_rect_side_t" />
+      <skin id="qsn_fr_call3_rect_side_t_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g3@V:0">
+      <skin id="qsn_fr_call3_rect_corner_tr" />
+      <skin id="qsn_fr_call3_rect_corner_tr_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g8@V:0">
+      <skin id="qsn_fr_call3_rect_side_l" />
+      <skin id="qsn_fr_call3_rect_side_l_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g9@V:0">
+      <skin id="qsn_fr_call3_rect_side_r" />
+      <skin id="qsn_fr_call3_rect_side_r_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g4@V:0">
+      <skin id="qsn_fr_call3_rect_corner_bl" />
+      <skin id="qsn_fr_call3_rect_corner_bl_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g7@V:0">
+      <skin id="qsn_fr_call3_rect_side_b" />
+      <skin id="qsn_fr_call3_rect_side_b_disconn" />
+    </layoutEntity>
+    <layoutEntity name="bg_popup_call3_rect_pane_g5@V:0">
+      <skin id="qsn_fr_call3_rect_corner_br" />
+      <skin id="qsn_fr_call3_rect_corner_br_disconn" />
+    </layoutEntity>
+    <!-- music player elements -->
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g1@V:0">
+      <skin id="qsn_bg_screen_mp" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g1@V:1">
+      <skin id="qsn_bg_screen_mp" />
+    </layoutEntity>
+    <layoutEntity name="mup_visualizer_pane_g3@V:0">
+      <skin id="qgn_graf_mup_visualizer_bg_image1" />
+      <skin id="qgn_graf_mup_visualizer_bg_image2" />
+    </layoutEntity>
+    <layoutEntity name="mup_visualizer_pane_g1@V:0">
+      <skin id="qgn_graf_mup_visualizer_image" />
+    </layoutEntity>
+    <layoutEntity name="mup_visualizer_pane_g2@V:0">
+      <skin id="qgn_graf_mup_visualizer_mask_icon" />
+    </layoutEntity>
+    <!-- music player: play & pause button elements -->
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g5@V:0">
+      <skin id="qgn_indi_mup_button_play" />
+      <skin id="qgn_indi_mup_button_play_hl" />
+      <skin id="qgn_indi_mup_button_play_inact" />
+      <skin id="qgn_indi_mup_button_play_dimmed" />
+      <skin id="qgn_indi_mup_button_pause" />
+      <skin id="qgn_indi_mup_button_pause_hl" />
+      <skin id="qgn_indi_mup_button_pause_inact" />
+      <skin id="qgn_indi_mup_button_pause_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g5@V:1">
+      <skin id="qgn_indi_mup_button_play" />
+      <skin id="qgn_indi_mup_button_play_hl" />
+      <skin id="qgn_indi_mup_button_play_inact" />
+      <skin id="qgn_indi_mup_button_play_dimmed" />
+      <skin id="qgn_indi_mup_button_pause" />
+      <skin id="qgn_indi_mup_button_pause_hl" />
+      <skin id="qgn_indi_mup_button_pause_inact" />
+      <skin id="qgn_indi_mup_button_pause_dimmed" />
+    </layoutEntity>
+    <!-- navigation indicators -->
+    <layoutEntity display="portrait,square"
+                  name="navi_navi_pane_g1@V:0">
+      <skin id="qgn_indi_navi_arrow_left" />
+      <skin id="LAY_AH%qgn_indi_navi_arrow_left" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="navi_navi_pane_g2@V:0">
+      <skin id="qgn_indi_navi_arrow_right" />
+      <skin id="LAY_AH%qgn_indi_navi_arrow_right" />
+    </layoutEntity>
+    <layoutEntity name="list_single_pane_cp2_g3@V:0">
+      <skin id="qgn_indi_submenu" />
+      <skin id="LAY_AH%qgn_indi_submenu" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g4@V:0">
+      <skin id="qgn_indi_mup_button_stop" />
+      <skin id="qgn_indi_mup_button_stop_hl" />
+      <skin id="qgn_indi_mup_button_stop_inact" />
+      <skin id="qgn_indi_mup_button_stop_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g4@V:1">
+      <skin id="qgn_indi_mup_button_stop" />
+      <skin id="qgn_indi_mup_button_stop_hl" />
+      <skin id="qgn_indi_mup_button_stop_inact" />
+      <skin id="qgn_indi_mup_button_stop_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g2@V:0">
+      <skin id="qgn_indi_mup_button_prev" />
+      <skin id="qgn_indi_mup_button_prev_hl" />
+      <skin id="qgn_indi_mup_button_prev_inact" />
+      <skin id="qgn_indi_mup_button_prev_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g2@V:1">
+      <skin id="qgn_indi_mup_button_prev" />
+      <skin id="qgn_indi_mup_button_prev_hl" />
+      <skin id="qgn_indi_mup_button_prev_inact" />
+      <skin id="qgn_indi_mup_button_prev_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g3@V:0">
+      <skin id="qgn_indi_mup_button_next" />
+      <skin id="qgn_indi_mup_button_next_hl" />
+      <skin id="qgn_indi_mup_button_next_inact" />
+      <skin id="qgn_indi_mup_button_next_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g3@V:1">
+      <skin id="qgn_indi_mup_button_next" />
+      <skin id="qgn_indi_mup_button_next_hl" />
+      <skin id="qgn_indi_mup_button_next_inact" />
+      <skin id="qgn_indi_mup_button_next_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g8@V:0">
+      <skin id="qgn_indi_mup_button_playlist" />
+      <skin id="qgn_indi_mup_button_playlist_hl" />
+      <skin id="qgn_indi_mup_button_playlist_inact" />
+      <skin id="qgn_indi_mup_button_playlist_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g8@V:1">
+      <skin id="qgn_indi_mup_button_playlist" />
+      <skin id="qgn_indi_mup_button_playlist_hl" />
+      <skin id="qgn_indi_mup_button_playlist_inact" />
+      <skin id="qgn_indi_mup_button_playlist_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g7@V:0">
+      <skin id="qgn_indi_mup_button_mc" />
+      <skin id="qgn_indi_mup_button_mc_hl" />
+      <skin id="qgn_indi_mup_button_mc_inact" />
+      <skin id="qgn_indi_mup_button_mc_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g7@V:1">
+      <skin id="qgn_indi_mup_button_mc" />
+      <skin id="qgn_indi_mup_button_mc_hl" />
+      <skin id="qgn_indi_mup_button_mc_inact" />
+      <skin id="qgn_indi_mup_button_mc_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g6@V:0">
+      <skin id="qgn_indi_mup_button_link" />
+      <skin id="qgn_indi_mup_button_link_hl" />
+      <skin id="qgn_indi_mup_button_link_inact" />
+      <skin id="qgn_indi_mup_button_link_dimmed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g6@V:1">
+      <skin id="qgn_indi_mup_button_link" />
+      <skin id="qgn_indi_mup_button_link_hl" />
+      <skin id="qgn_indi_mup_button_link_inact" />
+      <skin id="qgn_indi_mup_button_link_dimmed" />
+    </layoutEntity>
+    <!-- music player indicator icons -->
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g12@V:0">
+      <skin id="qgn_indi_mup_play" />
+      <skin id="qgn_indi_mup_pause" />
+      <skin id="qgn_indi_mup_stop" />
+      <skin id="qgn_indi_mup_forw" />
+      <skin id="qgn_indi_mup_rew" />
+      <skin id="qgn_indi_mup_play_add" />
+      <skin id="qgn_indi_mup_pause_add" />
+      <skin id="qgn_indi_mup_stop_add" />
+      <skin id="qgn_indi_file_corrupted_add" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g12@V:1">
+      <skin id="qgn_indi_mup_play" />
+      <skin id="qgn_indi_mup_pause" />
+      <skin id="qgn_indi_mup_stop" />
+      <skin id="qgn_indi_mup_forw" />
+      <skin id="qgn_indi_mup_rew" />
+      <skin id="qgn_indi_mup_play_add" />
+      <skin id="qgn_indi_mup_pause_add" />
+      <skin id="qgn_indi_mup_stop_add" />
+      <skin id="qgn_indi_file_corrupted_add" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g9@V:0">
+      <skin id="qgn_indi_mup_repeat" />
+      <skin id="qgn_indi_mup_repeat_one" />
+      <!-- doubtful -->
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g9@V:1">
+      <skin id="qgn_indi_mup_repeat" />
+      <skin id="qgn_indi_mup_repeat_one" />
+    </layoutEntity>
+    
+    <layoutEntity display="portrait,square"
+                  name="cell_sctrl_middle_pane_g2@V:1">
+      <skin id="qgn_indi_repeat_add" />
+    </layoutEntity>
+    
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g10@V:0">
+      <skin id="qgn_indi_mup_random" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g10@V:1">
+      <skin id="qgn_indi_mup_random" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g11@V:0">
+      <skin id="qgn_indi_mup_eq" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g11@V:1">
+      <skin id="qgn_indi_mup_eq" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="main_mup_pane_g13@V:0">
+      <skin id="qgn_indi_mup_speaker" />
+      <skin id="qgn_indi_mup_speaker_muted" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup_pane_g13@V:1">
+      <skin id="qgn_indi_mup_speaker" />
+      <skin id="qgn_indi_mup_speaker_muted" />
+    </layoutEntity>
+    <layoutEntity name="mup_volume_pane_g2@V:0">
+      <skin id="qgn_indi_mup_volume_slider" />
+    </layoutEntity>
+    <layoutEntity name="mup_volume_pane_g1@V:0">
+      <skin id="qgn_indi_mup_volume_slider_bg" />
+    </layoutEntity>
+    <!-- music player progress bar -->
+    <layoutEntity name="mup_progress_pane_g1@V:0">
+      <skin id="qgn_graf_mup_bar_frame" />
+    </layoutEntity>
+    <layoutEntity name="mup_progress_pane_g2@V:0">
+      <skin id="qgn_graf_mup_bar_progress" />
+    </layoutEntity>
+    <layoutEntity name="mup_progress_pane_g3@V:0">
+      <skin id="qgn_graf_mup_bar_progress_2" />
+    </layoutEntity>
+    <!-- music player equalizer -->
+    <layoutEntity name="mup_scale_pane_g1@V:0">
+      <skin id="qgn_indi_mup_eq_bg" />
+    </layoutEntity>
+    <layoutEntity name="mup_scale_pane_g2@V:0">
+      <skin id="qgn_indi_mup_eq_slider" />
+    </layoutEntity>
+    <!-- music player 2 elements -->
+    <layoutEntity display="portrait,square"
+                  name="main_mup2_pane_g1@V:1">
+      <skin id="qgn_area_main_mup2" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup2_pane_g1@V:0">
+      <skin id="qgn_area_main_mup2" />
+    </layoutEntity>
+    <layoutEntity name="mup2_visualizer_pane_g1@V:0">
+      <skin id="qgn_graf_mup2_visualizer_bg_image2" />
+    </layoutEntity>
+    <layoutEntity name="mup2_visualizer_pane_g2@V:0">
+      <skin id="qgn_graf_mup2_visualizer_image" />
+    </layoutEntity>
+    <!-- music player 2: play & pause button elements -->
+    <layoutEntity display="portrait,square"
+                  name="main_mup2_pane_g7@V:1">
+      <skin id="qgn_indi_mup2_button_play" />
+      <skin id="qgn_indi_mup2_button_play_dimmed" />
+      <skin id="qgn_indi_mup2_button_play_pressed" />
+      <skin id="qgn_indi_mup2_button_pause" />
+      <skin id="qgn_indi_mup2_button_pause_dimmed" />
+      <skin id="qgn_indi_mup2_button_pause_pressed" />
+      <skin id="qgn_indi_mup2_button_prev" />
+      <skin id="qgn_indi_mup2_button_prev_dimmed" />
+      <skin id="qgn_indi_mup2_button_prev_pressed" />
+      <skin id="qgn_indi_mup2_button_next" />
+      <skin id="qgn_indi_mup2_button_next_dimmed" />
+      <skin id="qgn_indi_mup2_button_next_pressed" />
+      <skin id="qgn_indi_mup2_button_minus" />
+      <skin id="qgn_indi_mup2_button_minus_dimmed" />
+      <skin id="qgn_indi_mup2_button_minus_pressed" />
+      <skin id="qgn_indi_mup2_button_plus" />
+      <skin id="qgn_indi_mup2_button_plus_dimmed" />
+      <skin id="qgn_indi_mup2_button_plus_pressed" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="main_mup2_pane_g7@V:0">
+      <skin id="qgn_indi_mup2_button_play" />
+      <skin id="qgn_indi_mup2_button_play_dimmed" />
+      <skin id="qgn_indi_mup2_button_play_pressed" />
+      <skin id="qgn_indi_mup2_button_pause" />
+      <skin id="qgn_indi_mup2_button_pause_dimmed" />
+      <skin id="qgn_indi_mup2_button_pause_pressed" />
+      <skin id="qgn_indi_mup2_button_prev" />
+      <skin id="qgn_indi_mup2_button_prev_dimmed" />
+      <skin id="qgn_indi_mup2_button_prev_pressed" />
+      <skin id="qgn_indi_mup2_button_next" />
+      <skin id="qgn_indi_mup2_button_next_dimmed" />
+      <skin id="qgn_indi_mup2_button_next_pressed" />
+      <skin id="qgn_indi_mup2_button_minus" />
+      <skin id="qgn_indi_mup2_button_minus_dimmed" />
+      <skin id="qgn_indi_mup2_button_minus_pressed" />
+      <skin id="qgn_indi_mup2_button_plus" />
+      <skin id="qgn_indi_mup2_button_plus_dimmed" />
+      <skin id="qgn_indi_mup2_button_plus_pressed" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="mup2_volume_cont_pane@V:1">
+      <skin id="qgn_indi_mup_speaker" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="mup2_volume_cont_pane@V:0">
+      <skin id="qgn_indi_mup_speaker" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="mup_progress_pane_cp@V:1">
+      <skin id="qgn_graf_mup2_bar_frame" />
+      <skin id="qgn_graf_mup2_bar_progress" />
+      <skin id="qgn_graf_mup2_bar_progress_2" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="mup_progress_pane_cp@V:0">
+      <skin id="qgn_graf_mup2_bar_frame" />
+      <skin id="qgn_graf_mup2_bar_progress" />
+      <skin id="qgn_graf_mup2_bar_progress_2" />
+    </layoutEntity>
+    <!-- application switching -->
+    <layoutEntity display="portrait,square"
+                  name="bg_popup_window_pane_g10@V:0">
+      <skin id="qsn_bg_slice_popup" />
+      <skin id="qsn_bg_slice_fswap" />
+      <!-- same as qsn_bg_slice_popup, but the preview screens will use a different locid=popup_fast_swap_window -->
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="bg_popup_window_pane_g5@V:1">
+      <skin id="qsn_bg_slice_popup" />
+      <skin id="qsn_bg_slice_fswap" />
+    </layoutEntity>
+    <!-- for volume small on -->
+    <layoutEntity name="volume_small_pane_g2@V:0">
+      <skin id="qgn_graf_volume_small_2_on" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g3@V:0">
+      <skin id="qgn_graf_volume_small_3_on" />
+      <skin id="qgn_graf_volume_small_3_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g4@V:0">
+      <skin id="qgn_graf_volume_small_4_on" />
+      <skin id="qgn_graf_volume_small_4_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g5@V:0">
+      <skin id="qgn_graf_volume_small_5_on" />
+      <skin id="qgn_graf_volume_small_5_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g6@V:0">
+      <skin id="qgn_graf_volume_small_6_on" />
+      <skin id="qgn_graf_volume_small_6_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g7@V:0">
+      <skin id="qgn_graf_volume_small_7_on" />
+      <skin id="qgn_graf_volume_small_7_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g8@V:0">
+      <skin id="qgn_graf_volume_small_8_on" />
+      <skin id="qgn_graf_volume_small_8_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g9@V:0">
+      <skin id="qgn_graf_volume_small_9_on" />
+      <skin id="qgn_graf_volume_small_9_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_small_pane_g10@V:0">
+      <skin id="qgn_graf_volume_small_10_on" />
+      <skin id="qgn_graf_volume_small_10_off" />
+    </layoutEntity>
+    <!-- for volume set -->
+    <layoutEntity name="volume_set_pane_g4@V:0">
+      <skin id="qgn_graf_volume_set_4_on" />
+      <skin id="qgn_graf_volume_set_4_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_set_pane_g5@V:0">
+      <skin id="qgn_graf_volume_set_5_on" />
+      <skin id="qgn_graf_volume_set_5_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_set_pane_g6@V:0">
+      <skin id="qgn_graf_volume_set_6_on" />
+      <skin id="qgn_graf_volume_set_6_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_set_pane_g7@V:0">
+      <skin id="qgn_graf_volume_set_7_on" />
+      <skin id="qgn_graf_volume_set_7_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_set_pane_g8@V:0">
+      <skin id="qgn_graf_volume_set_8_on" />
+      <skin id="qgn_graf_volume_set_8_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_set_pane_g9@V:0">
+      <skin id="qgn_graf_volume_set_9_on" />
+      <skin id="qgn_graf_volume_set_9_off" />
+    </layoutEntity>
+    <layoutEntity name="volume_set_pane_g10@V:0">
+      <skin id="qgn_graf_volume_set_10_on" />
+      <skin id="qgn_graf_volume_set_10_off" />
+    </layoutEntity>
+    <!-- unfocused list frame -->
+    <!-- 
+                        Using bg_set_opt_pane because bg_set_opt_pane_cp has some problems 
+                        
+                        <layoutEntity name="bg_set_opt_pane_cp@V:0" >
+                        <skin id="qsn_fr_set_opt" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g2@V:0" >
+                        <skin id="qsn_fr_set_opt_corner_tl" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g3@V:0" >
+                        <skin id="qsn_fr_set_opt_corner_tr" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g4@V:0" >
+                        <skin id="qsn_fr_set_opt_corner_bl" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g5@V:0" >
+                        <skin id="qsn_fr_set_opt_corner_br" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g6@V:0" >
+                        <skin id="qsn_fr_set_opt_side_t" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g7@V:0" >
+                        <skin id="qsn_fr_set_opt_side_b" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g9@V:0" >
+                        <skin id="qsn_fr_set_opt_side_r" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g8@V:0" >
+                        <skin id="qsn_fr_set_opt_side_l" />
+                        </layoutEntity>
+                        
+                        <layoutEntity name="set_opt_bg_pane_g1@V:0" >
+                        <skin id="qsn_fr_set_opt_center" />
+                        </layoutEntity>
+                        
+                -->
+    <!-- focused list frame -->
+    <layoutEntity name="bg_set_opt_pane@V:0">
+      <skin id="qsn_fr_set_opt_foc" />
+      <skin id="qsn_fr_set_opt" />
+      <skin id="qsn_anim_set_opt_foc" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g2@V:0">
+      <skin id="qsn_fr_set_opt_foc_corner_tl" />
+      <skin id="qsn_fr_set_opt_corner_tl" />
+      <skin id="qsn_anim_set_opt_foc_corner_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g3@V:0">
+      <skin id="qsn_fr_set_opt_foc_corner_tr" />
+      <skin id="qsn_fr_set_opt_corner_tr" />
+      <skin id="qsn_anim_set_opt_foc_corner_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g4@V:0">
+      <skin id="qsn_fr_set_opt_foc_corner_bl" />
+      <skin id="qsn_fr_set_opt_corner_bl" />
+      <skin id="qsn_anim_set_opt_foc_corner_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g5@V:0">
+      <skin id="qsn_fr_set_opt_foc_corner_br" />
+      <skin id="qsn_fr_set_opt_corner_br" />
+      <skin id="qsn_anim_set_opt_foc_corner_br" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g6@V:0">
+      <skin id="qsn_fr_set_opt_foc_side_t" />
+      <skin id="qsn_fr_set_opt_side_t" />
+      <skin id="qsn_anim_set_opt_foc_side_t" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g7@V:0">
+      <skin id="qsn_fr_set_opt_foc_side_b" />
+      <skin id="qsn_fr_set_opt_side_b" />
+      <skin id="qsn_anim_set_opt_foc_side_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g8@V:0">
+      <skin id="qsn_fr_set_opt_foc_side_l" />
+      <skin id="qsn_fr_set_opt_side_l" />
+      <skin id="qsn_anim_set_opt_foc_side_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g9@V:0">
+      <skin id="qsn_fr_set_opt_foc_side_r" />
+      <skin id="qsn_fr_set_opt_side_r" />
+      <skin id="qsn_anim_set_opt_foc_side_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_set_opt_pane_g1@V:0">
+      <skin id="qsn_fr_set_opt_foc_center" />
+      <skin id="qsn_fr_set_opt_center" />
+      <skin id="qsn_anim_set_opt_foc_center" />
+    </layoutEntity>
+    <!-- applications -->
+    <!-- Digital Clock -->
+    <layoutEntity name="clock_digital_number_pane_g2@V:0">
+      <skin id="qsn_cp_clock_digital_new_zero" />
+      <skin id="qsn_cp_clock_digital_new_one" />
+      <skin id="qsn_cp_clock_digital_new_two" />
+      <skin id="qsn_cp_clock_digital_new_three" />
+      <skin id="qsn_cp_clock_digital_new_four" />
+      <skin id="qsn_cp_clock_digital_new_five" />
+      <skin id="qsn_cp_clock_digital_new_six" />
+      <skin id="qsn_cp_clock_digital_new_seven" />
+      <skin id="qsn_cp_clock_digital_new_eight" />
+      <skin id="qsn_cp_clock_digital_new_nine" />
+    </layoutEntity>
+    <layoutEntity name="clock_digital_separator_pane_g2@V:0">
+      <skin id="qsn_cp_clock_digital_new_colon" />
+    </layoutEntity>
+    <layoutEntity name="clock_digital_separator_pane_g1@V:0">
+      <skin id="qsn_cp_clock_digital_new_colon_shape" />
+      <skin id="qsn_cp_clock_digital_new_stop_shape" />
+    </layoutEntity>
+    <layoutEntity name="clock_digital_number_pane_g1@V:0">
+      <skin id="qsn_cp_clock_digital_new_zero_shape" />
+      <skin id="qsn_cp_clock_digital_new_one_shape" />
+      <skin id="qsn_cp_clock_digital_new_two_shape" />
+      <skin id="qsn_cp_clock_digital_new_three_shape" />
+      <skin id="qsn_cp_clock_digital_new_four_shape" />
+      <skin id="qsn_cp_clock_digital_new_five_shape" />
+      <skin id="qsn_cp_clock_digital_new_six_shape" />
+      <skin id="qsn_cp_clock_digital_new_seven_shape" />
+      <skin id="qsn_cp_clock_digital_new_eight_shape" />
+      <skin id="qsn_cp_clock_digital_new_nine_shape" />
+      <!-- A-H icons -->
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_colon_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_colon" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_eight_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_eight" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_five_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_five" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_four_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_four" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_nine_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_nine" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_one_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_one" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_seven_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_seven" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_six_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_six" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_stop_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_stop" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_three_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_three" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_two_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_two" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_zero_shape" />
+      <skin id="LAY_AH%qsn_cp_clock_digital_ah_new_zero" />
+      <!-- A-H ends -->
+      <!-- <skin id="qsn_cp_clock_digital_nine" />
+                        <skin id="qsn_cp_clock_digital_one_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_stop" />
+                        <skin id="qsn_cp_clock_digital_seven_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_two_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_four" />
+                        <skin id="qsn_cp_clock_digital_colon" />
+                        <skin id="qsn_cp_clock_digital_nine_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_four_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_three_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_stop_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_zero_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_eight" />
+                        <skin id="qsn_cp_clock_digital_seven_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_five" />
+                        <skin id="qsn_cp_clock_digital_zero_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_colon_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_eight_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_eight_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_one" />
+                        <skin id="qsn_cp_clock_digital_six_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_zero" />
+                        <skin id="qsn_cp_clock_digital_two" />
+                        <skin id="qsn_cp_clock_digital_four_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_three_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_two_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_six" />
+                        <skin id="qsn_cp_clock_digital_colon_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_seven" />
+                        <skin id="qsn_cp_clock_digital_three" />
+                        <skin id="qsn_cp_clock_digital_one_mask_hard" />
+                        <skin id="qsn_cp_clock_digital_six_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_stop_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_five_mask_soft" />
+                        <skin id="qsn_cp_clock_digital_five_mask_hard" /> -->
+    </layoutEntity>
+    <layoutEntity name="bg_button_pane_pane_cp04@v:0">
+      <skin id="icon30" />
+    </layoutEntity>
+    <layoutEntity name="main_pane@v:3">
+      <skin id="qsn_component_colors_cg1" />
+      <skin id="qsn_component_colors_cg4" />
+      <skin id="qsn_component_colors_cg5" />
+      <skin id="qsn_component_colors_cg7" />
+      <skin id="qsn_component_colors_cg8" />
+      <skin id="qsn_component_colors_cg11" />
+      <skin id="qsn_component_colors_cg13" />
+      <skin id="icon1" />
+      <skin id="icon2" />
+      <skin id="icon3" />
+      <skin id="icon4" />
+      <skin id="icon5" />
+      <skin id="icon6" />
+      <skin id="icon7" />
+      <skin id="icon8" />
+      <skin id="icon9" />
+      <skin id="icon10" />
+      <skin id="icon11" />
+      <skin id="icon12" />
+      <skin id="icon13" />
+      <skin id="icon14" />
+      <skin id="icon15" />
+      <skin id="icon16" />
+      <skin id="icon17" />
+      <skin id="icon18" />
+      <skin id="icon19" />
+      <skin id="icon20" />
+      <skin id="icon21" />
+      <skin id="icon22" />
+      <skin id="icon23" />
+      <skin id="icon24" />
+      <skin id="icon25" />
+      <skin id="icon26" />
+      <skin id="icon27" />
+      <skin id="icon28" />
+      <skin id="icon29" />
+      <skin id="icon30" />
+      <skin id="icon31" />
+      <skin id="icon32" />
+      <skin id="icon33" />
+      <skin id="text1" />
+      <skin id="text2" />
+      <skin id="text3" />
+      <skin id="text4" />
+      <skin id="text5" />
+      <skin id="text6" />
+      <skin id="text7" />
+      <skin id="text8" />
+      <skin id="text9" />
+      <skin id="text10" />
+      <skin id="text11" />
+      <skin id="text12" />
+      <skin id="text13" />
+      <skin id="text14" />
+      <skin id="text15" />
+      <skin id="text16" />
+      <skin id="text17" />
+      <skin id="text18" />
+      <skin id="text19" />
+      <skin id="text20" />
+      <skin id="text21" />
+      <skin id="text22" />
+      <skin id="text23" />
+      <skin id="text24" />
+      <skin id="text25" />
+      <skin id="text26" />
+      <skin id="text27" />
+      <skin id="text28" />
+      <skin id="text29" />
+      <skin id="text30" />
+      <skin id="text31" />
+      <skin id="text33" />
+      <skin id="text34" />
+      <skin id="text35" />
+      <skin id="text36" />
+      <skin id="text37" />
+      <skin id="text38" />
+      <skin id="text39" />
+      <skin id="text40" />
+      <skin id="text41" />
+      <skin id="text42" />
+      <skin id="text43" />
+      <skin id="text44" />
+      <skin id="text45" />
+      <skin id="text46" />
+      <skin id="text47" />
+      <skin id="text48" />
+      <skin id="text49" />
+      <skin id="text50" />
+      <skin id="text51" />
+      <skin id="text52" />
+      <skin id="text53" />
+      <skin id="text54" />
+      <skin id="text55" />
+      <skin id="text56" />
+      <skin id="text57" />
+      <skin id="text58" />
+      <skin id="text59" />
+      <skin id="text60" />
+      <skin id="text61" />
+      <skin id="text62" />
+      <skin id="text63" />
+      <skin id="text64" />
+      <skin id="text65" />
+      <skin id="text66" />
+      <skin id="text67" />
+      <skin id="text68" />
+      <skin id="text69" />
+      <skin id="text70" />
+      <skin id="text71" />
+      <skin id="text72" />
+      <skin id="text73" />
+      <skin id="text74" />
+      <skin id="text75" />
+      <skin id="text76" />
+      <skin id="text77" />
+      <skin id="text78" />
+      <skin id="text79" />
+      <skin id="text80" />
+      <skin id="text81" />
+      <skin id="text82" />
+      <skin id="text83" />
+      <skin id="text84" />
+      <skin id="text85" />
+      <skin id="line1" />
+      <skin id="line2" />
+      <skin id="line3" />
+      <skin id="line4" />
+      <skin id="line5" />
+      <skin id="line6" />
+      <skin id="line7" />
+      <skin id="line8" />
+      <skin id="line9" />
+      <skin id="line10" />
+      <skin id="line11" />
+      <skin id="line12" />
+      <skin id="line13" />
+      <skin id="line14" />
+      <skin id="line15" />
+      <skin id="other1" />
+      <skin id="other2" />
+      <skin id="other3" />
+      <skin id="other4" />
+      <skin id="other5" />
+      <skin id="other6" />
+      <skin id="other7" />
+      <skin id="other8" />
+      <skin id="other9" />
+      <skin id="other10" />
+      <skin id="other11" />
+      <skin id="other12" />
+      <skin id="other13" />
+      <skin id="other14" />
+      <skin id="other15" />
+      <skin id="other16" />
+      <skin id="other17" />
+      <skin id="other18" />
+      <skin id="other19" />
+      <skin id="other20" />
+      <skin id="other21" />
+      <skin id="other22" />
+      <skin id="other23" />
+      <skin id="other24" />
+      <skin id="other25" />
+      <skin id="highlight1" />
+      <skin id="highlight2" />
+      <skin id="highlight3" />
+      
+      <!-- Eseries colour group -->
+      <skin id="text301" />
+      <skin id="text302" />
+      <skin id="text303" />
+      <skin id="text304" />
+      <skin id="text305" />
+      <skin id="text306" />
+      <skin id="text307" />
+      <skin id="text308" />
+      <skin id="text309" />
+      <skin id="text310" />
+      <skin id="text311" />
+      <skin id="text312" />
+      <skin id="text313" />
+      <skin id="text314" />
+      <skin id="text315" />
+      <skin id="text316" />
+      <skin id="text317" />
+      <skin id="text318" />
+      <skin id="text319" />
+      <skin id="text320" />
+      <skin id="text321" />
+      <skin id="text322" />
+      <skin id="text323" />
+      <skin id="text324" />
+      <skin id="text325" />
+      <skin id="text326" />
+      <skin id="text327" />
+      <skin id="text328" />
+      <skin id="text329" />
+      <skin id="text330" />
+      
+      <skin id="line301" />
+      <skin id="line302" />
+      <skin id="line303" />
+      <skin id="line304" />
+      <skin id="line305" /> 
+      
+      <skin id="Highlight301" />
+      <skin id="Highlight302" />
+      <skin id="Highlight303" />
+      <skin id="Highlight304" />
+      <skin id="Highlight305" />
+      <skin id="Highlight306" />
+      
+      <skin id="other301" />
+      <skin id="other302" />
+      <skin id="other303" />
+      <skin id="other304" />
+      <skin id="other305" />
+      <skin id="other306" />
+      <skin id="other307" />
+      <skin id="other308" />
+      <skin id="other309" />
+      <skin id="other310" />
+      <skin id="other311" />
+      <skin id="other312" />
+      <skin id="other313" />
+      <skin id="other314" />
+      <skin id="other315" />
+      <skin id="other316" />
+      <skin id="other317" />
+      <skin id="other318" />
+      <!-- Eseries colour group -->
+      
+    </layoutEntity>
+    <!-- call handling popups -->
+    <layoutEntity display="portrait,square"
+                  name="popup_call_status_window_g1@V:0">
+      <skin id="qgn_graf_bubble_incall" />
+      <skin id="qgn_graf_bubble_incall_disconn" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_conf_window@V:3">
+      <skin id="qgn_graf_call_conf_five" />
+      <skin id="LAY_AH%qgn_graf_call_conf_five" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_conf_window@V:2">
+      <skin id="qgn_graf_call_conf_four" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_conf_window@V:1">
+      <skin id="qgn_graf_call_conf_three" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_conf_window@V:0">
+      <skin id="qgn_graf_call_conf_two" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_first_window@v:0">
+      <skin id="qgn_graf_call_first_one_active" />
+      <skin id="qgn_graf_call_first_one_disconn" />
+      <skin id="qgn_graf_call_first_one_held" />
+      <skin id="qgn_graf_call_first_three_active" />
+      <skin id="LAY_AH%qgn_graf_call_first_three_active" />
+      <skin id="qgn_graf_call_first_three_disconn" />
+      <skin id="LAY_AH%qgn_graf_call_first_three_disconn" />
+      <skin id="qgn_graf_call_first_three_held" />
+      <skin id="qgn_graf_call_first_two_active" />
+      <skin id="qgn_graf_call_first_two_disconn" />
+      <skin id="qgn_graf_call_first_two_held" />
+      <skin id="qgn_graf_call_first_wait_active" />
+      <skin id="qgn_graf_call_first_wait_disconn" />
+      <skin id="qgn_graf_call_rec_big" />
+      <skin id="qgn_graf_call_rec_big_disconn" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call2_audio_second_window@v:4">
+      <skin id="qgn_graf_call_hidden_held" />
+      <skin id="LAY_AH%qgn_graf_call_hidden_held" />
+      <skin id="LAY_AH%qgn_indi_find_glass_advanced" />
+      <!-- <skin id="LAY_AH%qgn_prop_set_conn_dest_uncategorized" /> -->
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_out_window@v:2">
+      <skin id="qgn_graf_call_rec_big_left" />
+      <skin id="qgn_graf_call_rec_big_left_disconn" />
+      <skin id="qgn_graf_call_rec_big_right" />
+      <skin id="qgn_graf_call_rec_big_right_disconn" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_in_window@v:2">
+      <skin id="qgn_graf_call_rec_bigger" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_wait_window@v:1">
+      <skin id="qgn_graf_call_rec_small_left" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_wait_window@v:2">
+      <skin id="qgn_graf_call_rec_small_right" />
+      <skin id="qgn_graf_call_rec_small_right_disconn" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_second_window@v:2">
+      <skin id="qgn_graf_call_second_three_active" />
+      <skin id="qgn_graf_call_second_three_disconn" />
+      <skin id="qgn_graf_call_second_three_held" />
+    </layoutEntity>
+    <layoutEntity display="portrait,square"
+                  name="popup_call_audio_second_window@v:0">
+      <skin id="qgn_graf_call_second_two_active" />
+      <skin id="qgn_graf_call_second_two_disconn" />
+      <skin id="qgn_graf_call_second_two_held" />
+    </layoutEntity>
+    <!-- landscape popups -->
+    <layoutEntity display="landscape"
+                  name="popup_call_status_window@v:6">
+      <skin id="qgn_graf_bubble_incall" />
+      <skin id="qgn_graf_bubble_incall_disconn" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_conf_window@v:7">
+      <skin id="qgn_graf_call_conf_five" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_conf_window@v:6">
+      <skin id="qgn_graf_call_conf_four" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_conf_window@v:5">
+      <skin id="qgn_graf_call_conf_three" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_conf_window@v:4">
+      <skin id="qgn_graf_call_conf_two" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_first_window@v:7">
+      <skin id="qgn_graf_call_first_one_active" />
+      <skin id="qgn_graf_call_first_one_disconn" />
+      <skin id="qgn_graf_call_first_one_held" />
+      <skin id="qgn_graf_call_first_three_active" />
+      <skin id="qgn_graf_call_first_three_disconn" />
+      <skin id="qgn_graf_call_first_three_held" />
+      <skin id="qgn_graf_call_first_two_active" />
+      <skin id="qgn_graf_call_first_two_disconn" />
+      <skin id="qgn_graf_call_first_two_held" />
+      <skin id="qgn_graf_call_first_wait_active" />
+      <skin id="qgn_graf_call_first_wait_disconn" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_second_window@v:5">
+      <skin id="qgn_graf_call_hidden_held" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_number_entry_window@v:2">
+      <skin id="qgn_graf_call_rec_big" />
+      <skin id="qgn_graf_call_rec_big_disconn" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_first_window@v:8">
+      <skin id="qgn_graf_call_rec_big_left" />
+      <skin id="qgn_graf_call_rec_big_left_disconn" />
+      <skin id="qgn_graf_call_rec_big_right" />
+      <skin id="qgn_graf_call_rec_big_right_disconn" />
+      <skin id="qgn_graf_call_second_two_active" />
+      <skin id="qgn_graf_call_second_two_disconn" />
+      <skin id="qgn_graf_call_second_two_held" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_in_window@v:6">
+      <skin id="qgn_graf_call_rec_bigger" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_first_window@v:10">
+      <skin id="qgn_graf_call_rec_small_left" />
+      <skin id="qgn_graf_call_second_three_active" />
+      <skin id="qgn_graf_call_second_three_disconn" />
+      <skin id="qgn_graf_call_second_three_held" />
+    </layoutEntity>
+    <layoutEntity display="landscape"
+                  name="popup_call_audio_first_window@v:10">
+      <skin id="qgn_graf_call_rec_small_right" />
+      <skin id="qgn_graf_call_rec_small_right_disconn" />
+      <skin id="qgn_graf_input_bg" />
+      <skin id="qgn_graf_input_icf_bg" />
+      <skin id="qgn_graf_fep_popup_shadow_b" />
+      <skin id="qgn_graf_fep_popup_shadow_bl" />
+      <skin id="qgn_graf_fep_popup_shadow_br" />
+      <skin id="qgn_graf_fep_popup_shadow_l" />
+      <skin id="qgn_graf_fep_popup_shadow_r" />
+      <skin id="qgn_graf_fep_popup_shadow_t" />
+      <skin id="qgn_graf_fep_popup_shadow_tl" />
+      <skin id="qgn_graf_fep_popup_shadow_tr" />
+      <skin id="qgn_graf_blid" />
+      <skin id="qgn_graf_blid_compass" />
+      <skin id="qgn_graf_blid_dest_near" />
+      <skin id="qgn_graf_blid_dir" />
+      <skin id="qgn_graf_blid_dir_bg " />
+      <skin id="qgn_graf_bg_touch_horizontal" />
+      <skin id="qgn_graf_bg_touch_vertical" />
+      <skin id="qgn_graf_ai_volume_set_9" />
+      <skin id="qgn_graf_ai_volume_set_8" />
+      <skin id="qgn_graf_ai_volume_set_1" />
+      <skin id="qgn_graf_ai_volume_set_0" />
+      <skin id="qgn_graf_ai_volume_set_2" />
+      <skin id="qgn_graf_ai_volume_set_5" />
+      <skin id="qgn_graf_ai_volume_set_4" />
+      <skin id="qgn_graf_ai_volume_set_7" />
+      <skin id="qgn_graf_ai_volume_set_6" />
+      <skin id="qgn_graf_ai_volume_set_10" />
+      <skin id="qgn_graf_ai_volume_set_3" />
+      <skin id="qgn_graf_ai_volume_small_0" />
+      <skin id="qgn_graf_ai_volume_small_1" />
+      <skin id="qgn_graf_ai_volume_small_10" />
+      <skin id="qgn_graf_ai_volume_small_2" />
+      <skin id="qgn_graf_ai_volume_small_3" />
+      <skin id="qgn_graf_ai_volume_small_4" />
+      <skin id="qgn_graf_ai_volume_small_5" />
+      <skin id="qgn_graf_ai_volume_small_6" />
+      <skin id="qgn_graf_ai_volume_small_7" />
+      <skin id="qgn_graf_ai_volume_small_8" />
+      <skin id="qgn_graf_ai_volume_small_9" />
+      <skin id="qgn_graf_calc_display" />
+      <skin id="qgn_graf_calc_paper" />
+      <skin id="qgn_graf_calc_results_line" />
+      <skin id="qgn_graf_nslider_tick_major" />
+      <skin id="qgn_graf_nslider_tick_minor" />
+      <skin id="qgn_graf_nslider_vertical_bottom" />
+      <skin id="qgn_graf_nslider_vertical_marker" />
+      <skin id="qgn_graf_nslider_vertical_middle" />
+      <skin id="qgn_graf_nslider_vertical_top" />
+      <skin id="qgn_graf_scroll_arrow_down" />
+      <skin id="qgn_graf_scroll_arrow_left" />
+      <skin id="qgn_graf_scroll_arrow_right" />
+      <skin id="qgn_graf_scroll_arrow_up" />
+      <skin id="qgn_graf_timetrack_end_left" />
+      <skin id="qgn_graf_timetrack_end_right" />
+      <skin id="qgn_graf_timetrack_middle" />
+      <skin id="qgn_graf_timetrack_trimmed_end_left" />
+      <skin id="qgn_graf_timetrack_trimmed_end_right" />
+      <skin id="qgn_graf_timetrack_trimmed_middle" />
+      <skin id="qgn_graf_volume_small_vertical_marker" />
+      <skin id="qgn_graf_volume_small_vertical_marker_selected" />
+      <skin id="qgn_graf_volume_small_vertical_off" />
+      <skin id="qgn_graf_volume_small_vertical_on" />
+      <skin id="qgn_graf_blid_dirring_mask" />
+      <skin id="qgn_graf_nslider_vertical_marker_selected" />
+      <skin id="qsn_fr_keypad_button_normal" />
+      <skin id="qsn_fr_keypad_button_pressed" />
+      <skin id="qsn_fr_keypad_button_inactive" />
+    </layoutEntity>
+    <layoutEntity name="main_mup3_pane_g4@v:6">
+      <skin id="qgn_indi_button_j_rocker_down" />
+      <skin id="qgn_indi_button_j_rocker_down_dimmed" />
+      <skin id="qgn_indi_button_j_rocker_down_pressed" />
+      <skin id="qgn_indi_button_j_rocker_fire" />
+      <skin id="qgn_indi_button_j_rocker_fire_dimmed" />
+      <skin id="qgn_indi_button_j_rocker_fire_pressed" />
+      <skin id="qgn_indi_button_j_rocker_left" />
+      <skin id="qgn_indi_button_j_rocker_left_dimmed" />
+      <skin id="qgn_indi_button_j_rocker_left_pressed" />
+      <skin id="qgn_indi_button_j_rocker_right" />
+      <skin id="qgn_indi_button_j_rocker_right_dimmed" />
+      <skin id="qgn_indi_button_j_rocker_right_pressed" />
+      <skin id="qgn_indi_button_j_rocker_up" />
+      <skin id="qgn_indi_button_j_rocker_up_dimmed" />
+      <skin id="qgn_indi_button_j_rocker_up_pressed" />
+    </layoutEntity>
+    <layoutEntity display="portrait"
+                  name="control_pane_t3@v:3">
+      <skin id="text56" />
+      <skin id="text57" />
+      <skin id="text58" />
+    </layoutEntity>
+    <layoutEntity display="portrait"
+                  name="control_pane_g4@v:0">
+      <skin id="qgn_prop_msk_menu" />
+      <skin id="qgn_prop_msk_select" />
+      <skin id="qgn_prop_image_tb_delete2" />
+      <skin id="qgn_prop_image_tb_delete2_dimmed" />
+      <skin id="qgn_prop_image_tb_delete2_focused" />
+      <skin id="qgn_prop_image_tb_next" />
+      <skin id="qgn_prop_image_tb_next_dimmed" />
+      <skin id="qgn_prop_image_tb_next_focused" />
+      <skin id="qgn_prop_image_tb_pause" />
+      <skin id="qgn_prop_image_tb_pause_dimmed" />
+      <skin id="qgn_prop_image_tb_pause_focused" />
+      <skin id="qgn_prop_image_tb_play2" />
+      <skin id="qgn_prop_image_tb_play2_dimmed" />
+      <skin id="qgn_prop_image_tb_play2_focused" />
+      <skin id="qgn_prop_image_tb_prev" />
+      <skin id="qgn_prop_image_tb_prev_dimmed" />
+      <skin id="qgn_prop_image_tb_prev_focused" />
+      <skin id="qgn_prop_image_tb_send2" />
+      <skin id="qgn_prop_image_tb_send2_dimmed" />
+      <skin id="qgn_prop_image_tb_send2_focused" />
+      <skin id="qgn_prop_image_tb_stop" />
+      <skin id="qgn_prop_image_tb_stop_dimmed" />
+      <skin id="qgn_prop_image_tb_stop_focused" />
+      <skin id="qgn_prop_image_tb_zoom_in" />
+      <skin id="qgn_prop_image_tb_zoom_in_dimmed" />
+      <skin id="qgn_prop_image_tb_zoom_in_focused" />
+      <skin id="qgn_prop_image_tb_zoom_out" />
+      <skin id="qgn_prop_image_tb_zoom_out_dimmed" />
+      <skin id="qgn_prop_image_tb_zoom_out_focused" />
+      <skin id="qgn_prop_album_photo_video" />
+      <skin id="qgn_prop_checkbox_off" />
+      <skin id="qgn_prop_checkbox_on" />
+      <skin id="qgn_prop_cp_conn_shortcut" />
+      <skin id="qgn_prop_cp_dev_pen" />
+      <skin id="qgn_prop_cp_dev_sensor" />
+      <skin id="qgn_prop_cp_dev_vc" />
+      <skin id="qgn_prop_cp_diag_conn" />
+      <skin id="qgn_prop_cp_diag_coverage" />
+      <skin id="qgn_prop_cp_diag_fail" />
+      <skin id="qgn_prop_cp_diag_hw" />
+      <skin id="qgn_prop_cp_diag_not" />
+      <skin id="qgn_prop_cp_diag_pass" />
+      <skin id="qgn_prop_cp_diag_service" />
+      <skin id="qgn_prop_download_video" />
+      <skin id="qgn_prop_image_video" />
+      <skin id="qgn_prop_mp_folder_stream_link" />
+      <skin id="qgn_prop_mp_folder_video" />
+      <skin id="qgn_prop_radiobutt_off" />
+      <skin id="qgn_prop_radiobutt_on" />
+      <skin id="qgn_prop_remote_drive_memc_large" />
+      <skin id="qgn_prop_set_apps_bt_conn_hidden" />
+      <skin id="qgn_prop_set_apps_bt_conn_shown" />
+      <skin id="qgn_prop_set_apps_bt_off" />
+      <skin id="qgn_prop_set_apps_bt_on_hidden" />
+      <skin id="qgn_prop_set_apps_bt_on_shown" />
+      <skin id="qgn_prop_set_apps_dcd" />
+      <skin id="qgn_prop_set_apps_search" />
+      <skin id="qgn_prop_set_apps_usb_off" />
+      <skin id="qgn_prop_set_conn_wlan_conn" />
+      <skin id="qgn_prop_set_conn_wlan_off" />
+      <skin id="qgn_prop_set_gene_pay" />
+      <skin id="qgn_prop_set_gene_sensor" />
+      <skin id="qgn_prop_set_network_sub_offline" />
+      <skin id="qgn_prop_set_tones_sub" />
+      <skin id="qgn_prop_vc_media_next" />
+      <skin id="qgn_prop_vc_media_pause" />
+      <skin id="qgn_prop_vc_media_play" />
+      <skin id="qgn_prop_vc_media_prev" />
+      <skin id="qgn_prop_vc_media_stop" />
+      <skin id="qgn_prop_vc_media_volume_down" />
+      <skin id="qgn_prop_vc_media_volume_up" />
+      <skin id="qgn_prop_search_indevice" />
+      <skin id="qgn_prop_usb_memc_large" />
+    </layoutEntity>
+    <!-- toolbar buttons -->
+    <layoutEntity name="toolbar_button_pane_g1@v:0">
+      <skin id="qsn_fr_button_tb" />
+      <skin id="qsn_fr_call_poc_inact" />
+      <skin id="qsn_fr_button_tb_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g1@v:0">
+      <skin id="qsn_fr_button_tb_center" />
+      <skin id="qsn_fr_button_tb_center_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g2@v:0">
+      <skin id="qsn_fr_button_tb_corner_tl" />
+      <skin id="qsn_fr_button_tb_corner_tl_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g3@v:0">
+      <skin id="qsn_fr_button_tb_corner_tr" />
+      <skin id="qsn_fr_button_tb_corner_tr_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g4@v:0">
+      <skin id="qsn_fr_button_tb_corner_bl" />
+      <skin id="qsn_fr_button_tb_corner_bl_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g5@v:0">
+      <skin id="qsn_fr_button_tb_corner_br" />
+      <skin id="qsn_fr_button_tb_corner_br_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g6@v:0">
+      <skin id="qsn_fr_button_tb_side_t" />
+      <skin id="qsn_fr_button_tb_side_t_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g7@v:0">
+      <skin id="qsn_fr_button_tb_side_b" />
+      <skin id="qsn_fr_button_tb_side_b_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g8@v:0">
+      <skin id="qsn_fr_button_tb_side_l" />
+      <skin id="qsn_fr_button_tb_side_l_inactive" />
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="toolbar_button_pane_cp01_g9@v:0">
+      <skin id="qsn_fr_button_tb_side_r" />
+      <skin id="qsn_fr_button_tb_side_r_inactive" />      
+      <!--    <skin id="qsn_fr_separator_h_l_shdwnone" />-->
+      <!--    <skin id="qsn_fr_separator_h_l_shdwout" />-->
+      <!--    <skin id="qsn_fr_separator_h_m_shdwin" />-->
+      <!--    <skin id="qsn_fr_separator_h_m_shdwnone" />-->
+      <!--    <skin id="qsn_fr_separator_h_m_shdwout" />-->
+      <!--    <skin id="qsn_fr_separator_h_r_shdwin" />-->
+      <!--    <skin id="qsn_fr_separator_h_r_shdwnone" />-->
+      <!--    <skin id="qsn_fr_separator_h_r_shdwout" />-->
+      <!--    <skin id="qsn_fr_separator_v_b_shdwin" />-->
+      <!--  <skin id="qsn_fr_separator_v_b_shdwnone" />-->
+      <!--  <skin id="qsn_fr_separator_v_b_shdwout" />-->
+      <!--    <skin id="qsn_fr_separator_v_m_shdwin" />-->
+      <!--    <skin id="qsn_fr_separator_v_m_shdwnone" />-->
+      <!--    <skin id="qsn_fr_separator_v_m_shdwout" />-->
+      <!--    <skin id="qsn_fr_separator_v_t_shdwnone" />-->
+      <!--    <skin id="qsn_fr_separator_v_t_shdwout" />-->
+    </layoutEntity>
+    <layoutEntity display="portrait,landscape"
+                  name="cell_toolbar_pane_g1@v:1">
+      <skin id="qgn_indi_mup_tb_add_tracks" />
+      <skin id="qgn_indi_mup_tb_next" />
+      <skin id="qgn_indi_mup_tb_pause" />
+      <skin id="qgn_indi_mup_tb_playlist_new" />
+      <skin id="qgn_indi_mup_tb_playlist_remove" />
+      <skin id="qgn_indi_mup_tb_prev" />
+      <skin id="qgn_indi_mup_tb_remove_one" />
+      <skin id="qgn_indi_mup_tb_stop" />      
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g2@v:0">
+      <skin id="qgn_home_bg_widget_tl" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g6@v:0">
+      <skin id="qgn_home_bg_widget_t" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g3@v:0">
+      <skin id="qgn_home_bg_widget_tr" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g8@v:0">
+      <skin id="qgn_home_bg_widget_l" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g1@v:0">
+      <skin id="qgn_home_bg_widget_center" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g9@v:0">
+      <skin id="qgn_home_bg_widget_r" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g4@v:0">
+      <skin id="qgn_home_bg_widget_bl" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g7@v:0">
+      <skin id="qgn_home_bg_widget_b" />
+    </layoutEntity>
+    <layoutEntity name="bg_ai5_widget_pane_g5@v:0">
+      <skin id="qgn_home_bg_widget_br" />
+    </layoutEntity>
+  </layoutMappings>
+</idMappings>

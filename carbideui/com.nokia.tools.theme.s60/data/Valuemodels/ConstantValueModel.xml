@@ -1,0 +1,9 @@
+<flavourModel>
+<general/>
+<valueModel name="ConstantValueModel" uiName="Constant" uid="0x10207627" >
+<param name="c" defaultValue="7" />
+</valueModel>
+<timingModel name="RealTime"/>
+</flavourModel>
+
+

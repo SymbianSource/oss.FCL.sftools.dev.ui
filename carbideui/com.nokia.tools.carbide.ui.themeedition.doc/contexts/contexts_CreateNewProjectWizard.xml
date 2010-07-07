@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+
+<contexts>
+	<context id="createNewProjectWizard_context"
+		title="New theme window">
+		<description>The New Theme window allows you to create a new theme and begin editing a theme. Click Creating a new theme to read more about the creation process.</description>
+		<topic label="Creating a new theme"
+			href="doc/create_new_theme.html" />
+
+	</context>
+</contexts>
+
+

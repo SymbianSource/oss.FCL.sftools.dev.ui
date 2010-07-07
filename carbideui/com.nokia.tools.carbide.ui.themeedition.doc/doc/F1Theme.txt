@@ -1,0 +1,1 @@
+The Theme editor view allows you to edit elements in a screen. Click Theme editor view to read more about using the Theme editor view.

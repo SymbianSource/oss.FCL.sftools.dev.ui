@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="32" height="22" viewBox="0 0 32 22">
+<path d="M19.005,12.008L14,6.994V6h-2v6.008H8V16h10l4-3.992H19.005z M14,9l3.008,3.008H14V9z"/>
+<path d="M25,2H4v18h22V2H25z M24,4c0,1.641,0,12.359,0,14c-1.71,0-16.29,0-18,0C6,16.359,6,5.641,6,4 C7.71,4,22.29,4,24,4z"/>
+</svg>

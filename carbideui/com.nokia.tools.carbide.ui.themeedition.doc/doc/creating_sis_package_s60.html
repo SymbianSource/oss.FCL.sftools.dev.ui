@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Creating sis Package</title>
+</head>
+<body>
+<h2>Packaging Theme&nbsp; </h2>
+<h3>Creating &nbsp;
+sis-package</h3>
+Select<span style="font-weight: bold;">
+Tools -&gt; Create New
+SIS-Package</span>. The Create a new
+deployment package wizard opens.<br>
+<br>
+<img style="width: 588px; height: 623px;"
+ alt="" src="creating_sis_package_s60.png" ><br><br>
+<span style="font-weight: bold;">Note:</span>
+Before the packaging
+wizard opens, a Saving confirmation window appears if you have not
+checked the "Save without a prompt before starting packaging process" option
+in the Carbide.ui Preferences. To save without the prompt in the
+future, check the "Always save without prompt" box in the Saving
+confirmation window. You can change this preference in the Carbide.ui
+Preferences, too. <br>
+<br>
+<ul>
+  <li><span style="font-weight: bold;">Target platform</span>
+drop-down
+list, select the platform for which the theme is created. 
+( <span style="font-weight: bold;">Note :</span> Selecting different
+target platform may cause problems in packaging!)</li>
+  <li>In the <span style="font-weight: bold;">Information</span>
+field: </li>
+  <ul>
+    <li>In the <span style="font-weight: bold;">Theme name</span>
+field, enter a name for the theme. </li>
+  </ul>
+  <li>In the <span style="font-weight: bold;">Theme UID</span>
+field: </li>
+  <ul>
+    <li>If you want the system to
+automatically generate a <span style="font-weight: bold;">UID</span>
+for your theme, check the box
+next to Automatic. </li>
+  </ul>
+  <ul>
+    <li>Enter the <span style="font-weight: bold;">UID</span>,
+if you
+want to enter your own <span style="font-weight: bold;">UID</span>
+for
+the theme. </li>
+  </ul>
+</ul>
+<br>
+<span style="font-weight: bold;">Note:</span>
+If you enter a <span style="font-weight: bold;">UID</span>
+that already exists as a theme,
+the old theme will be overwritten in the phone when deploying. The
+format for the<span style="font-weight: bold;"> UID</span>
+is
+hexadecimal, from <span style="font-weight: bold;">0x00000000 to
+0x7FFFFFFF</span> (this is the
+protected range) and <span style="font-weight: bold;">0x80000000 to
+0xFFFFFFFF</span>
+(this is
+the unprotected range). The protected range requires that you have a
+valid certificate stored on your computer. For more information about
+UIDs and certificates, see Symbian Developer Library.<br>
+<ul>
+  <li>In the<span style="font-weight: bold;"> Author </span>and
+    <span style="font-weight: bold;">Copyright</span>
+fields, enter the author
+of the package and a copyright notice for the package.</li>
+  <li>In the <span style="font-weight: bold;">Vendor</span>
+field,
+enter the vendor name and if you have a vendor logo , click on the <span
+ style="font-weight: bold;">Select</span>
+button to add a logo</li>
+  <li>In the <span style="font-weight: bold;">Protection</span>
+field,
+select protection settings for the package: </li>
+  <li>If you do not want others to
+be able to copy your package, unmark
+the <span style="font-weight: bold;">Allow
+copying </span>checkbox. </li>
+  <li>If you want your package to
+be <span style="font-weight: bold;">Digital
+Rights Management (DRM)</span>
+protected, mark the <span style="font-weight: bold;">DRM</span>
+checkbox. </li>
+  <li>In the <span style="font-weight: bold;">Content</span>
+to be
+included field, unmark the checkboxes next to the content you do not
+want to include in the package. </li>
+</ul>
+<span style="font-weight: bold;">Note:
+</span>The system displays the
+checkbox as marked in all those theme component areas that have been
+edited. For example, if you have only edited the background of the
+default theme, the checkbox next to Background is marked. So if you
+want to include all the edited content in your theme for the
+sis-package, you can just move to the next step, knowing that the
+system automatically includes all the edited theme components in the
+sis-package.<br>
+<ul>
+  <li>Click <span style="font-weight: bold;">Next</span>.
+  </li>
+  <li>In the <span style="font-weight: bold;">Package Signing</span>
+field, decide if you want to sign your deployment package: </li>
+  <li>If you do not want to sign
+the package, click the <span style="font-weight: bold;">No signing</span>
+radio-button. </li>
+  <li>To sign you deployment
+package, click the <span style="font-weight: bold;">Sign by</span>
+radio-button. </li>
+</ul>
+<ul>
+  <li>If you chose to sign your
+package: </li>
+  <li>Click <span style="font-weight: bold;">Modify</span>
+and browse
+to a key pair or approve the default key pair. </li>
+  <li>Enter the <span style="font-weight: bold;">password </span>for
+your key pair. </li>
+  <li>Click <span style="font-weight: bold;">Nex</span>t.
+  </li>
+  <li>Select a destination for
+your package.</li>
+  <li>If you want to change the
+package destination, click <span style="font-weight: bold;">Browse </span>to
+select a new destination. </li>
+  <li>Click <span style="font-weight: bold;">Finish</span>.</li>
+</ul>
+The package is created. You see a notification when the package has
+been successfully created. The package is a .sis file and visible in
+the <span style="font-weight: bold;">Navigator</span>
+view. <br>
+<br>
+<div style="text-align: center;">
+</div>
+<br>
+</body>
+</html>

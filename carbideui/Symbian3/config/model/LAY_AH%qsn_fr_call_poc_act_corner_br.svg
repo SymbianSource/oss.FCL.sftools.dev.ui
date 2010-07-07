@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="32" viewBox="-1.479 0.993 44 32">
+<path fill="#656B6B" fill-opacity="0.01" d="M40.521,0.993v5.5l-0.024,0.965c-0.323,14.494-8.229,23.877-20.634,24.484 l-0.932,0.051h-20.41v-31H40.521z"/>
+<path fill="#656B6B" fill-opacity="0.02" d="M39.521,0.993v5.5l-0.023,0.939c-0.311,13.922-7.854,22.932-19.684,23.51l-0.93,0.051 H-1.479v-30H39.521z"/>
+<path fill="#656B6B" fill-opacity="0.03" d="M38.521,0.993v5.5l-0.023,0.914c-0.297,13.35-7.475,21.986-18.732,22.537l-0.928,0.049 H-1.479v-29H38.521z"/>
+<path fill="#656B6B" fill-opacity="0.05" d="M37.521,0.993v5.5l-0.023,0.889c-0.284,12.777-7.098,21.041-17.781,21.563 l-0.924,0.048H-1.479v-28H37.521z"/>
+<path fill="#656B6B" fill-opacity="0.06" d="M36.521,0.993v5.5l-0.022,0.863c-0.272,12.205-6.722,20.096-16.831,20.59l-0.92,0.047 H-1.479v-27H36.521z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M35.521,0.993v5.5l-0.021,0.836c-0.26,11.635-6.346,19.152-15.881,19.617l-0.916,0.047 H-1.479v-26H35.521z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M34.521,0.993v5.5l-0.021,0.811c-0.246,11.063-5.968,18.207-14.93,18.646l-0.912,0.044 H-1.479v-25H34.521z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M33.521,0.993v5.5c0,0.266-0.017,0.525-0.021,0.787 c-0.213,9.539-4.667,17.215-13.979,17.668c-0.289,0.015-0.564,0.045-0.863,0.045H-1.479v-24H33.521z"/>
+<path fill="#CADCEC" d="M19.021,22.993c9.098,0,16.5-7.402,16.5-16.5v-5.5h1v5.5c0,9.666-7.836,17.5-17.5,17.5h-20.5v-1H19.021z"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="17.02" y1="-111.01" x2="17.02" y2="23.99">
+<stop stop-color="#DEE9F3" offset="0"/>
+<stop stop-color="#E6EFF6" offset="0.1"/>
+<stop stop-color="#F9FBFD" offset="0.36"/>
+<stop stop-color="#FFFFFF" offset="0.54"/>
+<stop stop-color="#FBFCFE" offset="0.67"/>
+<stop stop-color="#EFF4F9" offset="0.8"/>
+<stop stop-color="#DAE7F2" offset="0.92"/>
+<stop stop-color="#CADCEC" offset="1"/>
+</linearGradient>
+<path fill="url(#_2)" d="M35.521,0.993v5.5c0,9.098-7.402,16.5-16.5,16.5h-20.5v-22H35.521z"/>
+</svg>

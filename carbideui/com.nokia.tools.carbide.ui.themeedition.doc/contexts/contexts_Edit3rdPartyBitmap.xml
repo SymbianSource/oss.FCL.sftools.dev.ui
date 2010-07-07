@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="edit3rdPartyBitmap_context" title="Edit bitmap in external bitmap editor">
+		<description>You can edit bitmap images in external bitmap editors. Click Editing bitmaps to read more about editing images in bitmap editors.</description>
+ 		<topic label="Editing bitmaps" href="doc/editing_bitmaps.html"/> 		
+	</context>
+	</contexts>
+

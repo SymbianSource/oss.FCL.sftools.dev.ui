@@ -1,0 +1,19 @@
+<body>
+<p>Provides the API used in the content packaging.</p>
+<p>The content providers construct the {@link IPackager} with proper
+chain of {@link IPackagingProcessor}. The packaging processors consult
+the packaging context to determine the execution paths.
+<p>Usage:</p>
+<pre>
+	IContent content = xxx;
+	IPackager packager = (IPackager) content.getAdapter(IPackager.class);
+	PackagingContext context = new PackagingContext();
+	// sets the input
+	context.setInput(content);
+	// sets various options
+	context.setAttribute(PackagingAttribute.workingDir, new File("myworkingdir"));
+	...
+	// builds the package
+	packager.buildPackage(context, null);
+</pre>
+</body>

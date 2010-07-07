@@ -1,0 +1,1 @@
+You can edit SVG images in a 3rd party vector editor. Click Edit vector graphics to read more about editing SVG images.

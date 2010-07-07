@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="theme_context" title="Editor">
+		<description>Editor allows you to edit elements in a screen. Click Editor to read more about using the Editor.</description>
+ 		<topic label="Editor" href="doc/editors.html"/> 		
+	</context>
+	</contexts>
+	
+

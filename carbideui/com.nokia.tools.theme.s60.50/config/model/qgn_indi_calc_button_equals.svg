@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="60" height="52" viewBox="-0.285 0.319 60 52">
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="29.71" y1="7.52" x2="29.71" y2="45.92">
+<stop stop-color="#7D9CAD" offset="0"/>
+<stop stop-color="#576F96" offset="0.73"/>
+<stop stop-color="#4F6691" offset="1"/>
+</linearGradient>
+<path d="M51.455,6.319H7.974c-1.245,0-2.259,1.014-2.259,2.259V44.06c0,1.246,1.014,2.26,2.259,2.26 h43.481c1.246,0,2.26-1.014,2.26-2.26V8.578C53.715,7.333,52.701,6.319,51.455,6.319z M52.715,44.06 c0,0.694-0.565,1.26-1.26,1.26H7.974c-0.694,0-1.259-0.565-1.259-1.26V8.578c0-0.694,0.564-1.259,1.259-1.259h43.481 c0.694,0,1.26,0.564,1.26,1.259V44.06z" fill="url(#_4)"/>
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="29.72" y1="50.86" x2="29.72" y2="5.74">
+<stop stop-color="#ADB5A8" offset="0.03"/>
+<stop stop-color="#C7D9D9" offset="0.26"/>
+<stop stop-color="#FFFFFF" offset="0.72"/>
+</linearGradient>
+<path d="M51.455,7.319H7.974c-0.694,0-1.259,0.564-1.259,1.259V44.06c0,0.694,0.564,1.26,1.259,1.26 h43.481c0.694,0,1.26-0.565,1.26-1.26V8.578C52.715,7.884,52.149,7.319,51.455,7.319z" fill="url(#_5)"/>
+</g>
+<path d="M52.333,7.696c-0.243-0.252-0.529-0.377-0.878-0.377H7.974c-0.694,0-1.259,0.564-1.259,1.259V44.06 c0,0.346,0.143,0.652,0.372,0.873c0.003,0.013,0.628-0.628,0.628-0.628V8.319h43.999L52.333,7.696z" fill="#FFFFFF"/>
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="29.91" y1="12.45" x2="29.91" y2="51.92">
+<stop stop-color="#CADCEC" offset="0"/>
+<stop stop-color="#809CB3" offset="1"/>
+</linearGradient>
+<path d="M7.097,44.941c0.243,0.252,0.529,0.377,0.878,0.377h43.481c0.694,0,1.259-0.564,1.259-1.259 V8.578c0-0.346-0.143-0.652-0.372-0.873c-0.003-0.013-0.628,0.628-0.628,0.628s0,35.206,0,35.985c-0.738,0-43.999,0-43.999,0 L7.097,44.941z" fill="url(#_6)"/>
+<rect fill="#496DA2" height="3.771" width="20" x="19.715" y="20.435"/>
+<rect fill="#496DA2" height="3.771" width="20" x="19.715" y="28.435"/>
+</svg>

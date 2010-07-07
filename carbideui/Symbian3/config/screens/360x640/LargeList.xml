@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+  <preview_image display="portrait,square"
+                 name="Large List Icons"
+                 preview="true">
+    <reference screenName="BaseScreen0" />
+    <reference screenName="TouchPaneHorizontal0" />
+    <reference screenName="MainScrollBar3" />
+    <!-- main area contents -->
+    <Element compName="bg_list_pane_g1"
+             display="!360x640"
+             skinId="qsn_bg_column_AB"
+             varietyId="2" />
+    <Element compName="bg_list_pane_g1"
+             display="360x640"
+             loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;main_pane@v:18&lt;/LC&gt;&lt;LC&gt;bg_list_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_bg_column_AB"
+             varietyId="2" />
+    <!--   <Element skinId="qsn_bg_slice_list_AB"
+                        compName="bg_list_pane_g3" varietyId="2" />
+    <Element skinId="qgn_graf_line_primary_vertical_dashed"
+                        compName="bg_list_pane_g4" varietyId="2" />
+                <Element skinId="qgn_graf_line_primary_horizontal_dashed"
+                        compName="bg_list_pane_g5" varietyId="2" /> -->
+    <Element colourId="text1"
+             compName="title_pane_t1"
+             text="Large List"
+             varietyId="5" />
+    <!--            <reference screenName="ThreeTabPortrait" />
+                <Element image="qgn_prop_file_music_tab4.svg" colourId="icon9"
+                compName="tabs_4_1_passive_pane_g1" varietyId="0"
+                loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_3_passive_pane@v:2&lt;/LC&gt;" />
+        <Element image="qgn_prop_file_video_tab4.svg" colourId="icon9"
+                compName="tabs_4_1_passive_pane_g1" varietyId="0"
+                loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_3_passive_pane_cp@v:0&lt;/LC&gt;" />
+                <Element image="qgn_prop_file_images_tab4.svg" colourId="icon8"
+                compName="tabs_4_active_pane_g1" varietyId="0"
+                loc_id="&lt;LC&gt;navi_pane@v:5&lt;/LC&gt;&lt;LC&gt;navi_navi_pane@v:0&lt;/LC&gt;&lt;LC&gt;tabs_3_active_pane@v:0&lt;/LC&gt;" /> -->
+    <!--application content-->
+    <Element compName="list_highlight_pane_cp1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+             skinId="S60_2_6%qsn_fr_list"
+             varietyId="0" />
+    <Element compName="list_double_large_graphic_pane_g1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+             skinId="qgn_prop_file_download"
+             varietyId="0" />
+    <Element colourId="text10"
+             compName="list_double_large_graphic_pane_t1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+             text="Line 1"
+             varietyId="0" />
+    <Element colourId="text10"
+             compName="list_double_large_graphic_pane_t2"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:1&lt;/LC&gt;"
+             text="3 folders, 35 files"
+             varietyId="0" />
+    <Element compName="list_double_large_graphic_pane_g1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:2&lt;/LC&gt;"
+             skinId="qgn_prop_folder_large"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:2&lt;/LC&gt;"
+             text="Line 2"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t2"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:2&lt;/LC&gt;"
+             text="2 folders, 7 files"
+             varietyId="0" />
+    <Element compName="list_double_large_graphic_pane_g1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:3&lt;/LC&gt;"
+             skinId="qgn_prop_group_large"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t1"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:3&lt;/LC&gt;"
+             text="Line 3"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t2"
+             display="!360x640"
+             loc_id="&lt;LC&gt;list_double_large_graphic_pane@v:0#r:3&lt;/LC&gt;"
+             text="4 folders, 5 files"
+             varietyId="0" />
+    <Element compName="list_highlight_pane_cp1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;"
+             skinId="S60_2_6%qsn_fr_list"
+             varietyId="0" />
+    <Element compName="list_double_large_graphic_pane_g1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;"
+             skinId="qgn_prop_file_download"
+             varietyId="0" />
+    <Element colourId="text10"
+             compName="list_double_large_graphic_pane_t1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;"
+             text="Line 1"
+             varietyId="0" />
+    <Element colourId="text10"
+             compName="list_double_large_graphic_pane_t2"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@v:0&lt;/LC&gt;"
+             text="3 folders, 35 files"
+             varietyId="0" />
+    <Element compName="list_double_large_graphic_pane_g1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:2#c:1&lt;/LC&gt;"
+             skinId="qgn_prop_folder_large"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:2#c:1&lt;/LC&gt;"
+             text="Line 2"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t2"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:2#c:1&lt;/LC&gt;"
+             text="2 folders, 7 files"
+             varietyId="0" />
+    <Element compName="list_double_large_graphic_pane_g1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:3#c:1&lt;/LC&gt;"
+             skinId="qgn_prop_group_large"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t1"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:3#c:1&lt;/LC&gt;"
+             text="Line 3"
+             varietyId="0" />
+    <Element colourId="text6"
+             compName="list_double_large_graphic_pane_t2"
+             display="360x640"
+             loc_id="&lt;LC&gt;main_pane@v:23&lt;/LC&gt;&lt;LC&gt;listscroll_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_gen_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_double_large_graphic_pane@#r:3#c:1&lt;/LC&gt;"
+             text="4 folders, 5 files"
+             varietyId="0" />
+    <!-- touch pane -->
+    <!-- control pane contents -->
+	<reference screenName="BaseSoftkeys" />	
+    <Element colourId="text13"
+             compName="control_pane_t1"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             text="Options"
+             varietyId="4" />
+    <Element colourId="text56"
+             compName="control_pane_t3"
+             display="!360x640"
+             text="Open"
+             varietyId="3" />
+    <Element colourId="text14"
+             compName="control_pane_t2"
+             loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;"
+             text="Back"
+             varietyId="4" />
+  </preview_image>
+</Preview>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<extension
+      point="org.eclipse.core.runtime.products"
+      id="product">
+      
+      <product name="%carbide.ui.theme.edition" application="org.eclipse.ui.ide.workbench" description="%productBlurb"> 
+          <property name="windowImages" value="icons/carbide_ui_icon_16x16.png,icons/carbide_ui_icon_24x24.png,icons/carbide_ui_icon_32x32.png,icons/carbide_ui_icon_48x48.png"/> 
+          <property name="aboutImage" value="icons/about_box_ui.bmp"/> 
+          <property name="aboutText" value="%productBlurb"/> 
+          <property name="appName" value="Carbide.ui"/> 
+          <property name="preferenceCustomization" value="plugin_customization.ini"/>
+          <property
+                name="featureImage"
+                value="icons/carbide_ui_icon_32x32.png"/>
+          <property
+                name="aboutTextImage"
+                value="icons/about_box_text_ui.bmp"/>
+          <property
+                name="versionText"
+                value="Version 3.0"/>
+          <property 
+          		name="buildId"
+          		value="@buildId@" />
+          <property
+                name="startupForegroundColor"
+                value="ffffff"/> 
+          <property
+                name="startupMessageRect"
+                value="11,220,280,20"/>
+          <property
+                name="startupProgressRect"
+                value="0,244,470,20"/>
+      </product>
+
+   </extension>
+<extension
+      point="org.eclipse.ui.intro">
+   <intro
+         class="org.eclipse.ui.intro.config.CustomizableIntroPart"
+         icon="icons/carbide_ui_icon_16x16.png"
+         id="com.nokia.tools.carbide.ui.themeedition.intro"/>
+   <introProductBinding
+         introId="com.nokia.tools.carbide.ui.themeedition.intro"
+         productId="com.nokia.tools.carbide.ui.themeedition.product"/>
+</extension>
+<extension
+      point="org.eclipse.ui.intro.config">
+   <config
+         content="intro/introContent.xml"
+         id="com.nokia.tools.carbide.ui.themeedition.introConfig"
+         introId="com.nokia.tools.carbide.ui.themeedition.intro">
+	<presentation
+		home-page-id="root" standby-page-id="standby">
+            <implementation
+                  style="css/shared.css"
+                  kind="html"
+                  os="win32,linux,macosx">
+            </implementation>
+			<implementation
+				kind="swt">
+			</implementation>
+   <launchBar location="fastview"/>
+	</presentation>
+   </config>
+</extension>
+<extension
+      point="org.eclipse.ui.startup">
+   <startup/>
+</extension>
+</plugin>
+
+

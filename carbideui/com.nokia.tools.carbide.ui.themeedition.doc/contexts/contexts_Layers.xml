@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="layers_context" title="Layers view">
+		<description>The Layers view represents all layers of a screen element in a table tree form. It divides an element (usually an image) to a base layer and an optional mask. Click Layers view to read more about the Layers view.</description>
+ 		<topic label="Layers view" href="doc/layers_view.html"/> 		
+	</context>
+	</contexts>
+	
+

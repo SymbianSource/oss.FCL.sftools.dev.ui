@@ -1,0 +1,2357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout LayoutName="phl_av_qhd_lsc_tch" resolutionHeight="360" 
+  resolutionWidth="640">
+  <Component drawingorder="2" id="3353" maxVariety="0" name="ai_links_pane" type="Pane">
+        <ParentInfo>
+            <option variety="1" optionSetNo="1">
+                <parent id="350" variety="0" optionSetNo="5"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="55"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Links shortcuts."/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param></LayoutInfo>
+        <AttributeInfo>
+            <option variety="1" optionSetNo="1" name="Option1 (portrait-tch)"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="3345" maxVariety="1" name="cell_ai_link_pane" type="Pane">
+        <ParentInfo>
+            <option variety="2" optionSetNo="2">
+                <parent id="3347" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="47"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc colNumber="1" rowNumber="1" value="15"/>
+                    <calc colNumber="2" rowNumber="1" value="95"/>
+                    <calc colNumber="3" rowNumber="1" value="175"/>
+                    <calc colNumber="4" rowNumber="1" value="255"/>
+                    <calc colNumber="5" rowNumber="1" value="335"/>
+                    <calc colNumber="6" rowNumber="1" value="415"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Link cell."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="47"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="2" optionSetNo="1" name="Option2 (6 cells)">
+                <attributeset name="a1"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="3" id="3351" maxVariety="0" name="ai_gene_pane" type="Pane">
+        <ParentInfo>
+            <option variety="1" optionSetNo="1">
+                <parent id="350" variety="0" optionSetNo="5"/>
+            </option>
+            <option variety="2" optionSetNo="2">
+                <parent id="350" variety="0" optionSetNo="5"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Calendar events, todo items, player, operator specific items."/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Calendar events, todo items, player, operator specific items."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="57"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="62"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param></LayoutInfo>
+        <AttributeInfo>
+            <option variety="1" optionSetNo="1" name="Option1 (tch portrait)"/>
+            <option variety="2" optionSetNo="2" name="Option2 (tch portrait)"/>
+        </AttributeInfo>
+    </Component>
+        <Component drawingorder="1" id="3309" maxVariety="3" name="ai_gene_pane_1_t1" type="Text">
+        <ParentInfo>
+            <option variety="4" optionSetNo="5">
+                <parent id="3326" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Contents">
+                <Value>
+                    <calc value="Lorem ipsum"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="24"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="32"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="."/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="7"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="4" optionSetNo="5" name="Option5 (grapnic, tch, text)">
+                <attributeset name="a0"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="2" id="3322" maxVariety="2" name="ai_gene_pane_1_g1" type="Graphic">
+        <ParentInfo>
+            <option variety="3" optionSetNo="5">
+                <parent id="3326" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Contents">
+                <Value>
+                    <calc value="qgn_indi_ai_cale.svg"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="27"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="2"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Item type indication."/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="4"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qgn_indi_ai_&lt;ref&gt;"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="27"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="3" optionSetNo="5" name="Option5 (graphic, text, tch)"/>
+        </AttributeInfo>
+    </Component> 
+    <Component drawingorder="0" id="1572" maxVariety="1" name="control_top_pane_stacon_t1" type="Text">
+        <ParentInfo>
+            <option variety="2" optionSetNo="3">
+                <parent id="1560" variety="1" optionSetNo="1"/>
+            </option>
+            <option variety="3" optionSetNo="4">
+                <parent id="1560" variety="1" optionSetNo="1"/>
+            </option>
+            <option variety="4" optionSetNo="5">
+                <parent id="1560" variety="1" optionSetNo="1"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Alias">
+                <Value>
+                    <calc value="(no id)"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="(no id)"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value><Value>
+                    <calc value="(no id)"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="215"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value><Value>
+                    <calc value="215"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="29"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value>
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="30"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="60"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value><Value>
+                    <calc value="30"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Top softkey text. Left."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="Top softkey text. Left."/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value><Value>
+                    <calc value="Top softkey text. Left."/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="50"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="50"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value><Value>
+                    <calc value="50"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="37"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value><Value>
+                    <calc value="37"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value><Value>
+                    <calc value="37"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_title"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_title"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="4"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_title"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="5"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="2" optionSetNo="3" name="Option3 (right tch)"/>
+            <option variety="3" optionSetNo="4" name="Option4 (message editor, right tch)"/>
+            <option variety="4" optionSetNo="5" name="Option5 (message editor, right tch, icon)"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="5216" maxVariety="0" name="clock_nsta_pane_cp2_t1" type="Text">
+        <ParentInfo>
+            <option variety="1" optionSetNo="1">
+                <parent id="4068" variety="1" optionSetNo="2"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="30"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Clock."/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="6"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="P-3"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="1" optionSetNo="1" name="Option1 (landscape tch)">
+                <attributeset name="a0"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <!--<Component drawingorder="0" id="1565" maxVariety="1" name="signal_pane_stacon_g1" type="Graphic">
+        <ParentInfo>
+            <option variety="2" optionSetNo="2">
+                <parent id="1557" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="41"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Cellular signal strength indication."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="8"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qgn_indi_signal_strength_lsc"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="27"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="2" optionSetNo="2" name="Option2"/>
+        </AttributeInfo>
+    </Component>-->
+    <Component drawingorder="1" id="1566" maxVariety="1" name="signal_pane_stacon_g2" type="Graphic">
+        <ParentInfo>
+            <option variety="2" optionSetNo="2">
+                <parent id="1557" variety="0" optionSetNo="0"/>
+            </option>
+            <option variety="3" optionSetNo="3">
+                <parent id="1557" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="21"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="21"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                 <Value>
+                    <calc value="Network/packetdata state indication."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="Network/packetdata state indication."/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qgn_indi_signal_&lt;ref&gt;"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="qgn_indi_signal_&lt;ref&gt;"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="17"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="17"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="2" optionSetNo="2" name="Option2 (landscape, left, tch)"/>
+            <option variety="3" optionSetNo="3" name="Option3 (landscape, right, tch)"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="1" id="1562" maxVariety="3" name="battery_pane_stacon" type="Pane">
+        <ParentInfo>
+            <option variety="4" optionSetNo="4">
+                <parent id="2132" variety="0" optionSetNo="5"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="P"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="464"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Right">
+                <Value>
+                    <calc value="138"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="4" optionSetNo="4" name="Option3 (nsta, right sks,tch)"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="3090" maxVariety="0" name="navi_navi_text_pane_t1" type="Text">
+        <ParentInfo>
+            <option variety="1" optionSetNo="1">
+                <parent id="3284" variety="0" optionSetNo="1"/>
+            </option>
+            <option variety="2" optionSetNo="2">
+                <parent id="3284" variety="0" optionSetNo="1"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Alias">
+                <Value>
+                    <calc value="navi_pane_1"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="navi_pane_1"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Color">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="24"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="24"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="57"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="100"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Navigational information."/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Navigational information."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="40"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="40"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="P-12"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="P-12"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="1" optionSetNo="1" name="Option1 (landspace, tch)">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="2" optionSetNo="2" name="Option2 (landspace, tch)">
+                <attributeset name="a0"/>
+            </option>            
+        </AttributeInfo>
+    </Component>		  
+<Component drawingorder="4" id="441" maxVariety="7" name="grid_cale_month_pane" type="Pane">
+        <ParentInfo>
+            <option variety="8" optionSetNo="8">
+                <parent id="436" variety="1" optionSetNo="142"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="7"/>
+                    <varietyIndex value="8"/>
+                    <optionSetNo value="8"/>
+                </Value>
+            </Param><Param name="Remarks">
+                <Value>
+                    <calc value="Subpane for month grid."/>
+                    <varietyIndex value="8"/>
+                    <optionSetNo value="8"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="8"/>
+                    <optionSetNo value="8"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="8"/>
+                    <optionSetNo value="8"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="300"/>
+                    <varietyIndex value="8"/>
+                    <optionSetNo value="8"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="8" optionSetNo="8" name="Option8 (tch, toolbar)"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="4467" maxVariety="4" name="list_single_pane_fp_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="4466" variety="0" optionSetNo="0"/>
+            </option>
+            <option variety="1" optionSetNo="1">
+                <parent id="4466" variety="0" optionSetNo="0"/>
+            </option>
+            <option variety="2" optionSetNo="2">
+                <parent id="4466" variety="0" optionSetNo="0"/>
+            </option>
+            <option variety="3" optionSetNo="3">
+                <parent id="4466" variety="0" optionSetNo="0"/>
+            </option>
+            <option variety="4" optionSetNo="4">
+                <parent id="4466" variety="0" optionSetNo="0"/>
+            </option>            
+        </ParentInfo>
+        <LayoutInfo><Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Contents">
+                <Value>
+                    <calc value="Lorem ipsum"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="Lorem ipsum"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Lorem ipsum"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="Lorem ipsum"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="Lorem ipsum"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="21" zoom="-2 zoom"/>
+                    <calc value="24" zoom="-1 zoom"/>
+                    <calc value="27"/>
+                    <calc value="29" zoom="+1 zoom"/>
+                    <calc value="30" zoom="+2 zoom"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="21" zoom="-2 zoom"/>
+                    <calc value="24" zoom="-1 zoom"/>
+                    <calc value="27"/>
+                    <calc value="29" zoom="+1 zoom"/>
+                    <calc value="30" zoom="+2 zoom"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="21" zoom="-2 zoom"/>
+                    <calc value="24" zoom="-1 zoom"/>
+                    <calc value="27"/>
+                    <calc value="29" zoom="+1 zoom"/>
+                    <calc value="30" zoom="+2 zoom"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="21" zoom="-2 zoom"/>
+                    <calc value="24" zoom="-1 zoom"/>
+                    <calc value="27"/>
+                    <calc value="29" zoom="+1 zoom"/>
+                    <calc value="30" zoom="+2 zoom"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="21" zoom="-2 zoom"/>
+                    <calc value="24" zoom="-1 zoom"/>
+                    <calc value="27"/>
+                    <calc value="29" zoom="+1 zoom"/>
+                    <calc value="30" zoom="+2 zoom"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="Center"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="6" zoom="-2 zoom"/>
+                    <calc value="6"/>
+                    <calc value="6" zoom="-1 zoom"/>
+                    <calc value="6" zoom="+1 zoom"/>
+                    <calc value="6" zoom="+2 zoom"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="6" zoom="-2 zoom"/>
+                    <calc value="6"/>
+                    <calc value="6" zoom="-1 zoom"/>
+                    <calc value="6" zoom="+1 zoom"/>
+                    <calc value="6" zoom="+2 zoom"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="6" zoom="-2 zoom"/>
+                    <calc value="6"/>
+                    <calc value="6" zoom="-1 zoom"/>
+                    <calc value="6" zoom="+1 zoom"/>
+                    <calc value="6" zoom="+2 zoom"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="6" zoom="-2 zoom"/>
+                    <calc value="6"/>
+                    <calc value="6" zoom="-1 zoom"/>
+                    <calc value="6" zoom="+1 zoom"/>
+                    <calc value="6" zoom="+2 zoom"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="6" zoom="-2 zoom"/>
+                    <calc value="6"/>
+                    <calc value="6" zoom="-1 zoom"/>
+                    <calc value="6" zoom="+1 zoom"/>
+                    <calc value="6" zoom="+2 zoom"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Item text."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="Item text."/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Item text."/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="'More items' indication."/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="Item text."/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="7" zoom="-2 zoom"/>
+                    <calc value="7"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="7" zoom="+1 zoom"/>
+                    <calc value="7" zoom="+2 zoom"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="32" zoom="-2 zoom"/>
+                    <calc value="33" zoom="-1 zoom"/>
+                    <calc value="34"/>
+                    <calc value="34" zoom="+1 zoom"/>
+                    <calc value="34" zoom="+2 zoom"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="50" zoom="-2 zoom"/>
+                    <calc value="52" zoom="-1 zoom"/>
+                    <calc value="54"/>
+                    <calc value="54" zoom="+1 zoom"/>
+                    <calc value="54" zoom="+2 zoom"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="7" zoom="-2 zoom"/>
+                    <calc value="7"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="7" zoom="+1 zoom"/>
+                    <calc value="7" zoom="+2 zoom"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="7" zoom="-2 zoom"/>
+                    <calc value="7"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="7" zoom="+1 zoom"/>
+                    <calc value="7" zoom="+2 zoom"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="4" zoom="+1 zoom"/>
+                    <calc value="4" zoom="+2 zoom"/>
+                    <calc value="5"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="8" zoom="-2 zoom"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="4" zoom="+1 zoom"/>
+                    <calc value="4" zoom="+2 zoom"/>
+                    <calc value="5"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="8" zoom="-2 zoom"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="4" zoom="+1 zoom"/>
+                    <calc value="4" zoom="+2 zoom"/>
+                    <calc value="5"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="8" zoom="-2 zoom"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="4" zoom="+1 zoom"/>
+                    <calc value="4" zoom="+2 zoom"/>
+                    <calc value="5"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="8" zoom="-2 zoom"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="4" zoom="+1 zoom"/>
+                    <calc value="4" zoom="+2 zoom"/>
+                    <calc value="5"/>
+                    <calc value="7" zoom="-1 zoom"/>
+                    <calc value="8" zoom="-2 zoom"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="qfn_primary"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="1" optionSetNo="1" name="Option1">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="2" optionSetNo="2" name="Option2">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="3" optionSetNo="3" name="Option3"/>
+            <option variety="4" optionSetNo="4" name="Option4 (calendar, tch)">
+                <attributeset name="a0"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="2" id="1563" maxVariety="3" name="navi_pane_stacon" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="2132" variety="0" optionSetNo="5"/>
+            </option>
+            <option variety="1" optionSetNo="1">
+                <parent id="2132" variety="0" optionSetNo="5"/>
+            </option>
+            <option variety="2" optionSetNo="2">
+                <parent id="2132" variety="0" optionSetNo="5"/>
+            </option>
+            <option variety="3" optionSetNo="3">
+                <parent id="2132" variety="0" optionSetNo="5"/>
+            </option>
+            <option variety="4" optionSetNo="4">
+                <parent id="2132" variety="0" optionSetNo="5"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="P"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="P"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="P"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="P"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="234"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Right">
+                <Value>
+                    <calc value="234"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="38"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="4"/>
+                    <optionSetNo value="4"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="281"/>
+                    <varietyIndex value="2"/>
+                    <optionSetNo value="2"/>
+                </Value>
+                <Value>
+                    <calc value="281"/>
+                    <varietyIndex value="3"/>
+                    <optionSetNo value="3"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0 (right sks)"/>
+            <option variety="1" optionSetNo="1" name="Option1 (left sks)"/>
+            <option variety="2" optionSetNo="2" name="Option2 (nsta, right sks)"/>
+            <option variety="3" optionSetNo="3" name="Option3 (nsta, left sks)"/>
+            <option variety="4" optionSetNo="4" name="Option3 (nsta, left sks)"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="3" id="2131" maxVariety="0" name="stacon_top_pane" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="4">
+                <parent id="2325" variety="2" optionSetNo="4"/>
+            </option>
+            <option variety="1" optionSetNo="1">
+                <parent id="2325" variety="2" optionSetNo="4"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+        <Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+        </Param>                
+        <Param name="Height">
+                <Value>
+                    <calc value="27"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="4"/>
+                </Value>
+                <Value>
+                    <calc value="43"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="4"/>
+                </Value>
+                <Value>
+                    <calc value="225"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param><Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="4"/>
+                </Value>
+                <Value>
+                    <calc value="50"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="4"/>
+                </Value>
+
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="227"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+              </Param>
+            </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="4" name="Option4"/>
+            <option variety="1" optionSetNo="1" name="Option1"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="1" id="152" maxVariety="0" name="bg_notes_pane" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="1">
+                <parent id="73" variety="0" optionSetNo="71"/>
+            </option>
+            <option variety="1" optionSetNo="2">
+                <parent id="73" variety="0" optionSetNo="71"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Alias">
+                <Value>
+                    <calc value="(new item)"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param>
+            <Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="P"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Notes background graphics."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="Notes background graphics."/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="32"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="2"/>
+                </Value>                
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="1"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="P-22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="1"/>
+                </Value>
+                <Value>
+                    <calc value="P-32"/>
+                    <varietyIndex value="1"/>
+                    <optionSetNo value="2"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="1" name="Option1"/>
+            <option variety="1" optionSetNo="1" name="Option2 (landscape,tch)"/>
+        </AttributeInfo>
+    </Component>
+    
+	<Component drawingorder="1" id="5611" maxVariety="5" name="vkb2_top_entry_pane_t2" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="27"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="7"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Prompt text."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="7"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="34"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0 (FS/L, 10x3)">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="1" optionSetNo="1" name="Option1 (FS/L, 11x3)">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="2" optionSetNo="2" name="Option2 (FS/L, 11x4, 2rows)">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="3" optionSetNo="3" name="Option3(SM/P,L, 10x)">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="4" optionSetNo="4" name="Option4(SM/P,L, 11x)">
+                <attributeset name="a0"/>
+            </option>
+            <option variety="5" optionSetNo="6" name="Option6(FS 11x4, 1row)">
+                <attributeset name="a0"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+	
+	<Component drawingorder="0" id="7000" name="vkb2_field_top_pane" type="Pane">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="490"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="140"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7001" name="vkb2_field_top_pane_g1" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7000" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7002" name="vkb2_field_top_pane_g2" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7000" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="120"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7003" name="vkb2_field_top_pane_g3" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7000" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="130"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7004" name="vkb2_field_top_pane_t1" type="Text">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7000" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="60"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7005" name="vkb2_field_top_pane_g4" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7000" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="70"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="60"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	
+	<Component drawingorder="0" id="7006" name="vkb2_buttons_pane" type="Pane">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="53"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="2"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Bottom">
+                <Value>
+                    <calc value="7"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="636"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7007" name="vkb2_buttons_pane_g1" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7006" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="52"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc colNumber="1" rowNumber="1" value="0"/>
+                    <calc colNumber="2" rowNumber="1" value="64"/>
+                    <calc colNumber="3" rowNumber="1" value="128"/>
+                    <calc colNumber="4" rowNumber="1" value="192"/>
+                    <calc colNumber="5" rowNumber="1" value="256"/>
+					<calc colNumber="6" rowNumber="1" value="320"/>
+                    <calc colNumber="7" rowNumber="1" value="384"/>
+					<calc colNumber="8" rowNumber="1" value="448"/>
+					<calc colNumber="9" rowNumber="1" value="512"/>
+					<calc colNumber="10" rowNumber="1" value="576"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="58"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7007" name="vkb2_buttons_pane_g2" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7006" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="34"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc colNumber="1" rowNumber="1" value="9"/>
+                    <calc colNumber="2" rowNumber="1" value="73"/>
+                    <calc colNumber="3" rowNumber="1" value="137"/>
+                    <calc colNumber="4" rowNumber="1" value="201"/>
+                    <calc colNumber="5" rowNumber="1" value="265"/>
+					<calc colNumber="6" rowNumber="1" value="329"/>
+                    <calc colNumber="7" rowNumber="1" value="393"/>
+					<calc colNumber="8" rowNumber="1" value="457"/>
+					<calc colNumber="9" rowNumber="1" value="521"/>
+					<calc colNumber="10" rowNumber="1" value="585"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="12"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="40"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7008" name="vkb2_buttons_space_bar_pane" type="Pane">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7006" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="52"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="256"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="122"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7009" name="vkb2_buttons_space_bar_pane_g1" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7008" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="52"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="11"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7010" name="vkb2_buttons_space_bar_pane_g2" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7008" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="52"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="26"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="70"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7011" name="vkb2_buttons_space_bar_pane_g3" type="Graphic">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7008" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="52"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="96"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	
+	<Component drawingorder="0" id="7012" name="vkb2_button_popup_pane" type="Pane">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="65"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="2"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="58"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="75"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7013" name="vkb2_button_popup_pane_t1" type="Text">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="7012" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="55"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="23"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	<Component drawingorder="0" id="7014" name="vkb2_bg_pane" type="Pane">
+		<ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="360"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="640"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+	
+</Layout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+	<!-- 
+		
+	-->
+	<page alt-style="css/root_swt.properties" style="css/root.css"
+		id="root" style-id="page">
+		<title style-id="intro-header">
+			Welcome to Carbide.ui Theme Edition 3.0
+		</title>
+	
+
+					    
+		<group id="links-background">
+			<group id="above-page-links">		
+				<group id="page-links">
+					<anchor id="beginAnchor" />
+					<group id="page-links">
+						<anchor id="beginAnchor" />
+						<link label="Create Theme"
+							url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.carbide.ui.productsupport&amp;class=com.nokia.tools.carbide.ui.productsupport.actions.NewProjectIntroAction&amp;name=saku&amp;release=BaseGraphics&amp;resolution=240x320&amp;tdfPath=xxx"
+							id="createtheme" style-id="root-link">
+							<img id="create_theme_img"
+								style-id="content-img" alt="Create Theme">
+							</img>
+							<text>Create a new theme.</text>
+						</link>
+
+						<link label="Open Theme"
+							url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.carbide.ui.productsupport&amp;class=com.nokia.tools.carbide.ui.productsupport.actions.OpenThemeBrowseIntroAction&amp;name=saku&amp;release=BaseGraphics&amp;resolution=240x320&amp;tdfPath=xxx"
+							id="opentheme" style-id="root-link">
+							<img id="open_theme_img"
+								style-id="content-img" alt="Open Theme">
+							</img>
+							<text>Open an existing theme.</text>
+						</link>
+
+						<!--  this url opens pdf version	url= "http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.carbide.ui.productsupport&amp;class=com.nokia.tools.carbide.ui.productsupport.actions.OpenFileIntroAction&amp;file=${install.folder}/../docs/User_guide_Carbide_ui_Theme.pdf"
+						-->
+						<link label="User's Guide"
+							url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.nokia.tools.carbide.ui.themeedition.doc/doc/muict_welcome_te.htm"
+							id="overview" style-id="root-link">
+							<img id="overview_img"
+								style-id="content-img" alt="User's Guide">
+							</img>
+							<text>Open user's guide.</text>
+						</link>
+						<link label="Tutorials"
+							url="http://org.eclipse.ui.intro/showPage?id=tutorials"
+							id="tutorials" style-id="root-link">
+							<img id="tutorials_img"
+								style-id="content-img" alt="Tutorials">
+							</img>
+							<text>
+								Let us guide you through Carbide.ui
+								Theme Edition end-to-end tutorials.
+							</text>
+						</link>
+
+						<anchor id="endAnchor" />
+					</group>
+				</group>
+			</group>
+		</group>
+
+		<!-- Show Carbide brand logo in lower-left corner of page -->
+		<group id="copyright-footer">
+			<img id="copyright-img" style-id="content-img"
+				src="css/graphics/rootpage2/welcome_screen_ui.gif" alt="Logo">
+			</img>
+		</group>
+		<group id="action-links">
+			<link url="http://org.eclipse.ui.intro/switchToLaunchBar"
+				id="workbench">
+				<img id="workbench_img" style-id="content-img"
+					src="css/graphics/icons2/workbench.gif" alt="Go to the Tool">
+				</img>
+			</link>
+		</group>
+
+		<group id="bottom-area">
+			<contentProvider id="dontShowThisAgain"
+				pluginId="com.nokia.tools.carbide.ui.productsupport"
+				class="com.nokia.tools.carbide.ui.productsupport.actions.intro.DontShowThisAgainContentProvider" />
+		</group>
+	</page>
+	<!-- 
+		
+	-->
+	<page alt-style="css/standby_swt.properties"
+		style="css/standby_root.css" id="standby" style-id="page">
+		<title style-id="intro-header">
+			Welcome to Carbide.ui Theme Edition 3.0
+		</title>
+		<group id="links-background">
+			<group id="page-links">
+				<anchor id="beginAnchor" />
+				<link label="Create Theme"
+					url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.carbide.ui.productsupport&amp;class=com.nokia.tools.carbide.ui.productsupport.actions.NewProjectIntroAction&amp;name=saku&amp;release=BaseGraphics&amp;resolution=240x320&amp;tdfPath=xxx"
+					id="createtheme" style-id="left">
+					<text>Create a new theme.</text>
+				</link>
+				<link label="Open Theme"
+					url="http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.carbide.ui.productsupport&amp;class=com.nokia.tools.carbide.ui.productsupport.actions.OpenThemeBrowseIntroAction&amp;name=saku&amp;release=BaseGraphics&amp;resolution=240x320&amp;tdfPath=xxx"
+					id="opentheme" style-id="left">
+					<text>Open an existing theme.</text>
+				</link>
+
+				<!--  this url opens pdf version	url= "http://org.eclipse.ui.intro/runAction?pluginId=com.nokia.tools.carbide.ui.productsupport&amp;class=com.nokia.tools.carbide.ui.productsupport.actions.OpenFileIntroAction&amp;file=${install.folder}/../docs/User_guide_Carbide_ui_Theme.pdf"
+				-->
+				<link label="User&apos;s Guide"
+					url="http://org.eclipse.ui.intro/showHelpTopic?id=/com.nokia.tools.carbide.ui.themeedition.doc/doc/muict_welcome_te.htm"
+					id="overview" style-id="left">
+					<text>Open user's guide.</text>
+				</link>
+				<link label="Tutorials"
+					url="http://org.eclipse.ui.intro/showPage?id=tutorials&amp;standby=false"
+					id="tutorials" style-id="left">
+					<text>
+						Let us guide you through end-to-end tutorials.
+					</text>
+				</link>
+				<anchor id="endAnchor" />
+			</group>
+		</group>
+	</page>
+
+	<page style="css/tutorials/tutorials.css"
+		alt-style="css/tutorials/swt.properties" id="tutorials"
+		style-id="page">
+		<title style-id="intro-header">
+			Welcome to Carbide.ui Theme Edition 3.0
+		</title>
+		<group id="curve-image" filteredFrom="swt" />
+		<include path="overview/navigation-links" />
+		<group id="links-background">
+			<group id="page-content">
+				<group id="content-header" label="Tutorials"
+					filteredFrom="swt">
+				</group>
+				<text style-id="page-title" id="page-title"
+					filteredFrom="html">
+					Tutorials
+				</text>
+				<text style-id="page-description"
+					id="page-description">
+					Learn how to be productive using Carbide.ui Theme
+					Edition by completing end-to-end tutorials that will
+					guide you along the way.
+				</text>
+				<anchor id="beginAnchor" />
+				<anchor id="jdtAnchor" />
+				<anchor id="pdeAnchor" />
+				<anchor id="endAnchor" />
+			</group>
+		</group>
+		<include path="root/copyright-footer" />
+		<include path="root/action-links" />
+	</page>
+	<!-- 
+		
+		
+		
+		<page style="css/tutorials/tutorials.css"
+		alt-style="css/whatsnew/swt.properties" id="news" style-id="page">
+		<title style-id="intro-header">
+		Welcome to Carbide.ui Theme Edition
+		</title>
+		<group id="curve-image" filteredFrom="swt" />
+		<include path="overview/navigation-links" />
+		<group id="links-background">
+		<group id="page-content">
+		<group id="content-header" label="What's New"
+		filteredFrom="swt">
+		</group>
+		<text style-id="page-title" id="page-title"
+		filteredFrom="html">
+		What's New
+		</text>
+		<anchor id="beginAnchor" />
+		<anchor id="endAnchor" />
+		</group>
+		</group>
+		<group id="copyright-footer">
+		<img id="copyright-img" style-id="content-img"
+		src="css/graphics/rootpage2/welcome_screen_ui.gif" alt="Logo">
+		</img>
+		<text id="copyright">
+		Copyright © 2006-10 Nokia Corporation All rights reserved
+		</text>
+		
+		</group>
+		<group id="action-links">
+		<link url="http://org.eclipse.ui.intro/switchToLaunchBar"
+		label="Workbench" id="workbench">
+		<img id="workbench_img" style-id="content-img"
+		src="css/graphics/icons2/workbench.gif"
+		alt="Go to the workbench">
+		</img>
+		</link>
+		</group>
+		
+		
+		</page>-->
+
+</introContent>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="96" height="96" viewBox="0 0 96 96">
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="60.03" y1="59.88" x2="35.55" y2="35.7">
+<stop stop-color="#D6E6EC" offset="0"/>
+<stop stop-color="#298595" offset="1"/>
+</linearGradient>
+<circle cx="48.001" cy="48.001" fill="url(#_6)" r="17.491"/>
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="56.09" y1="61.85" x2="40.13" y2="34.52">
+<stop stop-color="#D6E6EC" offset="0"/>
+<stop stop-color="#298595" offset="1"/>
+</linearGradient>
+<path d="M48.002,64.284c-8.993,0-16.283-7.29-16.283-16.285c0-8.992,7.29-16.283,16.283-16.283 s16.283,7.291,16.283,16.283C64.285,56.994,56.995,64.284,48.002,64.284z" fill="url(#_7)"/>
+<path d="M62.518,47.828" fill="none" stroke="#009966"/>
+<path d="M61.986,48.103" fill="none" stroke="#009966"/>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="53.5" y1="60.07" x2="42.55" y2="36.03">
+<stop stop-color="#CADCEC" offset="0"/>
+<stop stop-color="#87A8CB" offset="1"/>
+</linearGradient>
+<path d="M33.102,47.83c0,8.177,6.647,14.824,14.818,14.824 s14.826-6.647,14.826-14.824c0-8.172-6.655-14.821-14.826-14.821S33.102,39.658,33.102,47.83z" fill="url(#_8)" />
+<linearGradient id="_9" gradientUnits="userSpaceOnUse" x1="54.29" y1="60.69" x2="48.01" y2="48">
+<stop stop-color="#DEE9F3" offset="0"/>
+<stop stop-color="#235487" offset="1"/>
+</linearGradient>
+<path d="M41.857,34.821c7.175-3.345,15.732-0.231,19.073,6.942l0.427-0.2 c-3.452-7.408-12.289-10.621-19.699-7.167c-7.406,3.455-10.623,12.29-7.168,19.699l0.427-0.201 C31.569,46.723,34.685,38.166,41.857,34.821z" fill="url(#_9)"/>
+<path d="M61.358,41.565l-0.426,0.198c3.347,7.171,0.23,15.733-6.94,19.074 c-7.173,3.346-15.732,0.231-19.075-6.941l-0.427,0.199c3.454,7.408,12.291,10.625,19.699,7.173 C61.596,57.81,64.812,48.974,61.358,41.565z" fill="url(#_9)"/>
+<polygon fill="#2F6F5C" points="42.249,40.832 42.249,54.831 58.041,47.72 "/>
+<polygon fill="#1F493B" points="42.249,40.832 42.956,41.811 57.2,48.096 58.041,47.72 "/>
+<polygon fill="#1F493B" points="42.261,54.827 42.956,54.511 42.956,41.811 42.249,40.832 "/>
+</svg>

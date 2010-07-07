@@ -1,0 +1,9 @@
+<effects>
+<effect name="Saturation" uiname="Saturation" uid="0x10204AE6" type="0" className="com.nokia.tools.theme.s60.effects.effect.Saturation" input="true">
+<param  name="a" type="INT" value="" />
+<uiparam uiname="a" pos="1" caption="Saturation" value="" defaultVal="0" uiType="JSlider" minVal="-255" maxVal="255"/>
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+ 

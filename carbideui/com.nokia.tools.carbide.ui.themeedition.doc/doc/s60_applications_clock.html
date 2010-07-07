@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Clock</title>
+</head>
+<body>
+<h2>Clock</h2>
+You can create clocks to match the overall theme design. The digital or
+analog clock is displayed on the context pane of the idle view. The
+mobile phone user can select the clock type displayed. The same clocks
+are displayed in the Clock application.<br>
+<h3>Analog clock</h3>
+The analog clock consists of five parts:<br>
+<ul>
+  <li>Face1 </li>
+  <li>Current date frame </li>
+  <li>Face2 </li>
+  <li>Hour pointer </li>
+  <li>Minute pointer </li>
+</ul>
+The figure below illustrates a default analog clock and a
+customized analog clock.<br>
+<br>
+A theme may alter the graphics used, however, the outlook and position
+of the pointers and the date numbers are fixed. Use the Face1 image to
+render the basic clock table and possible background effects. The image
+may contain clock numbers, a shadow color, or a halo effect. Current
+date frame is used as a background for the date indicator in the
+right-center of the clock face. The Face2 image sets the highlight of
+the clock; it is drawn on top of the rest of the images.<br>
+<br>
+Pointer graphics must always start from the exact center of the
+bounding box to position the hands correctly. You can use all the
+listed clock graphics. The analog clock date numbers are not shown.<br>
+<br>
+<div style="text-align: center;">&nbsp;&nbsp;<img
+ style="width: 359px; height: 92px;" alt=""
+ src="s60_applications_clock.png"> &nbsp; &nbsp; <img
+ style="width: 358px; height: 94px;" alt=""
+ src="s60_applications_clock1.png"> <br>
+<span style="font-weight: bold;">Figure:
+</span>Default and customized analog
+clock<span style="font-weight: bold;"><br>
+</span>
+<div style="text-align: left;">
+<h3><span style="font-weight: bold;"></span>Digital
+clock</h3>
+The digital clock consists of masked number and separator character
+images. Each individual number and separator consists of two images.
+The first image contains the character and possible effect color or
+texture. The second image contains a hard mask to create clear
+characters. The images overlap in the clock area in accordance with a
+fixed position. The digital clock is created in two steps:<br>
+<br>
+<ul>
+  <li>Background effect creation </li>
+  <li>Character creation </li>
+</ul>
+To create the background effect, use the first image. Mask the
+character image with the second image in order to put different types
+of effects, such as a shadow or halo to the background. When displayed
+in a mobile phone, the images overlap one another. The number or
+separator character images get masked from the second image, so the
+characters are drawn on top and the effects are on the underlying
+layer. In order to ensure that the characters do not overlap, they need
+to be placed in a defined &lsquo;safe&rsquo; area.<br>
+<br>
+The figure below illustrates a default digital clock and a
+customized digital clock.<br>
+<br>
+<div style="text-align: center;">&nbsp;&nbsp;<img
+ style="width: 359px; height: 90px;" alt=""
+ src="s60_applications_clock2.png"> &nbsp; <img
+ style="width: 358px; height: 92px;" alt=""
+ src="s60_applications_clock3.png"><br>
+<br>
+</div>
+<div style="text-align: center;"><span style="font-weight: bold;">Figure:
+</span>Default
+and customized digital clock<br>
+</div>
+<br>
+<br>
+<span style="font-weight: bold;"></span></div>
+</div>
+</body>
+</html>

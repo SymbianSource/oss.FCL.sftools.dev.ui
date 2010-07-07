@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+<rect fill="none" height="8" width="8"/>
+<path d="M2.287,1C1.584,1,1.013,1.564,1.013,2.26V8H0V2.26C0,1.014,1.026,0,2.287,0H8v1H2.287z" fill="#A41117"/>
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<linearGradient id="SVGID_1" gradientUnits="userSpaceOnUse" x1="4.51" y1="-5.78" x2="4.51" y2="45.05">
+<stop stop-color="#A3161C" offset="0"/>
+<stop stop-color="#CC2029" offset="0.68"/>
+<stop stop-color="#CF363F" offset="0.78"/>
+<stop stop-color="#D76F75" offset="1"/>
+</linearGradient>
+<path d="M1.013,8V2.26C1.013,1.566,1.584,1,2.287,1H8v7H1.013z" fill="url(#SVGID_1)"/>
+</g>
+<linearGradient id="SVGID_2" gradientUnits="userSpaceOnUse" x1="1.52" y1="-6.74" x2="1.52" y2="73.96">
+<stop stop-color="#D76F75" offset="0.48"/>
+<stop stop-color="#D87278" offset="0.5"/>
+<stop stop-color="#DF8A8F" offset="0.61"/>
+<stop stop-color="#E39B9F" offset="0.72"/>
+<stop stop-color="#E6A6A9" offset="0.85"/>
+<stop stop-color="#E7A9AC" offset="1"/>
+</linearGradient>
+<path d="M1.013,2.26c0-0.346,0.145-0.652,0.377-0.873c0.003-0.012,0.636,0.629,0.636,0.629V8H1.013V2.26z" fill="url(#SVGID_2)"/>
+<linearGradient id="SVGID_3" gradientUnits="userSpaceOnUse" x1="4.7" y1="37.36" x2="4.7" y2="-6.31">
+<stop stop-color="#E7A7AA" offset="0"/>
+<stop stop-color="#DD8F92" offset="0.26"/>
+<stop stop-color="#CC676C" offset="0.75"/>
+<stop stop-color="#C6585D" offset="1"/>
+</linearGradient>
+<path d="M2.026,2.002L1.399,1.379c0.246-0.252,0.536-0.377,0.889-0.377H8v1 C4.408,2.002,2.026,2.002,2.026,2.002z" fill="url(#SVGID_3)"/>
+</svg>

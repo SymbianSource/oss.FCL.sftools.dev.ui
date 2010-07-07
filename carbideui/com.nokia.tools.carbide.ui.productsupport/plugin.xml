@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            description="%ProjectActionSet.description"
+            id="org.eclipse.ui.workbench.file"
+            label="%ProjectActionSet.label"
+            visible="true">
+       	<action
+               class="com.nokia.tools.screen.ui.actions.DeleteProjectAction"
+               definitionId="com.nokia.tools.s40.ide.actions.DeleteProjectAction"
+               icon="icons/delete_project.gif"
+               id="deleteProjectAction"
+               label="%DeleteProjectAction.label"
+               menubarPath="File/new.ext"
+               style="push"
+               toolbarPath="Normal\Mobile design"
+               tooltip="%DeleteProjectAction.tooltip"/>   
+        <action
+               class="com.nokia.tools.screen.ui.actions.OpenProjectAction"
+               definitionId="com.nokia.tools.s60.ide.actions.OpenProjectAction"
+               icon="icons/folder_open.gif"
+               id="openProjectAction"
+               label="%OpenProjectAction.label"
+               menubarPath="File/new.ext"
+               style="push"
+               toolbarPath="Normal\Mobile design"
+               tooltip="%OpenProjectAction.tooltip"/>
+         <action
+               class="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction"
+               definitionId="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction"
+               icon="icons/create_theme16x16.png"
+               id="newDesignProject"
+               label="%NewProjectAction.label"
+               menubarPath="File/new.ext"
+               style="push"
+               toolbarPath="new.group"
+               tooltip="%NewProjectAction.tooltip"/>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup class="com.nokia.tools.carbide.ui.productsupport.perspectivehack.CarbideForcePerspectiveOnStart"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="com.nokia.tools.s60.ide.actions.OpenProjectAction"
+            name="OpenProjectAction"/>
+      <command
+            id="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction"
+            name="NewProjectAction"/>
+      <command
+            id="com.nokia.tools.s40.ide.actions.DeleteProjectAction"
+            name="DeleteProjectAction"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.nokia.tools.s60.ide.actions.OpenProjectAction"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+O">
+      </key>
+      <key
+            commandId="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M3+N"/>
+       <key
+            commandId="com.nokia.tools.s40.ide.actions.DeleteProjectAction"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+D">
+       </key>
+   </extension>
+</plugin>

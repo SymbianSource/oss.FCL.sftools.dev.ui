@@ -1,0 +1,17 @@
+<project default="run">
+
+        <target name="run">
+                <property file="${basedir}/build.properties" />
+                <ant antfile="build.xml" target="init" />
+                <property file="${buildDirectory}/label.properties" />
+                <property name="builder" value="${basedir}/${component}" />
+                <antcall target="buildAll" />
+        </target>
+        
+        <target name="buildAll">
+                <ant antfile="build.xml" target="main">
+                        <property name="component" value="theme" />
+                </ant>          
+        </target>
+        
+</project>

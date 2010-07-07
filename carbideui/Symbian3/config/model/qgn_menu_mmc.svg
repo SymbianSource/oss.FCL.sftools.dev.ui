@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="100%" height="100%" viewBox="0 0 88 88">
+<linearGradient id="_9" gradientUnits="userSpaceOnUse" x1="43.24" y1="43.9" x2="62.1" y2="81.04">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path fill="url(#_9)" d="M19.229,9.108l1.741,58.428l43.889,11.823l3.286-3.228l0.613-49.481l-9.935-11.508L23.326,7.841 L19.229,9.108z"/>
+<linearGradient id="_10" gradientUnits="userSpaceOnUse" x1="61.75" y1="7.18" x2="32.39" y2="62.96">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_10)" points="64.539,29.009 64.724,78.599 21.642,66.993 19.931,9.573 54.905,17.444 "/>
+<linearGradient id="_11" gradientUnits="userSpaceOnUse" x1="65.94" y1="18.8" x2="66.67" y2="91.25">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_11)" points="64.517,78.697 67.436,75.832 68.042,26.904 64.478,29.072 "/>
+<linearGradient id="_12" gradientUnits="userSpaceOnUse" x1="37.96" y1="15.9" x2="40.61" y2="8.73">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_12)" points="58.437,15.777 23.348,8.561 19.841,9.646 55.182,17.729 "/>
+<linearGradient id="_13" gradientUnits="userSpaceOnUse" x1="56.8" y1="2.51" x2="63.05" y2="28.26">
+<stop stop-color="#FFFFFF" offset="0.15"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_13)" points="55.182,17.729 64.478,29.072 68.042,26.904 58.437,15.777 "/>
+<polygon fill="#FFFFFF" points="24.524,44.861 24.604,46.838 61.152,55.647 61.124,53.627 "/>
+<linearGradient id="_14" gradientUnits="userSpaceOnUse" x1="10.77" y1="28.75" x2="58.44" y2="88.41">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<polygon fill="url(#_14)" points="24.204,62.679 24.153,65.285 61.282,75.716 61.258,72.162 "/>
+<polygon fill="url(#_14)" points="24.508,61.194 34.534,63.866 28.854,53.508 "/>
+<linearGradient id="_16" gradientUnits="userSpaceOnUse" x1="78.34" y1="72.47" x2="30.01" y2="24.8">
+<stop stop-color="#DCE8E4" offset="0"/>
+<stop stop-color="#43910A" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_16)" points="23.266,13.975 24.541,45.604 61.137,54.397 60.819,31.476 52.616,20.902 "/>
+<polygon fill="#C8DEC5" points="25.303,14.368 25.394,22.254 30.042,23.279 30.042,15.554 "/>
+<polygon fill="#C8DEC5" points="32.571,16.102 32.571,23.962 37.197,24.92 37.197,17.194 "/>
+<polygon fill="#C8DEC5" points="39.613,17.787 39.613,25.718 44.33,26.628 44.33,18.857 "/>
+<polygon fill="#C8DEC5" points="46.676,19.428 46.676,27.153 51.233,28.179 51.233,20.498 "/>
+</svg>

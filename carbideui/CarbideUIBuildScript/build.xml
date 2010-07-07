@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project name="project" default="run">
+        <property file="build.properties" />
+        
+        <target name="run">
+                <antcall target="clean" />
+                <mkdir dir="workdir" />
+                <!-- <var name="java.home" unset="true"/> -->
+                    <property name="java.home" value="${jdk.home}"/>
+
+                <ant antfile="BuildScript/com.nokia.tools.s60.ide.releng.builder/main.xml" target="run" />
+                <antcall target="clean" />
+        </target>
+
+        <target name="clean">
+                <delete dir="workdir" />
+        </target>
+</project>

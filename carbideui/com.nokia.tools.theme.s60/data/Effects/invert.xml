@@ -1,0 +1,12 @@
+
+<effects>
+<effect name="Invert" uiname="Invert" uid="0x10204AE4" type="0" className="com.nokia.tools.theme.s60.effects.effect.Invert" input="true">
+<param name="c" type="INT" value=""/>
+<param name="f" type="INT"  value=""/>
+<uiparam uiname="c" pos="1" caption="Bitmask" uiType="JTextField" value="" defaultVal="7" mandatory="true"/>
+<uiparam uiname="f" pos="2" caption="Blend Factor" uiType="JSlider" value="" defaultVal="255" minVal="0" maxVal="255" mandatory="true"/>
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+ 

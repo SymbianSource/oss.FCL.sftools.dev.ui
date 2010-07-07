@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="44" viewBox="0 0 44 44">
+<linearGradient id="_3" gradientUnits="userSpaceOnUse" x1="-9.06" y1="-7.98" x2="34.31" y2="36.36">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M17.801,28.874h-3.479V15.117h11.871v4.195c0.643-0.125,1.307-0.195,1.984-0.195 c0.059,0,0.115,0.008,0.172,0.008v-1.258h2.16v1.521c0.754,0.174,1.477,0.432,2.158,0.76V6.869H30.51v2.748h-2.16V6.869h-2.156 v5.496H14.322V6.869h-2.156v2.748h-2.16V6.869H7.85v30.256h2.156v-2.748h2.16v2.748h2.156v-5.499h3.658 c-0.139-0.678-0.213-1.381-0.213-2.1C17.768,29.306,17.787,29.091,17.801,28.874z M28.35,12.365h2.16v2.752h-2.16V12.365z M12.166,31.626h-2.16v-2.752h2.16V31.626z M12.166,26.122h-2.16v-2.75h2.16V26.122z M12.166,20.622h-2.16v-2.755h2.16V20.622z M12.166,15.117h-2.16v-2.752h2.16V15.117z" fill="url(#_3)"/>
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="17.97" y1="17.15" x2="32.99" y2="35.36">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M28.178,21.054c-4.672,0-8.473,3.801-8.473,8.473c0,4.675,3.801,8.474,8.473,8.474 c4.674,0,8.473-3.799,8.473-8.474C36.65,24.854,32.852,21.054,28.178,21.054z M28.178,35.705c-3.404,0-6.176-2.772-6.176-6.179 c0-3.404,2.771-6.176,6.176-6.176c3.406,0,6.178,2.771,6.178,6.176C34.355,32.933,31.584,35.705,28.178,35.705z" fill="url(#_4)"/>
+<polygon fill="#496DA2" points="26.916,30.878 26.916,25.292 29.01,25.292 29.01,28.755 31.264,28.755 31.264,30.878 "/>
+</svg>

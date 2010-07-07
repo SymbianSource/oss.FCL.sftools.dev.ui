@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="model"
+    nsURI="http:///com/nokia/tools/editing/model.ecore" nsPrefix="com.nokia.tools.editing.model">
+  <eClassifiers xsi:type="ecore:EClass" name="EditObject">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="diagram" eType="#//EditDiagram"
+        transient="true" eOpposite="#//EditDiagram/editObjects"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
+        eType="#//EditObject" containment="true" eOpposite="#//EditObject/parent"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" eType="#//EditObject"
+        transient="true" eOpposite="#//EditObject/children"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EditDiagram">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="editObjects" upperBound="-1"
+        eType="#//EditObject" containment="true" eOpposite="#//EditObject/diagram"/>
+  </eClassifiers>
+</ecore:EPackage>

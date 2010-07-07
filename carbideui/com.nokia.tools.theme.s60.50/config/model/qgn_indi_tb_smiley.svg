@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" version="1.1" viewBox="0 0 44 44" width="44px" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<rect fill="none" height="44" width="44"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="21.9985" x2="21.9985" y1="6.2949" y2="37.6958">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M22.004,6.295c-8.662,0-15.705,7.043-15.705,15.703c0,8.659,7.043,15.697,15.705,15.697  c8.658,0,15.695-7.038,15.695-15.697C37.699,13.338,30.662,6.295,22.004,6.295z M22.004,35.495c-7.451,0-13.504-6.053-13.504-13.497  c0-7.447,6.053-13.503,13.504-13.503c7.443,0,13.496,6.056,13.496,13.503C35.5,29.442,29.447,35.495,22.004,35.495z" fill="url(#SVGID_1_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="17.1543" x2="17.1543" y1="6.0112" y2="37.979">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M20.178,17.171c0,1.667-1.346,3.024-3.025,3.024c-1.666,0-3.021-1.357-3.021-3.024  c0-1.677,1.355-3.025,3.021-3.025C18.832,14.146,20.178,15.494,20.178,17.171z" fill="url(#SVGID_2_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_3_" x1="26.8398" x2="26.8398" y1="6.0112" y2="37.979">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M29.869,17.171c0,1.667-1.354,3.024-3.023,3.024s-3.035-1.357-3.035-3.024  c0-1.677,1.365-3.025,3.035-3.025S29.869,15.494,29.869,17.171z" fill="url(#SVGID_3_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_4_" x1="21.9995" x2="21.9995" y1="6.4497" y2="37.7997">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M12.5,23.902c0,0,0,0,0,0.003c0,5.241,4.256,9.497,9.5,9.497s9.5-4.258,9.5-9.497  c0-0.003,0-0.003,0-0.003H12.5z" fill="url(#SVGID_4_)"/>
+</svg>

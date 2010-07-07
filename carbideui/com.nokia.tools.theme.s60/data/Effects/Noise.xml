@@ -1,0 +1,8 @@
+<effects>
+<effect name="Noise" uiname="Noise" uid="0x10204AE5" type="0" className="com.nokia.tools.theme.s60.effects.effect.Noise" input="true">
+<param name="s" type="INT" value=""/>
+<param name="i" type="INT" value=""/> 
+<uiparam  uiname="i" pos="1" caption="Intensity" uiType="JSlider" value="" defaultVal="0" minVal="0" maxVal="255" defaultValueModel="RandomModel" valueModel="" />
+<uiparam  uiname="s" pos="2" caption="NoiseSeed" uiType="JSlider" value="" defaultVal="70" minVal="0" maxVal="255" defaultValueModel="RandomModel" valueModel="" /></effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>

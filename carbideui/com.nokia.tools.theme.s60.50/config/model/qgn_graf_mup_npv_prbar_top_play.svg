@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="6" viewBox="0 0 206 6" width="206">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<rect fill="url(#XMLID_2_)" height="6" width="206"/>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_2_" x1="103.0005" x2="103.0005" y1="5.9932" y2="-0.0261">
+<stop offset="0" style="stop-color:#90ACEB"/>
+<stop offset="0.0056" style="stop-color:#90ACEB"/>
+<stop offset="0.5" style="stop-color:#001992"/>
+<stop offset="1" style="stop-color:#90ACEB"/>
+</linearGradient>
+</defs>
+</g>
+</g>
+</switch>
+</svg>

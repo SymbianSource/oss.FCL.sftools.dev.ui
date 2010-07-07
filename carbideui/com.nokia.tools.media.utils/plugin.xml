@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="dynamicTooltip" name="dynamicTooltip" schema="schema/dynamicTooltip.exsd"/>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="com.nokia.tools.media.utils.MediaPreferenceInitializer"/>
+   </extension>
+   <extension
+         point="com.nokia.tools.media.core.players">
+      <player
+            class="com.nokia.tools.media.utils.player.impl.ZIPPlayer"
+            contentType="application/zip"
+            extension="zip"/>
+   </extension>
+
+</plugin>

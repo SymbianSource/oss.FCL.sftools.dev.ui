@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension
+		point="org.eclipse.ui.views.properties.tabbed.propertySections">
+		<propertySections
+			contributorId="com.nokia.tools.screen.ui.propertysheet.tabbed.TabbedProperty">
+			<propertySection
+         afterSection="com.nokia.tools.screen.ui.propertysheet.tabbed.section.info"
+         class="com.nokia.tools.theme.ui.propertysheet.tabbed.ColorCategoryInfoSection"
+         filter="com.nokia.tools.theme.ui.propertysheet.tabbed.ColorCategoryFilter"
+         id="com.nokia.tools.theme.ui.propertysheet.tabbed.section.color"
+         tab="com.nokia.tools.screen.ui.propertysheet.tabbed.general"/>
+			<propertySection
+         		afterSection="com.nokia.tools.screen.ui.propertysheet.tabbed.section.info"
+         		class="com.nokia.tools.theme.ui.propertysheet.tabbed.MediaFileSection"
+         		enablesFor="1"
+         		filter="com.nokia.tools.theme.ui.propertysheet.tabbed.MediaFileFilter"
+         		id="com.nokia.tools.theme.ui.propertysheet.tabbed.section.mediaFile"
+         		tab="com.nokia.tools.screen.ui.propertysheet.tabbed.general"/>
+			<propertySection
+				class="com.nokia.tools.theme.ui.bitmap.propertysheet.OptimizeSection"
+				filter="com.nokia.tools.theme.ui.bitmap.propertysheet.BitmapFilter"
+				id="com.nokia.tools.theme.ui.bitmap.propertysheet.section.optimizeProperties"
+				tab="com.nokia.tools.theme.ui.bitmap.propertysheet.bitmapProperties" />
+			<propertySection
+				class="com.nokia.tools.theme.ui.bitmap.propertysheet.ColorizeSection"
+				filter="com.nokia.tools.theme.ui.bitmap.propertysheet.BitmapFilter"
+				id="com.nokia.tools.theme.ui.bitmap.propertysheet.section.colorizeProperties"
+				tab="com.nokia.tools.theme.ui.bitmap.propertysheet.bitmapProperties" />
+			<propertySection
+				class="com.nokia.tools.theme.ui.bitmap.propertysheet.ConversionSection"
+				filter="com.nokia.tools.theme.ui.bitmap.propertysheet.BitmapFilter"
+				id="com.nokia.tools.theme.ui.bitmap.propertysheet.section.conversionProperties"
+				tab="com.nokia.tools.theme.ui.bitmap.propertysheet.bitmapProperties" />
+		</propertySections>
+	</extension>
+ <extension
+       point="org.eclipse.ui.views.properties.tabbed.propertyTabs">
+    <propertyTabs
+          contributorId="com.nokia.tools.screen.ui.propertysheet.tabbed.TabbedProperty">
+       <propertyTab
+             category="advanced"
+             id="com.nokia.tools.theme.ui.bitmap.propertysheet.bitmapProperties"
+             label="Bitmap">
+       </propertyTab>
+    </propertyTabs>
+ </extension>
+
+</plugin>

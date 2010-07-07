@@ -1,0 +1,15 @@
+Here are hints how the IDs_supported.xml shall be edited
+
+NOTE: The xml should not be edited directly but through the accompanying xls.
+
+To edit it:
+1) Open IDs_supported.xls
+2) Make changes.
+3) Choose "Save as" with option "Save as type" set to XML data.
+
+In this way the xml will be generated properly in sync with xls.
+(The xls contains inside XML mapping where xls columns are mapped to the xml tags.)
+
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="10" height="10" viewBox="-0.167 0.5 10 10">
+<polygon fill="#FFFFFF" points="-0.167,0.5 -0.167,2.5 7.833,2.5 7.833,8.256 7.833,8.5 7.833,10.5 9.833,10.5 9.833,0.5 "/>
+<rect x="-0.167" y="8.5" fill="#D7DBDD" width="8" height="2"/>
+<rect x="-0.167" y="8.5" fill="#D9DDDF" width="8" height="2"/>
+<rect x="-0.167" y="2.5" fill="#FFFFFF" width="8" height="5.756"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="3.83" y1="2.34" x2="3.83" y2="8.65">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#D9DDDF" offset="0.76"/>
+</linearGradient>
+<rect x="-0.167" y="2.5" fill="url(#_2)" width="8" height="5.756"/>
+<rect x="-0.167" y="8.256" fill="#D7DBDD" width="8" height="0.244"/>
+<rect x="-0.167" y="8.256" fill="#D9DDDF" width="8" height="0.244"/>
+</svg>

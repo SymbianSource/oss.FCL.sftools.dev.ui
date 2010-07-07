@@ -1,0 +1,41 @@
+/*
+* Copyright (c) 2006-2010 Nokia Corporation and/or its subsidiary(-ies). 
+* All rights reserved.
+* This component and the accompanying materials are made available
+* under the terms of "Eclipse Public License v1.0"
+* which accompanies this distribution, and is available
+* at the URL "http://www.eclipse.org/legal/epl-v10.html".
+*
+* Initial Contributors:
+* Nokia Corporation - initial contribution.
+*
+* Contributors:
+*
+* Description:
+*
+*/
+
+package com.nokia.tools.platform.theme;
+
+import java.util.List;
+
+public interface ThemeGraphicInterface {
+
+	public ThemeGraphic getPreviewThemeGraphic() throws ThemeException;
+
+	public ThemeGraphic getActualThemeGraphic() throws ThemeException;
+
+	public List getDraftThemeGraphics() throws ThemeException;
+
+	public void removeActualThemeGraphic() throws ThemeException;
+
+	public ThemeGraphic getThemeGraphic() throws ThemeException;
+
+	public ThemeGraphic getThemeGraphic(String seqNo) throws ThemeException;
+
+	public void setGraphic(ThemeGraphic graphic);
+
+	public List getThemeGraphics();
+
+	public void addThemeGraphic(ThemeGraphic tg);
+}

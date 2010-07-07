@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="plugin_handling_preferences_context" title="Plug-in Management">
+		<description>Plugin Handling preferences allows you to install and remove platform plugins.</description>
+ 		<topic label="Configuring tCarbide.ui - Plug-in Management" href="doc/preferences_pluginmanagement.html"/> 		
+	</context>
+	</contexts>

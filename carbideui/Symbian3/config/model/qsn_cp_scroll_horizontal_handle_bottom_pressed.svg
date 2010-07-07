@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="-0.609 -1.391 12 12">
+<rect fill="none" height="12" width="12" x="-0.609" y="-1.391"/>
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="3.33" y1="0.61" x2="3.33" y2="8.61">
+<stop stop-color="#788FB8" offset="0"/>
+<stop stop-color="#235487" offset="1"/>
+</linearGradient>
+<path d="M-0.609,0.609v8h6.676c0.662,0,1.199-0.549,1.199-1.221V1.828 c0-0.672-0.537-1.219-1.199-1.219H-0.609z" fill="url(#_4)" fill-opacity="0.7"/>
+<path d="M6.066,8.609h0.563c0.662,0,1.199-0.549,1.199-1.221V1.828c0-0.672-0.537-1.219-1.199-1.219H6.066 c0.662,0,1.199,0.547,1.199,1.219v5.561C7.266,8.061,6.729,8.609,6.066,8.609z" fill-opacity="0.2"/>
+<path d="M6.629,8.609h0.563c0.662,0,1.199-0.549,1.199-1.221V1.828c0-0.672-0.537-1.219-1.199-1.219H6.629 c0.662,0,1.199,0.547,1.199,1.219v5.561C7.828,8.061,7.291,8.609,6.629,8.609z" fill-opacity="0.09"/>
+<path d="M-0.609,1.109v7h6.453c0.457,0,0.826-0.379,0.826-0.846V1.953c0-0.467-0.369-0.844-0.826-0.844H-0.609z" fill="#A2C2DD"/>
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="2.91" y1="-10.45" x2="2.91" y2="21.17">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M-0.609,1.359v6.5h6.453c0.152,0,0.297-0.063,0.404-0.173 C6.359,7.575,6.42,7.424,6.42,7.264V1.953c0-0.16-0.061-0.311-0.172-0.422C6.141,1.42,5.996,1.359,5.844,1.359H-0.609z" fill="url(#_5)" fill-opacity="0.6"/>
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="2.78" y1="1.6" x2="2.78" y2="8.44">
+<stop stop-color="#E1EBF4" offset="0"/>
+<stop stop-color="#CEE1EF" offset="0.49"/>
+<stop stop-color="#C5CEEF" offset="1"/>
+</linearGradient>
+<path d="M-0.609,1.859v5.5h6.203c0.152,0,0.297-0.063,0.404-0.173c0.108-0.111,0.17-0.263,0.17-0.423V2.451 c0-0.158-0.062-0.309-0.17-0.42C5.891,1.92,5.746,1.859,5.594,1.859H-0.609z" fill="url(#_6)"/>
+<path d="M-0.609,1.359v3.25H6.42V1.953c0-0.16-0.061-0.311-0.172-0.422 C6.141,1.42,5.996,1.359,5.844,1.359H-0.609z" fill="#FFFFFF" fill-opacity="0.5"/>
+<path d="M-0.609,0.609v8h6.676c0.662,0,1.199-0.549,1.199-1.221V1.828 c0-0.672-0.537-1.219-1.199-1.219H-0.609z" fill="#13203F" fill-opacity="0.3" />
+</svg>

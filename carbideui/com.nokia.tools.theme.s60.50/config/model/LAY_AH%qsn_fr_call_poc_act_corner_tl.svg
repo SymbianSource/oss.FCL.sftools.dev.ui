@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="60" viewBox="-1.479 0.993 44 60">
+<path fill="#656B6B" fill-opacity="0.01" d="M0.521,60.993V22.855l0.059-1.274c0.6-12.357,9.987-20.266,24.497-20.588h17.444v60 H0.521z"/>
+<path fill="#656B6B" fill-opacity="0.02" d="M1.521,60.993V22.855l0.057-1.215C2.149,9.851,11.163,2.304,25.099,1.993h17.422v59 H1.521z"/>
+<path fill="#656B6B" fill-opacity="0.03" d="M2.521,60.993V22.855l0.055-1.153C3.12,10.478,11.759,3.29,25.121,2.993h17.399v58 H2.521z"/>
+<path fill="#656B6B" fill-opacity="0.05" d="M3.521,60.993V22.855l0.052-1.094C4.091,11.105,12.356,4.278,25.144,3.993h17.377v57 H3.521z"/>
+<path fill="#656B6B" fill-opacity="0.06" d="M4.521,60.993V22.855l0.05-1.032c0.491-10.09,8.384-16.559,20.596-16.83h17.354v56 H4.521z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M5.521,60.993V22.855l0.048-0.972C6.032,12.36,13.55,6.253,25.188,5.993h17.332v55 H5.521z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M6.521,60.993V22.855l0.046-0.909c0.437-8.963,7.58-14.707,18.645-14.953h17.31v54 H6.521z"/>
+<path fill="#656B6B" fill-opacity="0.1" d="M7.521,60.993V22.855c0-0.298,0.031-0.573,0.045-0.862 c0.453-9.313,8.129-13.787,17.668-14c0.058-0.002,6.792-0.002,17.287-0.002v53.002H7.521z"/>
+<path fill="#CADCEC" d="M26.021,5.993c-9.098,0-16.5,7.401-16.5,16.5v38.5h-1v-38.5c0-9.664,7.834-17.5,17.5-17.5h16.5v1 C32.438,5.993,26.021,5.993,26.021,5.993z"/>
+<linearGradient id="_2" gradientUnits="userSpaceOnUse" x1="26.02" y1="4.99" x2="26.02" y2="139.99">
+<stop stop-color="#DEE9F3" offset="0"/>
+<stop stop-color="#E6EFF6" offset="0.1"/>
+<stop stop-color="#F9FBFD" offset="0.36"/>
+<stop stop-color="#FFFFFF" offset="0.54"/>
+<stop stop-color="#FBFCFE" offset="0.67"/>
+<stop stop-color="#EFF4F9" offset="0.8"/>
+<stop stop-color="#DAE7F2" offset="0.92"/>
+<stop stop-color="#CADCEC" offset="1"/>
+</linearGradient>
+<path fill="url(#_2)" d="M9.521,60.993v-38.5c0-9.099,7.402-16.5,16.5-16.5c0,0,6.418,0,16.5,0v55H9.521z"/>
+</svg>

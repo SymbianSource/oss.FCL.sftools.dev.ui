@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="resource_context" title="Resource view">
+		<description>The Resource view allows you to access theme components. Click Resource view to read more about using the Resource view as a shortcut to different tasks of theme creation.</description>
+ 		<topic label="Resource view" href="doc/resource_view.html"/> 		
+	</context>
+	</contexts>
+	
+

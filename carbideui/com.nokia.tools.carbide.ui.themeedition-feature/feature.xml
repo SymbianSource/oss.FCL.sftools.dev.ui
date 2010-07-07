@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.nokia.tools.carbide.ui.themeedition"
+      label="%featureName"
+      version="2.0.0.qualifier"
+      provider-name="%providerName"
+      plugin="com.nokia.tools.carbide.ui.themeedition">
+
+   <requires>
+      <import feature="org.eclipse.emf" version="2.1.1"/>
+      <import feature="org.eclipse.gef" version="3.1.1"/>
+   </requires>
+
+   <plugin
+         id="com.nokia.tools.content.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.media.utils"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.s60.ide"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.screen.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.screen.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.theme.s60"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.theme.s60.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.platform.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.packaging"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.carbide.ui.productsupport"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.carbide.ui.themeedition"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.carbide.ui.themeedition.doc"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.doc"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.theme.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.theme.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.carbide.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.editing.beaninfo"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.editing.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.editing.jfc"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.editing.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.media.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.media.jai"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.media.svg"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.media.symbian"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.resource.core"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.ui"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.ui.branding"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.media.font.s60"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.theme.s60.50"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.lib.media.jai"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.lib.media.svg.batik"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.theme.examples"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="com.nokia.tools.packaging.commandline"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.explore"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"
+         unpack="false"/>
+
+   <plugin
+         id="com.nokia.tools.startuptip"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.qualifier"/>
+
+   <plugin
+         id="Symbian3"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.qualifier"/>
+
+</feature>

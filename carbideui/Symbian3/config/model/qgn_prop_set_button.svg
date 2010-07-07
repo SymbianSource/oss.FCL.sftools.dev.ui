@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="48" height="42" viewBox="-1 0.991 48 42"
+ overflow="visible" enable-background="new -1 0.991 48 42" xml:space="preserve">
+<g>
+<rect x="-1" y="1" fill="none" width="48" height="41.991"/>
+<g>
+<g>
+<g>
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="25" y1="2.2515" x2="25" y2="42.5719">
+<stop offset="0" style="stop-color:#7D9CAD"/>
+<stop offset="0.7329" style="stop-color:#576F96"/>
+<stop offset="1" style="stop-color:#4F6691"/>
+</linearGradient>
+<path fill="url(#XMLID_4_)" d="M44.74,0.991H5.259C4.014,0.991,3,2.005,3,3.25v37.482c0,1.245,1.014,2.259,2.259,2.259H44.74
+c1.246,0,2.26-1.014,2.26-2.259V3.25C47,2.005,45.986,0.991,44.74,0.991z M46,40.732c0,0.693-0.565,1.259-1.26,1.259H5.259
+C4.564,41.991,4,41.426,4,40.732V3.25c0-0.694,0.564-1.259,1.259-1.259H44.74c0.694,0,1.26,0.564,1.26,1.259V40.732z"/>
+<g opacity="0.7">
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="25" y1="47.8242" x2="25" y2="0.3248">
+<stop offset="0.0337" style="stop-color:#ADB5A8"/>
+<stop offset="0.264" style="stop-color:#C7D9D9"/>
+<stop offset="0.7247" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path fill="url(#XMLID_5_)" d="M44.74,1.991H5.259C4.564,1.991,4,2.556,4,3.25v37.482c0,0.693,0.564,1.259,1.259,1.259H44.74
+c0.694,0,1.26-0.565,1.26-1.259V3.25C46,2.556,45.435,1.991,44.74,1.991z"/>
+</g>
+</g>
+<path fill="#FFFFFF" d="M45.618,2.368c-0.243-0.252-0.529-0.377-0.878-0.377H5.259C4.564,1.991,4,2.556,4,3.25v37.482
+c0,0.346,0.143,0.651,0.372,0.872C4.375,41.617,5,40.977,5,40.977V2.991h39.999L45.618,2.368z"/>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="25.1914" y1="7.377" x2="25.1914" y2="48.9463">
+<stop offset="0" style="stop-color:#CADCEC"/>
+<stop offset="1" style="stop-color:#809CB3"/>
+</linearGradient>
+<path fill="url(#XMLID_6_)" d="M4.382,41.613c0.243,0.252,0.529,0.377,0.878,0.377h39.481c0.694,0,1.259-0.564,1.259-1.258V3.25
+c0-0.346-0.143-0.652-0.372-0.873C45.625,2.364,45,3.005,45,3.005s0,37.207,0,37.985c-0.738,0-39.999,0-39.999,0L4.382,41.613z"
+/>
+</g>
+<g>
+<polygon fill="#496DA2" points="34.9,16.741 16,16.741 25.45,29.341 "/>
+</g>
+</g>
+</g>
+</svg>

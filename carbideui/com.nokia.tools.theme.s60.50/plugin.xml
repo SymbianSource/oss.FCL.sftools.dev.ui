@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+
+<plugin>
+   <extension point="com.nokia.tools.platform.core.devices">
+   	      <device height="640" id="qhd_prt_tch" name="QHD Portrait" orientation="portrait" type="" width="360"/>
+      <device height="360" id="qhd_lsc_tch" name="QHD Landscape" orientation="landscape" type="" width="640"/>
+    </extension>
+   
+   <extension point="com.nokia.tools.platform.core.layouts">
+     <layoutSet id="S60_5.0_layout">
+	      <font default="Series 60 Sans Regular" path="/com.nokia.tools.theme.s60/data/config/display_Fonts.xml">
+	      	<mapping name="qfn_digital" value="Series 60 Digi"/>
+	      	<mapping name="qfn_primary" value="Series 60 Sans SemiBold"/>
+	      	<mapping name="qfn_primary_small" value="Series 60 Sans SemiBold"/>
+	      	<mapping name="qfn_secondary" value="Series 60 Sans Regular"/>
+	      	<mapping name="qfn_title" value="Series 60 Sans TitleSmBd"/>
+	      </font>
+	      
+	      <layout deviceId="qhd_lsc_tch" id="phl_apps_qhd_lsc_tch" name="QHD Landscape (apps)">
+	         <variant attributePath="config/layout/phl_apps_qhd_lsc_tch/display_eur_attributes.xml" componentPath="config/layout/phl_apps_qhd_lsc_tch/display_eur_compData.xml" id="eur"/>
+	         <variant attributePath="config/layout/phl_apps_qhd_lsc_tch/display_Arabic_Hebrew_attributes.xml" componentPath="config/layout/phl_apps_qhd_lsc_tch/display_Arabic_Hebrew_compData.xml" id="ah"/>
+	      </layout>
+	      <layout deviceId="qhd_lsc_tch" id="phl_av_qhd_lsc_tch" name="QHD Landscape (av)">
+	         <variant attributePath="config/layout/phl_av_qhd_lsc_tch/display_eur_attributes.xml" componentPath="config/layout/phl_av_qhd_lsc_tch/display_eur_compData.xml" id="eur"/>
+	         <variant attributePath="config/layout/phl_av_qhd_lsc_tch/display_Arabic_Hebrew_attributes.xml" componentPath="config/layout/phl_av_qhd_lsc_tch/display_Arabic_Hebrew_compData.xml" id="ah"/>
+	         <variant componentPath="config/layout/phl_av_qhd_lsc_tch_patch/display_eur_compData.xml" id="eur"/>
+	      </layout>
+	      <layout deviceId="qhd_prt_tch" id="php_apps_qhd_prt_tch" name="QHD Portrait (apps)">
+	         <variant attributePath="config/layout/php_apps_qhd_prt_tch/display_eur_attributes.xml" componentPath="config/layout/php_apps_qhd_prt_tch/display_eur_compData.xml" id="eur"/>
+	         <variant attributePath="config/layout/php_apps_qhd_prt_tch/display_Arabic_Hebrew_attributes.xml" componentPath="config/layout/php_apps_qhd_prt_tch/display_Arabic_Hebrew_compData.xml" id="ah"/>
+	      </layout>
+	      <layout deviceId="qhd_prt_tch" id="php_av_qhd_prt_tch" name="QHD Portrait (av)">
+	         <variant attributePath="config/layout/php_av_qhd_prt_tch/display_eur_attributes.xml" componentPath="config/layout/php_av_qhd_prt_tch/display_eur_compData.xml" id="eur"/>
+	         <variant attributePath="config/layout/php_av_qhd_prt_tch/display_Arabic_Hebrew_attributes.xml" componentPath="config/layout/php_av_qhd_prt_tch/display_Arabic_Hebrew_compData.xml" id="ah"/>
+	         <variant componentPath="config/layout/php_av_qhd_prt_tch_patch/display_eur_compData.xml" id="eur"/>
+	      </layout>
+
+        </layoutSet>
+   </extension>
+   <extension point="com.nokia.tools.platform.core.themes">
+      <theme
+            containerId="S60_THEME_CONTAINER"
+            contentType="S60THEME"
+            default="false"
+            defaultDeviceId="qhd_prt_tch"
+            id="S60_5.0"
+            layoutSet="S60_5.0_layout">
+      	 <platform default="true" id="s60_5.0"/>
+         <design path="config/defaultdesign.xml"/>
+            <design customizable="true" path="/com.nokia.tools.theme.s60/data/config/icons.xml"/>
+            <preview path="config/defaultPreview.xml"/>
+            <setting path="/com.nokia.tools.theme.s60/data/config/drawlines.xml"/>
+            <dimension path="/com.nokia.tools.theme.s60/data/config/dimension.xml"/>
+            <idmapping path="config/IdMappings.xml"/>
+            <layoutGroup deviceId="qhd_prt_tch">
+		          <layout id="php_apps_qhd_prt_tch"/>
+		          <layout id="php_av_qhd_prt_tch"/>
+		      </layoutGroup>
+            <layoutGroup deviceId="qhd_lsc_tch">
+		          <layout id="phl_apps_qhd_lsc_tch"/>
+		          <layout id="phl_av_qhd_lsc_tch"/>
+		      </layoutGroup>
+            <soundFormat>
+			 <format extension=".mp3" name="mp3"/>
+			 <format extension=".wav" name="wav"/>
+			 <format extension=".wav" name="audio2"/>
+			 <format extension=".wav" name="audio3"/>
+			 <format extension=".rm" name="rm"/>
+			 <format extension=".ra" name="ra"/>
+			 <format extension=".au" name="au"/>
+			 <format extension=".mp4" name="mp4"/>
+			 <format extension=".aac" name="aac"/>
+			 <format extension=".3gp" name="3gp"/>
+			 <format extension=".amr" name="amr"/>
+			 <format extension=".awb" name="awb"/>
+			 <format extension=".rng" name="rng"/>
+			 <format extension=".ott" name="ott"/>
+			 <format extension=".wma" name="wma"/>
+			 <format extension=".mid" name="mid"/>
+			 <format extension=".rmf" name="rmf"/>
+			 <format extension=".mxmf" name="mxmf"/>
+			 
+			 <format extension=".mp4" name="aac"/>
+			 <format extension=".3gp" name="aac"/>
+			 <format extension=".mp4" name="aac+"/>
+			 <format extension=".3gp" name="aac+"/>
+			 <format extension=".mp4" name="eaac+"/>
+			 <format extension=".3gp" name="eaac+"/>
+			 <format extension=".amr" name="amr-nb"/>
+			 <format extension=".awb" name="amr-wb"/> 
+			 <format extension=".wav" name="gsm 6.10 fr"/> 
+			 <format extension=".ott" name="ota"/> 
+			 <format extension=".rng" name="ota"/> 
+			 <format extension=".wma" name="wma"/> 
+			 <format extension=".mid" name="smf"/>
+			 <format extension=".mid" name="sp-midi"/>
+			 <format extension=".mxmf" name="mobile-xmf"/>
+		  </soundFormat>
+        </theme>
+      <themeModel
+            default="false"
+            id="S60_5.0"
+            modelPath="config/model/BaseGraphics.xml"
+            name="S60 5th Edition BaseGraphics"
+            themeId="S60_5.0"/>
+   </extension>
+   <extension
+         point="com.nokia.tools.theme.s60.platformExecutables">
+      <platformExecutables
+            executableName="BITMAP_CONVERTER"
+            executablePath="runtime/bmconv.exe"
+            modelID="S60_5.0">
+      </platformExecutables>
+      <platformExecutables
+            executableName="SKIN_COMPILER"
+            executablePath="runtime/AknSkinDescCompiler.EXE"
+            modelID="S60_5.0">
+      </platformExecutables>
+      <platformExecutables
+            executableName="SIS_CREATOR"
+            executablePath="runtime/makesis.exe"
+            modelID="S60_5.0">
+      </platformExecutables>
+      <platformExecutables
+            executableName="SIS_SIGNER"
+            executablePath="runtime/signsis.exe"
+            modelID="S60_5.0">
+      </platformExecutables>
+      <platformExecutables
+            executableName="MIF_CONVERTER"
+            executablePath="runtime/mifconv.exe"
+            modelID="S60_5.0">
+      </platformExecutables>
+      <platformExecutables
+            executableName="SVGT_BIN_ENCODE"
+            executablePath="runtime/SVGTBinEncode.exe"
+            modelID="S60_5.0">
+      </platformExecutables>
+   </extension>
+   <extension
+         point="com.nokia.tools.theme.s60.platformSupportInfo">
+      <platformSupportInfo
+            docPath="doc/supportedIDs.csv"
+            icon="icons/platform"
+            iconFilePath="icons/platform/five_edition.PNG"
+            platformID="s60_5.0"></platformSupportInfo>
+   </extension>
+   <extension
+         point="com.nokia.tools.platform.core.platforms">
+      <platform
+            id="s60_5.0"
+            name="S60 Platform 5th Edition">
+      </platform>
+   </extension>
+</plugin>

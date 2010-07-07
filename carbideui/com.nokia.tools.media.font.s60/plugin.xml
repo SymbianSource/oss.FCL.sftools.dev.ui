@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="com.nokia.tools.media.core.fonts">
+         <font id="Series 60 Digi" type="truetype" path="fonts/S60DIGI.ttf" />
+         <font id="Series 60 ZDigi" type="truetype" path="fonts/S60ZDIGI.ttf" />
+         <font id="Series 60 Sans SemiBold" type="truetype" path="fonts/S60SSB.ttf" />
+         <font id="Series 60 Sans Regular" type="truetype" path="fonts/S60SNR.ttf" />
+         <font id="Series 60 Sans TitleSmBd" type="truetype" path="fonts/S60TSB.ttf" />
+         <font id="Series 60 SansB Regular" type="truetype" path="fonts/S60SNRb.ttf" />
+         <font id="Series 60 SansC Regular" type="truetype" path="fonts/S60SNRc.ttf" />
+         <font id="Series 60 Hindi Regular" type="truetype" path="fonts/s60hindisnr.ttf" />
+         <font id="Series 60 Hindi SemiBold" type="truetype" path="fonts/s60hindissb.ttf" />
+         <font id="Series 60 Hindi TitleSmBd" type="truetype" path="fonts/s60hinditsb.ttf" />
+         <font id="Heisei Kaku Gothic S60" type="truetype" path="fonts/HeiseiGothS60.ttf" />
+   </extension>
+</plugin>

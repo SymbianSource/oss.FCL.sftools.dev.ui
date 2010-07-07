@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="openProjectWizard_context" title="Open Theme window">
+		<description>The Open Theme window allows you to open an existing theme. Click Opening a theme to read more about opening existing themes.</description>
+ 		<topic label="Opening a theme" href="doc/open_existing_theme.html"/> 		
+	</context>
+</contexts>
+	
+

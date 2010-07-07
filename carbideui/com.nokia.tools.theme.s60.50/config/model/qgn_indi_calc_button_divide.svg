@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="60" height="52" viewBox="-0.511 0.483 60 52">
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="29.49" y1="7.68" x2="29.49" y2="46.08">
+<stop stop-color="#7D9CAD" offset="0"/>
+<stop stop-color="#576F96" offset="0.73"/>
+<stop stop-color="#4F6691" offset="1"/>
+</linearGradient>
+<path d="M51.229,6.483H7.748c-1.245,0-2.259,1.014-2.259,2.259v35.481c0,1.246,1.014,2.26,2.259,2.26 h43.481c1.246,0,2.26-1.014,2.26-2.26V8.742C53.489,7.497,52.476,6.483,51.229,6.483z M52.489,44.224 c0,0.694-0.565,1.26-1.26,1.26H7.748c-0.694,0-1.259-0.565-1.259-1.26V8.742c0-0.694,0.564-1.259,1.259-1.259h43.481 c0.694,0,1.26,0.564,1.26,1.259V44.224z" fill="url(#_4)"/>
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="29.49" y1="51.03" x2="29.49" y2="5.9">
+<stop stop-color="#ADB5A8" offset="0.03"/>
+<stop stop-color="#C7D9D9" offset="0.26"/>
+<stop stop-color="#FFFFFF" offset="0.72"/>
+</linearGradient>
+<path d="M51.229,7.483H7.748c-0.694,0-1.259,0.564-1.259,1.259v35.481c0,0.694,0.564,1.26,1.259,1.26 h43.481c0.694,0,1.26-0.565,1.26-1.26V8.742C52.489,8.048,51.924,7.483,51.229,7.483z" fill="url(#_5)"/>
+</g>
+<path d="M52.107,7.86c-0.243-0.252-0.529-0.377-0.878-0.377H7.748c-0.694,0-1.259,0.564-1.259,1.259v35.481 c0,0.346,0.143,0.652,0.372,0.873c0.003,0.013,0.628-0.628,0.628-0.628V8.483h43.999L52.107,7.86z" fill="#FFFFFF"/>
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="29.68" y1="12.62" x2="29.68" y2="52.09">
+<stop stop-color="#CADCEC" offset="0"/>
+<stop stop-color="#809CB3" offset="1"/>
+</linearGradient>
+<path d="M6.871,45.105c0.243,0.252,0.529,0.377,0.878,0.377H51.23c0.694,0,1.259-0.564,1.259-1.259V8.742 c0-0.346-0.143-0.652-0.372-0.873c-0.003-0.013-0.628,0.628-0.628,0.628s0,35.206,0,35.985c-0.738,0-43.999,0-43.999,0 L6.871,45.105z" fill="url(#_6)"/>
+<rect fill="#496DA2" height="3.771" width="20" x="19.489" y="24.598"/>
+<circle cx="29.489" cy="18.633" fill="#496DA2" r="3.15"/>
+<circle cx="29.489" cy="34.334" fill="#496DA2" r="3.15"/>
+</svg>

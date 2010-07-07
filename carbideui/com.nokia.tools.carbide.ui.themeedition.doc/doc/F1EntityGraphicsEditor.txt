@@ -1,0 +1,1 @@
+The Animation editor view allows you to create simple, animated elements and edit animated elements. Click Animation editor to read more about creating and editing animations.

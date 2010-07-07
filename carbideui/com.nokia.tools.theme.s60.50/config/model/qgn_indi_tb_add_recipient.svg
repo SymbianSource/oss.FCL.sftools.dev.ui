@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" viewBox="0 0 44 44" width="44px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M10.034,16.072c0,3.451,2.807,6.259,6.259,6.259c3.45,0,6.259-2.808,6.259-6.259 s-2.81-6.26-6.259-6.26C12.841,9.813,10.034,12.621,10.034,16.072z M12.538,16.072c0-2.071,1.686-3.756,3.756-3.756 s3.756,1.685,3.756,3.756s-1.686,3.754-3.756,3.754S12.538,18.145,12.538,16.072z" fill="url(#SVGID_1)"/>
+<path d="M25.791,34.134l-0.131-0.592c-1.934-6.603-4.27-9.96-5.63-9.96h-7.479 c-1.359,0-3.684,3.333-5.63,9.96c0,0-0.059,0.265-0.13,0.592H9.38c1.08-3.747,2.578-7.052,3.547-8.048h6.733 c0.977,0.996,2.379,4.396,3.542,8.048H25.791z" fill="url(#SVGID_1)"/>
+<polygon fill="url(#SVGID_1)" points="37.148,18.873 32.398,18.873 32.398,14.123 29.898,14.123 29.898,18.873 25.148,18.873 25.148,21.373 29.898,21.373 29.898,26.123 32.398,26.123 32.398,21.373 37.148,21.373 "/>
+<rect fill="none" height="44" width="44"/>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1" x1="16.29" x2="16.29" y1="9.79" y2="34.1">
+<stop offset="0" stop-color="#B2B2B2"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+</svg>

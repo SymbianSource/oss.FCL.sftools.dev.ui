@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout LayoutName="php_av_qhd_lsc_tch" resolutionHeight="360" 
+  resolutionWidth="640"> 
+    <Component drawingorder="0" id="9999" maxVariety="0" name="area_bottom_left_pane" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"></parent>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="47"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Left Soft Key"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="313"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="213"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"></option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10000" maxVariety="0" name="area_bottom_middle_pane" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"></parent>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="47"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="214"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Middle Soft Key"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="313"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="213"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"></option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10001" maxVariety="0" name="area_bottom_right_pane" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"></parent>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="47"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="427"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Right Soft Key"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="313"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="213"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"></option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10002" maxVariety="0" name="area_bottom_left_pane_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="9999" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Control Area Text"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="155"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10003" maxVariety="0" name="hs_widget_clock_background" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="80"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="60"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="153"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10004" maxVariety="0" name="hs_widget_background_p1" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="30"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="166"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="60"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="153"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10005" maxVariety="0" name="hs_widget_background_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10004" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Minimum value."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="8"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="125"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="2" id="10006" maxVariety="0" name="hs_widget_background_p2" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="47"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="166"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="93"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="153"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10007" maxVariety="0" name="hs_widget_background_t2" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10006" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="30"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Minimum value."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="8"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="110"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10008" maxVariety="0" name="hs_widget_background_g2" type="Graphic">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10006" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Profile"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <!--<Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>-->
+            <Param name="Top">
+                <Value>
+                    <calc value="8"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10009" maxVariety="0" name="hs_widget_background_p3" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="80"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="323"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc colNumber="1" rowNumber="1" value="60"></calc>
+                    <calc colNumber="1" rowNumber="2" value="80"></calc>
+                    <calc colNumber="1" rowNumber="3" value="100"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="306"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+        <Component drawingorder="0" id="10010" maxVariety="0" name="hs_widget_background_t3" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10009" variety="0" optionSetNo="0"></parent>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+        	<Param name="Color">
+                <Value>
+                    <calc value="215"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="23"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value=""></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="4"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="12"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"></calc>
+                    <varietyIndex value="0"></varietyIndex>
+                    <optionSetNo value="0"></optionSetNo>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+                <attributeset name="a0"></attributeset>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10011" maxVariety="0" name="hs_widget_background_g3" type="Graphic">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10009" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Bottom">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Profile"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <!--<Param name="Right">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>-->
+            <Param name="Top">
+                <Value>
+                    <calc value="9"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10012" maxVariety="0" name="hs_widget_background_p4" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="80"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="143"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="306"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10013" maxVariety="0" name="hs_widget_background_p5" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10012" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc colNumber="1" rowNumber="1" value="0"></calc>
+                    <calc colNumber="2" rowNumber="1" value="77"></calc>
+                    <calc colNumber="3" rowNumber="1" value="154"></calc>
+                    <calc colNumber="4" rowNumber="1" value="231"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10014" maxVariety="0" name="hs_widget_background_p16" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="80"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="323"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="143"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="306"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10015" maxVariety="3" name="hs_widget_background_p17" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10014" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="2" id="10016" maxVariety="0" name="hs_widget_background_p16_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10014" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="75"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="7"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="225"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10017" maxVariety="0" name="hs_widget_background_p18" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10014" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-35"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="77"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10018" maxVariety="0" name="hs_widget_background_p19" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10014" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-35"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="154"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10019" maxVariety="0" name="hs_widget_background_p20" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10014" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-35"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="231"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="29"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10020" maxVariety="0" name="hs_widget_background_p7" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="80"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="226"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="306"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10021" maxVariety="0" name="hs_widget_background_p8" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10020" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10022" maxVariety="0" name="hs_widget_background_p9" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10020" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="77"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10023" maxVariety="0" name="hs_widget_background_p10" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10020" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="154"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10024" maxVariety="0" name="hs_widget_background_p11" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10020" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-10"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="231"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="5"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10025" maxVariety="0" name="hs_widget_background_p12" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10021" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10026" maxVariety="3" name="hs_widget_background_p13" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10022" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10027" maxVariety="3" name="hs_widget_background_p14" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10023" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10028" maxVariety="0" name="hs_widget_background_p15" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10024" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="P-42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="0"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+                
+            </Param><Param name="Top">
+                <Value>
+                    <calc value="42"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="72"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0"/>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10029" maxVariety="0" name="hs_widget_background_p12_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10025" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Center"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="4"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="64"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10030" maxVariety="0" name="hs_widget_background_p13_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10026" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Center"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="4"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="64"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10031" maxVariety="0" name="hs_widget_background_p14_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10027" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Center"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="4"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="64"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10032" maxVariety="0" name="hs_widget_background_p15_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10028" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="22"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Center"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="3"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="4"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_secondary"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="64"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10033" maxVariety="0" name="hs_widget_background_p6" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="1" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Height">
+                <Value>
+                    <calc value="80"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Left">
+                <Value>
+                    <calc value="323"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Top">
+                <Value>
+                    <calc colNumber="1" rowNumber="1" value="226"></calc>
+                    <calc colNumber="1" rowNumber="2" value="246"></calc>
+                    <calc colNumber="1" rowNumber="3" value="266"></calc>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Width">
+                <Value>
+                    <calc value="306"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10034" maxVariety="0" name="area_bottom_right_pane_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10001" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="25"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Right"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="43"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Control Area Text"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="155"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10035" maxVariety="0" name="area_bottom_middle_pane_g1" type="Pane">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10000" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+        	<Param name="Color">
+                <Value>
+                    <calc value="215"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Contents">
+                <Value>
+                    <calc value="MSKey"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Height">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="56"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Middle softkey graphic."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="16"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_title"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="100"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="9"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+                <attributeset name="a0"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10036" maxVariety="0" name="hs_widget_clock_background_t1" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10003" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo><Param name="Color">
+                <Value>
+                    <calc value="0"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param><Param name="Height">
+                <Value>
+                    <calc value="50"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Remarks">
+                <Value>
+                    <calc value="Clock."/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Right">
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="15"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Type">
+                <Value>
+                    <calc value="qfn_digital"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0 (clock, digital)">
+                <attributeset name="a0"/>
+            </option>
+        </AttributeInfo>
+    </Component>
+    <Component drawingorder="0" id="10037" maxVariety="0" name="hs_widget_clock_background_t2" type="Text">
+        <ParentInfo>
+            <option variety="0" optionSetNo="0">
+                <parent id="10003" variety="0" optionSetNo="0"/>
+            </option>
+        </ParentInfo>
+        <LayoutInfo>
+            <Param name="Height">
+                <Value>
+                    <calc value="20"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Justification">
+                <Value>
+                    <calc value="Left"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Left">
+                <Value>
+                    <calc value="100"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Top">
+                <Value>
+                    <calc value="58"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+            <Param name="Width">
+                <Value>
+                    <calc value="30"/>
+                    <varietyIndex value="0"/>
+                    <optionSetNo value="0"/>
+                </Value>
+            </Param>
+        </LayoutInfo>
+        <AttributeInfo>
+            <option variety="0" optionSetNo="0" name="Option0">
+            </option>
+        </AttributeInfo>
+    </Component>
+
+</Layout>

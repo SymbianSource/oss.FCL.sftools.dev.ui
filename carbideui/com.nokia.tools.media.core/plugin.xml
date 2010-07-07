@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="fonts" name="Fonts" schema="schema/fonts.exsd"/>
+   <extension-point id="players" name="Players" schema="schema/players.exsd"/>
+   <extension-point id="images" name="Images" schema="schema/images.exsd"/>
+
+   <extension
+         point="com.nokia.tools.media.core.players">
+      <player
+            class="com.nokia.tools.media.player.impl.GIFPlayer"
+            contentType="image/gif"
+            extension="gif"/>
+   </extension>
+</plugin>

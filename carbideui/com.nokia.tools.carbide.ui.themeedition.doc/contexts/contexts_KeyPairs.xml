@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+<contexts>
+	<context id="keyPairsDialog_context" title="Handle Key pairs window">
+		<description>The Handle Key pairs window allows you to define a key pair or key pairs to use in signing a deployment package. Click Setting up signing to read more about key pairs.</description>
+ 		<topic label="Setting up signing" href="doc/setting_up_signing.html"/> 		
+	</context>
+	</contexts>
+	
+

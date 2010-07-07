@@ -1,0 +1,57 @@
+<body>
+<p>Provides the API for accessing the screen elements wrapping the
+content and EMF model data.</p>
+<p>The content data are considered as screens if they provide {@link
+IScreenAdapter} service. The {@link IScreenProvider} is used for
+building the screen UI tree in the target VM. Each screen element holds
+a reference (JEM object) to the live widgets and it also registers as
+the EMF adapter for receiving change notifications. When notified, the
+screen element performs update to the underlying model through the
+content interfaces.</p>
+<p>Usage:</p>
+<pre>
+	// UI creation
+	
+	// screen data is provided by the IContent
+	IContentData screenData = xxx;
+	// screen context defines the current screen resolution and provides the EMF resourceset used for creating new JEM objects
+	IScreenContext screenContext = new ScreenContext(); 
+	IScreenAdapter adapter = (IScreenAdapter) screenData.getAdapter(IScreenAdapter.class);
+	// builds the screen live widget, this may or may not initialize the child elements
+	IScreenElement rootElement = adapter.buildScreen(screenContext);
+	// dynamically adds child to the screen
+	IScreenElement childElement = new ScreenElement();
+	rootElement.addChild(childElement);
+	// creates the live widget
+	childElement.adaptToScreen(screenContext);
+	// adds the widget to the parent by using the containment feature
+	childElement.addToParent(rootElement);
+		
+	// Notification and model updates
+	
+	// screen element typically wraps the content data and updates data upon change notifications
+	void handleNotification(Notification notification) {
+		// wrapped content data
+		IContentData contentData = getData();
+		
+		if (Notification.ADD == notification.getType()) {
+			// a child is added
+			Object childWidget = notification.getNewValue();
+			// updates the content
+			contentData.addChild(...);
+		} else if (Notification.SET == notification.getType()) {
+			// property changes
+			// new property value
+			Object newValue = notification.getNewValue();
+			// old property value
+			Object oldValue = notification.getOldValue();
+			// affected property
+			EStructuralFeature feature = (EStructuralFeature) notification.getFeature();
+			// finds the registered property handler
+			IMyPropertyHandler handler = (IMyPropertyHandler) contentData.getAdapter(IMyPropertyHandler.class);
+			// updates the model
+			handler.propertyChanged(new PropertyChangeEvent(feature, oldValue, newValue));
+		}
+	}
+</pre>
+</body>

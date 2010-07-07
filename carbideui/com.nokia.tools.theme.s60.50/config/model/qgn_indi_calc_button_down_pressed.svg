@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="60" height="52" viewBox="-0.057 -0.249 60 52">
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="29.94" y1="44.55" x2="29.94" y2="6.15">
+<stop stop-color="#698AB5" offset="0"/>
+<stop stop-color="#41628E" offset="0.71"/>
+<stop stop-color="#385985" offset="1"/>
+</linearGradient>
+<path d="M8.202,5.75c-1.245,0-2.259,1.014-2.259,2.259V43.49c0,1.246,1.014,2.26,2.259,2.26h43.481 c1.246,0,2.26-1.014,2.26-2.26V8.009c0-1.245-1.014-2.259-2.26-2.259H8.202z" fill="url(#_5)"/>
+<g fill-opacity="0.9" stroke-opacity="0.9">
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="29.94" y1="1.21" x2="29.94" y2="46.33">
+<stop stop-color="#6694BF" offset="0"/>
+<stop stop-color="#8CB3D2" offset="0.09"/>
+<stop stop-color="#B3D3E6" offset="0.37"/>
+<stop stop-color="#BDDBEB" offset="0.69"/>
+</linearGradient>
+<path d="M6.943,43.49V8.009c0-0.694,0.564-1.259,1.259-1.259h43.481c0.694,0,1.26,0.564,1.26,1.259V43.49 c0,0.694-0.565,1.26-1.26,1.26H8.202C7.508,44.75,6.943,44.185,6.943,43.49z" fill="url(#_6)"/>
+</g>
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="29.75" y1="42.54" x2="29.75" y2="10.13">
+<stop stop-color="#ADCCED" offset="0"/>
+<stop stop-color="#6385AD" offset="1"/>
+</linearGradient>
+<path d="M52.562,7.127c-0.243-0.252-0.529-0.377-0.878-0.377H8.202c-0.694,0-1.259,0.564-1.259,1.259 V43.49c0,0.346,0.143,0.652,0.372,0.873c0.003,0.013,0.628-0.628,0.628-0.628V7.75h43.999L52.562,7.127z" fill="url(#_7)"/>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="30.13" y1="40" x2="30.13" y2="0.53">
+<stop stop-color="#DBF5FF" offset="0"/>
+<stop stop-color="#5985B0" offset="1"/>
+</linearGradient>
+<path d="M7.325,44.372c0.243,0.252,0.529,0.377,0.878,0.377h43.481c0.694,0,1.259-0.564,1.259-1.259V8.009 c0-0.346-0.143-0.652-0.372-0.873c-0.003-0.013-0.628,0.628-0.628,0.628s0,35.206,0,35.985c-0.738,0-43.999,0-43.999,0 L7.325,44.372z" fill="url(#_8)"/>
+<path d="M29.942,31.541c-1.875-1.873-6.916-6.916-6.916-6.916l-2.666,2.666l9.582,9.584l9.584-9.584 l-2.666-2.666C36.86,24.625,31.817,29.668,29.942,31.541z" fill="#496DA2"/>
+<path d="M29.942,21.541c-1.875-1.873-6.916-6.916-6.916-6.916l-2.666,2.666l9.582,9.584l9.584-9.584 l-2.666-2.666C36.86,14.625,31.817,19.668,29.942,21.541z" fill="#496DA2"/>
+</svg>

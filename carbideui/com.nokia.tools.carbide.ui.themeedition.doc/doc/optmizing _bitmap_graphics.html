@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Optmizing Bitmap Graphics</title>
+</head>
+<body>
+<h2>Optimizing Bitmap graphics</h2>
+<h3>A.2 Optimizing graphics </h3>
+Graphics optimization can be evaluated with different criteria: <br>
+<ul>
+  <li>File size </li>
+  <li>Size in pixels </li>
+  <li>Complexity </li>
+  <li>Features required </li>
+</ul>
+<h3>File size </h3>
+Large file sizes increase the memory consumption and correspond
+generally well with slow rendering performance.&nbsp; UI graphics
+need
+to checked for large file sizes. More complex and detailed designs as
+well large area graphics consume more memory. If a file size is bigger
+than 10kB the file contents need to be re-evaluated for simplification
+of the design.<br>
+<br>
+<table
+ style="width: 636px; height: 64px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="3" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="text-align: center; width: 260px; font-weight: bold;">Template
+Size (kB)*</td>
+      <td style="text-align: center; width: 352px; font-weight: bold;">Remarks</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; width: 260px;">File header
+0.323 </td>
+      <td style="text-align: center; width: 352px;">VG2SVGT
+tool output </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; width: 260px;">Average
+shape 0.1~1 </td>
+      <td style="text-align: center; width: 352px;">Rectangular
+path
+with 10 curved anchor points </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; width: 260px;">Gradient
+0.26</td>
+      <td style="text-align: center; width: 352px;">3-colour,
+one more
+color += 0.085 </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3>Size in pixels </h3>
+SVGT graphics are rendered to the layout area defined. The area aspect
+ratio and size may be different from the original graphics &ndash;
+the
+graphics are scaled and stretched to fill the area.&nbsp; <br>
+The required area sizes affect the graphic design: the larger the
+screen sizes the more complex and detailed the design can be
+&ndash;
+with smaller screen sizes the lesser details and simpler designs are
+preferred. Images can be divided into three size classes: <br>
+<ul>
+  <li>small (10% of screen width)
+simple design </li>
+  <li>medium (25% of screen
+width)&nbsp; more complex design possible </li>
+  <li>large(50% to full
+screen)&nbsp; most complex design possible </li>
+</ul>
+The targets sizes for the different type of graphics are: <br>
+<br>
+<table
+ style="width: 715px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="3" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 224px; text-align: center; font-weight: bold;">Graphic
+group Size </td>
+      <td style="width: 202px; text-align: center; font-weight: bold;">Remarks</td>
+    </tr>
+    <tr>
+      <td style="width: 224px; text-align: center;">Menu
+graphic </td>
+      <td style="width: 202px; text-align: center;">&lt;10KB
+(exceptions possible) </td>
+    </tr>
+    <tr>
+      <td style="width: 224px; text-align: center;">Note
+graphic </td>
+      <td style="width: 202px; text-align: center;">&lt;7KB
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 224px; text-align: center;">Submenu
+graphic </td>
+      <td style="width: 202px; text-align: center;">&lt;7KB</td>
+    </tr>
+    <tr>
+      <td style="width: 224px; text-align: center;">Large list
+graphics</td>
+      <td style="width: 202px; text-align: center;">&lt;7KB
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 224px; text-align: center;">Medium list
+graphics</td>
+      <td style="width: 202px; text-align: center;">&lt;7KB
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 224px; text-align: center;">Small list</td>
+      <td style="width: 202px; text-align: center;">&lt;4KB
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3>Editing component properties</h3>
+In the Properties view, you can view and edit component properties.
+Some of the properties are read-only and cannot be edited. You can: <br>
+<ul>
+  <li>View the official name of
+the component </li>
+  <li>View which platforms
+support a component </li>
+  <li>Adjust the color of a
+component </li>
+  <li>Optimize the component by
+changing its color depth and dithering
+it </li>
+  <li>Adjust line visibility </li>
+  <li>View the ID and bounds for
+the component </li>
+  <li>Adjust the stretch mode for
+the component </li>
+</ul>
+<span style="font-weight: bold;">Note:</span>
+You can check how the
+colors actually look in a mobile phone display by sending sample images
+to the device.<br>
+<br>
+<h3>Adjusting color</h3>
+<ul>
+  <li>In the <span style="font-weight: bold;">Editor</span>,
+click the
+component whose color you want to adjust.</li>
+  <li>The component is highlighted
+and its properties are listed in the
+Properties view. </li>
+  <li>In the Properties view,
+select <span style="font-weight: bold;">Bitmap</span>.
+  </li>
+  <li>In the <span style="font-weight: bold;">Colorize</span>
+field,
+check the<span style="font-weight: bold;">
+Colorize </span>box. </li>
+  <li>To select the color: </li>
+</ul>
+From the <span style="font-weight: bold;">Color</span>
+drop-down menu,
+select the color. <br>
+OR<br>
+Click the grey box next to the <span style="font-weight: bold;">Color</span>
+drop-down menu.<br>
+Select the <span style="font-weight: bold;">Color
+</span>and click <span style="font-weight: bold;">OK</span>.
+<br>
+<br>
+<div style="text-align: center;"><img
+ style="width: 480px; height: 199px;" alt=""
+ src="optimizing_bitmap_graphics_colorize.png"><br>
+</div>
+<br>
+<span style="font-weight: bold;">Note:</span>
+For some components, the
+Bitmap tab is not available. The color for most of those components can
+be edited in the general tab, as in step 4. For some components, for
+example some areas, the adjusting of color can be done through
+animation. <br>
+&nbsp; <br>
+<span style="font-weight: bold;">Note:
+</span>When you adjust the
+color of .svg components in Properties view's Bitmap tab, the next time
+you save the project, the component is converted into a bitmap. This
+process is irreversible. <br>
+<br>
+<h3>Optimizing component properties</h3>
+<ul>
+  <li>In the <span style="font-weight: bold;">Editor</span>,
+click the
+component you want to optimize.</li>
+  <li>The component is highlighted
+and its properties are listed in the <span style="font-weight: bold;">Properties</span>
+view. </li>
+  <li>In the <span style="font-weight: bold;">Properties</span>
+view,
+select the <span style="font-weight: bold;">Bitmap</span>
+tab. </li>
+  <li>Check the box next to
+optimize. </li>
+  <li>Set the quality for the
+component.</li>
+  <li>You can set the quality to: </li>
+  <ul>
+    <li>high (16-bit) </li>
+    <li>low (8-bit) </li>
+    <li>palette dependent </li>
+  </ul>
+  <li>If you want to dither the
+image, check the box next to <span style="font-weight: bold;">dither</span>.</li>
+  <li>The component properties
+change in <span style="font-weight: bold;">Editor</span>.
+  </li>
+  <li>To save the changes, select <span style="font-weight: bold;">File
+-&gt; Save</span>.</li>
+</ul>
+<br>
+<div style="text-align: center;"><img
+ style="width: 480px; height: 252px;" alt=""
+ src="optimizing_bitmap_graphics_optimize.png"><br>
+</div>
+<span style="font-weight: bold;">Note:</span>
+When you optimize
+component properties of .svg components in Properties view's Bitmap
+tab, the next time you save the project, the component is converted
+into a bitmap. This process is irreversible.<br>
+<br>
+</body>
+</html>

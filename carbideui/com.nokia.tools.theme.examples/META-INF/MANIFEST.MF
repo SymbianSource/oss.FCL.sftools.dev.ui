@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Examplethemes Plug-in
+Bundle-SymbolicName: com.nokia.tools.theme.examples;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.theme.examples.ExampleThemePlugin
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.ui;bundle-version="3.4.0",
+ org.eclipse.core.runtime,
+ com.nokia.tools.theme.s60;bundle-version="1.0.0",
+ org.eclipse.ui.intro;bundle-version="3.2.200",
+ org.eclipse.ui.intro.universal;bundle-version="3.2.200",
+ com.nokia.tools.screen.ui;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.theme.examples,
+ com.nokia.tools.theme.examples.actions

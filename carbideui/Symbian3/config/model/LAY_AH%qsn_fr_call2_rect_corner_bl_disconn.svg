@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="24" height="24" viewBox="-0.618 0 24 24">
+<g fill-opacity="0.7" stroke-opacity="0.7">
+<path fill="#656B6B" fill-opacity="0.01" d="M23.382,15h-10c-4.963,0-9-4.037-9-9V0h19V15z"/>
+<path fill="#656B6B" fill-opacity="0.03" d="M23.382,14h-10c-4.411,0-8-3.588-8-8V0h18V14z"/>
+<path fill="#656B6B" fill-opacity="0.05" d="M23.382,13h-10c-3.859,0-7-3.142-7-7V0h17V13z"/>
+<path fill="#656B6B" fill-opacity="0.07" d="M23.382,12h-10c-3.309,0-6-2.69-6-6V0h16V12z"/>
+<path fill="#656B6B" fill-opacity="0.11" d="M23.382,11h-10c-2.762,0-5-2.237-5-5V0h15V11z"/>
+<rect x="9.382" fill="#FFFFFF" width="14" height="10"/>
+</g>
+</svg>

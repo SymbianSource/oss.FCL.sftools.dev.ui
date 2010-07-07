@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="44px" version="1.1" viewBox="0 0 44 44" width="44px" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<rect fill="none" height="44" width="44"/>
+<g>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="31.3281" x2="31.3281" y1="7.98" y2="35.9783">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M26.339,8.229l0.386,1.752c0,0,2.687-0.697,3.903,0.426c0.508,0.469,0.881,1.176,1.117,2.029    c-0.406-0.4-1.027-1.012-1.027-1.012l-1.334,1.361l3.498,3.439l3.436-3.502l-1.357-1.336c0,0-0.842,0.857-1.27,1.293    c-0.201-1.221-0.707-2.66-1.945-3.678C29.587,7.229,26.339,8.229,26.339,8.229z" fill="url(#SVGID_1_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="28.2061" x2="28.2061" y1="7.9785" y2="35.9808">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M19.779,17.75v18.303h16.853V17.75H19.779z M21.24,34.555v-12.25h13.861v12.252H21.24V34.555z" fill="url(#SVGID_2_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_3_" x1="12.3579" x2="12.3579" y1="7.981" y2="35.981">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path d="M17.347,35.771l-0.386-1.752c0,0-2.687,0.697-3.903-0.426c-0.508-0.469-0.881-1.176-1.117-2.029    c0.406,0.4,1.027,1.012,1.027,1.012l1.334-1.361l-3.498-3.439l-3.436,3.502l1.357,1.336c0,0,0.842-0.857,1.27-1.293    c0.201,1.221,0.707,2.66,1.945,3.678C14.099,36.771,17.347,35.771,17.347,35.771z" fill="url(#SVGID_3_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_4_" x1="15.7183" x2="15.7183" y1="7.9795" y2="35.9802">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_4_)" points="8.771,24.705 8.771,9.352 22.664,9.352 22.664,17.75 24.069,17.75 24.069,7.947     7.368,7.947 7.368,26.109 19.779,26.109 19.779,24.705   "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_5_" x1="15.313" x2="15.313" y1="7.9858" y2="35.9749">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect fill="url(#SVGID_5_)" height="1.248" width="8.932" x="10.847" y="21.373"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_6_" x1="17.7271" x2="17.727" y1="7.9727" y2="35.9945">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_6_)" points="20.611,17.75 20.611,16.549 14.843,16.549 14.843,17.799 19.779,17.799 19.779,17.75   "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_7_" x1="17.7271" x2="17.727" y1="7.9805" y2="35.9805">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<rect fill="url(#SVGID_7_)" height="1.248" width="5.769" x="14.843" y="11.725"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_8_" x1="12.0776" x2="12.0776" y1="7.979" y2="35.9867">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_8_)" points="11.573,11.875 10.791,11.092 9.909,11.973 11.573,13.639 14.247,10.963 13.363,10.082       "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_9_" x1="12.0776" x2="12.0776" y1="7.9775" y2="35.9852">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_9_)" points="11.573,16.73 10.791,15.947 9.909,16.828 11.573,18.494 14.247,15.822 13.363,14.938   "/>
+<linearGradient gradientUnits="userSpaceOnUse" id="SVGID_10_" x1="19.7788" x2="19.7788" y1="10.8047" y2="38.9508">
+<stop offset="0" style="stop-color:#B2B2B2"/>
+<stop offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<line fill="url(#SVGID_10_)" x1="19.779" x2="19.779" y1="17.799" y2="21.373"/>
+</g>
+</g>
+</svg>

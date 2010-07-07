@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+<preview_image display="360x640" name="Virtual ITU-T"
+	preview="true">
+	<Element compName="bg_popup_window_pane_cp09" loc_id="&lt;LC&gt;popup_vitu2_window@v:0&lt;/LC&gt;"
+		skinId="qsn_fr_popup" varietyId="0" />
+	
+	<!-- Field Top pane -->
+	<Element compName="bg_popup_call_pane_cp08" display="360x640"
+		loc_id="&lt;LC&gt;field_vitu3_entry_pane@v:2&lt;/LC&gt;" skinId="qgn_graf_fep_input_bg"
+		varietyId="2" />
+	<Element colourId="text60" compName="field_vitu2_entry_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;field_vitu3_entry_pane@v:0&lt;/LC&gt;"
+		text="Message:Abc|" varietyId="2" />
+	<Element compName="popup_char_count_window_g1" display="360x640"
+		loc_id="&lt;LC&gt;popup_char_count_window1@v:0&lt;/LC&gt;" skinId="qsn_fr_input_preview_side_l"
+		varietyId="0" />
+	<Element compName="popup_char_count_window_g2" display="360x640"
+		loc_id="&lt;LC&gt;popup_char_count_window1@v:0&lt;/LC&gt;" skinId="qsn_fr_input_preview_middle"
+		varietyId="0" />
+	<Element compName="popup_char_count_window_g3" display="360x640"
+		loc_id="&lt;LC&gt;popup_char_count_window1@v:0&lt;/LC&gt;" skinId="qsn_fr_input_preview_side_r"
+		varietyId="0" />
+	<Element colourId="text67" compName="popup_char_count_window_t1"
+		display="360x640" loc_id="&lt;LC&gt;field_vitu3_entry_pane@v:4&lt;/LC&gt;"
+		text="155[1]" varietyId="0" />
+		<Element colourId="icon30" compName="cell_vitu3_function_top_wide_pane_g1"
+		display="360x640" image="qgn_stat_input.svg"
+		loc_id="&lt;LC&gt;field_vitu3_entry_pane@v:5&lt;/LC&gt;"
+		varietyId="1" />
+	
+	<!-- Button pane -->
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:1&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:2&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:3&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:1&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:2&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:3&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:1&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:2&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_pressed"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:3&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:1&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:2&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element compName="bg_button_pane_cp010" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:3&lt;/LC&gt;" skinId="qsn_fr_keypad_button_fr_normal"
+		varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:1&lt;/LC&gt;"
+		text="1" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:1&lt;/LC&gt;"
+		text=". , ?" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:2&lt;/LC&gt;"
+		text="2" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:2&lt;/LC&gt;"
+		text="ABC" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:3&lt;/LC&gt;"
+		text="3" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:1#c:3&lt;/LC&gt;"
+		text="DEF" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:1&lt;/LC&gt;"
+		text="4" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:1&lt;/LC&gt;"
+		text="GHI" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:2&lt;/LC&gt;"
+		text="5" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:2&lt;/LC&gt;"
+		text="JKL" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:3&lt;/LC&gt;"
+		text="6" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:2#c:3&lt;/LC&gt;"
+		text="MNO" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:1&lt;/LC&gt;"
+		text="7" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:1&lt;/LC&gt;"
+		text="PQRS" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:2&lt;/LC&gt;"
+		text="8" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:2&lt;/LC&gt;"
+		text="TUV" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:3&lt;/LC&gt;"
+		text="9" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:3#c:3&lt;/LC&gt;"
+		text="WXYZ" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:1&lt;/LC&gt;"
+		text="*" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:1&lt;/LC&gt;"
+		text="+" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:2&lt;/LC&gt;"
+		text="0" varietyId="0" />
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:2&lt;/LC&gt;"
+		text="??" varietyId="0" />
+		
+	<Element colourId="icon30" compName="cell_vitu3_itu_pane_t1"
+		display="360x640" image="qgn_indi_input_shift.svg"
+		loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:3&lt;/LC&gt;"
+		varietyId="0" />
+		
+	<Element colourId="text65" compName="cell_vitu3_itu_pane_t2"
+		display="360x640" loc_id="&lt;LC&gt;cell_vitu3_itu_pane@v:0#r:4#c:3&lt;/LC&gt;"
+		text="#" varietyId="0" />
+		
+		
+		<!-- Function pane  -->
+	<Element compName="bg_button_pane_cp011" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:1&lt;/LC&gt;"
+		skinId="qsn_fr_function_button_normal" varietyId="0" />
+	<Element compName="bg_button_pane_cp011" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:2&lt;/LC&gt;"
+		skinId="qsn_fr_function_button_normal" varietyId="0" />
+	<Element compName="bg_button_pane_cp011" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:3&lt;/LC&gt;"
+		skinId="qsn_fr_function_button_normal" varietyId="0" />
+	<Element compName="bg_button_pane_cp011" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:4&lt;/LC&gt;"
+		skinId="qsn_fr_function_button_normal" varietyId="0" />
+	<Element compName="bg_button_pane_cp011" display="360x640"
+		loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:5&lt;/LC&gt;"
+		skinId="qsn_fr_function_button_normal" varietyId="0" />
+	<Element compName="cell_vitu3_function_pane_g1"
+		image="qgn_indi_itut_close.svg" loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:1&lt;/LC&gt;"
+		varietyId="0" />
+	<Element colourId="icon30" compName="cell_vitu3_function_pane_g1"
+		image="qgn_indi_itut_cursor_left.svg" loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:2&lt;/LC&gt;"
+		varietyId="0" />
+	<Element colourId="icon30" compName="cell_vitu3_function_pane_g1"
+		image="qgn_indi_itut_options.svg" loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:3&lt;/LC&gt;"
+		varietyId="0" />
+	<Element colourId="icon30" compName="cell_vitu3_function_pane_g1"
+		image="qgn_indi_itut_cursor_right.svg" loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:4&lt;/LC&gt;"
+		varietyId="0" />
+		<Element colourId="icon30" compName="cell_vitu3_function_pane_g1"
+		image="qgn_indi_itut_backspace.svg" loc_id="&lt;LC&gt;cell_vitu3_function_pane@v:0#r:1#c:5&lt;/LC&gt;"
+		varietyId="0" />
+				
+</preview_image>
+</Preview>

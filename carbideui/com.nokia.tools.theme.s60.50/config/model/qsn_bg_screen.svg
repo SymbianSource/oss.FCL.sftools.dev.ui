@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="416" baseProfile="tiny" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 416 416" height="416" preserveAspectRatio="xMidYMid meet" version="1.0">
+    <linearGradient x1="205.46" y1="355.58" x2="213.48" gradientUnits="userSpaceOnUse" y2="-110.52" xlink:type="simple" xlink:actuate="onLoad" id="_6" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#fafbfb" offset="0.16"/>
+        <stop stop-color="#ecf0f0" offset="0.34"/>
+        <stop stop-color="#d5ddde" offset="0.53"/>
+        <stop stop-color="#b5c3c5" offset="0.73"/>
+        <stop stop-color="#a1b3b5" offset="0.83"/>
+        <stop stop-color="#a1b3b5" offset="1"/>
+    </linearGradient>
+    <rect width="416" fill="url(#_6)" height="416"/>
+    <linearGradient x1="122.86" y1="260.61" x2="238.85" gradientUnits="userSpaceOnUse" y2="199.15" xlink:type="simple" xlink:actuate="onLoad" id="_7" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#f8fbfb" offset="0.12"/>
+        <stop stop-color="#e4f0f0" offset="0.29"/>
+        <stop stop-color="#c3dedf" offset="0.5"/>
+        <stop stop-color="#95c5c6" offset="0.74"/>
+        <stop stop-color="#82bbbc" offset="0.83"/>
+        <stop stop-color="#82bbbc" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_7)" d="M 0.0 31.5 L 0.0 125.021 C 48.438 215.943 145.364 355.9 240.48 416.0 L 384.84 416.0 C 330.615 256.199 194.203 93.488 0.0 31.5 z "/>
+    <linearGradient x1="208" y1="23.65" x2="208" gradientUnits="userSpaceOnUse" y2="416" xlink:type="simple" xlink:actuate="onLoad" id="_8" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#fafdfa" offset="0.2"/>
+        <stop stop-color="#ecf9ec" offset="0.42"/>
+        <stop stop-color="#d5f1d5" offset="0.67"/>
+        <stop stop-color="#c1eac1" offset="0.83"/>
+        <stop stop-color="#c1eac1" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_8)" d="M 416.0 390.287 C 356.914 250.4 220.213 83.974 0.0 23.65 L 0.0 34.179 C 88.391 64.367 198.09 152.904 251.461 416.0 L 416.0 416.0 L 416.0 390.287 z " fill-opacity="0.6"/>
+    <linearGradient x1="306.74" y1="37.57" x2="357.42" gradientUnits="userSpaceOnUse" y2="99.95" xlink:type="simple" xlink:actuate="onLoad" id="_9" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#82bbbc" offset="0.83"/>
+        <stop stop-color="#82bbbc" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_9)" d="M 416.0 229.926 L 416.0 0.0 L 142.429 0.0 C 202.974 101.835 335.139 213.284 416.0 229.926 z " fill-opacity="0.3"/>
+    <path fill="#ffffff" d="M 416.0 203.869 L 416.0 0.0 L 142.429 0.0 C 190.375 72.596 348.766 179.133 416.0 203.869 z " fill-opacity="0.3"/>
+    <path fill="#ffffff" d="M 416.0 167.204 L 416.0 0.0 L 169.307 0.0 C 235.537 77.445 319.668 127.888 416.0 167.204 z " fill-opacity="0.4"/>
+    <linearGradient x1="0" y1="270.51" x2="162.49" gradientUnits="userSpaceOnUse" y2="270.51" xlink:type="simple" xlink:actuate="onLoad" id="_10" xlink:show="other">
+        <stop stop-color="#ffffff" offset="0"/>
+        <stop stop-color="#ebf6f1" offset="0.19"/>
+        <stop stop-color="#b9dece" offset="0.56"/>
+        <stop stop-color="#ffffff" offset="0.83"/>
+        <stop stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <path fill="url(#_10)" d="M 0.0 125.021 L 0.0 416.0 L 162.495 416.0 C 69.118 333.742 25.792 222.563 0.0 125.021 z " fill-opacity="0.6"/>
+    <path fill="#ebf4fc" d="M 186.567 137.81 C 134.791 93.569 72.083 58.687 0.186 34.133 L 0.102000006 34.382 L 0.102000006 35.327 C 71.74 59.829 134.224 94.60401 185.82 138.69 C 268.614 209.433 322.30103 302.708 345.411 415.924 L 346.58905 415.924 C 323.453 302.342 269.618 208.772 186.567 137.81 z "/>
+    <rect width="416" fill="#ffffff" height="416" fill-opacity="0.4"/>
+    <path fill="#ffffff" d="M 176.334 138.075 C 126.557 92.022 67.292 57.051 0.186 34.133 L 0.102000006 34.382 L 0.102000006 35.327 C 66.936 58.195 125.966 93.04801 175.553 138.924 C 251.31302 209.015 301.519 302.21 324.805 415.924 L 325.983 415.924 C 302.668 301.862 252.327 208.381 176.334 138.075 z "/>
+    <path fill="#ffffff" d="M 268.822 175.716 C 191.924 101.55 101.53 49.864 0.152 22.092 L 0.0 23.65 C 101.19 51.369 191.266 102.518 268.023 176.548 C 348.207 253.883 392.462 335.04498 415.468 389.511 L 415.941 389.31097 L 415.941 387.68597 C 392.734 333.134 348.482 252.546 268.822 175.716 z " fill-opacity="0.6"/>
+</svg>

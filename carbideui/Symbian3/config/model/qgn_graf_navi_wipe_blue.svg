@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="352" height="30" viewBox="-0.892 0.237 352 30">
+<g fill-opacity="0.5" stroke-opacity="0.5">
+<linearGradient id="navipane_x5F_2_4" gradientUnits="userSpaceOnUse" x1="175.1" y1="25.35" x2="175.1" y2="3.35">
+<stop stop-color="#D9DDDF" offset="0.24"/>
+<stop stop-color="#FFFFFF" offset="1"/>
+</linearGradient>
+<rect x="-0.892" y="0.237" fill="url(#navipane_x5F_2_4)" width="351.986" height="30"/>
+<rect fill-opacity="0.8" x="-0.892" y="29.237" fill="#9BA1A8" width="351.986" height="1"/>
+<rect x="-0.892" y="28.237" fill="#EFEFEF" width="351.986" height="1"/>
+<path fill-opacity="0.4" fill="#FFFFFF" d="M343.214,9.109c-38.308,7.697-294.438,9.197-336.225,0 c-7.975-1.755-7.881-8.872-7.881-8.872h351.986C351.095,0.237,351.788,7.387,343.214,9.109z"/>
+<rect x="-0.892" y="1.237" fill="#FFFFFF" width="351.986" height="1"/>
+<rect x="-0.892" y="0.237" fill="#EFEFEF" width="351.986" height="1"/>
+</g>
+</svg>

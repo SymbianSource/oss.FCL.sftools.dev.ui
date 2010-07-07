@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="16" height="16" viewBox="0 0 16 16">
+<polygon fill="#496DA2" points="6.551,1.214 6.551,14.939 15.896,8.066 "/>
+<rect fill="#A2C2DD" height="11.587" width="1.774" x="1.286" y="2.281"/>
+<path d="M0.369,1.144v13.86h3.606V1.144H0.369z M3.06,2.281v11.587H1.286V2.281H3.06z" fill="#496DA2"/>
+<polygon fill="#A2C2DD" points="13.895,8.118 7.742,3.343 7.742,12.862 "/>
+</svg>

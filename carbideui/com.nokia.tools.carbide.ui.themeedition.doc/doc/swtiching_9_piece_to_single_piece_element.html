@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>swtiching_9_piece_to_single_piece_element</title>
+</head>
+<body>
+<h2>Switching between a 9-piece element and a single-piece element</h2>
+<span style="font-weight: bold;"></span>Some components can be
+either 9-piece bitmap graphics or individual single-piece svg graphics.
+The
+9-piece component consists of four corner graphics, four side graphics,
+and a center graphic. You can design the corner graphics individually.
+The side and center area graphics can be tiled or equal the maximum
+size of the component area.<br>
+<br>
+<span style="font-weight: bold;">Slice a component into nine pieces: </span><br>
+<ul>
+  <li>In the <span style="font-weight: bold;">Editor</span>,
+right-click a screen component and select <span
+ style="font-weight: bold;">Switch to 9-Piece element</span>.</li>
+  <li>The Action confirmation window opens and prompts you to confirm
+if the image can be sliced and converted into a bitmap image, if
+required. </li>
+  <li>If you want Carbide.ui to remember your decision, mark the
+checkbox. </li>
+  <li>Click <span style="font-weight: bold;">OK</span>.</li>
+</ul>
+<div style="text-align: center;"><img
+ style="width: 525px; height: 295px;" alt=""
+ src="nine_piece_elements_1.png"><br>
+<span style="font-weight: bold;">Figure:</span> Switch to 9-piece
+element</div>
+<span style="font-weight: bold;"><br>
+</span><br>
+<span style="font-weight: bold;">Note</span>: In the Layers view, you
+see that the image is sliced into a component consisting of nine parts.<br>
+<span style="font-weight: bold;">Note</span>: If you now edit the
+center area graphic and reduce its size, the image is automatically
+tiled to be the size of the center area.<br>
+<br>
+<span style="font-weight: bold;">Switch back to a single-piece element:
+</span><br>
+<ul>
+  <li>In the Editor, right-click the icon and select <span
+ style="font-weight: bold;">Switch to Single-Piece element</span>.</li>
+  <li>The Replace confirmation window opens and prompts you to confirm
+if the image can be replaced with the current visible image. </li>
+  <li>If you want Carbide.ui to remember your decision, mark the
+checkbox. </li>
+  <li>Click <span style="font-weight: bold;">OK</span>.</li>
+</ul>
+<div style="text-align: center;"><img
+ style="width: 525px; height: 295px;" alt=""
+ src="nine_piece_elements_2.png"><br>
+<span style="font-weight: bold;">Figure:</span> Switch to single-piece
+element</div>
+<br>
+In the Layers view, you see that the image consists of a single part.<br>
+<br>
+<span style="font-weight: bold;">Note: </span>If you paste into the
+clipboard a selection of 9 image files , for example from file system,
+the images can then be pasted into a 9-piece element in a single step.
+The first file is 'top-left' piece in the 9-piece element, the second
+piece is 'top-middle', the third is 'top-right', fourth is
+'middle-left', fifth is 'middle-center', and so on. So the default
+order is from left to right, from top to bottom. This makes the ninth
+piece the 'bottom-right' piece.<br>
+<br>
+</body>
+</html>

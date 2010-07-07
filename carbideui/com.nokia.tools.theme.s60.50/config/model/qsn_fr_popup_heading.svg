@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 348 49">
+<switch>
+<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1" content="structured text"/>
+<g>
+<g>
+<g>
+<g>
+<g>
+<path fill-opacity="0.01" stroke-opacity="0.01" d="M348,12c0-6.617-5.383-12-12-12H12C5.383,0,0,5.383,0,12v37h348V12z"/>
+</g>
+<g>
+<path fill-opacity="0.03" stroke-opacity="0.03" d="M347,12c0-6.066-4.936-11-11-11H12C5.934,1,1,5.934,1,12v37h346V12z"/>
+</g>
+<g>
+<path fill-opacity="0.04" stroke-opacity="0.04" d="M346,12c0-5.514-4.486-10-10-10H12C6.486,2,2,6.486,2,12v37h344V12z"/>
+</g>
+<g>
+<path fill-opacity="0.06" stroke-opacity="0.06" d="M345,12c0-4.963-4.037-9-9-9H12c-4.963,0-9,4.037-9,9v37h342V12z"/>
+</g>
+<g>
+<path fill-opacity="0.09" stroke-opacity="0.09" d="M344,12c0-4.412-3.59-8-8-8H12c-4.412,0-8,3.588-8,8v37h340V12z"/>
+</g>
+<g>
+<path fill-opacity="0.1" stroke-opacity="0.1" d="M343,12c0-3.859-3.141-7-7-7H12c-3.859,0-7,3.141-7,7v37h338V12z"/>
+</g>
+<g>
+<path fill-opacity="0.11" stroke-opacity="0.11" d="M342,12c0-3.309-2.691-6-6-6H12c-3.309,0-6,2.691-6,6v37h336V12z"/>
+</g>
+<g>
+<path fill-opacity="0.1" stroke-opacity="0.1" d="M341,12c0-2.762-2.238-5-5-5H12c-2.762,0-5,2.238-5,5v37h334V12z"/>
+</g>
+<g>
+<polygon fill-opacity="0.02" stroke-opacity="0.02" points="341,3 340,3 3,3 3,49 341,49 "/>
+</g>
+<g>
+<polygon fill-opacity="0.03" stroke-opacity="0.03" points="341,3 340,3 3,3 3,49 341,49 "/>
+</g>
+<g>
+<rect x="4" y="4" fill="#FFFFFF" width="336" height="45"/>
+</g>
+</g>
+<g>
+<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="3340" y1="46.9941" x2="3340" y2="11.75" gradientTransform="matrix(-1 0 0 1 3512 0)">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="0.1397" style="stop-color:#F1F7FD"/>
+<stop offset="0.6348" style="stop-color:#C4DDF7"/>
+<stop offset="1" style="stop-color:#C4DDF7"/>
+</linearGradient>
+<polygon fill="url(#XMLID_3_)" points="6,11.75 338,11.75 338,46.994 338,46 6,46 "/>
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="3340" y1="5.8452" x2="3340" y2="12.1476" gradientTransform="matrix(-1 0 0 1 3512 0)">
+<stop offset="0" style="stop-color:#FFFFFF"/>
+<stop offset="1" style="stop-color:#DEF0FF"/>
+</linearGradient>
+<rect x="6" y="6" fill="url(#XMLID_4_)" width="332" height="6"/>
+</g>
+<rect x="4" y="48" fill-opacity="0.2" stroke-opacity="0.2" width="336" height="1"/>
+</g>
+</g>
+</g>
+</switch>
+</svg>

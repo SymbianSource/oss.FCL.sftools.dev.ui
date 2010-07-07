@@ -1,0 +1,10 @@
+<flavourModel>
+<general/>
+<valueModel name="PolyLine1DValueModel" uiName="Polyline 1D" uid="0x10207629" >
+<param name="f" defaultValue="0,0" />
+<param name="p" defaultValue="6553,6553:13107,13107:19660,19660:26214,26214;" >
+</param>
+</valueModel>
+<timingModel name="Relative"/>
+
+</flavourModel>

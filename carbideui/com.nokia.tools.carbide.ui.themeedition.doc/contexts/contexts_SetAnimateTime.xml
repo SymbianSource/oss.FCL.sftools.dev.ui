@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="setanimatetime_context" title="Set animate time">
+		<description>Use the Set animate time window to define the duration for one frame in an animation. Click Timing animations to read more about timing animations.</description>
+ 		<topic label="Timing animations" href="doc/timing_frame_animations.html"/> 		
+	</context>
+	</contexts>
+	
+

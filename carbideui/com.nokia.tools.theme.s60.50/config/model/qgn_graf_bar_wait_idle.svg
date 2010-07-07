@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="306.001" height="20.001" viewBox="0 0 306.001 20.001">
+<g fill-opacity="0.8" stroke-opacity="0.8">
+<linearGradient id="_14" gradientUnits="userSpaceOnUse" x1="30" y1="1" x2="30" y2="19">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.5"/>
+<stop stop-color="#CADCEC" offset="0.98"/>
+</linearGradient>
+<polygon fill="url(#_14)" points="14,1 32,19.001 46,19.001 28,1 "/>
+<polygon fill="url(#_14)" points="42,1 60,19.001 74,19.001 56,1 "/>
+<polygon fill="url(#_14)" points="70,1 88,19.001 102.001,19.001 84,1 "/>
+<polygon fill="url(#_14)" points="98.001,1 116.001,19.001 130.001,19.001 112.001,1 "/>
+<polygon fill="url(#_14)" points="126.001,1 144.001,19.001 158.001,19.001 140.001,1 "/>
+<polygon fill="url(#_14)" points="154.001,1 172.001,19.001 186.001,19.001 168.001,1 "/>
+<polygon fill="url(#_14)" points="182.001,1 200.001,19.001 214.001,19.001 196.001,1 "/>
+<polygon fill="url(#_14)" points="210.001,1 228.001,19.001 242.001,19.001 224.001,1 "/>
+<polygon fill="url(#_14)" points="238.001,1 256.001,19.001 270.001,19.001 252.001,1 "/>
+</g>
+<polygon fill-opacity="0.8" fill="url(#_14)" points="266.001,1 284.001,19.001 298.001,19.001 280.001,1 "/>
+<path fill-opacity="0.8" fill="url(#_14)" d="M1,2.289v13.712l3,3h14L1.03,2.03C1.011,2.113,1,2.2,1,2.289z"/>
+<path fill-opacity="0.8" fill="url(#_14)" d="M303.515,1h-9.514l11,11.001V2.289C305.001,1.578,304.335,1,303.515,1z"/>
+<linearGradient id="_26" gradientUnits="userSpaceOnUse" x1="153" y1="-1.25" x2="153" y2="10">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#DEE9F3" offset="1"/>
+</linearGradient>
+<path fill-opacity="0.2" fill="url(#_26)" d="M303.515,1H2.488C1.668,1,1,1.578,1,2.289V10h304.001V2.289 C305.001,1.578,304.335,1,303.515,1z"/>
+</svg>

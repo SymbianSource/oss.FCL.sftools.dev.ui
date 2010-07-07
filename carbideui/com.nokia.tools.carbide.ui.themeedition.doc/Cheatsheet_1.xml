@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Creating a new theme">
+   <intro href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/create_new_theme.html">
+      <description>
+         In this tutorial, you learn how to create new themes and edit their components.<br/>If the views you need to perform this tutorial are not visible, select <b>Window -&gt; Show View</b> and select the view you want.<br/>After each step, move to the next step by clicking the button located at the bottom of the step: <b>Click to Perform</b> (if you want the step to be performed automatically), <b>Click to Skip</b> (if you want to perform the step manually) or <b>Click to Complete</b> (if no automatisation is available). If you do not use the buttons to move between steps, the automated tutorial functions become inavailable. To start this tutorial, click the <b>Click to Begin</b> button below.
+      </description>
+   </intro>
+   <item title="Create a new theme." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/create_new_theme.html">
+      <description>
+         In the menu bar, select <b>File -&gt; Create New Theme</b>. A New Theme window opens. In the <b>Theme name</b> field, enter <b>Tutorial</b>. Click  <b>Finish</b>. Click <b>Click to Perform</b> to create a new Theme automatically.
+      </description>
+      <action class="com.nokia.tools.carbide.ui.productsupport.actions.NewProjectAction" pluginId="com.nokia.tools.carbide.ui.productsupport" confirm="false">
+      </action>
+   </item>
+   <item title="Select the Application Grid screen for editing." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/gallery_view.html">
+      <description>
+         In the Gallery view, select the <b>Application Grid</b> screen from the drop-down menu.
+      </description>
+   </item>
+   <item title="Change the color of the Contacts icon." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/working_with_colors.html">
+      <description>
+         Click the Contacts icon. In the Properties view, select <b>Bitmap</b> tab. Click <b>Colorize</b> checkbox to change colorize to true. Click the <b>Color</b> button that appears next to the checkbox. Select a new color and click <b>OK</b>. Click <b>Click to Perform</b> to change the color automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet1Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="changeColor" param2="#0000FF" param3="qgn_menu_phob_cxt">
+      </action>
+   </item>
+   <item title="Save the theme." dialog="true" skip="true" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/saving_theme_under_different_name.html">
+      <description>
+         Select <b>File -&gt; Save</b>. Click <b>Click to Perform</b> to save the theme automatically.
+      </description>
+      <action class="com.nokia.tools.s60.cheatsheet.actions.CheatSheet11Actions" pluginId="com.nokia.tools.doc" confirm="false" param1="doSave">
+      </action>
+   </item>
+</cheatsheet>

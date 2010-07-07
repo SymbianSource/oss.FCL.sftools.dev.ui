@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Creating a key pair">
+   <intro href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/setting_up_signing.html">
+      <description>
+         In this tutorial, you learn how create key pairs.<br/>If the views you need to perform this tutorial are not visible, select <b>Window -&gt; Show View</b> and select the view you want. <br/>Follow the tutorial steps in order. After each step, move to the next step by clicking the button located at the bottom of the step: <b>Click to Perform</b> (if you want the step to be performed automatically), <b>Click to Skip</b> (if you want to perform the step manually) or <b>Click to Complete</b> (if no automatisation is available). If you do not use the buttons to move between steps, the automated tutorial functions become inavailable. To start this tutorial, click the <b>Click to Begin</b> button below.
+      </description>
+   </intro>
+   <item title="Create and store a key and a certificate on your computer." dialog="true" skip="false" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/creating_private_key_certificate.html">
+      <description>
+         Create a private key and a self-signed certificate with an external program, for example, with the Certificate Generator command line tool. Store the key and the certificate on your computer.
+      </description>
+   </item>
+   <item title="Open the Handle Key Pairs wizard and create the key pair." dialog="true" skip="false" href="/com.nokia.tools.carbide.ui.themeedition.doc/doc/defining_new_key_pairs.html">
+      <description>
+         Select <b>Tools -&gt; Handle Key Pairs</b>. The Handle Key Pairs wizard opens. Click <b>New</b>. Name the key pair &quot;Tutorial key&quot;. Browse to the private key file for the existing private key. Browse to the certificate for the existing certificate. Enter a password for the key pair. Check the <b>Save password</b> box if you want to save your password. Click <b>Make Keys</b> to create the new key pair.
+      </description>
+      <action class="com.nokia.tools.theme.s60.ui.actions.KeyPairsAction" pluginId="com.nokia.tools.s60.ide" confirm="false">
+      </action>
+   </item>
+</cheatsheet>

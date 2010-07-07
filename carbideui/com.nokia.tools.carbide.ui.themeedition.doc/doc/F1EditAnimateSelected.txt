@@ -1,0 +1,1 @@
+The Edit/Animate selected elements function allows you to open the selected element in the Animation editor view, and edit and/or animate the element. Click Managing animations to read more about editing and animating elements.

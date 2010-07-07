@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="edit3rdPartyVector_context" title="Edit image in external vector editor">
+		<description>You can edit SVG images in an external vector editor. Click Editing vector graphics to read more about editing SVG images.</description>
+ 		<topic label="Editing vector graphics" href="doc/editing_vector_graphics.html"/> 		
+	</context>
+	</contexts>

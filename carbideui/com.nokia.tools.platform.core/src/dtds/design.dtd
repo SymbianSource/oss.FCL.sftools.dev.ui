@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!--THIS FILE SHOULD NOT BE MODIFIED OR DELETED-->
+
+<!--DTD for "tool design".-->
+
+
+<!ENTITY %	reset  "(none)">
+
+<!ELEMENT design (task*,child*)>
+<!ATTLIST design
+	name    CDATA #REQUIRED
+>
+
+<!ELEMENT task (toolbox?,properties?,componentgroup*,child*)>
+<!ATTLIST task
+    name 	CDATA  			#REQUIRED
+    show 	(true | false)  #IMPLIED
+    picture CDATA 			#IMPLIED
+    reset   %reset; 			#IMPLIED
+    sound   (false | true)   	#IMPLIED
+    colour   (false | true)   	#IMPLIED
+    entitytype	CDATA		#IMPLIED
+    overwrite	(false | true)   	#IMPLIED
+    previewhint CDATA		#IMPLIED
+>
+
+
+<!ELEMENT componentgroup (toolbox?,properties?,component*,child*)>
+<!ATTLIST componentgroup
+    name	CDATA  		#REQUIRED
+    show  	(true | false)  #IMPLIED 
+    picture CDATA 			#IMPLIED
+    reset   %reset; 			#IMPLIED
+    sound   (false | true)   	#IMPLIED
+    colour   (false | true)   	#IMPLIED
+    animate       (false | true)       #IMPLIED
+    entitytype	CDATA		#IMPLIED
+    overwrite	(false | true)   	#IMPLIED
+    previewhint CDATA		#IMPLIED
+>
+
+<!ELEMENT component (toolbox?,properties?,element*,child*)>
+<!ATTLIST component 
+	name     CDATA           #REQUIRED
+    show     (true | false)  #IMPLIED 
+    picture  CDATA           #IMPLIED
+    reset    %reset; 			 #IMPLIED
+    sound   (false | true)   	#IMPLIED
+    colour   (false | true)   	#IMPLIED
+    animate       (false | true)       #IMPLIED 
+    entitytype	CDATA		#IMPLIED
+    overwrite	(false | true)   	#IMPLIED
+    previewhint CDATA		#IMPLIED
+>
+
+<!ELEMENT element (refer?,toolbox?,properties?,designrectangles?,part*,child*)>
+<!ATTLIST element 
+    name               CDATA           #REQUIRED
+    id                 CDATA           #IMPLIED    
+    show               (true | false)  #IMPLIED 
+    picture            CDATA           #IMPLIED
+    defaultcolour_rgb  CDATA           #IMPLIED
+    defaultcolour_idx  CDATA           #IMPLIED
+    appuid             CDATA           #IMPLIED
+    previewscreen      CDATA           #IMPLIED
+    reset   		   %reset;	   	   #IMPLIED
+    tile               (true | false)  #IMPLIED 
+    sound   (false | true)   	       #IMPLIED
+    colour   (false | true)            #IMPLIED
+    mask			(false | true)     #IMPLIED
+    stretch       (false | true)       #IMPLIED
+    animate       (false | true)       #IMPLIED
+    entitytype	CDATA		#IMPLIED
+    derviedlayoutid	CDATA	#IMPLIED
+    halfcycle	CDATA	#IMPLIED
+    checkname   (false | true)            #IMPLIED
+    animationmode	CDATA		#IMPLIED
+    overwrite	(false | true)   	#IMPLIED
+    text             CDATA           #IMPLIED
+    masterid	CDATA	#IMPLIED
+    previewhint CDATA		#IMPLIED
+    majorid 	CDATA		#IMPLIED
+    minorid		CDATA		#IMPLIED
+    colourgroupid		CDATA	#IMPLIED
+    colourgroupidx		CDATA	#IMPLIED
+    colourgroupmajorid	CDATA	#IMPLIED
+    colourgroupminorid	CDATA	#IMPLIED
+    
+>
+<!ELEMENT properties (property*)>
+<!ELEMENT property EMPTY>
+<!ATTLIST property
+           name CDATA   #REQUIRED
+ >          
+
+<!ELEMENT designrectangles (designrectangle*)>
+<!ELEMENT designrectangle EMPTY>
+<!ATTLIST designrectangle
+           name CDATA   #REQUIRED
+ >   
+
+<!ELEMENT part (refer?,toolbox?,designrectangles?)>
+<!ATTLIST part 
+    name    CDATA           #REQUIRED
+    id      CDATA           #REQUIRED
+    show    (true | false)  #IMPLIED 
+    previewscreen      CDATA           #IMPLIED
+    picture CDATA           #IMPLIED
+    reset   %reset;			#IMPLIED
+    tile    (true | false)  #IMPLIED
+    sound   (false | true)  #IMPLIED
+    colour   (false | true)   	#IMPLIED
+    layer CDATA	#IMPLIED
+    
+>
+
+<!ELEMENT toolbox EMPTY>
+<!ATTLIST toolbox
+	move				(true | false) #IMPLIED
+	scale				(true | false) #IMPLIED
+	split				(true | false) #IMPLIED
+	mirror				(true | false) #IMPLIED
+	tile				(true | false) #IMPLIED
+	mask				(true | false) #IMPLIED
+	colourize 			(true | false) #IMPLIED
+	intensity 			(true | false) #IMPLIED
+	createanother 		(true | false) #IMPLIED
+	multipleelements 	(true | false) #IMPLIED
+	multiplecomponents 	(true | false) #IMPLIED
+	samecomponent       (true | false) #IMPLIED
+	designaids 			(true | false) #IMPLIED
+	rotate 				(true | false) #IMPLIED
+            	softmask		    	(true | false) #IMPLIED
+	bitmapblocked 		(true | false) #IMPLIED
+	test 				CDATA          #IMPLIED
+	colourlookup 		(true | false) #IMPLIED
+	effectssupport		(true | false) #IMPLIED
+	multiplelayerssupport	(true | false) #IMPLIED
+	skinformat		CDATA		#IMPLIED
+>
+
+
+<!ELEMENT child EMPTY>
+<!ATTLIST child
+        childname        CDATA               #IMPLIED
+        childid          CDATA               #IMPLIED
+        show             (true | false)      #IMPLIED 
+        loc_id           CDATA               #IMPLIED
+        previewscreen    CDATA               #IMPLIED 
+        
+>  
+
+
+<!ELEMENT refer EMPTY>
+<!ATTLIST refer
+        name        CDATA               #IMPLIED
+        id          CDATA               #IMPLIED
+> 

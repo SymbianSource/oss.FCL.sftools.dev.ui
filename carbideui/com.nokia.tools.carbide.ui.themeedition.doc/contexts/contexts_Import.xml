@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+<contexts>
+<context id="importTheme_context" title="Import Theme">
+<description>The Import Theme allows you to import a theme fille. It also allows you to import .tpf files into Carbide.ui, but this option does not create a project for the .tpf file.</description>
+<topic label="Import Theme" href="doc/importing_s60_themes.html"></topic>
+</context>
+</contexts>

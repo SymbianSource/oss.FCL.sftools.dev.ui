@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Packaging Tools
+Bundle-SymbolicName: com.nokia.tools.packaging; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.packaging.PackagingPlugin
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.nokia.tools.content.core,
+ org.eclipse.core.resources,
+ com.nokia.tools.resource.core,
+ com.nokia.tools.media.utils,
+ com.nokia.tools.platform.core
+Eclipse-LazyStart: true
+Export-Package: com.nokia.tools.deploy.emul,
+ com.nokia.tools.packaging,
+ com.nokia.tools.packaging.optimization
+Bundle-ClassPath: packaging.jar

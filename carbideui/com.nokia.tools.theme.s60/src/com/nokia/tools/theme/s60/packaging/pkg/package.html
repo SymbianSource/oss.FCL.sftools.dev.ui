@@ -1,0 +1,21 @@
+<body>
+<p>Provides the package file data model and allows the client to
+create/modify symbian package file.</p>
+<p>Create a new package file:</p>
+<pre>
+	PackageFile file = new PackageFile();
+	file.addStatement(new Vendor("NOKIA"));
+	// adds other statements
+	...
+	file.save(new File("mynewpackage.pkg"));
+</pre>
+<p>Load from existing package file:</p>
+<pre>
+	PackageFile file = new PackageFile();
+	file.load(new File("mypackage.pkg"));
+	// reads the statements
+	Header header = file.getStatement(Header.class);
+	header.setUid("0x12345678");
+	file.save(new File("mypackage.pkg"));
+</pre>
+</body>

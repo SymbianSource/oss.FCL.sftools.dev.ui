@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="componentStore_context" title="Component Store View">
+		<description>Component store allows you to collect graphics from theme elements and re-use in themes via a graphic store which is common and available across themes.
+		</description>
+ 		<topic label="Component Store" href="doc/component_store_view.html"/> 		
+	</context>
+</contexts>
+	
+

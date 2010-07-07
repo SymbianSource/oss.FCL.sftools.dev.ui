@@ -1,0 +1,11 @@
+
+<effects>
+<effect name="BlackAndWhite" uiname="Black and White" uid="0x10204ADE" type="0" className="com.nokia.tools.theme.s60.effects.effect.BlackAndWhite" input="true">
+<param name="t" value="" type="INT"/>
+<param name="f" value="" type="INT"/>
+<uiparam uiname="t" pos="1" caption="Threshold" value="" defaultVal="127" uiType="JSlider" minVal="0" maxVal="255"/>
+<uiparam uiname="f" pos="2" caption="Blend Factor" value="" defaultVal="255" uiType="JSlider" minVal="0" maxVal="255" mandatory="true"/>
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+

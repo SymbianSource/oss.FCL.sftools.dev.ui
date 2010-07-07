@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="84" height="58" viewBox="-0.85 -0.684 84 58">
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="21.51" y1="27.16" x2="34.57" y2="52.88">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path fill="url(#_7)" d="M3.322,3.858l0.547,40.44l31.025,8.229l2.5-2.407l0.91-41.783L6.338,3.145L3.322,3.858z"/>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="36.37" y1="62.04" x2="36.37" y2="7.88">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#DFE9F2" offset="0.11"/>
+<stop stop-color="#A1C1DC" offset="0.35"/>
+<stop stop-color="#8BA7CE" offset="0.48"/>
+<stop stop-color="#6C82B9" offset="0.7"/>
+<stop stop-color="#647DB4" offset="0.75"/>
+<stop stop-color="#4E70A5" offset="0.82"/>
+<stop stop-color="#255688" offset="0.91"/>
+<stop stop-color="#163F6C" offset="0.99"/>
+</linearGradient>
+<polygon fill="url(#_8)" points="34.794,52.14 37.048,49.97 37.948,8.635 35.286,9.45 "/>
+<linearGradient id="_9" gradientUnits="userSpaceOnUse" x1="8.42" y1="12.94" x2="43" y2="55.04">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A1C1DC" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_9)" points="34.794,52.14 4.216,44.029 3.676,4.134 35.286,9.45 "/>
+<linearGradient id="_10" gradientUnits="userSpaceOnUse" x1="3.68" y1="6.48" x2="37.95" y2="6.48">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A1C1DC" offset="1"/>
+</linearGradient>
+<polygon fill="url(#_10)" points="37.948,8.635 6.351,3.501 3.676,4.134 35.286,9.45 "/>
+<linearGradient id="_11" gradientUnits="userSpaceOnUse" x1="9.42" y1="2.75" x2="18.92" y2="39.25">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<path fill="url(#_11)" d="M18.775,41.75c-1.778-0.414-3.148-2.182-3.148-3.846c0-1.777,1.37-2.827,3.148-2.406 c1.738,0.405,3.108,2.139,3.108,3.873C21.883,41.041,20.472,42.15,18.775,41.75z"/>
+<path fill="url(#_11)" d="M16.271,32.001c0-3.149,1.554-4.593,3.701-6.088c1.257-0.854,2.479-1.565,2.479-3.415 c0-2.109-1.739-4.364-3.85-4.861c-2.442-0.573-4.031,0.937-4.072,3.292l-4.775-1.118c-0.072-5.013,3.815-8.169,8.884-6.979 c4.661,1.092,8.658,5.995,8.658,10.696c0,6.145-5.586,4.568-6.365,9.565L16.271,32.001z"/>
+</svg>

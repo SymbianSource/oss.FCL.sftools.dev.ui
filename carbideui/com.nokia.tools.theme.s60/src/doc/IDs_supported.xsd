@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:string" maxOccurs="1"/>
+              <xs:element name="p2_6" type="xs:string" maxOccurs="1"/>
+              <xs:element name="hlp2_6" type="xs:string" maxOccurs="1"/>
+              <xs:element name="p2_8" type="xs:string" maxOccurs="1"/>
+              <xs:element name="hlp2_8" type="xs:string" maxOccurs="1"/>
+              <xs:element name="p3" type="xs:string" maxOccurs="1"/>
+              <xs:element name="hlp3" type="xs:string" maxOccurs="1"/>
+              <xs:element name="p3_1" type="xs:string" maxOccurs="1"/>
+              <xs:element name="hlp3_1" type="xs:string" maxOccurs="1"/>
+              <xs:element name="p3_2" type="xs:string" maxOccurs="1"/>
+              <xs:element name="hlp3_2" type="xs:string" maxOccurs="1"/>
+              <xs:element name="p5_0" type="xs:string" maxOccurs="1"/>
+              <xs:element name="hlp5_0" type="xs:string" maxOccurs="1"/>             
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+	<preview_image display="portrait,square" name="Message Editor"
+		preview="true">
+		<reference screenName="BaseScreen0" />
+		<reference screenName="TouchPaneHorizontal0" />
+		<reference screenName="MainScrollBar3" />
+		<reference screenName="BaseSoftkeys" />	
+		
+		
+
+		<!-- control pane contents -->
+		<Element colourId="text2" compName="navi_text_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;navi_pane@v:1&lt;/LC&gt;&lt;LC&gt;navi_text_pane@v:0&lt;/LC&gt;"
+			text="140 (1)" varietyId="1" />
+		<Element colourId="icon4" compName="navi_icon_pane_g1"
+			display="360x640" image="ts_qgn_stat_case_text.svg"
+			loc_id="&lt;LC&gt;status_pane@v:0&lt;/LC&gt;&lt;LC&gt;navi_pane@v:4&lt;/LC&gt;&lt;LC&gt;navi_icon_pane@v:0&lt;/LC&gt;"
+			varietyId="0" />
+		<Element colourId="text13" compName="control_pane_t1"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options"
+			varietyId="4" />
+		<Element colourId="text14" compName="control_pane_t2"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Close"
+			varietyId="4" />
+
+		<Element compName="title_pane_g5" image="qgn_prop_mce_sms_title.svg"
+			varietyId="0" />
+		<Element colourId="text1" compName="title_pane_t1"
+			loc_id="&lt;LC&gt;title_pane@v:7&lt;/LC&gt;" text="Text message"
+			varietyId="3" />
+		
+		<!-- main pane contents 360x640 -->
+
+		<Element compName="mce_header_field_pane_t1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_field_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+
+
+		<Element colourId="text63" compName="mce_header_field_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_field_pane@v:0&lt;/LC&gt;"
+			text="To" varietyId="0" />
+
+		<!--<Element compName="list_single_mce_header_pane" display="360x640"
+			loc_id="&lt;LC&gt;mce_header_field_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_header_data_pane@v:0&lt;/LC&gt;"
+			skinId="S60_2_6%qsn_fr_input" varietyId="0" />-->
+
+
+		<Element colourId="highlight2"
+             compName="list_notes_text_pane_t1"
+             display="360x640"
+             image="ts_qgn_highlight_part_text_bg2.svg"
+             loc_id="&lt;LC&gt;mce_header_field_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_header_data_pane@v:0&lt;/LC&gt;"
+             varietyId="0" />
+
+
+		<Element colourId="text24" compName="list_single_mce_header_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_field_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_header_data_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_header_pane@v:0&lt;/LC&gt;"
+			text="990022566" varietyId="0" />
+		<Element colourId="text6" compName="list_single_mce_header_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_header_field_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_header_data_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_header_pane@v:0&lt;/LC&gt;"
+			text="990022" varietyId="0" />
+
+    	<!--<Element colourId="text24" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@v:0#r:5&lt;/LC&gt;" text="Fifth line" varietyId="0"/>
+    	<Element colourId="text34" compName="list_notes_text_pane_t1" display="360x640" loc_id="&lt;LC&gt;bg_notes_pane@v:0&lt;/LC&gt;&lt;LC&gt;bg_cl_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_notes_text_pane@#r:5#c:1&lt;/LC&gt;" text="Fifth" varietyId="0"/>-->
+
+
+		<Element colourId="text6" compName="list_single_mce_message_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:3&lt;/LC&gt;"
+			text="Line 1" varietyId="0" />
+		<Element colourId="text6" compName="list_single_mce_message_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:4&lt;/LC&gt;"
+			text="Line 2" varietyId="0" />
+		<Element colourId="text6" compName="list_single_mce_message_pane_t1"
+			display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:5&lt;/LC&gt;"
+			text="Line 3" varietyId="0" />
+
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:3&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:4&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:5&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:6&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:7&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:8&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:9&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+		<Element compName="list_single_mce_message_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0&lt;/LC&gt;&lt;LC&gt;main_messa_pane@v:0&lt;/LC&gt;&lt;LC&gt;listscroll_mce_pane@v:0&lt;/LC&gt;&lt;LC&gt;mce_text_pane@v:0&lt;/LC&gt;&lt;LC&gt;list_single_mce_message_pane@v:0#r:10&lt;/LC&gt;"
+			skinId="qgn_graf_line_message_horizontal" varietyId="0" />
+
+		<!-- touch pane -->
+		<reference screenName="TouchPaneButtons" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			skinId="qgn_indi_tb_msg_send" varietyId="1" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			skinId="qgn_indi_tb_add_recipient" varietyId="1" />
+		<Element compName="cell_sctrl_middle_pane_g2" display="360x640"
+			loc_id="&lt;LC&gt;grid_sctrl_middle_pane@v:1&lt;/LC&gt;&lt;LC&gt;cell_sctrl_middle_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			skinId="qgn_indi_tb_expand_insert" varietyId="1" />
+	</preview_image>
+</Preview>

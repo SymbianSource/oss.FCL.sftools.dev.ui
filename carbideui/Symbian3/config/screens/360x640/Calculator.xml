@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview>
+
+ <preview_image display="360x640"
+                 name="CalculatorScrollBar0"
+                 preview="false">
+    <Element compName="scroll_bg_pane_g1"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_cp_scroll_bg_top"
+             varietyId="0" />
+    <Element compName="scroll_bg_pane_g2"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_cp_scroll_bg_middle"
+             varietyId="0" />
+    <Element compName="scroll_bg_pane_g3"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_cp_scroll_bg_bottom"
+             varietyId="0" />
+    <Element compName="scroll_handle_focus_pane_g2"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_cp_scroll_handle_middle"
+             varietyId="0" />
+    <Element compName="scroll_handle_focus_pane_g3"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;"
+             skinId="qsn_cp_scroll_handle_bottom"
+             varietyId="0" />
+    <Element compName="scroll_sc2_up_pane_g1"
+             display="!360x640"
+             image="qgn_graf_scroll_arrow_up.svg"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;&lt;LC&gt;scroll_sc2_up_pane@v:1&lt;/LC&gt;"
+             varietyId="0" />
+    <Element compName="scroll_sc2_down_pane_g1"
+             display="!360x640"
+             image="qgn_graf_scroll_arrow_down.svg"
+             loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;scroll_pane_cp024@v:0&lt;/LC&gt;&lt;LC&gt;scroll_pane@v:0&lt;/LC&gt;&lt;LC&gt;scroll_sc2_down_pane@v:1&lt;/LC&gt;"
+             varietyId="0" />
+  </preview_image>
+
+	<preview_image display="360x640" name="Calculator"
+		preview="true">
+		<Element compName="application_window" skinId="qsn_bg_screen"
+			varietyId="0" />
+		<Element compName="status_pane_g1" display="!360x640"
+			skinId="qsn_bg_navipane_solid" varietyId="0" />
+		<!--
+			<Element compName="status_pane_g1" display="360x640"
+			loc_id="&lt;LC&gt;application_window@v:0&lt;/LC&gt;&lt;LC&gt;area_top_pane@v:16&lt;/LC&gt;"
+			skinId="qsn_bg_navipane_solid" varietyId="0"/>
+		-->
+		<reference screenName="TouchPaneHorizontal0" />
+		<!-- calc paper pane contents -->
+		<Element compName="bg_calc_paper_pane" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:2&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:0&lt;/LC&gt;"
+			skinId="qsn_fr_calc_paper" varietyId="0" />
+		<Element compName="bg_calc_paper_pane" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;"
+			skinId="qsn_fr_calc_paper" varietyId="0" />
+		<reference screenName="CalculatorScrollBar0" />
+		<Element colourId="text29" compName="list_calc_item_pane_t1"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:3&lt;/LC&gt;"
+			text="1" varietyId="3" />
+		<Element colourId="text29" compName="list_calc_item_pane_t2"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:4&lt;/LC&gt;"
+			text="+" varietyId="2" />
+		<Element colourId="text29" compName="list_calc_item_pane_t1"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:4&lt;/LC&gt;"
+			text="2" varietyId="3" />
+		<Element colourId="text29" compName="list_calc_item_pane_g1"
+			image="qgn_graf_line_solid.svg"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:4&lt;/LC&gt;"
+			scale_mode="stretch" varietyId="1" />
+		<Element colourId="text29" compName="list_calc_item_pane_t2"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:5&lt;/LC&gt;"
+			text="=" varietyId="2" />
+		<Element colourId="text29" compName="list_calc_item_pane_t1"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:5&lt;/LC&gt;"
+			text="3" varietyId="3" />
+		<Element colourId="text29" compName="list_calc_item_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:5&lt;/LC&gt;"
+			text="3" varietyId="3" />
+		<Element colourId="text29" compName="list_calc_item_pane_t2"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:6&lt;/LC&gt;"
+			text="+" varietyId="2" />
+		<Element colourId="text29" compName="list_calc_item_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:6&lt;/LC&gt;"
+			text="2" varietyId="3" />
+		<Element colourId="text29" compName="list_calc_item_pane_g1"
+			display="!360x640" image="qgn_graf_line_solid.svg"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:6&lt;/LC&gt;"
+			scale_mode="stretch" varietyId="1" />
+		<Element colourId="text29" compName="list_calc_item_pane_t2"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:7&lt;/LC&gt;"
+			text="=" varietyId="2" />
+		<Element colourId="text29" compName="list_calc_item_pane_t1"
+			display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:1&lt;/LC&gt;&lt;LC&gt;calc_paper_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;list_calc_pane@v:1&lt;/LC&gt;&lt;LC&gt;list_calc_item_pane@v:1#r:7&lt;/LC&gt;"
+			text="5" varietyId="3" />
+		<!-- calc grid pane contents -->
+		<!--<Element compName="grid_highlight_pane_cp02"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:1&lt;/LC&gt;"
+			skinId="S60_2_6%qsn_fr_grid" varietyId="1" />
+		--><Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_inactive" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_highlight" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_pressed" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:1&lt;/LC&gt;"
+			image="qgn_indi_calc_cancel.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:2&lt;/LC&gt;"
+			image="qgn_indi_calc_squareroot.svg" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			image="qgn_indi_calc_percent.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_inactive" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:1#c:4&lt;/LC&gt;"
+			image="qgn_indi_calc_divide.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:1&lt;/LC&gt;"
+			image="qgn_indi_calc_seven.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:2&lt;/LC&gt;"
+			image="qgn_indi_calc_eight.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:3&lt;/LC&gt;"
+			image="qgn_indi_calc_nine.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:2#c:4&lt;/LC&gt;"
+			image="qgn_indi_calc_multiply.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:1&lt;/LC&gt;"
+			image="qgn_indi_calc_four.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:2&lt;/LC&gt;"
+			image="qgn_indi_calc_five.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:3&lt;/LC&gt;"
+			image="qgn_indi_calc_six.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:3#c:4&lt;/LC&gt;"
+			image="qgn_indi_calc_subtract.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:1&lt;/LC&gt;"
+			image="qgn_indi_calc_one.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:2&lt;/LC&gt;"
+			image="qgn_indi_calc_two.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:3&lt;/LC&gt;"
+			image="qgn_indi_calc_three.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:4#c:4&lt;/LC&gt;"
+			image="qgn_indi_calc_add.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:1&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:1&lt;/LC&gt;"
+			image="qgn_indi_calc_zero.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:2&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:2&lt;/LC&gt;"
+			image="qgn_indi_calc_separator.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:3&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:3&lt;/LC&gt;"
+			image="qgn_indi_calc_sign.svg" varietyId="0" />
+		<Element compName="toolbar_button_pane_cp01" display="!360x640"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:4&lt;/LC&gt;"
+			skinId="qsn_fr_button_normal" varietyId="0" />
+		<Element colourId="text29" compName="cell_calc_pane_g2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;grid_calc_pane@v:2#r:1&lt;/LC&gt;&lt;LC&gt;cell_calc_pane@v:1#r:5#c:4&lt;/LC&gt;"
+			image="qgn_indi_calc_equals.svg" varietyId="0" />
+		<!-- calc display pane contents -->
+	
+		<Element compName="calc_display_pane" display="360x640"
+			skinId="qsn_fr_calc_display" varietyId="2" />
+				
+		<Element colourId="text30" compName="calc_display_pane_t2"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;calc_display_pane@v:2#r:1&lt;/LC&gt;"
+			text="=" varietyId="0" />
+		<Element colourId="text30" compName="calc_display_pane_t1"
+			loc_id="&lt;LC&gt;main_pane@v:0#r:1&lt;/LC&gt;&lt;LC&gt;calc_display_pane@v:2#r:1&lt;/LC&gt;"
+			text="3" varietyId="0" />
+		<!-- control pane contents -->
+		<reference screenName="BaseSoftkeys" />		
+		<Element colourId="text13" compName="control_pane_t1"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Options"
+			varietyId="3" />
+		<Element colourId="text56" compName="control_pane_t3" display="!360x640"
+			text="Select" varietyId="3" />
+		<Element colourId="text14" compName="control_pane_t2"
+			loc_id="&lt;LC&gt;area_bottom_pane@v:0&lt;/LC&gt;" text="Exit"
+			varietyId="3" />
+	</preview_image>
+</Preview>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" height="100%" viewBox="0 0 351 266" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<g>
+<path d="M12,0C5.383,0,0,5.383,0,12v242c0,6.617,5.383,12,12,12h327c6.617,0,12-5.383,12-12         V12c0-6.617-5.383-12-12-12H12z" fill-opacity="0.01" stroke-opacity="0.01"/>
+<path d="M12,1C5.935,1,1,5.936,1,12v242c0,6.066,4.935,11,11,11h327c6.065,0,11-4.934,11-11         V12c0-6.064-4.935-11-11-11H12z" fill-opacity="0.03" stroke-opacity="0.03"/>
+<path d="M12,2C6.486,2,2,6.486,2,12v242c0,5.514,4.486,10,10,10h327c5.514,0,10-4.486,10-10         V12c0-5.514-4.486-10-10-10H12z" fill-opacity="0.04" stroke-opacity="0.04"/>
+<path d="M12,3c-4.963,0-9,4.037-9,9v242c0,4.963,4.037,9,9,9h327c4.963,0,9-4.037,9-9V12         c0-4.963-4.037-9-9-9H12z" fill-opacity="0.06" stroke-opacity="0.06"/>
+<path d="M12,4c-4.411,0-8,3.59-8,8v242c0,4.412,3.589,8,8,8h327c4.411,0,8-3.588,8-8V12         c0-4.41-3.589-8-8-8H12z" fill-opacity="0.09" stroke-opacity="0.09"/>
+<path d="M12,5c-3.859,0-7,3.141-7,7v242c0,3.859,3.141,7,7,7h327c3.859,0,7-3.141,7-7V12         c0-3.859-3.141-7-7-7H12z" fill-opacity="0.1" stroke-opacity="0.1"/>
+<path d="M12,6c-3.309,0-6,2.691-6,6v242c0,3.309,2.691,6,6,6h327c3.309,0,6-2.691,6-6V12         c0-3.309-2.691-6-6-6H12z" fill-opacity="0.11" stroke-opacity="0.11"/>
+<path d="M344,254c0,2.762-2.238,5-5,5H12c-2.762,0-5-2.238-5-5V12c0-2.762,2.238-5,5-5h327         c2.762,0,5,2.238,5,5V254z" fill-opacity="0.1" stroke-opacity="0.1"/>
+<polygon fill-opacity="0.02" points="343,3 3,3 3,259 344,259 344,3 " stroke-opacity="0.02"/>
+<polygon fill-opacity="0.03" points="343,3 3,3 3,259 344,259 344,3 " stroke-opacity="0.03"/>
+<rect fill="#FFFFFF" height="254" width="339" x="4" y="4"/>
+</g>
+</g>
+</g>
+</g>
+</switch>
+</svg>

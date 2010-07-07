@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="44" height="44" viewBox="0 0 44 44">
+<linearGradient id="_3" gradientUnits="userSpaceOnUse" x1="-5.14" y1="19.81" x2="15.67" y2="39.17">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<polygon fill="url(#_3)" points="7.48,27.738 7.48,39.853 18.812,33.785 "/>
+<linearGradient id="_4" gradientUnits="userSpaceOnUse" x1="-5.84" y1="-6.48" x2="35.85" y2="36.15">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#E0EAF3" offset="0.11"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#8CA9CF" offset="0.48"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#637DB5" offset="0.75"/>
+<stop stop-color="#4C6EA4" offset="0.82"/>
+<stop stop-color="#265689" offset="0.91"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M33.582,21.395l-2.611,2.172h-2.203V20.2h-0.076c1.289-1.177,2.117-2.86,2.117-4.752 c0-3.553-2.875-6.436-6.408-6.436c-1.129,0-2.164,0.314-3.078,0.827c-1.336-2.113-3.668-3.526-6.342-3.526 c-4.148,0-7.516,3.387-7.516,7.555c0,2.662,1.369,4.984,3.43,6.333H7.264v4.891H9.48v-3.02h17.068v13.021h-4.582v2.597h6.8V32.11 h2.191l2.719,2.363h3.057V21.395H33.582z M24.041,19.88c-2.269,0-4.117-1.775-4.285-4.021c-0.762,1.977-2.654,3.381-4.889,3.381 c-2.904,0-5.26-2.368-5.26-5.288c0-2.922,2.355-5.285,5.26-5.285c2.842,0,5.137,2.267,5.236,5.103 c0.674-1.522,2.183-2.589,3.941-2.589c2.396,0,4.322,1.952,4.322,4.349C28.367,17.936,26.441,19.88,24.041,19.88z M34.267,31.968 l-2.201-1.935h-2.688v-4.308h2.672l2.217-1.86V31.968z" fill="url(#_4)"/>
+</svg>

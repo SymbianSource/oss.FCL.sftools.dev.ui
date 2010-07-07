@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<command-parameters>
+<command-parameter switch="-output" value=""/>
+<command-parameter switch="-uid" value=""/>
+<command-parameter switch="-ver" value="SF_2"/>
+<command-parameter switch="-notice" value=""/>
+<command-parameter switch="-cd" value="16"/>
+<command-parameter switch="-theme" value=""/>
+<command-parameter switch="-protection" value="1"/>
+</command-parameters>

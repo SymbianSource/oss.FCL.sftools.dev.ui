@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="100" height="112" viewBox="-1 0 100 112">
+<path fill="#715B77" fill-opacity="0.01" d="M-1,50c0,20.775,9.268,32.907,17.043,39.426C24.688,96.673,36.26,101,47,101 c13.602,0,26.404-5.311,36.047-14.954C92.689,76.404,98,63.604,98,50C98,31.442,84.154,2,47,2C20.533,2-1,23.533-1,50z"/>
+<path fill="#715B77" fill-opacity="0.02" d="M0,50c0,36.426,28.828,50,47,50c13.335,0,25.887-5.207,35.34-14.661 C91.793,75.886,97,63.335,97,50C97,31.828,83.426,3,47,3C21.084,3,0,24.084,0,50z"/>
+<path fill="#715B77" fill-opacity="0.03" d="M1,50c0,35.697,28.215,49,46,49c13.068,0,25.367-5.104,34.633-14.368S96,63.068,96,50 C96,32.215,82.697,4,47,4C21.636,4,1,24.636,1,50z"/>
+<path fill="#715B77" fill-opacity="0.07" d="M2,50c0,34.969,27.602,48,45,48c26.467,0,48-21.533,48-48C95,32.602,81.969,5,47,5 C22.187,5,2,25.187,2,50z"/>
+<path fill="#715B77" fill-opacity="0.08" d="M3,50c0,34.24,26.988,47,44,47c25.916,0,47-21.084,47-47C94,32.988,81.24,6,47,6 C22.738,6,3,25.739,3,50z"/>
+<path fill="#715B77" fill-opacity="0.12" d="M4,50c0,33.512,26.375,46,43,46c25.364,0,46-20.636,46-46C93,33.375,80.512,7,47,7 C23.289,7,4,26.291,4,50z"/>
+<path fill="#715B77" fill-opacity="0.15" d="M5,50c0,31,23.875,45,42,45c24.875,0,45-20.125,45-45C92,32,78,8,47,8 C23.875,8,5,26.875,5,50z"/>
+<linearGradient id="_5" gradientUnits="userSpaceOnUse" x1="22.36" y1="13.16" x2="47" y2="50">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#CFE8E8" offset="1"/>
+</linearGradient>
+<circle fill="url(#_5)" cx="47" cy="50" r="44"/>
+<linearGradient id="_6" gradientUnits="userSpaceOnUse" x1="47" y1="93.18" x2="47" y2="67.32">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#CFE8E8" offset="1"/>
+</linearGradient>
+<path fill="url(#_6)" fill-opacity="0.9" d="M81.643,64.752c0.133,0.919,0.201,1.6,0.201,2.544 c0,14.294-15.6,25.881-34.844,25.881S12.156,81.59,12.156,67.296c0-0.858,0.057-1.707,0.166-2.544H81.643z"/>
+<rect x="83" y="49.5" fill="#115B7E" width="6" height="1"/>
+<rect x="5" y="49.5" fill="#115B7E" width="6" height="1"/>
+<rect x="46.5" y="86" fill="#115B7E" width="1" height="6"/>
+<linearGradient id="_7" gradientUnits="userSpaceOnUse" x1="47" y1="27.93" x2="47" y2="57.43">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#CFE8E8" offset="1"/>
+</linearGradient>
+<ellipse fill="url(#_7)" fill-opacity="0.8" cx="47" cy="32.548" rx="34.844" ry="25.88"/>
+<linearGradient id="_8" gradientUnits="userSpaceOnUse" x1="22.36" y1="13.16" x2="47" y2="50">
+<stop stop-color="#F5FBFF" offset="0"/>
+<stop stop-color="#C4D6DE" offset="1"/>
+</linearGradient>
+<path fill="url(#_8)" d="M47,6C22.699,6,3,25.699,3,50s19.699,44,44,44s44-19.699,44-44S71.301,6,47,6z M47,89.271 C25.312,89.271,7.729,71.689,7.729,50c0-21.689,17.582-39.271,39.271-39.271c21.689,0,39.271,17.582,39.271,39.271 C86.271,71.689,68.688,89.271,47,89.271z"/>
+<rect x="46.5" y="10.73" fill="#115B7E" fill-opacity="0.8" width="1" height="3.271"/>
+</svg>

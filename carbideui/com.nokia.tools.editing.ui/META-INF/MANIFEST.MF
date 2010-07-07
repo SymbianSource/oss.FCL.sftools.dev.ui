@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Editing UI
+Bundle-SymbolicName: com.nokia.tools.editing.ui
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.editing.ui.Activator
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.gef,
+ com.nokia.tools.resource.core,
+ com.nokia.tools.ui,
+ com.nokia.tools.editing.core;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.editing.ui.adapter,
+ com.nokia.tools.editing.ui.command,
+ com.nokia.tools.editing.ui.figure,
+ com.nokia.tools.editing.ui.part,
+ com.nokia.tools.editing.ui.prefs,
+ com.nokia.tools.editing.ui.util

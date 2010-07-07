@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="100%" viewBox="0 0 16 16" width="100%">
+<switch>
+<foreignObject content="structured text" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/>
+<g>
+<g>
+<g>
+<linearGradient gradientTransform="matrix(1 0 0 -1 354.5 291.4082)" gradientUnits="userSpaceOnUse" id="XMLID_8_" x1="-344.4658" x2="-343.6895" y1="284.7861" y2="284.7861">
+<stop offset="0" style="stop-color:#B3DDFF"/>
+<stop offset="1" style="stop-color:#5AA7E0"/>
+</linearGradient>
+<polygon fill="url(#XMLID_8_)" points="10.034,1.492 10.034,11.077 10.799,11.752 10.811,10.024 10.811,1.676 "/>
+<linearGradient gradientTransform="matrix(1 0 0 -1 354.5 291.4082)" gradientUnits="userSpaceOnUse" id="XMLID_9_" x1="-343.6641" x2="-343.7079" y1="287.4639" y2="278.8188">
+<stop offset="0" style="stop-color:#5AA7E0"/>
+<stop offset="1" style="stop-color:#3366CC"/>
+</linearGradient>
+<polygon fill="url(#XMLID_9_)" points="10.595,1.633 10.589,13.086 11.046,12.3 11.032,1.442 "/>
+<path d="M10.034,1.492c0.065,0.078,0.313,0.145,0.558,0.144l0.44-0.193c-0.166-0.104-0.446-0.128-0.596-0.104        L10.034,1.492z" fill="#8CC2EA"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_10_" x1="10.5186" x2="14.2271" y1="6.6221" y2="6.6221">
+<stop offset="0" style="stop-color:#B3DDFF"/>
+<stop offset="1" style="stop-color:#5AA7E0"/>
+</linearGradient>
+<path d="M10.519,1.638l0.04,4.01c0.096,0.015,0.206,0.032,0.37,0.084        c3.508,1.277,2.896,3.613,1.813,5.646l0.332,0.229c0.824-1.289,1.316-3.058,1.104-4.08c-0.623-2.771-3.543-2.93-3.589-5.887        L10.519,1.638z" fill="url(#XMLID_10_)"/>
+<radialGradient cx="-604.7324" cy="758.6299" fx="-604.7324" fy="758.6299" gradientTransform="matrix(0.5661 0.0828 0.3014 -0.5461 121.4455 475.738)" gradientUnits="userSpaceOnUse" id="XMLID_11_" r="5.533">
+<stop offset="0" style="stop-color:#E3F2FF"/>
+<stop offset="0.5" style="stop-color:#5AA7E0"/>
+<stop offset="1" style="stop-color:#0046B7"/>
+</radialGradient>
+<path d="M10.845,12.974c-0.598,1.081-1.992,1.825-3.115,1.662c-1.121-0.164-1.549-1.175-0.951-2.258        c0.597-1.083,1.993-1.827,3.116-1.666C11.018,10.878,11.443,11.889,10.845,12.974z" fill="url(#XMLID_11_)"/>
+<linearGradient gradientTransform="matrix(0.5661 0.0828 0.3014 -0.5461 121.4455 475.738)" gradientUnits="userSpaceOnUse" id="XMLID_12_" x1="-605.2656" x2="-599.083" y1="753.9551" y2="757.4216">
+<stop offset="0" style="stop-color:#0046B7"/>
+<stop offset="0.0056" style="stop-color:#0046B7"/>
+<stop offset="1" style="stop-color:#3366CC"/>
+</linearGradient>
+<path d="M10.599,10.99c0.194,0.416,0.163,0.956-0.147,1.52c-0.599,1.08-1.993,1.825-3.116,1.662        c-0.278-0.041-0.512-0.133-0.697-0.266c0.18,0.387,0.557,0.663,1.097,0.742c1.124,0.164,2.52-0.58,3.118-1.663        C11.302,12.168,11.171,11.394,10.599,10.99z" fill="url(#XMLID_12_)"/>
+<linearGradient gradientUnits="userSpaceOnUse" id="XMLID_13_" x1="1.4609" x2="8.3633" y1="8.21" y2="8.21">
+<stop offset="0" style="stop-color:#F7F619"/>
+<stop offset="0.6406" style="stop-color:#EDB415"/>
+<stop offset="1" style="stop-color:#E78D13"/>
+</linearGradient>
+<path d="        M8.363,7.278c-0.572,0-6.33,0-6.902,0c0,0.422,0,1.44,0,1.862c0.572,0,6.33,0,6.902,0C8.363,8.719,8.363,7.7,8.363,7.278z" fill="url(#XMLID_13_)" stroke="#E78D13" stroke-width="0.25"/>
+<radialGradient cx="-340.3555" cy="284.3467" fx="-340.3555" fy="284.3467" gradientTransform="matrix(1 0 0 -1 354.5 291.4082)" gradientUnits="userSpaceOnUse" id="XMLID_14_" r="4.8848">
+<stop offset="0" style="stop-color:#E3F2FF"/>
+<stop offset="0.5" style="stop-color:#5AA7E0"/>
+<stop offset="1" style="stop-color:#0046B7"/>
+</radialGradient>
+<path d="M13.334,11.441c0.847-1.278,1.36-3.042,1.162-4.067c-0.591-2.777-3.51-2.972-3.474-5.858        l-0.382,0.191c0,2.943,2.886,3.079,3.503,5.816c0.21,1.021-0.24,2.794-1.073,4.081L13.334,11.441z" fill="url(#XMLID_14_)"/>
+</g>
+<rect fill="none" height="16" width="16"/>
+</g>
+</g>
+</switch>
+</svg>

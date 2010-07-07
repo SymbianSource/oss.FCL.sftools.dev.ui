@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="edit3rdPartySound_context" title="Edit sound in external editor">
+		<description>You can edit sound in an external sound editor. Click Editing sounds to read more about editing sound.</description>
+ 		<topic label="Editing sounds" href="doc/s60_multimedia.html"/> 		
+	</context>
+	</contexts>

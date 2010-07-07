@@ -1,0 +1,12 @@
+<flavourModel>
+<general/>
+<valueModel name="PolyLine2DValueModel" uiName="Polyline 2D" uid="0x1020762A" >
+<param name="f" defaultValue="0,0" />
+<param name="p" defaultValue="6553,6553:13107,13107:19660,10000:26214,13107;" >
+</param>
+</valueModel>
+<timingModel name="Relative"/>
+
+</flavourModel>
+
+

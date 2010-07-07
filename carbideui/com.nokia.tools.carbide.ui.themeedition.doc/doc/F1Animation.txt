@@ -1,0 +1,1 @@
+You can set the duration of an animation. Click ####OPEN ISSUE <K>### to read more about adjusting the duration of the animation.

@@ -1,0 +1,9 @@
+<effects>
+<effect name="Contrast" uiname="Contrast" uid="0x10204AE1" type="0" className="com.nokia.tools.theme.s60.effects.effect.Contrast" input="true">
+<param name="a" value="" type="INT"/>
+<uiparam uiname="a" pos="1" caption="Contrast" defaultVal="0" value="" uiType="JSlider" minVal="-255" maxVal="255"/>
+</effect>
+<valueModel preferred="LinearRangeValueModel" allowed="LinearRangeValueModel,PolyLine1DValueModel,RapidRise1DValueModel,RapidFall1DValueModel,RandomValueModel" /> 
+</effects>
+
+ 

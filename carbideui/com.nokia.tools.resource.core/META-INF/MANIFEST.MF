@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Resource Management
+Bundle-SymbolicName: com.nokia.tools.resource.core;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.resource.core.Activator
+Bundle-Vendor: NOKIA
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.draw2d,
+ org.eclipse.ui,
+ org.eclipse.ui.ide
+Bundle-ActivationPolicy: lazy
+Export-Package: com.nokia.tools.resource.core,
+ com.nokia.tools.resource.util

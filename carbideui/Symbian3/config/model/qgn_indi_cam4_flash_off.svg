@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="32px" height="32px" viewBox="0 0 32 32">
+<polygon fill="#FFFFFF" points="15.195,30.573 5.425,19.168 12.53,19.168 13.704,16.672 3.409,16.701 10.023,1.357 20.626,1.352 16.507,10.143 27.056,10.188 22.558,19.131 28.845,19.117 "/>
+<polygon points="23.638,12.161 13.347,12.133 17.536,3.313 11.837,3.313 6.541,14.657 16.851,14.678 13.799,21.166 9.414,21.166 15.5,27.8 23.67,21.117 19.386,21.166 "/>
+<polygon fill="#FFFFFF" points="26.937,31.582 0.438,5.074 5.023,0.42 31.563,26.955 "/>
+<rect height="2.541" transform="matrix(0.7071 0.7071 -0.7071 0.7071 15.9898 -6.6102)" width="33.492" x="-0.773" y="14.725"/>
+<rect fill="none" height="32" width="32"/>
+</svg>

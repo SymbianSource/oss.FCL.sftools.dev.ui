@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="8" height="64" viewBox="9.491 -0.194 8 64">
+<rect x="9.491" y="-0.194" fill-opacity="0.65" fill="#FFFFFF" width="8" height="64"/>
+<rect x="11.491" y="60.806" fill-opacity="0.09" width="6" height="1"/>
+<rect x="11.491" y="59.806" fill-opacity="0.04" width="6" height="1"/>
+<rect x="11.491" y="58.806" fill-opacity="0.01" width="6" height="1"/>
+<rect x="11.491" y="1.806" fill-opacity="0.2" width="6" height="0.999"/>
+<rect x="11.491" y="2.805" fill-opacity="0.13" width="6" height="1"/>
+<rect x="11.491" y="3.805" fill-opacity="0.08" width="6" height="1"/>
+<rect x="11.491" y="4.805" fill-opacity="0.04" width="6" height="1"/>
+<rect x="11.491" y="5.806" fill-opacity="0.01" width="6" height="1"/>
+<rect fill-opacity="0.2" x="11.492" y="1.806" width="1" height="60"/>
+<rect fill-opacity="0.14" x="12.492" y="1.806" width="1" height="60"/>
+<rect fill-opacity="0.09" x="13.492" y="1.806" width="0.999" height="60"/>
+<rect fill-opacity="0.04" x="14.491" y="1.806" width="1" height="60"/>
+<rect fill-opacity="0.01" x="15.491" y="1.806" width="1" height="60"/>
+<polygon fill-opacity="0.6" fill="#FFFFFF" points="17.491,3.806 17.491,1.806 11.491,1.806 11.491,61.806 17.491,61.806 17.491,59.806 13.491,59.806 13.491,3.806 "/>
+<polygon fill-opacity="0.7" fill="#87A8CB" points="17.491,1.806 17.491,-0.194 9.491,-0.194 9.491,63.806 17.491,63.806 17.491,61.806 11.491,61.806 11.491,1.806 "/>
+</svg>

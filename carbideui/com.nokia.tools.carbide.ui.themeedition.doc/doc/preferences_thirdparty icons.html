@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet">
+  <title>Third Party Icons</title>
+</head>
+<body>
+<h2><span style="text-decoration: underline;"></span>Third Party Icons</h2>
+<br>
+Third-party icons are icons that can be created for third-party 
+applications or the files and folders associated with a third-party 
+application or service. The graphics content of these icons can be
+modified in the same way that the icons supplied with Carbide.ui
+are. However, you need either the application&rsquo;s unique identifier
+(UID) or the file or folder identifiers (IDs) in order to associate a
+third-party icon created in Carbide.ui with the correct item. In most
+cases, it is necessary to contact the developer of the application or
+service to obtain the necessary UIDs and IDs.<br>
+<br>
+<ul>
+</ul>
+<p class="MsoBodyText">The new feature of third-party icons allows for
+giving
+them the following scope:<o:p></o:p></p>
+<ul>
+  <li><span style="font-family: Symbol;"><span style=""><span style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;"></span></span></span><span
+ style="font-weight: bold;" class="ListItemHead"><span style="">Tool-specific icons</span></span> &mdash; These icons are
+available for use in all themes created with Carbide.ui.<o:p></o:p></li>
+  <li><span style="font-family: Symbol;"><span
+ style=""></span></span><span class="ListItemHead"><span style=""><span
+ style="font-weight: bold;">Theme-specific icons</span> </span></span>&mdash;
+These icons are
+available for use in a specific theme only.<o:p></o:p></li>
+</ul>
+<ul>
+</ul>
+To access the third-party-icon feature of Carbide.ui, select Windows
+&gt; Preferences then the Third Party Icons option in the Carbide.ui
+tree. The dialog shown in Figure below is then displayed<span
+ style="font-weight: bold;"><br>
+<br>
+</span>
+<div style="text-align: center;"><span style="font-weight: bold;"><img
+ alt=""
+ src="preferences_thirdparty_icons.png"><br>
+Figure: </span>Third Party Icons<span style="font-weight: bold;"><br>
+</span><span style="font-weight: bold;"></span></div>
+<br>
+From the Third Party Icons window, the following options are available:<br>
+<ul>
+  <li><span style="font-weight: bold;">New</span> &mdash; Creates a new
+third-party icon.</li>
+  <li><span style="font-weight: bold;">Delete</span> &mdash; Deletes an
+existing third-party icon.</li>
+</ul>
+<h2>Creating a new third-party icon</h2>
+A new third-party icon is created by clicking the New button in the
+Third Party Icon dialog. The New Third Party Icon window is then
+opened, as shown in Figure below. <br>
+<br>
+<br>
+<div style="text-align: center;"><img
+ alt=""
+ src="preferences_thirdparty_icons1.png"><br>
+<span style="font-weight: bold;">Figure:</span> New Third Party Icon<br>
+<br>
+<br>
+</div>
+<span style="font-weight: bold;"></span>Select either the Application
+or Non Application radio button to indicate the type of third-party
+icon to be created. Select the Non Application radio button for files
+and folders. Next, enter the following information:<br>
+<ul>
+  <li><span style="font-weight: bold;">Name </span>&mdash; A name for
+the icon.</li>
+</ul>
+<ul>
+  <li>For application icons:</li>
+  <ul>
+    <li><span style="font-weight: bold;">Application UID</span> &mdash;
+&nbsp;&nbsp;&nbsp; This value must match the third-party
+application&rsquo;s UID. The value will be in the range of 0xA0000000
+to 0xAFFFFFFF for applications that are not Symbian Signed and in the
+range of 0x20000000 to 0x2FFFFFFF for Symbian Signed applications.</li>
+  </ul>
+  <li>For non-application icons (icons for files and folders):</li>
+  <ul>
+    <li><span style="font-weight: bold;">Major ID&nbsp;&nbsp;</span>&nbsp;
+&nbsp;&mdash; A value between 0x00000000 and 0xffffffff.</li>
+  </ul>
+  <ul>
+    <li><span style="font-weight: bold;">Minor ID</span>&nbsp;&nbsp;&nbsp;
+&nbsp;&mdash; A value between 0x000 and 0xfff.</li>
+  </ul>
+</ul>
+The combination of major and minor IDs is unique for each specific
+folder or file icon. Once the required information has been entered,
+clicking <span style="font-weight: bold;">OK </span>adds the icon to
+the third-party icon list, as shown in Figure below.<br>
+<br>
+<span style="font-weight: bold;">Note :</span> <span
+ style="font-weight: bold;">Major ID </span>and <span
+ style="font-weight: bold;">Minor ID</span> information will be
+required only for non-application Icons. <br>
+<br>
+<div style="text-align: center;"><img
+ alt=""
+ src="preferences_thirdparty_icons2.png"><br>
+<span style="font-weight: bold;">Figure:</span> Newly Added Third Party
+Icon<br>
+<div style="text-align: left;"><br>
+Third-party icons are then available in the Components view, along with
+the other available icons, as shown in Figure below.<br>
+<br>
+<div style="text-align: center;"><img
+ alt=""
+ src="preferences_thirdparty_icons4.png"><br>
+<span style="font-weight: bold;">Figure:</span> Third Party Icon in
+Context Pane Icons</div>
+</div>
+</div>
+<br>
+<h3>Further information on third-party icons</h3>
+<br>
+For the creation of a third-party icon, the application UID or
+combination of major ID and minor ID must be unique. That is, any
+third-party icon can be available either in a specific theme or to all
+themes, but not both. Should conflicts arise, Carbide.ui indicates them
+by highlighting the icon items in red in the icon lists, as shown in
+Figure below.<br>
+<br>
+<div style="text-align: center;"><img
+ alt=""
+ src="preferences_thirdparty_icons5.png"><br>
+<span style="font-weight: bold;">Figure:</span> Conflicting Third Party
+Icons<br>
+<div style="text-align: left;"><br>
+<br>
+Because there could be several conflicting icons, Carbide.ui helps
+identify specific conflicts. It does this by highlighting in yellow the
+corresponding item when a conflicting item is selected, as shown in
+Figure below.<br>
+&nbsp;<br>
+<div style="text-align: center;"><img
+ alt=""
+ src="preferences_thirdparty_icons3.png"><br>
+<span style="font-weight: bold;">Figure:</span> Highlighting
+Conflicting Icons</div>
+<br>
+
+All the conflicting icons can be deleted from the respective groupings at one-shot by clicking on the "Delete Conflicts" button. Also "Delete All" button deletes all the Icons.
+<br>
+
+</div>
+</div>
+</body>
+</html>

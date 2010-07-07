@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %carbide.ui.theme.edition
+Bundle-SymbolicName: com.nokia.tools.carbide.ui.themeedition; singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Activator: com.nokia.tools.carbide.ui.themeedition.ThemeeditionPlugin
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro,
+ com.nokia.tools.resource.core
+Eclipse-LazyStart: true
+Bundle-ClassPath: lib/themeedition.jar

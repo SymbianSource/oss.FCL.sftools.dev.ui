@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="saveAs_context" title="Save as window">
+		<description>The Save As window allows you to save a copy of a project under a different name. Click Saving a theme under a different name to read more about saving themes under a different name.</description>
+ 		<topic label="Saving a theme under a different name" href="doc/saving_theme_under_different_name.html"/> 		
+	</context>
+	</contexts>
+	

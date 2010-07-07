@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<project name="project" default="init" basedir="../..">
+        <property file="build.properties" />
+        <property name="packageDir" value="Downloads" />
+
+
+        <target name="init">
+                <tstamp />
+                <property name="timestamp" value="${DSTAMP}${TSTAMP}" />
+
+                <property name="root" value="${basedir}/workdir" />
+                <property name="buildRoot" value="${root}/${buildType}-${realBuildId}" />
+                <property name="buildLabel" value="${buildType}-${realBuildId}-${timestamp}" />
+                <property name="buildDirectory" value="${buildRoot}/src/eclipse" />
+                <antcall target="clean" />
+                <mkdir dir="${root}" />
+                <mkdir dir="${buildRoot}" />
+        </target>
+
+        <target name="clean">
+                <delete dir="${root}" />
+        </target>
+
+        <target name="run" depends="init">
+                <antcall target="build" />
+                <antcall target="package" />
+                <antcall target="publish" />
+                <available file="releases/CarbideUI_Theme${realBuildId}_${timestamp}.zip" property="buildCompletedWithErrors" />         
+                <antcall target="clean" />
+        </target>
+
+        <target name="build">
+                <java fork="true" dir="${basedir}/BuildScript/com.nokia.tools.s60.ide.releng.builder" classname="org.eclipse.equinox.launcher.Main">
+                        <classpath>
+                                <pathelement location="${basedir}/BuildScript/org.eclipse.releng.basebuilder/plugins/org.eclipse.equinox.launcher.jar" />
+                        </classpath>
+
+                        <arg value="-application" />
+                        <arg value="org.eclipse.ant.core.antRunner" />
+                        <arg value="-f" />
+                        <arg value="buildAll.xml" />
+                        <arg value="run" />
+                        <jvmarg value="-Djdk.home=${jdk.home}" />
+                        <jvmarg value="-DbuildRoot=${buildRoot}" />
+                        <jvmarg value="-DbuildType=${buildType}" />
+                        <jvmarg value="-DbuildId=${realBuildId}" />
+                        <jvmarg value="-DbuildLabel=${buildLabel}" />
+                        <jvmarg value="-Dtimestamp=${timestamp}" />
+                        <jvmarg value="-Drelease.dir=${release.dir}" />
+                        <jvmarg value="-DforceContextQualifier=0" />
+                </java>
+        </target>
+
+        <target name="package">
+                <!-- theme edition -->
+                <antcall target="all-in-one-prepare">
+                        <param name="edition" value="theme" />
+                </antcall>
+                <antcall target="all-in-one-win32">
+                        <param name="edition" value="theme" />
+                </antcall>
+
+        </target>
+        
+        <target name="all-in-one-prepare">
+                <delete dir="${buildDirectory}/CUITE" />
+                <mkdir dir="${buildDirectory}/CUITE" />
+                <mkdir dir="${buildDirectory}/CUITE/Carbide.ui Theme Edition" />
+                <exec dir="${buildDirectory}/CUITE/Carbide.ui Theme Edition" executable="unzip">
+                        <arg line="-o -qq ${buildDirectory}/${buildLabel}/carbide.ui-${edition}-runtime-${realBuildId}.zip" />
+                </exec>
+                <exec dir="${buildDirectory}/CUITE/Carbide.ui Theme Edition" executable="unzip">
+                        <arg line="-o -qq ${buildRoot}/../../${packageDir}/emf.zip" />
+                </exec>
+                <exec dir="${buildDirectory}/CUITE/Carbide.ui Theme Edition" executable="unzip">
+                        <arg line="-o -qq ${buildRoot}/../../${packageDir}/gef.zip" />
+                </exec>
+        </target>
+
+        <target name="all-in-one-win32">
+                <exec dir="${buildDirectory}/CUITE/Carbide.ui Theme Edition" executable="unzip">
+                        <arg line="-o -qq ${buildRoot}/../../${packageDir}/jre.zip" />
+                </exec>
+                <exec dir="${buildDirectory}/CUITE/Carbide.ui Theme Edition" executable="unzip">
+                        <arg line="-o -qq ${buildRoot}/../../${packageDir}/eclipse-platform.zip" />
+                </exec>
+
+                <!-- replaces files -->
+                <copy overwrite="true" todir="${buildDirectory}/CUITE/Carbide.ui Theme Edition">
+                        <fileset dir="${buildRoot}/../../BuildScript/com.nokia.tools.s60.ide.releng.builder/replacements/win32/common" excludes="**/CVS/**" />
+                </copy>
+
+                <copy overwrite="true" todir="${buildDirectory}/CUITE/Carbide.ui Theme Edition">
+                        <fileset dir="${buildRoot}/../../BuildScript/com.nokia.tools.s60.ide.releng.builder/replacements/win32/${edition}" excludes="**/CVS/**" />
+                </copy>
+
+                <zip destfile="${buildDirectory}/CarbideUI_Theme${realBuildId}_${timestamp}.zip" basedir="${buildDirectory}/CUITE" filesonly="false">
+                </zip>
+        </target>
+
+        <target name="publish">
+                <mkdir dir="${release.dir}" />
+
+                <delete failonerror="false">
+                        <fileset dir="${release.dir}" includes="*.zip, *.exe" />
+                </delete>
+
+                <move todir="${release.dir}">
+                        <fileset dir="${buildDirectory}" includes="*CarbideUI_Theme${realBuildId}_${timestamp}.zip" />
+                </move>
+        </target>
+</project>

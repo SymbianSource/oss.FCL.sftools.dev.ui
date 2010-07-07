@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="preferences_context" title="Preferences">
+		<description>You can set your preferences for Carbide ui.</description>
+ 		<topic label="Preferences" href="doc/EditingAnimations_te.htm"/> 		
+	</context>
+</contexts>	
+

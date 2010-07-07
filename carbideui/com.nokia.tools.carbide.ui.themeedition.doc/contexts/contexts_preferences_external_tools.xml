@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="external_tools_preferences_context" title="Configuring the External Tools">
+		<description>External Tools preferences allow you to configure preferred external tools for various purposes.</description>
+ 		<topic label="Configuring Carbide.ui - External Tools" href="doc/preferences_external_tool.html"/> 		
+	</context>
+	</contexts>

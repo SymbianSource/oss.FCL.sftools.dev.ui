@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 88 88">
+<g>
+<g>
+<rect fill="none" width="88" height="88"/>
+<g>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="-247.1953" y1="430.0869" x2="-188.9171" y2="360.0399" gradientTransform="matrix(1 0 0 -1 262.5 439.5)">
+<stop offset="0" style="stop-color:#B3DDFF"/>
+<stop offset="1" style="stop-color:#084296"/>
+</linearGradient>
+<polygon fill="url(#XMLID_6_)" points="74.779,15.106 24.148,5.049 18.674,6.61 20.154,54.744 9.221,65.509 11.93,71.15        18.161,76.777 24.143,78.934 29.531,71.959 69.387,82.951 74.363,78.561 "/>
+<g>
+<linearGradient id="XMLID_7_" gradientUnits="userSpaceOnUse" x1="-277.1294" y1="465.4775" x2="-225.9918" y2="407.8374" gradientTransform="matrix(1 0 0 -1 262.5 439.5)">
+<stop offset="0" style="stop-color:#CFECFF"/>
+<stop offset="1" style="stop-color:#0046B7"/>
+</linearGradient>
+<polygon fill="url(#XMLID_7_)" points="22.291,67.617 20.449,8.106 22.098,7.847 70.447,17.939 69.068,80.156 "/>
+<linearGradient id="XMLID_8_" gradientUnits="userSpaceOnUse" x1="-236.2192" y1="419.2197" x2="-189.3173" y2="362.8463" gradientTransform="matrix(1 0 0 -1 262.5 439.5)">
+<stop offset="0" style="stop-color:#B3DDFF"/>
+<stop offset="1" style="stop-color:#8CC2EA"/>
+</linearGradient>
+<polygon fill="url(#XMLID_8_)" points="70.158,27.641 28.511,18.425 29.588,69.634 69.15,80.009 "/>
+<polygon fill="#5AA7E0" points="30.291,9.681 28.213,9.228 29.338,69.604 31.4,70.104 "/>
+<polygon fill="#5AA7E0" points="40.172,11.78 38.193,11.384 39.4,72.229 41.432,72.729 "/>
+<polygon fill="#5AA7E0" points="50.133,13.967 48.216,13.592 49.404,74.78 51.385,75.322 "/>
+<polygon fill="#5AA7E0" points="60.137,16.079 58.221,15.663 59.385,77.447 61.385,77.979 "/>
+<polygon fill="#5AA7E0" points="20.65,16.103 20.706,18.198 68.994,28.415 68.994,26.353 "/>
+<polygon fill="#5AA7E0" points="20.947,26.149 21.01,28.181 69.025,39.259 69.025,37.165 "/>
+<polygon fill="#5AA7E0" points="21.26,36.532 21.338,38.595 69.057,49.768 69.057,47.705 "/>
+<polygon fill="#5AA7E0" points="21.604,46.72 21.65,48.814 68.994,60.47 69.025,58.439 "/>
+<polygon fill="#5AA7E0" points="21.916,57.197 21.932,59.307 69.025,70.884 69.059,68.839 "/>
+<polygon fill="#3366CC" points="69.045,80.061 72.58,77.107 72.954,16.26 69.027,18.347 "/>
+<polygon fill="#CFECFF" points="72.954,16.26 24.268,6.768 20.432,8.087 69.027,18.347 "/>
+</g>
+<g>
+<linearGradient id="XMLID_9_" gradientUnits="userSpaceOnUse" x1="-312.5059" y1="384.168" x2="-316.4678" y2="389.4012" gradientTransform="matrix(0.9963 -0.0855 -0.0855 -0.9963 383.863 404.6772)">
+<stop offset="0" style="stop-color:#B3DDFF"/>
+<stop offset="0.0056" style="stop-color:#B3DDFF"/>
+<stop offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path fill="url(#XMLID_9_)" d="M41.402,54.189l3.112-8.877l-4.53-3.799l-8.25,3.979        C31.762,50.357,36.785,54.904,41.402,54.189z"/>
+<polygon fill="#8CC2EA" points="21.068,72.533 23.611,77.208 18.936,75.523 13.143,70.292 11.025,65.884 15.697,67.705 "/>
+<polygon fill="#5AA7E0" points="20.936,72.531 15.564,67.703 35.277,46.855 39.711,50.843 "/>
+<polygon fill="#B3DDFF" points="15.564,67.703 11.025,65.884 31.734,45.492 35.277,46.855 "/>
+<polygon fill="#3366CC" points="20.936,72.531 23.611,77.208 41.402,54.189 39.711,50.843 "/>
+<linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="246.0537" y1="-287.2734" x2="241.9521" y2="-291.2172" gradientTransform="matrix(0.0172 -0.9998 -0.9998 -0.0172 -249.3353 280.2911)">
+<stop offset="0" style="stop-color:#0046B7"/>
+<stop offset="0.0056" style="stop-color:#0046B7"/>
+<stop offset="0.4888" style="stop-color:#3366CC"/>
+<stop offset="1" style="stop-color:#0046B7"/>
+</linearGradient>
+<path fill="url(#XMLID_10_)" d="M44.289,46.148l2.398-7.649l-7.438,3.299C40.885,42.103,43.68,44.659,44.289,46.148z"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

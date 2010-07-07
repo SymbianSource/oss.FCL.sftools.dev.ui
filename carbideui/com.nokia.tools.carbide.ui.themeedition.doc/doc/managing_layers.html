@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <link rel="StyleSheet" href="style.css">
+  <title>Managing Layers</title>
+</head>
+<body>
+<h2>Managing Layers</h2>
+Carbide.ui allows you to create components with layers. You can create
+separate layers for parts of an image, and edit the contents of one
+layer without touching other layers. The maximum number of layers is
+three. In the Layers view, you can:<br>
+<ul>
+  <li>Add layers </li>
+  <li>Edit layers </li>
+  <li>Merge layers </li>
+  <li>Delete layers </li>
+</ul>
+Only one layer at a time can be activated. Click on a layer to activate
+it. You can also add effects to the layers in the Layers view. you can
+paste images on top of layers, but these layers have to be added first.
+<br>
+<br>
+<span style="font-weight: bold;">Note:</span>
+You have to select the
+component in, for example, the Editor before its layers are shown in
+the Layers view.<br>
+<h3>Adding layers</h3>
+<span style="font-weight: bold;">Note:
+</span>You can only add layers
+to those components that can be animated.<br>
+<ul>
+  <li>In the <span style="font-weight: bold;">Editor</span>,
+select a
+component that can be animated.
+Right-click the component and select <span style="font-weight: bold;">Edit/Animate</span>.
+The Animation Editor
+opens. </li>
+  <li>In the <span style="font-weight: bold;">Layers view</span>,
+right-click the component and select <span style="font-weight: bold;">Add
+Layer</span>.</li>
+  <li>A layer is added to the
+component.</li>
+</ul>
+<div style="text-align: center;"><img
+ style="width: 906px; height: 447px;" alt=""
+ src="managing_layers_adding_layer.png"><br>
+<span style="font-weight: bold;">Figure:</span>
+Add Layers</div>
+<h3>Editing layers</h3>
+<ul>
+  <li>In the Editor, activate the
+component whose layers you want to
+edit. </li>
+  <li>In the Layers view,
+right-click the base layer component and
+select the tool you want to edit the layer with: </li>
+</ul>
+To edit the layer component in a bitmap editor, select <span
+ style="font-weight: bold;">Convert and edit in Bitmap
+editor</span>.
+In the <span style="font-weight: bold;">Conversion
+confirmation</span>
+window, select the bitmap resolution and Preserve mask if you want to
+preserve the mask. <br>
+To edit the layer component in a vector editor, select <span
+ style="font-weight: bold;">Edit image in Vector editor</span>.
+<br>
+<ul>
+  <li>Edit the layer in the
+external editor. </li>
+  <li>Save the layer.</li>
+  <ul>
+    <li>The Layers view displays
+the changes in the layer. </li>
+  </ul>
+  <li>Add effects to the layer, if
+needed.</li>
+  <ul>
+    <li>The Editor displays the
+effect. </li>
+  </ul>
+</ul>
+<span style="font-weight: bold;">Note:
+</span>You can only edit base
+layers in external editors.<br>
+<h3>Merging layers</h3>
+When an animated component consists of multiple layers, you can adjust
+the degree to which a layer is merged with layers below it.<br>
+<ul>
+  <li>In the Editor, right-click
+the element whose layers you want to
+merge. </li>
+  <li>Select Edit/Animate selected
+elements. </li>
+  <li>The Animation editor opens. </li>
+  <li>Right-click the layer and
+select <span style="font-weight: bold;">Add
+Effect -&gt; AlphaBlending</span>.
+  </li>
+  <li>In the Layers view,
+right-click the <span style="font-weight: bold;">AlphaBlending</span>
+effect and select <span style="font-weight: bold;">Parameters</span>.
+  </li>
+  <li>Define a <span style="font-weight: bold;">BlendMode</span>
+for
+the layer.</li>
+</ul>
+<div style="text-align: center;"><img
+ style="width: 986px; height: 474px;" alt=""
+ src="managing_layers_alphablend_blend.png"><br>
+<span style="font-weight: bold;">Figure:</span>
+Merge Layers</div>
+<h3>Alpha blend</h3>
+Alpha blend defines the logic in which the current layer is merged with
+the bottom layer. It is set by default when the current layer has
+another layer below it. You can choose from the following blend modes:<br>
+<span style="font-weight: bold;">Note:</span>
+A is the 1st layer and B
+is the 2nd layer.<br>
+<ul>
+  <li>A over B </li>
+  <li>B over A </li>
+  <li>A in B </li>
+  <li>B in A </li>
+  <li>A out B </li>
+  <li>B out A </li>
+  <li>A top B </li>
+  <li>B top A </li>
+  <li>AX or B </li>
+</ul>
+<h3>Deleting layers</h3>
+<span style="font-weight: bold;">Note:</span>
+You cannot delete the
+base layer. Layers that can be deleted can only be added to animated
+components.<br>
+<ul>
+  <li>In the Editor, right-click
+the animated component from which you
+want to delete layers and select <span style="font-weight: bold;">Edit/Animate
+selected elements</span>.</li>
+  <li>The Animation editor opens. </li>
+  <li>Right-click the layer you
+want to delete and select <span style="font-weight: bold;">Delete Layer</span>.
+  </li>
+  <li>The layer is deleted.</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="29" viewBox="0 0 42 29">
+<rect fill="none" height="29" width="42"/>
+<linearGradient id="SVGID_1" gradientUnits="userSpaceOnUse" x1="17.44" y1="5.5" x2="28.17" y2="26.71">
+<stop stop-color="#A2C2DD" offset="0.1"/>
+<stop stop-color="#6C83BB" offset="0.71"/>
+<stop stop-color="#003D6D" offset="0.99"/>
+</linearGradient>
+<path d="M29.824,26.58l-17.39-4.745c-0.143-0.039-0.246-0.165-0.252-0.314l0,0L11.25,4.498 c-0.008-0.156,0.088-0.297,0.235-0.347l0,0l1.655-0.554l0.169-0.012l17.973,3.102c0.166,0.029,0.287,0.172,0.285,0.342l0,0 l-0.07,18.083c0,0.096-0.041,0.188-0.111,0.253l0,0l-1.24,1.137c-0.064,0.059-0.146,0.09-0.232,0.09l0,0 C29.885,26.592,29.854,26.588,29.824,26.58L29.824,26.58z" fill="url(#SVGID_1)"/>
+<linearGradient id="SVGID_2" gradientUnits="userSpaceOnUse" x1="7.68" y1="5.99" x2="36" y2="23.97">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2)" points="12.524,21.503 11.593,4.479 30.115,7.794 29.912,26.248 "/>
+<linearGradient id="SVGID_3" gradientUnits="userSpaceOnUse" x1="35.37" y1="4.49" x2="4.92" y2="27.16">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_3)" points="13.606,20.705 12.797,5.895 28.631,8.765 28.734,24.834 "/>
+<linearGradient id="SVGID_4" gradientUnits="userSpaceOnUse" x1="30.53" y1="7.97" x2="30.53" y2="25.81">
+<stop stop-color="#FFFFFF" offset="0"/>
+<stop stop-color="#A2C2DD" offset="0.35"/>
+<stop stop-color="#6C83BB" offset="0.7"/>
+<stop stop-color="#003D6D" offset="1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_4)" points="29.912,26.248 29.834,7.768 31.223,7.027 31.152,25.111 "/>
+<linearGradient id="SVGID_5" gradientUnits="userSpaceOnUse" x1="27.47" y1="6.91" x2="12.71" y2="4.09">
+<stop stop-color="#FFFFFF" offset="0.05"/>
+<stop stop-color="#A2C2DD" offset="1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_5)" points="29.834,7.768 31.223,7.027 13.25,3.926 11.622,4.479 "/>
+<linearGradient id="SVGID_6" gradientUnits="userSpaceOnUse" x1="18.07" y1="8.09" x2="25.3" y2="21.93">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#C6DCC1" offset="0.08"/>
+<stop stop-color="#91C06F" offset="0.21"/>
+<stop stop-color="#6BAB33" offset="0.32"/>
+<stop stop-color="#539E0E" offset="0.4"/>
+<stop stop-color="#4A9900" offset="0.44"/>
+<stop stop-color="#398419" offset="0.55"/>
+<stop stop-color="#22663B" offset="0.71"/>
+<stop stop-color="#135550" offset="0.85"/>
+<stop stop-color="#0E4E58" offset="0.94"/>
+</linearGradient>
+<polygon fill="url(#SVGID_6)" points="25.096,8.657 25.754,9.391 20.516,14.015 26.746,15.331 26.602,17.312 26.559,17.302 26.592,17.339 18.64,21.984 17.883,21.141 23.256,16.604 16.975,15.277 17.115,13.359 "/>
+<rect fill="#FFFFFF" height="11.428" width="11.428" x="5.04" y="15.037"/>
+<linearGradient id="SVGID_7" gradientUnits="userSpaceOnUse" x1="4.99" y1="13.82" x2="16.28" y2="27.4">
+<stop stop-color="#E6EEF4" offset="0"/>
+<stop stop-color="#C6DCC1" offset="0.08"/>
+<stop stop-color="#91C06F" offset="0.21"/>
+<stop stop-color="#6BAB33" offset="0.32"/>
+<stop stop-color="#539E0E" offset="0.4"/>
+<stop stop-color="#4A9900" offset="0.44"/>
+<stop stop-color="#398419" offset="0.55"/>
+<stop stop-color="#22663B" offset="0.71"/>
+<stop stop-color="#135550" offset="0.85"/>
+<stop stop-color="#0E4E58" offset="0.94"/>
+</linearGradient>
+<rect fill="url(#SVGID_7)" height="10.485" width="10.486" x="5.51" y="15.509"/>
+<path d="M6.296,20.679c0,2.431,1.978,4.409,4.408,4.409s4.409-1.979,4.409-4.409s-1.979-4.408-4.409-4.408 S6.296,18.248,6.296,20.679z M7.098,20.679c0-1.988,1.618-3.606,3.606-3.606s3.606,1.618,3.606,3.606 c0,1.989-1.618,3.606-3.606,3.606S7.098,22.668,7.098,20.679z" fill="#F2F2F2"/>
+<polygon fill="#F2F2F2" points="12.706,18.339 10.069,19.994 8.721,23.244 11.633,21.282 "/>
+</svg>

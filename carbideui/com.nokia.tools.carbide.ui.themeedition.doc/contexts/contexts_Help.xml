@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.contexts"?>
+
+
+<!-- Resource plugin -->
+<contexts>
+	<context id="help_context" title="Help">
+		<description>The Carbide.ui is equipped with a versatile Help section, which guides you through all the phases of theme creation. You can look for information on some particular aspect of theme creation, or you can go through tutorials on how to
+create and package themes.</description> 		
+	</context>
+	</contexts>
+	
+

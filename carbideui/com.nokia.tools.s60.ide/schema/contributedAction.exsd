@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="com.nokia.tools.screen.ui">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="com.nokia.tools.screen.ui" id="EditorShowInPopup" name="EditorShowInPopup"/>
+      </appInfo>
+      <documentation>
+         [Enter description of this extension point.]
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <complexType>
+         <sequence minOccurs="0" maxOccurs="unbounded">
+            <element ref="contributedAction" minOccurs="0" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="contributedAction">
+      <annotation>
+         <documentation>
+            There should be specified at least one editor in sequence subelement.
+If there is no editor specified action won&apos;t be shown in menu(Action is in fact disabled)
+         </documentation>
+      </annotation>
+      <complexType>
+         <sequence minOccurs="0" maxOccurs="unbounded">
+            <element ref="editor" minOccurs="0" maxOccurs="1"/>
+         </sequence>
+         <attribute name="workbenchPartAction" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="java" basedOn="org.eclipse.gef.ui.actions.WorkbenchPartAction"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="pos" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="validFor" type="string">
+            <annotation>
+               <documentation>
+                  Contributed action will be shown in specified components: 
+&lt;br/&gt;
+* or empty for all, otherwise combination of: editor, outline, layers, components, resourceTree(separated by space).
+&lt;br/&gt;&lt;br/&gt;
+Note: Contributed action will be shown only when there is active editor which corresponds to one of allowed editors. Allowed editors are defined for each contributed action separatelly.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="targetGroup" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="editor">
+      <annotation>
+         <documentation>
+            Editor for which the action is allowed.&lt;br/&gt;
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  Fully-qualified class name of an editor. If this editor will be active in the process of menu creation, the contributed action will be visible in menu. Otherwise not. &lt;br/&gt;
+Note: This is the first filtering criteria. Second is &quot;contributedAction@validFor&quot;.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         [Enter the first release in which this extension point appears.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         [Enter extension point usage example here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="apiInfo"/>
+      </appInfo>
+      <documentation>
+         [Enter API information here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="implementation"/>
+      </appInfo>
+      <documentation>
+         [Enter information about supplied implementation of this extension point.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         
+      </documentation>
+   </annotation>
+
+</schema>

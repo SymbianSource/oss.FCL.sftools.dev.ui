@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Carbide.ui Documentation
+Bundle-SymbolicName: com.nokia.tools.carbide.ui.themeedition.doc;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Bundle-Vendor: NOKIA
+Bundle-Localization: plugin
+Eclipse-LazyStart: true
+Require-Bundle: com.nokia.tools.doc,
+ org.eclipse.equinox.http.jetty

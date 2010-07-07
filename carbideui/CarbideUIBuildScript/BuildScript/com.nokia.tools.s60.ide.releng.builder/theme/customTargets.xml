@@ -1,0 +1,116 @@
+<project name="Build specific targets and properties" default="noDefault">
+
+        <property name="basews" value="win32" />
+        <property name="baseos" value="win32" />
+        <property name="basearch" value="x86" />
+        <property name="basenl" value="en_US" />
+        <dirname property="antfile.dir" file="${ant.file}" />
+
+        <!-- ===================================================================== -->
+        <!-- Run a given ${target} on all elements being built -->
+        <!-- Add on <ant> task for each top level element being built. -->
+        <!-- ===================================================================== -->
+        <target name="allElements">
+                <ant antfile="${genericTargets}" target="${target}">
+                        <property name="type" value="feature" />
+                        <property name="id" value="com.nokia.tools.carbide.ui.themeedition" />
+                </ant>
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Targets to assemble the built elements for particular configurations  -->
+        <!-- These generally call the generated assemble scripts (named in -->
+        <!-- ${assembleScriptName}) but may also add pre and post processing -->
+        <!-- Add one target for each root element and each configuration -->
+        <!-- ===================================================================== -->
+
+        <target name="assemble.com.nokia.tools.carbide.ui.themeedition">
+                <ant antfile="${assembleScriptName}" dir="${buildDirectory}" />
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Check out map files from correct repository -->
+        <!-- Replace values for cvsRoot, package and mapVersionTag as desired. -->
+        <!-- ===================================================================== -->
+        <target name="getMapFiles">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do before setup -->
+        <!-- ===================================================================== -->
+        <target name="preSetup">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do after setup but before starting the build proper -->
+        <!-- ===================================================================== -->
+        <target name="postSetup">
+                <ant antfile="${antfile.dir}/../commonTargets.xml" target="extractBuilds" />
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do before generating the build scripts. -->
+        <!-- ===================================================================== -->
+        <target name="preGenerate">
+                <copydir forceoverwrite="true" dest="${buildDirectory}\features" src="${buildDirectory}\..\..\..\..\Code\" includes="com.nokia.tools.carbide.ui.themeedition-feature\**"></copydir>
+                <rename dest="${buildDirectory}\features\com.nokia.tools.carbide.ui.themeedition" src="${buildDirectory}\features\com.nokia.tools.carbide.ui.themeedition-feature"/>
+                <copydir forceoverwrite="true" dest="${buildDirectory}\plugins" src="${buildDirectory}\..\..\..\..\Code\" excludes="com.nokia.tools.carbide.ui.themeedition-feature\**" ></copydir>
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do after generating the build scripts. -->
+        <!-- ===================================================================== -->
+        <target name="postGenerate">
+        </target>
+
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do before running the build.xmls for the elements being built. -->
+        <!-- ===================================================================== -->
+        <target name="preProcess">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do after running the build.xmls for the elements being built. -->
+        <!-- ===================================================================== -->
+        <target name="postProcess">
+        </target>
+
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do before running assemble. -->
+        <!-- ===================================================================== -->
+        <target name="preAssemble">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do after  running assemble. -->
+        <!-- ===================================================================== -->
+        <target name="postAssemble">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do after the build is done. -->
+        <!-- ===================================================================== -->
+        <target name="postBuild">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do to test the build results -->
+        <!-- ===================================================================== -->
+        <target name="test">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Steps to do to publish the build results -->
+        <!-- ===================================================================== -->
+        <target name="publish">
+        </target>
+
+        <!-- ===================================================================== -->
+        <!-- Default target                                                        -->
+        <!-- ===================================================================== -->
+        <target name="noDefault">
+                <echo message="You must specify a target when invoking this file" />
+        </target>
+</project>

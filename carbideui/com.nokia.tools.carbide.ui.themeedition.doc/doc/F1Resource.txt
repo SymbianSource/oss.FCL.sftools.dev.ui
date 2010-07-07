@@ -1,0 +1,1 @@
+The Resource view allows you to access theme properties. Click resource view to read more about using the Resource view as a shortcut to different tasks of theme creation.

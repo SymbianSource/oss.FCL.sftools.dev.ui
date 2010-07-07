@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE Preview SYSTEM "preview.dtd">
+<Preview MasterId="70" name="Home Screen Lsc">
+<preview_image display="landscape" name="Home Screen" preview="true">
+    <reference screenName="BaseScreen11" />
+    <Element colourId="text37"
+             compName="title_pane_stacon_t1"
+             loc_id="&lt;LC&gt;area_top_pane@v:2&lt;/LC&gt;&lt;LC&gt;stacon_top_pane@v:0&lt;/LC&gt;&lt;LC&gt;title_pane_stacon@v:0&lt;/LC&gt;"
+             text="Operator"
+             varietyId="0" />
+    <Element compName="hs_widget_clock_background" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p1" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_t1" skinId="text75" text="Wed 12/03/08" varietyId="0"/>
+        <Element compName="hs_widget_background_p2" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_t2" skinId="text75" text="General" varietyId="0"/>
+        <Element compName="hs_widget_background_g2" skinId="qgn_indi_home_profile_general" varietyId="0"/>
+        <Element compName="hs_widget_background_p3" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <!-- <Element compName="hs_widget_background_p4" skinId="qgn_home_bg_widget" varietyId="0"/> -->
+    	<Element compName="hs_widget_background_g3"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:1&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:1&lt;/LC&gt;"
+             text="Yahoo! (12)"
+             varietyId="0" />
+    	<Element compName="hs_widget_background_g3"
+             image="qgn_indi_ai_eplg_read.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:2&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:2&lt;/LC&gt;"
+             text="Jack.Ryan Meeting ab ..."
+             varietyId="0" />
+    	<Element compName="hs_widget_background_g3"
+             image="qgn_indi_ai_eplg_read.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:3&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p3@v:0#r:3&lt;/LC&gt;"
+             text="Jack Spa... Invitatio ..."
+             varietyId="0" />
+        <Element compName="hs_widget_background_p3" skinId="qsn_fr_home" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_browser" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:1&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_mce_cxt" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:2&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_phob_cxt" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:3&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p5" skinId="qgn_menu_log_cxt" loc_id="&lt;LC&gt;hs_widget_background_p5@v:0#r:1#c:4&lt;/LC&gt;" varietyId="0"/>
+        <Element compName="hs_widget_background_p16" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p17" skinId="qgn_home_button_widget" varietyId="0"/>
+    	<Element colourId="text75"
+             compName="hs_widget_background_p16_t1"
+             text="Shakira - Hips don't Lie"
+             varietyId="0" />
+        <Element compName="hs_widget_background_p18" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p19" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p20" skinId="qgn_home_button_widget" varietyId="0"/>
+    <Element compName="hs_widget_background_p18"
+             skinId="qgn_prop_image_tb_prev"
+             varietyId="0" />
+    <Element compName="hs_widget_background_p19"
+             skinId="qgn_prop_image_tb_play2"
+             varietyId="0" />
+    <Element compName="hs_widget_background_p20"
+             skinId="qgn_prop_image_tb_next"
+             varietyId="0" />
+        <Element compName="hs_widget_background_p7" skinId="qgn_home_bg_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p8" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p9" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p10" skinId="qgn_home_button_widget" varietyId="0"/>
+        <Element compName="hs_widget_background_p11" skinId="qgn_home_button_widget" varietyId="0"/>
+		<Element compName="hs_widget_background_p8" display="640x360"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+		<Element compName="hs_widget_background_p9" display="640x360"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+		<Element compName="hs_widget_background_p10" display="640x360"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+		<Element compName="hs_widget_background_p11" display="640x360"
+			image="qgn_prop_home_default_friend.svg"
+			varietyId="0" />
+        <Element compName="hs_widget_background_p12" skinId="qgn_home_contactname_bg" varietyId="0"/>
+        <Element compName="hs_widget_background_p13" skinId="qgn_home_contactname_bg" varietyId="0"/>
+        <Element compName="hs_widget_background_p14" skinId="qgn_home_contactname_bg" varietyId="0"/>
+        <Element compName="hs_widget_background_p15" skinId="qgn_home_contactname_bg" varietyId="0"/>
+    	<Element colourId="text75"
+             compName="hs_widget_background_p12_t1"
+             text="Walker"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_p13_t1"
+             text="Julian..."
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_p14_t1"
+             text="Minna"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_p15_t1"
+             text="Add"
+             varietyId="0" />
+        <Element compName="hs_widget_background_p6" skinId="qgn_home_bg_widget" varietyId="0"/>
+    	<Element compName="hs_widget_background_g3"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:1&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:1&lt;/LC&gt;"
+             text="11:00 Proposals for Future D..."
+             varietyId="0" />
+    	<Element compName="hs_widget_background_g3"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:2&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:2&lt;/LC&gt;"
+             text="14:30 Lunch with Julian"
+             varietyId="0" />
+    	<Element compName="hs_widget_background_g3"
+             image="qgn_menu_cale.svg"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:3&lt;/LC&gt;"
+             varietyId="0" />
+    	<Element colourId="text75"
+             compName="hs_widget_background_t3"
+             loc_id="&lt;LC&gt;hs_widget_background_p6@v:0#r:3&lt;/LC&gt;"
+             text="18:00 Nightwish Concert"
+             varietyId="0" />
+
+    <Element compName="area_bottom_left_pane"
+             display="640x360"
+             skinId="qgn_fr_sctrl_sk_button"
+             varietyId="0" />
+    <Element compName="area_bottom_middle_pane"
+             display="640x360"
+             skinId="qgn_fr_sctrl_sk_button"
+             varietyId="0" />
+    <Element compName="area_bottom_right_pane"
+             display="640x360"
+             skinId="qgn_fr_sctrl_sk_button"
+             varietyId="0" />
+   	<Element colourId="text75"
+             compName="hs_widget_clock_background_t1"
+             text="10:30"
+             varietyId="0" />
+    <Element compName="hs_widget_clock_background_t2" skinId="text75" text="am" varietyId="0"/>
+
+	<Element colourId="text15" compName="area_bottom_left_pane_t1" text="Options" varietyId="0"/>
+   	<Element compName="area_bottom_middle_pane_g1" display="640x360"
+			skinId="qgn_home_page_32"
+			varietyId="0" /> 
+             
+	<Element colourId="text16" compName="area_bottom_right_pane_t1" text="Call" varietyId="0"/>
+
+</preview_image>
+</Preview>
